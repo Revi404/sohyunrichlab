@@ -107,7 +107,7 @@ img { display: block; max-width: 100%; }
 .st.wait { background: #fff3d1; color: var(--highlight-ink); }
 .kd { background: var(--paper-2); color: var(--ink-soft); }
 .kd.post { background: var(--card); color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent-soft); }
-.wk .t { font-size: 15px; font-weight: 800; line-height: 1.35; letter-spacing: -.02em; color: var(--ink); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.wk .t { font-size: 15px; font-weight: 800; line-height: 1.35; letter-spacing: -.02em; color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .wk .m { font-size: 12px; color: var(--ink-soft); }
 .wk .ev { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 2px; }
 .e { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; color: var(--ink-text); font-variant-numeric: tabular-nums; }

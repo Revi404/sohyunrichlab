@@ -136,7 +136,7 @@
             <span class="day${r.first === t0 ? " today" : ""}"><b>${f.getMonth() + 1}.${f.getDate()}</b><span>${r.first === t0 ? "오늘" : WD[f.getDay()]}</span></span>
             <span class="tx">
               <span class="tags"><span class="st ${r.status[0]}">${esc(r.status[1])}</span><span class="kd">${esc(kindLabel(n))}</span>${n.post ? '<span class="kd post">요약 글</span>' : ""}</span>
-              <span class="t">${esc(n.name)}</span>
+              <span class="t" title="${esc(n.name)}">${esc(n.name)}</span>
               <span class="m">${esc(n.region || "")}${n.units ? ` · ${Number(n.units).toLocaleString("ko-KR")}세대` : ""}</span>
               <span class="ev">${r.evs.map((e) => `<span class="e e-${e.key}"><i>${e.short}</i>${e.start === e.end ? md(e.start) : `${md(e.start)}~${md(e.end)}`}</span>`).join("")}</span>
             </span>
