@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>소현리치랩 | 아파트 청약 · 부동산 투자 분석</title>
+<meta name="description" content="소현리치랩 — 전국 청약 모집공고를 매일 모아 일정·분양가·공고문을 정리해요. 이번 주 청약단지와 분석 리포트를 한곳에서.">
+<meta property="og:title" content="소현리치랩 | 아파트 청약 · 부동산 투자 분석">
+<meta property="og:description" content="이번 주 청약단지 · 모집공고 분석 · 무순위 줍줍 · 청약 결과">
+<meta property="og:image" content="assets/og.png">
+<meta name="theme-color" content="#f3f5f9">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a id="notice" class="notice" hidden></a>
+
+<main class="wrap">
+  <header class="hero">
+    <span class="blob blob-a" aria-hidden="true"></span>
+    <span class="blob blob-b" aria-hidden="true"></span>
+    <div class="avatar"><img id="avatar" alt="소현리치랩 프로필" width="104" height="104"></div>
+    <p class="eyebrow">SOHYUN RICH LAB</p>
+    <h1 class="name">
+      <img class="mark" src="assets/favicon.svg" alt="" width="26" height="26">
+      <span id="name">소현리치랩</span>
+    </h1>
+    <p class="tagline" id="tagline"><mark class="mk">소득을 현명하게</mark>, 청약 데이터 리포트</p>
+    <p class="bio" id="bio"></p>
+  </header>
+
+  <nav class="links" id="links" aria-label="바로가기"></nav>
+
+  <div class="tabs" role="tablist" aria-label="콘텐츠">
+    <button role="tab" id="tab-week" aria-controls="panel-week" aria-selected="true">이번 주 청약단지</button>
+    <button role="tab" id="tab-blog" aria-controls="panel-blog" aria-selected="false">분석 리포트</button>
+  </div>
+
+  <section id="panel-week" role="tabpanel" aria-labelledby="tab-week">
+    <div class="chips" id="week-filters"></div>
+    <ol class="weeks" id="weeks"></ol>
+    <a class="more" id="week-more" target="_blank" rel="noopener">청약 캘린더에서 전체 일정 보기 →</a>
+  </section>
+
+  <section id="panel-blog" role="tabpanel" aria-labelledby="tab-blog" hidden>
+    <div class="chips" id="blog-filters"></div>
+    <ol class="posts" id="posts"></ol>
+    <a class="more" id="blog-more" target="_blank" rel="noopener">블로그에서 전체 글 보기 →</a>
+  </section>
+
+  <footer class="foot">
+    <p class="disclosure" id="disclosure"></p>
+    <p class="meta"><span id="updated"></span> · © 소현리치랩</p>
+  </footer>
+</main>
+
+<script src="app.js" defer></script>
+</body>
+</html>

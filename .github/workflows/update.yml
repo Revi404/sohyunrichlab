@@ -1,0 +1,54 @@
+name: 분석 리포트 수집 및 배포
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**", "assets/thumbs/**"]
+  schedule:
+    - cron: "7,37 * * * *"   # 30분마다 시도 (GitHub 사정으로 지연·누락될 수 있어 촘촘하게)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 이미지 처리 라이브러리
+        run: pip install pillow
+
+      - name: 청약 일정 사본·분석 리포트 수집
+        run: python scripts/build.py
+
+      - name: 수집 결과 저장
+        run: |
+          git config user.name "sohyunrichlab-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data assets
+          if ! git diff --cached --quiet; then
+            git commit -m "자동 수집 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
