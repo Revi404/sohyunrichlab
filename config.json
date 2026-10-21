@@ -31,20 +31,19 @@
     {
       "id": "sohyunguide",
       "type": "pair",
-      "title": "소현생정",
-      "sub": "가성비 꿀템 리뷰 · 생활정보 · 여행",
+      "sub": "가성비 꿀템 리뷰 · 생활정보가 궁금하다면",
       "color": "green",
       "items": [
         {
           "id": "guide-blog",
-          "title": "블로그",
+          "title": "소현생정 블로그",
           "sub": "네이버 블로그",
           "url": "https://blog.naver.com/teanotcar",
           "icon": "blog"
         },
         {
           "id": "guide-instagram",
-          "title": "인스타그램",
+          "title": "소현생정 인스타그램",
           "sub": "@sohyun_guide",
           "url": "https://www.instagram.com/sohyun_guide/",
           "icon": "insta"
@@ -69,8 +68,16 @@
     "url": "https://sohyun-richlab.tistory.com",
     "perCategory": 6,
     "allCount": 10,
-    "order": ["모집공고 분석", "청약 결과", "무순위 · 줍줍", "부동산 인사이트", "청약 가이드"],
-    "labels": { "무순위 · 줍줍": "무순위·줍줍" },
+    "order": [
+      "모집공고 분석",
+      "청약 결과",
+      "무순위 · 줍줍",
+      "부동산 인사이트",
+      "청약 가이드"
+    ],
+    "labels": {
+      "무순위 · 줍줍": "무순위·줍줍"
+    },
     "hidden": []
   },
   "disclosure": "청약 일정은 청약홈 입주자모집공고(한국부동산원) 공개 정보 기준이에요. 접수 전에 모집공고문 원문을 꼭 확인하세요.",

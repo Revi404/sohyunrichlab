@@ -65,7 +65,7 @@
     // type "pair": 다른 채널 묶음 — 제목·설명 아래 버튼 2개를 가로로
     const pairHtml = (g) => `
       <div class="pair${g.color ? " " + esc(g.color) : ""}">
-        <p class="pair-head"><span class="t">${esc(g.title)}</span>${g.sub ? `<span class="s">${esc(g.sub)}</span>` : ""}</p>
+        <p class="pair-head">${g.title ? `<span class="t">${esc(g.title)}</span>` : ""}${g.sub ? `<span class="s">${esc(g.sub)}</span>` : ""}</p>
         <div class="pair-row">${g.items.map((l) => `
           <a class="pair-btn" href="${esc(l.url)}" target="_blank" rel="noopener" data-track="${esc(l.id)}">
             <span class="ic">${ICONS[l.icon] || ICONS.link}</span>
