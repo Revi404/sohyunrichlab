@@ -36,14 +36,14 @@
       "items": [
         {
           "id": "guide-blog",
-          "title": "소현생정 블로그",
-          "sub": "네이버 블로그",
+          "title": "소현생정\n네이버 블로그",
+          "sub": "teanotcar",
           "url": "https://blog.naver.com/teanotcar",
           "icon": "blog"
         },
         {
           "id": "guide-instagram",
-          "title": "소현생정 인스타그램",
+          "title": "소현생정\n인스타그램",
           "sub": "@sohyun_guide",
           "url": "https://www.instagram.com/sohyun_guide/",
           "icon": "insta"
