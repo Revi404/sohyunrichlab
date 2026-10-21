@@ -86,7 +86,7 @@
 
     // ---------- 이번 주 청약단지: 오늘부터 7일 안의 청약 접수·당첨 발표 ----------
     const t0 = todayIso(), t6 = addDays(t0, (cfg.week.days || 7) - 1);
-    $("#week-range").innerHTML = `<b>${fmt(t0)} ~ ${fmt(t6)}</b> 청약홈 공고 기준`;
+    $("#week-range").innerHTML = `<b>${fmt(t0)} ~ ${fmt(t6)}</b>`;
     $("#weeks").innerHTML = `<li class="empty">일정을 불러오는 중…</li>`;
     const calendar = load(cfg.week.dataUrl).then((d) => (d && d.notices ? d : load("data/calendar.json")));
     calendar.then((cal) => {
