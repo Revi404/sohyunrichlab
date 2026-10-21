@@ -23,7 +23,6 @@
   const iso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
   const addDays = (s, n) => { const d = parse(s); d.setDate(d.getDate() + n); return iso(d); };
   const md = (s) => { const d = parse(s); return `${d.getMonth() + 1}.${d.getDate()}`; };
-  const fmt = (s) => `${md(s)}(${WD[parse(s).getDay()]})`;
   const dayDiff = (a, b) => Math.round((parse(b) - parse(a)) / 864e5);
   // 한국 날짜 기준 오늘(?today=2026-10-22 로 바꿔 볼 수 있음)
   const todayIso = () => {
@@ -86,7 +85,6 @@
 
     // ---------- 이번 주 청약단지: 오늘부터 7일 안의 청약 접수·당첨 발표 ----------
     const t0 = todayIso(), t6 = addDays(t0, (cfg.week.days || 7) - 1);
-    $("#week-range").innerHTML = `<b>${fmt(t0)} ~ ${fmt(t6)}</b>`;
     $("#weeks").innerHTML = `<li class="empty">일정을 불러오는 중…</li>`;
     const calendar = load(cfg.week.dataUrl).then((d) => (d && d.notices ? d : load("data/calendar.json")));
     calendar.then((cal) => {
