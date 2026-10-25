@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25 08:35",
+ "updated": "2026-10-25 10:32",
  "categories": [
   "모집공고 분석",
   "청약 결과",
@@ -12,12 +12,12 @@
   "https://sohyun-richlab.tistory.com/entry/%EC%88%98%EC%9B%90%EC%97%AD-%EC%95%84%EB%84%88%EC%8A%A4%EB%B9%8C-%ED%83%80%EC%9E%84%EC%9B%90-2%EC%B0%A8-2026940219",
   "https://sohyun-richlab.tistory.com/entry/%EC%84%9C%EC%88%98%EC%9B%90-%EC%97%90%ED%94%BC%ED%8A%B8-%EC%84%BC%ED%8A%B8%EB%9F%B4%EB%A7%88%ED%81%AC-M1BL-3%EC%B0%A8-2026940223",
   "https://sohyun-richlab.tistory.com/entry/%EC%9D%98%EC%99%95%EC%97%AD-%ED%95%9C%EC%8B%A0%EB%8D%94%ED%9C%B4-2026910260",
-  "https://sohyun-richlab.tistory.com/entry/%EC%8B%9C%ED%8B%B0%EC%98%A4%EC%94%A8%EC%97%98-9%EB%8B%A8%EC%A7%80-%EC%98%A4%EC%85%98%ED%8C%8C%ED%81%AC%EB%B7%B0-2026910259",
-  "https://sohyun-richlab.tistory.com/entry/e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81-%EC%97%90%EC%BD%94%EB%8D%B8%ED%83%80-%EC%84%BC%ED%84%B0%ED%8F%AC%EC%9D%B8%ED%8A%B8-19BL-2026910255",
   "https://sohyun-richlab.tistory.com/entry/wangsuk-a17-bunyangga-1",
   "https://sohyun-richlab.tistory.com/entry/%EC%8B%A0%EB%B6%84%ED%8F%89-%EC%97%90%ED%94%BC%ED%8A%B8-%EB%8D%94%EC%9B%A8%EC%9D%B4%EC%8B%9C%ED%8B%B0-2026000455",
   "https://sohyun-richlab.tistory.com/entry/%ED%8A%B8%EB%A6%AC%EB%B8%90%EC%84%BC%ED%85%80-2%EB%8B%A8%EC%A7%80-2026000514",
-  "https://sohyun-richlab.tistory.com/entry/%ED%8A%B8%EB%A6%AC%EB%B8%90%EC%84%BC%ED%85%80-1%EB%8B%A8%EC%A7%80-2026000513"
+  "https://sohyun-richlab.tistory.com/entry/%ED%8A%B8%EB%A6%AC%EB%B8%90%EC%84%BC%ED%85%80-1%EB%8B%A8%EC%A7%80-2026000513",
+  "https://sohyun-richlab.tistory.com/entry/%EC%97%B0%EC%A0%9C%EA%B0%A4%EB%9F%AC%EB%A6%AC%EC%9E%90%EC%9D%B4-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
+  "https://sohyun-richlab.tistory.com/entry/%ED%8A%B8%EB%A6%AC%EB%B8%90%EC%84%BC%ED%85%80-1%EB%8B%A8%EC%A7%80-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8"
  ],
  "posts": {
   "모집공고 분석": [
@@ -73,6 +73,22 @@
   "청약 결과": [],
   "무순위 · 줍줍": [
    {
+    "title": "풍무역세권 수자인 그라센트 2차(4차) 임의공급 공고 | 청약 일정·분양가·공고문 PDF",
+    "url": "https://sohyun-richlab.tistory.com/entry/%ED%92%8D%EB%AC%B4%EC%97%AD%EC%84%B8%EA%B6%8C-%EC%88%98%EC%9E%90%EC%9D%B8-%EA%B7%B8%EB%9D%BC%EC%84%BC%ED%8A%B8-2%EC%B0%A8-4%EC%B0%A8-2026940221",
+    "date": "10-00-19",
+    "summary": "경기도 김포시에서 6세대를 공급하는 풍무역세권 수자인 그라센트 2차(4차)(임의공급) 입주자모집공고를 정리했어요. 청약 일정, 주택형별 공급 세대와 분양가, 계약",
+    "category": "무순위 · 줍줍",
+    "thumb": "assets/thumbs/6836296a8175087a.jpg"
+   },
+   {
+    "title": "고덕신도시 아테라 A-63블록 공공분양주택(2차) 임의공급 공고 | 청약 일정·분양가·공고문 PDF",
+    "url": "https://sohyun-richlab.tistory.com/entry/%EA%B3%A0%EB%8D%95%EC%8B%A0%EB%8F%84%EC%8B%9C-%EC%95%84%ED%85%8C%EB%9D%BC-A-63%EB%B8%94%EB%A1%9D-%EA%B3%B5%EA%B3%B5%EB%B6%84%EC%96%91%EC%A3%BC%ED%83%9D-2%EC%B0%A8-2026940218",
+    "date": "09-00-17",
+    "summary": "경기도 평택시에서 39세대를 공급하는 고덕신도시 아테라 A-63블록 공공분양주택(2차)(임의공급) 입주자모집공고를 정리했어요. 청약 일정, 주택형별 공급 세대와 ",
+    "category": "무순위 · 줍줍",
+    "thumb": "assets/thumbs/dade1e71caa82981.jpg"
+   },
+   {
     "title": "청계 노르웨이숲(13차) 무순위(사후) 공고 | 청약 일정·분양가·공고문 PDF",
     "url": "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EA%B3%84-%EB%85%B8%EB%A5%B4%EC%9B%A8%EC%9D%B4%EC%88%B2-13%EC%B0%A8-2026910263",
     "date": "08-00-21",
@@ -103,22 +119,6 @@
     "summary": "경기도 의왕시에서 8세대를 공급하는 의왕역 한신더휴(무순위(사후)) 입주자모집공고를 정리했어요. 청약 일정, 주택형별 공급 세대와 분양가, 계약 조건과 모집공고문",
     "category": "무순위 · 줍줍",
     "thumb": "assets/thumbs/5a4f0ee96ec6a13e.jpg"
-   },
-   {
-    "title": "시티오씨엘 9단지 오션파크뷰 무순위(사후) 공고 | 청약 일정·분양가·공고문 PDF",
-    "url": "https://sohyun-richlab.tistory.com/entry/%EC%8B%9C%ED%8B%B0%EC%98%A4%EC%94%A8%EC%97%98-9%EB%8B%A8%EC%A7%80-%EC%98%A4%EC%85%98%ED%8C%8C%ED%81%AC%EB%B7%B0-2026910259",
-    "date": "2026-10-24",
-    "summary": "인천광역시 미추홀구에서 68세대를 공급하는 시티오씨엘 9단지 오션파크뷰(무순위(사후)) 입주자모집공고를 정리했어요. 청약 일정, 주택형별 공급 세대와 분양가, 계",
-    "category": "무순위 · 줍줍",
-    "thumb": "assets/thumbs/d1bb136965819791.jpg"
-   },
-   {
-    "title": "e편한세상 에코델타 센터포인트(19BL) 무순위(사후) 공고 | 청약 일정·분양가·공고문 PDF",
-    "url": "https://sohyun-richlab.tistory.com/entry/e%ED%8E%B8%ED%95%9C%EC%84%B8%EC%83%81-%EC%97%90%EC%BD%94%EB%8D%B8%ED%83%80-%EC%84%BC%ED%84%B0%ED%8F%AC%EC%9D%B8%ED%8A%B8-19BL-2026910255",
-    "date": "2026-10-24",
-    "summary": "부산광역시 강서구에서 1세대를 공급하는 e편한세상 에코델타 센터포인트(19BL)(무순위(사후)) 입주자모집공고를 정리했어요. 청약 일정, 주택형별 공급 세대와 분",
-    "category": "무순위 · 줍줍",
-    "thumb": "assets/thumbs/2a4deb6043a6b5d6.jpg"
    }
   ],
   "부동산 인사이트": [
