@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 07:43",
+ "updated": "2026-11-02 11:17",
  "categories": [
   "모집공고 분석",
   "무순위 · 줍줍",
@@ -12,12 +12,12 @@
   "https://sohyun-richlab.tistory.com/entry/geoje-hillstate-signature-result",
   "https://sohyun-richlab.tistory.com/entry/sangok-station-xi-hillstate-result",
   "https://sohyun-richlab.tistory.com/entry/cheongju-gagyeong-ipark7-result",
-  "https://sohyun-richlab.tistory.com/entry/cheongju-gagyeong-ipark8-result",
   "https://sohyun-richlab.tistory.com/entry/%ED%95%9C%ED%99%94%ED%8F%AC%EB%A0%88%EB%82%98-%EC%A7%80%EC%A0%9C%EC%97%AD-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
-  "https://sohyun-richlab.tistory.com/entry/news-sudogwon-new-housing-sites-76700",
   "https://sohyun-richlab.tistory.com/entry/cheongyak-1sunwi-jogeon",
+  "https://sohyun-richlab.tistory.com/entry/news-sudogwon-new-housing-sites-76700",
   "https://sohyun-richlab.tistory.com/entry/%EB%8F%84%EC%95%88-%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4-%EB%94%94%EC%95%84%EB%8D%B8-29%EB%B8%94%EB%A1%9D-2026930033",
-  "https://sohyun-richlab.tistory.com/entry/%EB%8F%84%EC%95%88-%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4-%EB%94%94%EC%95%84%EB%8D%B8-31%EB%B8%94%EB%A1%9D-2026930034"
+  "https://sohyun-richlab.tistory.com/entry/%EB%8F%84%EC%95%88-%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4-%EB%94%94%EC%95%84%EB%8D%B8-31%EB%B8%94%EB%A1%9D-2026930034",
+  "https://sohyun-richlab.tistory.com/entry/%EB%B8%8C%EB%9D%BC%EC%9A%B4%EC%8A%A4%ED%86%A4-%EB%AA%A9%EB%8F%99-2%EC%B0%A8-2026940214"
  ],
  "posts": {
   "모집공고 분석": [
@@ -122,6 +122,14 @@
   ],
   "부동산 인사이트": [
    {
+    "title": "이번 주 청약 일정 11월 1주차 │ 접수 18개 단지·지난주 경쟁률 정리",
+    "url": "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-1%EC%A3%BC%EC%B0%A8",
+    "date": "08-00-24",
+    "summary": "11월 2일(월)부터 11월 8일(일)까지 청약 접수가 있는 단지와, 지난주(10.26~11.01) 접수를 마친 단지의 경쟁률을 청약홈 자료로 정리했어요.이번 주",
+    "category": "부동산 인사이트",
+    "thumb": "assets/thumbs/194be278b3dbbee7.jpg"
+   },
+   {
     "title": "수도권 신규택지 뉴스 읽기 │ 6곳 7만6700호, 무주택자가 볼 것",
     "url": "https://sohyun-richlab.tistory.com/entry/news-sudogwon-new-housing-sites-76700",
     "date": "2026-10-30",
@@ -158,6 +166,22 @@
   ],
   "청약결과 해석": [
    {
+    "title": "향남역 그로브 스위첸 청약 결과 | 71㎡ 최저 가점 52점, 2순위까지 265세대 미달",
+    "url": "https://sohyun-richlab.tistory.com/entry/hyangnam-grove-switzen-result",
+    "date": "10-00-20",
+    "summary": "[세줄요약]1. 향남역 그로브 스위첸은 일반공급 795세대에 1순위 511건이 접수됐고, 71㎡(4.05 대 1)와 147㎡P만 1순위에서 마감됐어요. 84㎡ 네",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/4c5ff4c934807113.jpg"
+   },
+   {
+    "title": "아산 그랑시티필하우스 청약 결과 | 1,254세대 미달, 1순위 접수 84건",
+    "url": "https://sohyun-richlab.tistory.com/entry/asan-grandcity-philhouse-result",
+    "date": "09-00-19",
+    "summary": "[세줄요약]1. 아산 그랑시티필하우스는 일반공급 1,367세대에 1순위 84건, 2순위 29건이 접수돼 2순위까지 받은 뒤에도 1,254세대가 미달됐어요. 6개 ",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/375d7da17a7d4fc9.jpg"
+   },
+   {
     "title": "연제갤러리자이 청약 결과 | 84㎡A 3.18 대 1, 최저 가점 27점",
     "url": "https://sohyun-richlab.tistory.com/entry/yeonje-gallery-xi-result",
     "date": "2026-11-01",
@@ -188,14 +212,6 @@
     "summary": "[세줄요약]1. 청주 가경 아이파크 7단지 1순위(청주시 거주자)에 7만 488건이 접수됐고, 84㎡A는 34세대에 2만 1,441건이 몰려 630.62 대 1을",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/4b2047798067b551.jpg"
-   },
-   {
-    "title": "청주 가경 아이파크 8단지 청약 결과 | 84㎡ 최저 72점, 1순위 최고 539대 1",
-    "url": "https://sohyun-richlab.tistory.com/entry/cheongju-gagyeong-ipark8-result",
-    "date": "2026-10-31",
-    "summary": "[세줄요약]1. 청주 가경 아이파크 8단지 1순위(청주시 거주자)에 7만 4,529건이 접수됐고, 84㎡A는 33세대에 1만 7,798건이 몰려 539.33 대 ",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/8426f59b22e15d3a.jpg"
    }
   ]
  }
