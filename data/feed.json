@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 18:52",
+ "updated": "2026-11-03 05:11",
  "categories": [
   "모집공고 분석",
   "무순위 · 줍줍",
@@ -8,23 +8,23 @@
   "청약결과 해석"
  ],
  "all": [
+  "https://sohyun-richlab.tistory.com/entry/hyangnam-grove-switzen-result",
+  "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-1%EC%A3%BC%EC%B0%A8",
+  "https://sohyun-richlab.tistory.com/entry/%EB%82%A8%EC%B6%98%EC%B2%9C%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
+  "https://sohyun-richlab.tistory.com/entry/asan-grandcity-philhouse-result",
   "https://sohyun-richlab.tistory.com/entry/yeonje-gallery-xi-result",
   "https://sohyun-richlab.tistory.com/entry/geoje-hillstate-signature-result",
   "https://sohyun-richlab.tistory.com/entry/sangok-station-xi-hillstate-result",
   "https://sohyun-richlab.tistory.com/entry/cheongju-gagyeong-ipark7-result",
-  "https://sohyun-richlab.tistory.com/entry/cheongyak-1sunwi-jogeon",
   "https://sohyun-richlab.tistory.com/entry/news-sudogwon-new-housing-sites-76700",
-  "https://sohyun-richlab.tistory.com/entry/%ED%95%9C%ED%99%94%ED%8F%AC%EB%A0%88%EB%82%98-%EC%A7%80%EC%A0%9C%EC%97%AD-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
-  "https://sohyun-richlab.tistory.com/entry/%EB%8F%84%EC%95%88-%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4-%EB%94%94%EC%95%84%EB%8D%B8-29%EB%B8%94%EB%A1%9D-2026930033",
-  "https://sohyun-richlab.tistory.com/entry/%EB%8F%84%EC%95%88-%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A4-%EB%94%94%EC%95%84%EB%8D%B8-31%EB%B8%94%EB%A1%9D-2026930034",
-  "https://sohyun-richlab.tistory.com/entry/%EB%B8%8C%EB%9D%BC%EC%9A%B4%EC%8A%A4%ED%86%A4-%EB%AA%A9%EB%8F%99-2%EC%B0%A8-2026940214"
+  "https://sohyun-richlab.tistory.com/entry/%ED%95%9C%ED%99%94%ED%8F%AC%EB%A0%88%EB%82%98-%EC%A7%80%EC%A0%9C%EC%97%AD-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8"
  ],
  "posts": {
   "모집공고 분석": [
    {
     "title": "남춘천 센트레빌 분석 리포트 | 주변 신축 5곳 중 4번째 평당가",
     "url": "https://sohyun-richlab.tistory.com/entry/%EB%82%A8%EC%B6%98%EC%B2%9C%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
-    "date": "18-00-27",
+    "date": "2026-11-02",
     "summary": "84㎡형(84A~84F 232세대) 세대 가중 평균 6.0억원 · 공급 3.3㎡당 @16,800천원(발코니 확장 별도)반경 2km 안 2016년 이후 입주 신축 ",
     "category": "모집공고 분석",
     "thumb": "assets/thumbs/e28486c659af24ec.jpg"
@@ -124,7 +124,7 @@
    {
     "title": "이번 주 청약 일정 11월 1주차 │ 접수 18개 단지·지난주 경쟁률 정리",
     "url": "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-1%EC%A3%BC%EC%B0%A8",
-    "date": "08-00-24",
+    "date": "2026-11-02",
     "summary": "11월 2일(월)부터 11월 8일(일)까지 청약 접수가 있는 단지와, 지난주(10.26~11.01) 접수를 마친 단지의 경쟁률을 청약홈 자료로 정리했어요.이번 주",
     "category": "부동산 인사이트",
     "thumb": "assets/thumbs/194be278b3dbbee7.jpg"
@@ -156,19 +156,59 @@
   ],
   "청약 가이드": [
    {
-    "title": "청약 1순위 조건 총정리 │ 통장 가입기간·예치금·규제지역 요건 (2026)",
-    "url": "https://sohyun-richlab.tistory.com/entry/cheongyak-1sunwi-jogeon",
-    "date": "2026-10-30",
-    "summary": "청약 가이드 1회는 모든 청약의 출발점인 1순위 조건입니다. 이 글에서는 아래 세 가지를 확인할 수 있습니다.확인할 것내용국민주택과 민영주택 1순위 차이국민주택은",
+    "title": "청약예금·청약부금·청약저축 → 주택청약종합저축 │ 가입기간·납입실적 합산 기준 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/old-cheongyak-account-to-integrated",
+    "date": "00-37-01",
+    "summary": "청약 자격 판정 노트 20번째 주제는 옛 청약통장을 주택청약종합저축으로 바꿀 때입니다. 지금 청약은 주택청약종합저축 가입이 기본 요건입니다. 오래 묵힌 청약예금·",
     "category": "청약 가이드",
-    "thumb": "assets/thumbs/b58ef021523e9359.jpg"
+    "thumb": ""
+   },
+   {
+    "title": "재개발·재건축 입주권 청약 │ 집이 철거돼도 유주택인 이유와 2018년 기준 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/redevelopment-ticket-house-ownership",
+    "date": "00-36-52",
+    "summary": "청약 자격 판정 노트 19번째 주제는 조합원 입주권과 무주택 판정입니다. 재개발·재건축 구역의 집이 철거되면 무주택이 된다고 생각하기 쉽지만, 청약에서는 입주권도",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
+    "title": "세금은 유주택, 청약은 무주택? │ 세법과 청약 규칙 주택 수 차이 정리 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/tax-vs-cheongyak-house-count",
+    "date": "00-36-43",
+    "summary": "청약 자격 판정 노트 18번째 주제는 세금과 청약의 주택 수 차이입니다. 세무서에서는 주택 수에 들어가는데 청약에서는 무주택이거나, 그 반대인 경우가 있습니다. ",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
+    "title": "주말부부 청약 │ 주소가 달라도 한 세대, 자녀·부모 가점과 거주지역 판단 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/weekend-couple-cheongyak",
+    "date": "00-36-38",
+    "summary": "청약 자격 판정 노트 17번째 주제는 주소를 따로 둔 부부의 청약입니다. 직장 때문에 부부가 다른 지역에 주민등록을 두고 있으면 가점·지역·주택 소유를 어떻게 보",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
+    "title": "조부모 부양가족 가점 │ 할머니·외할머니 모시고 살 때 인정 조건 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/grandparents-dependents-gajeom",
+    "date": "00-36-32",
+    "summary": "청약 자격 판정 노트 16번째 주제는 조부모(외조부모)를 부양가족으로 올리는 조건입니다. 조부모도 직계존속이라 부모님과 같은 기준으로 부양가족에 들어갈 수 있습니",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
+    "title": "혼인 전 배우자 당첨 이력 있어도 특공 가능 │ 신혼부부·생애최초·신생아 특례 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/spouse-premarital-win-special-supply",
+    "date": "00-36-25",
+    "summary": "청약 자격 판정 노트 15번째 주제는 혼인 전 배우자의 당첨·주택 이력입니다. 배우자가 결혼 전에 당첨된 적이 있어 특별공급을 못 넣는다고 알고 있다면, 2024",
+    "category": "청약 가이드",
+    "thumb": ""
    }
   ],
   "청약결과 해석": [
    {
     "title": "향남역 그로브 스위첸 청약 결과 | 71㎡ 최저 가점 52점, 2순위까지 265세대 미달",
     "url": "https://sohyun-richlab.tistory.com/entry/hyangnam-grove-switzen-result",
-    "date": "10-00-20",
+    "date": "2026-11-02",
     "summary": "[세줄요약]1. 향남역 그로브 스위첸은 일반공급 795세대에 1순위 511건이 접수됐고, 71㎡(4.05 대 1)와 147㎡P만 1순위에서 마감됐어요. 84㎡ 네",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/4c5ff4c934807113.jpg"
@@ -176,7 +216,7 @@
    {
     "title": "아산 그랑시티필하우스 청약 결과 | 1,254세대 미달, 1순위 접수 84건",
     "url": "https://sohyun-richlab.tistory.com/entry/asan-grandcity-philhouse-result",
-    "date": "09-00-19",
+    "date": "2026-11-02",
     "summary": "[세줄요약]1. 아산 그랑시티필하우스는 일반공급 1,367세대에 1순위 84건, 2순위 29건이 접수돼 2순위까지 받은 뒤에도 1,254세대가 미달됐어요. 6개 ",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/375d7da17a7d4fc9.jpg"
