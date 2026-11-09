@@ -25,26 +25,26 @@ img { display: block; max-width: 100%; }
 .wrap { max-width: 480px; margin: 0 auto; padding: 0 16px calc(32px + env(safe-area-inset-bottom)); overflow: hidden; }
 
 /* 프로필 */
-.hero { position: relative; text-align: center; padding: 44px 8px 24px; }
+.hero { position: relative; text-align: center; padding: 18px 8px 14px; }
 .blob { position: absolute; z-index: -1; border-radius: 50%; }
-.blob-a { width: 230px; height: 230px; top: -80px; right: -90px; background: var(--accent-soft); }
-.blob-b { width: 120px; height: 120px; top: 130px; left: -70px; background: var(--highlight); opacity: .28; }
-.avatar { width: 104px; height: 104px; margin: 0 auto 18px; border-radius: 50%; padding: 4px; background: var(--card); box-shadow: var(--shadow-card); }
+.blob-a { width: 180px; height: 180px; top: -70px; right: -80px; background: var(--accent-soft); }
+.blob-b { width: 90px; height: 90px; top: 70px; left: -55px; background: var(--highlight); opacity: .28; }
+.avatar { width: 64px; height: 64px; margin: 0 auto 8px; border-radius: 50%; padding: 4px; background: var(--card); box-shadow: var(--shadow-card); }
 .avatar img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; background: var(--accent); }
 .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .08em; color: var(--accent); display: flex; justify-content: center; align-items: center; gap: 8px; }
 .eyebrow::before { content: ""; width: 18px; height: 2px; background: var(--highlight); }
-.name { margin-top: 8px; font-size: 30px; font-weight: 800; letter-spacing: -.03em; line-height: 1.1; color: var(--ink); display: flex; justify-content: center; align-items: center; gap: 8px; }
-.mark { width: 26px; height: 26px; }
-.tagline { margin-top: 8px; font-size: 16px; font-weight: 600; color: var(--ink); }
+.name { margin-top: 4px; font-size: 26px; font-weight: 800; letter-spacing: -.03em; line-height: 1.1; color: var(--ink); display: flex; justify-content: center; align-items: center; gap: 8px; }
+.mark { display: none; }
+.tagline { margin-top: 6px; font-size: 15px; font-weight: 600; color: var(--ink); }
 .mk { background: linear-gradient(transparent 58%, var(--highlight) 58%, var(--highlight) 90%, transparent 90%); color: var(--ink); padding: 0 2px; }
-.bio { margin-top: 4px; font-size: 14px; color: var(--ink-soft); }
+.bio { margin-top: 2px; font-size: 13px; color: var(--ink-soft); }
 .bio:empty { display: none; }
 
 /* 바로가기 링크 */
-.links { display: grid; gap: 10px; margin-bottom: 28px; }
-.link { display: flex; align-items: center; gap: 14px; min-height: 64px; padding: 12px 18px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-card); transition: transform .15s ease; }
+.links { display: grid; gap: 8px; margin-bottom: 10px; }
+.link { display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 8px 16px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-card); transition: transform .15s ease; }
 .link:active { transform: scale(.98); }
-.link .ic { flex: none; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); }
+.link .ic { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent); }
 .link .ic svg { width: 20px; height: 20px; }
 .link .tx { flex: 1; min-width: 0; text-align: left; }
 .link .t { display: block; font-weight: 700; font-size: 16px; letter-spacing: -.02em; color: var(--ink); }
@@ -58,6 +58,33 @@ img { display: block; max-width: 100%; }
 .link.navy .ic { background: var(--accent-glow); color: #fff; }
 .link.navy .t { color: #fff; }
 .link.navy .s, .link.navy .go { color: var(--leaf-light); }
+.link.yellow { background: var(--highlight); border-color: transparent; }
+.link.yellow .ic { background: #03c75a; color: #fff; }
+.link.yellow .t { color: var(--ink); }
+.link.yellow .s, .link.yellow .go { color: var(--highlight-ink); }
+
+/* 주요 채널 3칸: 1 티스토리(파랑) 2 네이버(노랑) 3 인스타(남색) */
+.trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.trio-btn { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; min-width: 0; padding: 12px 6px 10px; border-radius: var(--r-lg); background: var(--card); box-shadow: var(--shadow-card); transition: transform .15s ease; }
+.trio-btn:active { transform: scale(.97); }
+.trio-btn .ic { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; margin-bottom: 2px; }
+.trio-btn .ic svg { width: 18px; height: 18px; }
+.trio-btn .t { font-weight: 800; font-size: 14px; line-height: 1.35; letter-spacing: -.03em; white-space: pre-line; word-break: keep-all; }
+.trio-btn .s { font-size: 11px; font-weight: 500; line-height: 1.3; word-break: keep-all; white-space: pre-line; }
+.trio-btn.blue { background: var(--accent); } .trio-btn.blue .ic { background: var(--highlight); color: var(--ink); } .trio-btn.blue .t { color: #fff; } .trio-btn.blue .s { color: rgba(255,255,255,.8); }
+.trio-btn.yellow { background: var(--card); box-shadow: inset 0 0 0 1px var(--line), var(--shadow-card); } .trio-btn.yellow .ic { background: #03c75a; color: #fff; } .trio-btn.yellow .t { color: var(--ink); } .trio-btn.yellow .s { color: var(--ink-soft); }
+.trio-btn.navy { background: var(--ink); } .trio-btn.navy .ic { background: var(--accent-glow); color: #fff; } .trio-btn.navy .t { color: #fff; } .trio-btn.navy .s { color: var(--leaf-light); }
+
+/* 다른 채널 한 줄(아이콘만). 초록 = 상위 브랜드 소현생정 */
+.mini { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 4px 6px 4px 16px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-pill); }
+.mini-s { flex: 1; min-width: 0; font-size: 13px; font-weight: 600; color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mini-btn { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: #fff; transition: transform .15s ease; }
+.mini-btn:active { transform: scale(.94); }
+.mini-btn svg { width: 18px; height: 18px; }
+.mini.green { background: var(--sprout-soft); border-color: transparent; }
+.mini.green .mini-s::before { content: ""; display: inline-block; width: 8px; height: 8px; margin: 0 7px 1px 0; border-radius: 50%; background: var(--sprout); }
+.mini.green .mini-btn { background: var(--sprout); }
+.mini.green .mini-btn:nth-of-type(2) { background: var(--sprout-deep); }
 
 /* 다른 채널 묶음(가로 버튼 2개). 초록 = 상위 브랜드 소현생정 */
 .pair { padding: 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-card); }
@@ -79,8 +106,8 @@ img { display: block; max-width: 100%; }
 .pair.green .pair-btn:nth-child(2) { background: var(--sprout-deep); }
 
 /* 탭 */
-.tabs { position: sticky; top: 0; z-index: 5; display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; margin: 0 -4px 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-pill); box-shadow: var(--shadow-card); }
-.tabs button { padding: 11px 0; border-radius: var(--r-pill); font-weight: 700; font-size: 15px; color: var(--ink-soft); }
+.tabs { position: sticky; top: 0; z-index: 5; display: grid; grid-template-columns: 1fr 1fr; gap: 3px; padding: 3px; margin: 0 0 10px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r-pill); box-shadow: var(--shadow-card); }
+.tabs button { padding: 7px 0; border-radius: var(--r-pill); font-weight: 700; font-size: 14px; color: var(--ink-soft); }
 .tabs button[aria-selected="true"] { background: var(--ink); color: #fff; }
 
 .chips { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 12px; scrollbar-width: none; }
@@ -90,7 +117,8 @@ img { display: block; max-width: 100%; }
 .chip .n { font-weight: 600; margin-left: 4px; opacity: .75; font-variant-numeric: tabular-nums; }
 
 /* 이번 주 청약단지 */
-.weeks { list-style: none; display: grid; gap: 10px; }
+.weeks { list-style: none; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.wk { min-width: 0; }
 .wk a { display: flex; gap: 12px; padding: 12px; background: var(--card); border-radius: var(--r-lg); border: 1px solid var(--line); box-shadow: var(--shadow-card); }
 .wk .day { flex: none; width: 56px; align-self: flex-start; display: grid; justify-items: center; gap: 1px; padding: 9px 0 8px; border-radius: var(--r-md); background: var(--paper-2); color: var(--ink); }
 .wk .day b { font-size: 17px; font-weight: 800; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
@@ -117,7 +145,7 @@ img { display: block; max-width: 100%; }
 .e-winner i { background: var(--event-winner); color: var(--ink); }
 
 /* 분석 리포트 글 목록 */
-.posts { list-style: none; display: grid; gap: 10px; }
+.posts { list-style: none; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
 .post a { display: flex; gap: 12px; padding: 10px; background: var(--card); border-radius: var(--r-lg); border: 1px solid var(--line); box-shadow: var(--shadow-card); }
 .post .th { flex: none; width: 96px; height: 72px; border-radius: var(--r-md); overflow: hidden; background: var(--accent-soft); }
 .post .th img { width: 100%; height: 100%; object-fit: cover; }
