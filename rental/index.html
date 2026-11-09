@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>서울 공공임대 단지 비교 보드 | 소현리치랩</title>
+<meta name="description" content="SH 장기미임대·재개발임대 공고 단지를 보증금·월 임대료·면적·승강기·평면도로 한눈에 비교합니다.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --paper:#f3f5f9;--card:#ffffff;--ink:#121a2b;--ink-text:#2a3347;--ink-soft:#4f5970;--ink-faint:#8a93a6;
+  --line:rgba(18,26,43,.12);--accent:#2457d6;--accent-deep:#163a8f;--accent-soft:#e3ebfb;
+  --highlight:#f5c342;--highlight-ink:#7a5600;--highlight-soft:#fdf8ea;
+  --ok:#1e9150;--ok-soft:#e6f1e2;--warn:#d22f47;--warn-soft:#fbe7ea;
+  --kr:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --shadow:0 1px 2px rgba(15,27,51,.04),0 6px 20px rgba(15,27,51,.06);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink-text);font-family:var(--kr);font-size:15px;line-height:1.5;letter-spacing:-.01em;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:20px 16px calc(40px + env(safe-area-inset-bottom));display:grid;gap:16px}
+.back{font-size:13px;color:var(--ink-soft);text-decoration:none}
+.back:hover{color:var(--accent)}
+h1{font-size:22px;line-height:1.3;color:var(--ink);text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.sub{color:var(--ink-soft);margin-top:4px;font-size:14px}
+.notice{background:var(--highlight-soft);border:1px solid var(--highlight);color:var(--highlight-ink);border-radius:10px;padding:10px 14px;font-size:13px}
+.notice a{font-weight:600}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--card);padding:8px 14px;border-radius:999px;font-weight:600;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow)}
+.stat b{display:block;font-size:19px;color:var(--ink);font-variant-numeric:tabular-nums}
+.stat span{color:var(--ink-faint);font-size:12px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.bar label{font-size:12px;color:var(--ink-soft);display:flex;gap:6px;align-items:center}
+.ctl{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:7px 10px}
+.count{margin-left:auto;color:var(--ink-faint);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:12px;align-content:start;box-shadow:var(--shadow)}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.nm{font-weight:700;font-size:16px;line-height:1.35;color:var(--ink)}
+.meta{color:var(--ink-faint);font-size:12px;margin-top:2px}
+.no{font-size:12px;color:var(--ink-faint);white-space:nowrap}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12px;padding:2px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent-deep);font-weight:600}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}.chip.warn{background:var(--warn-soft);color:var(--warn)}
+dl{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px}
+dl div{border-top:1px solid var(--line);padding-top:6px}
+dt{font-size:11.5px;color:var(--ink-faint)}
+dd{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+dd small{font-weight:400;color:var(--ink-faint);font-size:11.5px}
+.addr{font-size:12px;color:var(--ink-faint)}
+.plan{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--paper);border-radius:8px;padding:10px 12px;font-size:13px}
+.plan a{color:var(--accent);font-weight:700;text-decoration:none}
+.plan a:hover{text-decoration:underline}
+.plan .note{font-size:12px;color:var(--ink-soft)}
+.foot{font-size:12px;color:var(--ink-faint)}
+.foot a{color:var(--accent)}
+@media (max-width:420px){.grid{grid-template-columns:1fr}.count{margin-left:0;width:100%}h1{font-size:20px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<a class="back" href="../">← 소현리치랩 링크페이지</a>
+<header>
+<h1>서울 공공임대 단지 <em>비교 보드</em></h1>
+<p class="sub">SH 장기미임대·재개발임대 공고에 나온 강동·성동·송파 단지를 보증금, 월 임대료, 면적, 평면도로 나란히 봅니다.</p>
+</header>
+<p class="notice" id="notice">불러오는 중…</p>
+<div class="tabs" role="tablist">
+<button class="tab" role="tab" id="t-J" aria-selected="true">장기미임대 <span id="nJ"></span></button>
+<button class="tab" role="tab" id="t-R" aria-selected="false">재개발임대 <span id="nR"></span></button>
+</div>
+<section class="stats" id="stats"></section>
+<div class="bar">
+<label for="f-gu">자치구 <select class="ctl" id="f-gu"></select></label>
+<label for="f-el" id="l-el">승강기 <select class="ctl" id="f-el"><option value="">전체</option><option>전체동 설치</option><option>미설치</option></select></label>
+<label for="f-sort">정렬 <select class="ctl" id="f-sort"></select></label>
+<span class="count" id="count"></span>
+</div>
+<section class="grid" id="grid"></section>
+<p class="foot" id="foot"></p>
+</main>
+<script>
+const won=n=>n==null?'-':Math.round(n).toLocaleString('ko-KR')+'원';
+const py=a=>(a/3.3058).toFixed(1);
+const isImg=u=>/\.(jpe?g|png|gif|webp)$/i.test(u||'');
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const SORT={J:[['dep','임대보증금 낮은순'],['rent','월 임대료 낮은순'],['real','실질임대료 낮은순'],['area','전용면적 넓은순']],R:[['dep','임대보증금 낮은순'],['rent','월 임대료 낮은순'],['area','주거전용 넓은순'],['vac','공가 많은순']]};
+const $=id=>document.getElementById(id);
+let D={J:[],R:[]},mode='J';
+function setup(){
+ const list=D[mode];const gus=[...new Set(list.map(d=>d.gu))];
+ $('f-gu').innerHTML='<option value="">전체</option>'+gus.map(g=>`<option>${esc(g)}</option>`).join('');
+ $('f-sort').innerHTML=SORT[mode].map(([k,l])=>`<option value="${k}">${l}</option>`).join('');
+ $('l-el').hidden=mode!=='J';$('f-el').value='';
+ ['J','R'].forEach(m=>$('t-'+m).setAttribute('aria-selected',m===mode));
+ render();
+}
+function stats(list){
+ const min=k=>list.reduce((a,b)=>b[k]<a[k]?b:a);const s=[[list.length+'건','표시 중인 단지·호']];
+ const a=min('dep'),b=min('rent');
+ s.push([won(a.dep),'최저 보증금 · '+a.name.split(' (')[0]]);
+ s.push([won(b.rent),'최저 월 임대료 · '+b.name.split(' (')[0]]);
+ if(mode==='J'){s.push([list.filter(d=>d.elev==='전체동 설치').length+' / '+list.length,'승강기 설치 호수'])}
+ else{s.push([list.reduce((t,d)=>t+d.vac,0)+' / '+list.reduce((t,d)=>t+d.wait,0),'공가 / 예비 합계(세대)'])}
+ $('stats').innerHTML=s.map(([v,t])=>`<div class="stat"><b>${esc(v)}</b><span>${esc(t)}</span></div>`).join('');
+}
+function planBox(d){
+ if(!d.url)return'';
+ return isImg(d.url)?`<div class="plan"><span>평면도</span><a href="${esc(d.url)}" target="_blank" rel="noopener">평면도 보기 ↗</a></div>`
+ :`<div class="plan"><span class="note">평면도 대신 참고 링크(블로그·영상)</span><a href="${esc(d.url)}" target="_blank" rel="noopener">열기 ↗</a></div>`;
+}
+function card(d){
+ if(mode==='J'){
+  return `<article class="card"><div class="top"><div><div class="nm">${esc(d.name)}</div><div class="meta">${esc(d.gu)} · 단지코드 ${esc(d.code)}</div></div><span class="no">연번 ${d.no}</span></div>
+  <div class="chips"><span class="chip">${esc(d.room)}</span><span class="chip ${d.elev==='미설치'?'warn':'ok'}">승강기 ${esc(d.elev)}</span><span class="chip">${d.ho}호 · ${Math.floor(d.ho/100)}층</span></div>
+  <dl><div><dt>전용면적</dt><dd>${d.area}㎡ <small>(${py(d.area)}평)</small></dd></div><div><dt>실질임대료(이자 반영)</dt><dd>${won(d.real)}</dd></div>
+  <div><dt>임대보증금</dt><dd>${won(d.dep)}</dd></div><div><dt>월 임대료</dt><dd>${won(d.rent)}</dd></div>
+  <div><dt>전세 전환 보증금</dt><dd>${won(d.jdep)}</dd></div><div><dt>전세 전환 시 임대료</dt><dd>${won(d.jrent)}</dd></div></dl>
+  <div class="addr">${esc(d.addr)}</div>${planBox(d)}</article>`;
+ }
+ return `<article class="card"><div class="top"><div><div class="nm">${esc(d.name)}</div><div class="meta">${esc(d.gu)}</div></div><span class="no">연번 ${d.no}</span></div>
+ <div class="chips"><span class="chip">구조 ${d.room}</span><span class="chip">모집 ${d.total}세대</span><span class="chip ${d.vac?'ok':'warn'}">공가 ${d.vac} · 예비 ${d.wait}</span></div>
+ <dl><div><dt>주거전용</dt><dd>${d.area}㎡ <small>(${py(d.area)}평)</small></dd></div><div><dt>합계(공가+예비)</dt><dd>${d.total}세대</dd></div>
+ <div><dt>임대보증금</dt><dd>${won(d.dep)}</dd></div><div><dt>월 임대료</dt><dd>${won(d.rent)}</dd></div>
+ <div><dt>보증금 올리면(전환)</dt><dd>${won(d.dep2)}</dd></div><div><dt>그때 월 임대료</dt><dd>${won(d.rent2)}</dd></div></dl>${planBox(d)}</article>`;
+}
+function render(){
+ const gu=$('f-gu').value,el=$('f-el').value,k=$('f-sort').value;
+ const list=D[mode].filter(d=>(!gu||d.gu===gu)&&(mode!=='J'||!el||d.elev===el));
+ const desc=k==='area'||k==='vac';list.sort((a,b)=>desc?b[k]-a[k]:a[k]-b[k]);
+ $('count').textContent=list.length+'건 표시';
+ if(!list.length){$('grid').innerHTML='<p class="foot">조건에 맞는 단지가 없습니다. 필터를 바꿔 보세요.</p>';$('stats').innerHTML='';return}
+ stats(list);$('grid').innerHTML=list.map(card).join('');
+}
+$('t-J').onclick=()=>{mode='J';setup()};$('t-R').onclick=()=>{mode='R';setup()};
+['f-gu','f-el','f-sort'].forEach(i=>$(i).onchange=render);
+fetch('../data/rental.json',{cache:'no-cache'}).then(r=>r.json()).then(j=>{
+ D=j;$('nJ').textContent=D.J.length;$('nR').textContent=D.R.length;
+ $('notice').innerHTML='아래 단지는 <b>2026년 공고 기준</b>이며 청약 접수는 마감됐습니다. 다음 공고를 준비할 때 참고하시고, 신청 전에는 반드시 SH 최신 공고문을 확인하세요.';
+ $('foot').innerHTML='출처: '+j.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ')+' 첨부 주택목록. 평면도는 SH 주택정보(i-sh.co.kr) 원본 링크입니다. 평은 전용면적 ÷ 3.3058, 층은 호수 앞자리 기준. 갱신일 '+esc(j.updated)+'.';
+ setup();
+}).catch(()=>{$('notice').textContent='데이터를 불러오지 못했습니다. 잠시 뒤 새로고침해 주세요.'});
+</script>
+</body>
+</html>

@@ -43,6 +43,13 @@
       ]
     },
     {
+      "id": "rental",
+      "title": "서울 공공임대 단지 비교 보드",
+      "sub": "장기미임대 · 재개발임대 보증금·평면도 한눈에",
+      "url": "./rental/",
+      "icon": "link"
+    },
+    {
       "id": "contact",
       "title": "협업 문의",
       "sub": "sohyunrichlab@naver.com",
