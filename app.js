@@ -6,6 +6,7 @@
     mail: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>',
     insta: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>',
     youtube: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3z" fill="currentColor"/></svg>',
+    naver: '<svg viewBox="0 0 24 24"><path d="M16.273 12.845 7.376 0H0v24h7.726V11.156L16.624 24H24V0h-7.727z" fill="currentColor" transform="translate(6.5 6.5) scale(.46)"/></svg>',
     link: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
   };
 
@@ -72,7 +73,22 @@
           </a>`).join("")}
         </div>
       </div>`;
-    $("#links").innerHTML = cfg.links.filter((l) => !l.hidden).map((l) => (l.type === "pair" ? pairHtml(l) : linkHtml(l))).join("");
+    // type "trio": 주요 채널 3칸 — 역할(굵게) + 채널 이름(작게)
+    const trioHtml = (g) => `
+      <div class="trio">${g.items.map((l) => `
+        <a class="trio-btn${l.color ? " " + esc(l.color) : ""}" href="${esc(l.url)}" target="_blank" rel="noopener" data-track="${esc(l.id)}">
+          <span class="ic">${ICONS[l.icon] || ICONS.link}</span>
+          <span class="t">${esc(l.title)}</span>
+          <span class="s">${esc(l.sub || "")}</span>
+        </a>`).join("")}
+      </div>`;
+    // type "mini": 다른 채널을 한 줄로 — 설명 + 아이콘 버튼
+    const miniHtml = (g) => `
+      <div class="mini${g.color ? " " + esc(g.color) : ""}">
+        <span class="mini-s">${esc(g.sub || g.title || "")}</span>
+        ${g.items.map((l) => `<a class="mini-btn" href="${esc(l.url)}" target="_blank" rel="noopener" data-track="${esc(l.id)}" aria-label="${esc(l.title)}" title="${esc(l.title)}">${ICONS[l.icon] || ICONS.link}</a>`).join("")}
+      </div>`;
+    $("#links").innerHTML = cfg.links.filter((l) => !l.hidden).map((l) => (l.type === "pair" ? pairHtml(l) : l.type === "mini" ? miniHtml(l) : l.type === "trio" ? trioHtml(l) : linkHtml(l))).join("");
 
     $("#disclosure").textContent = cfg.disclosure || "";
     $("#week-more").href = cfg.week.calendarUrl;

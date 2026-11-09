@@ -13,49 +13,63 @@
   },
   "links": [
     {
-      "id": "blog",
-      "title": "소현리치랩 블로그",
-      "sub": "청약 캘린더 · 분양가 분석 · 공고 아카이브",
-      "url": "https://sohyun-richlab.tistory.com/",
-      "icon": "blog",
-      "highlight": true
-    },
-    {
-      "id": "instagram",
-      "title": "소현리치랩 인스타그램",
-      "sub": "@sohyun_richlab · 청약 일정 카드뉴스",
-      "url": "https://www.instagram.com/sohyun_richlab/",
-      "icon": "insta",
-      "color": "navy"
-    },
-    {
-      "id": "sohyunguide",
-      "type": "pair",
-      "sub": "가성비 꿀템 리뷰 · 생활정보가 궁금하다면",
-      "color": "green",
+      "id": "channels",
+      "type": "trio",
       "items": [
         {
-          "id": "guide-blog",
-          "title": "소현생정\n네이버 블로그",
-          "sub": "teanotcar",
-          "url": "https://blog.naver.com/teanotcar",
-          "icon": "blog"
+          "id": "blog",
+          "title": "청약 캘린더\n공고 아카이브",
+          "sub": "소현리치랩\n티스토리",
+          "url": "https://sohyun-richlab.tistory.com/",
+          "icon": "blog",
+          "color": "blue"
         },
         {
-          "id": "guide-instagram",
-          "title": "소현생정\n인스타그램",
-          "sub": "@sohyun_guide",
-          "url": "https://www.instagram.com/sohyun_guide/",
-          "icon": "insta"
+          "id": "naver-blog",
+          "title": "분석 리포트\n부동산 인사이트",
+          "sub": "소현리치랩\n네이버 블로그",
+          "url": "https://blog.naver.com/sohyunrichlab",
+          "icon": "naver",
+          "color": "yellow"
+        },
+        {
+          "id": "instagram",
+          "title": "청약 일정\n카드뉴스",
+          "sub": "소현리치랩\n인스타그램",
+          "url": "https://www.instagram.com/sohyun_richlab/",
+          "icon": "insta",
+          "color": "navy"
         }
       ]
     },
     {
       "id": "contact",
       "title": "협업 문의",
-      "sub": "revi404@naver.com",
-      "url": "mailto:revi404@naver.com",
+      "sub": "sohyunrichlab@naver.com",
+      "url": "mailto:sohyunrichlab@naver.com",
       "icon": "mail"
+    },
+    {
+      "id": "sohyunguide",
+      "type": "mini",
+      "sub": "생활정보·꿀템은 소현생정",
+      "color": "green",
+      "items": [
+        {
+          "id": "guide-blog",
+          "title": "소현생정 네이버 블로그",
+          "sub": "teanotcar",
+          "url": "https://blog.naver.com/teanotcar",
+          "icon": "naver"
+        },
+        {
+          "id": "guide-instagram",
+          "title": "소현생정 인스타그램",
+          "sub": "@sohyun_guide",
+          "url": "https://www.instagram.com/sohyun_guide/",
+          "icon": "insta"
+        }
+      ]
     }
   ],
   "week": {
