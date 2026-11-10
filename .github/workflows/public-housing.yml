@@ -1,0 +1,39 @@
+name: 공공임대·분양 공고 수집
+
+on:
+  schedule:
+    - cron: "10 22,3,8,12 * * *"   # 한국 시간 07:10 · 12:10 · 17:10 · 21:10
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-housing
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: LH·마이홈·GH·SH 공고 수집
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: python scripts/collect_public_housing.py
+
+      - name: 수집 결과 저장
+        run: |
+          git config user.name "sohyunrichlab-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/public_housing.json
+          if ! git diff --cached --quiet; then
+            git commit -m "공공주택 공고 수집 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push
+          fi

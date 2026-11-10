@@ -9,6 +9,7 @@
 |---|---|---|
 | 이번 주 청약단지 탭 | `sohyun-blog-kit/richlab/calendar.json`(티스토리 홈 '다가오는 7일 청약 일정'과 같은 데이터)을 화면이 바로 읽어 오늘부터 7일 안의 청약 접수·당첨 발표를 표시. 주소가 막히면 `data/calendar.json` 사본 사용 | 열 때마다(사본은 30분마다) |
 | 분석 리포트 탭 | 티스토리 상위 카테고리(지역 하위 카테고리 합침)별 최신 글. 카테고리는 블로그 홈 메뉴에서 읽어 새 카테고리도 자동 추가, 글이 없는 카테고리는 숨김 | 30분마다 |
+| 공공임대·분양 공고 파일 | `scripts/collect_public_housing.py`가 LH·GH·SH와 지방 개발공사 공고를 `data/public_housing.json` 한 파일로 정리 (아래 설명) | 하루 4번(07·12·17·21시) |
 | 배포 | GitHub Actions → GitHub Pages | 수집 직후 · 파일 수정 시 |
 
 - 공고 요약 글이 있는 단지는 '요약 글' 표시와 함께 티스토리 글로, 없으면 블로그 홈으로 연결됩니다.
@@ -28,3 +29,27 @@
 | 클릭 통계 | GoatCounter 코드를 `goatcounter`에 입력 |
 
 미리보기에서 날짜를 바꿔 보려면 주소 뒤에 `?today=2026-10-22` 를 붙입니다.
+
+## 공공임대·분양 공고 파일: `data/public_housing.json`
+
+공개 주소: https://revi404.github.io/sohyunrichlab/data/public_housing.json (수집 후 다음 배포 때 반영, 최대 30분)
+
+| 출처 | 방식 | 담기는 내용 |
+|---|---|---|
+| LH | 공공데이터포털 LH 분양임대공고 API | 임대·주거복지·분양·신혼희망타운 공고, 상태, 마감일, 원문 링크 |
+| 마이홈 | 공공데이터포털 마이홈 공공주택 모집공고 API | 단지 주소·공급 호수·보증금·월임대료·계약금 등 (`houses`). LH 공고에 붙이고 지방 개발공사 공고는 따로 추가 |
+| GH | 주택청약·임대센터 청약공고 목록 | 임대주택·매입임대 공고, 지역, 마감일, 상태 |
+| SH | 공고 및 공지 게시판(주택임대·주택분양) 목록 | 게시글 제목·날짜·링크. `kind`가 `모집공고`인 것만 새 공고, 나머지는 당첨자 발표·안내 |
+
+- 처음 한 번: 저장소 Settings → Secrets and variables → Actions → New repository secret 에 이름 `DATA_GO_KR_KEY`, 값은 공공데이터포털 일반 인증키(Decoding)
+- 바로 돌리기: Actions → "공공임대·분양 공고 수집" → Run workflow
+- 공고일 기준 최근 90일과 아직 접수 중인 공고를 담습니다. 한 출처가 실패하면 그 출처는 직전 수집분을 그대로 두고 `sources`에 실패로 표시합니다.
+- SH·GH 사이트가 GitHub 서버 접속을 막으면 PC에서 `python scripts/collect_public_housing.py --only sh,gh` 실행 후 push 하면 됩니다.
+
+| 항목 | 뜻 |
+|---|---|
+| `org` · `deal` · `type` | 기관 · 임대/분양 · 유형(국민임대, 행복주택 등) |
+| `notice_date` · `apply_start` · `apply_end` · `winner_date` | 공고일 · 접수 시작 · 접수 마감 · 당첨 발표 |
+| `status` | 공고중 · 접수중 · 접수마감 등 (SH는 없음) |
+| `houses[]` | 단지별 `name` `addr` `units`(공급 호수) `deposit`(보증금) `rent`(월임대료) `down`·`middle`·`balance`(계약금·중도금·잔금), 원 단위 |
+| `url` | 원문 공고 주소 (GH는 목록 화면) |
