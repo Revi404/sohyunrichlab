@@ -43,6 +43,7 @@
 
 - 처음 한 번: 저장소 Settings → Secrets and variables → Actions → New repository secret 에 이름 `DATA_GO_KR_KEY`, 값은 공공데이터포털 일반 인증키(Decoding)
 - 바로 돌리기: Actions → "공공임대·분양 공고 수집" → Run workflow
+- 상세(`detail`)는 진행 중인 LH 공고, GH 공고 전체, SH 모집공고 글에만 붙습니다. 공고당 한 번만 읽고 이후에는 저장된 값을 다시 씁니다. 파일 원본은 저장하지 않고 이름과 주소만 남깁니다.
 - 공고일 기준 최근 90일과 아직 접수 중인 공고를 담습니다. 한 출처가 실패하면 그 출처는 직전 수집분을 그대로 두고 `sources`에 실패로 표시합니다.
 - SH·GH 사이트가 GitHub 서버 접속을 막으면 PC에서 `python scripts/collect_public_housing.py --only sh,gh` 실행 후 push 하면 됩니다.
 
@@ -53,3 +54,7 @@
 | `status` | 공고중 · 접수중 · 접수마감 등 (SH는 없음) |
 | `houses[]` | 단지별 `name` `addr` `units`(공급 호수) `deposit`(보증금) `rent`(월임대료) `down`·`middle`·`balance`(계약금·중도금·잔금), 원 단위 |
 | `url` | 원문 공고 주소 (GH는 목록 화면) |
+| `detail.files[]` | 첨부파일 `name` `kind` `url` (SH는 내려받기 주소 대신 `preview_url` 미리보기) |
+| `detail.images[]` | LH 단지 이미지(위치도·단지배치도·조감도·평면도 등) `site` `kind` `url` |
+| `detail.schedule[]` | 접수·서류 제출·당첨 발표·계약 일정 |
+| `detail.sites[]` · `detail.types[]` | 단지 주소·세대수·전용면적·입주 예정월 · GH 주택형별 면적·호수 |
