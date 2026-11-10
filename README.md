@@ -58,3 +58,20 @@
 | `detail.images[]` | LH 단지 이미지(위치도·단지배치도·조감도·평면도 등) `site` `kind` `url` |
 | `detail.schedule[]` | 접수·서류 제출·당첨 발표·계약 일정 |
 | `detail.sites[]` · `detail.types[]` | 단지 주소·세대수·전용면적·입주 예정월 · GH 주택형별 면적·호수 |
+
+## SH 주택정보 파일: `data/sh_houses.json`
+
+공개 주소: https://revi404.github.io/sohyunrichlab/data/sh_houses.json · 출처: [SH 서울주택정보](https://www.i-sh.co.kr/houseinfo/main/mainPage.do)
+
+| 묶음 | 내용 |
+|---|---|
+| `notices[]` | 진행 중인 모집공고 `title` `date` `complex_ids`(해당 단지 번호) `url` |
+| `model_houses[]` | 사이버 모델하우스 `name` `type`(주택형) `url` |
+| `complexes{단지 번호}` | `name` `addr` `supply`(재개발임대 등) `units` `heating` `corridor` `center`(관할 센터) `surroundings`(주변 환경 설명) |
+| `complexes{}.types[]` | 주택형별 `exclusive_area`·`contract_area`(㎡) `households` `rooms` `deposit`·`rent`(원) `vacant`(공가) `waitlist`(예비자) `moved_out_1y`(최근 1년 퇴거) `as_of`(기준월) `floorplans[]`(평면도 이미지 주소) |
+| `complexes{}.images[]` | 전경 등 단지 사진 주소 |
+
+- 하루 한 번(03:40) 실행합니다. 진행 중 공고 단지와 사이버 모델하우스 단지를 먼저 읽고, 나머지 아파트 단지(813곳)는 하루 40곳씩 순서대로 읽어 약 3주에 한 바퀴를 돕니다. `progress`에 진행 상황이 있습니다.
+- 이번 달에 이미 읽은 단지는 다시 읽지 않습니다(자료 기준이 월 단위).
+- 이미지는 내려받지 않고 주소만 남깁니다. 보드에 직접 싣기 전에 SH 이용 조건을 확인해야 합니다.
+- 속도를 바꾸려면 워크플로의 실행 줄에 `--batch 80`처럼 붙입니다.
