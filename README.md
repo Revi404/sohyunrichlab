@@ -59,6 +59,15 @@
 | `detail.schedule[]` | 접수·서류 제출·당첨 발표·계약 일정 |
 | `detail.sites[]` · `detail.types[]` | 단지 주소·세대수·전용면적·입주 예정월 · GH 주택형별 면적·호수 |
 
+## 공고문 추출 파일: `data/notice_text/<공고 id>.json`
+
+공고문 PDF를 받아 쪽별 글(`pages[].text`)과 표(`pages[].tables`)만 남깁니다. PDF 원본은 저장하지 않습니다.
+
+- 자동: 수집 때마다 아직 뽑지 않은 진행 중 모집공고 중 GH 전체와 LH 분양(신혼희망타운 포함)을 최근 것부터 3건씩
+- 지정: Actions → "공공임대·분양 공고 수집" → Run workflow 의 `ids` 칸에 공고 id 입력 (LH 임대는 건수가 많아 필요할 때만)
+- SH는 첨부 내려받기 주소가 공개돼 있지 않아 대상이 아닙니다.
+- `text_ok`가 false면 그림으로 된 PDF라 글을 뽑지 못한 것이고, `tables_missing`이 붙은 쪽은 표 없이 글만 뽑힌 쪽입니다.
+
 ## SH 주택정보 파일: `data/sh_houses.json`
 
 공개 주소: https://revi404.github.io/sohyunrichlab/data/sh_houses.json · 출처: [SH 서울주택정보](https://www.i-sh.co.kr/houseinfo/main/mainPage.do)
