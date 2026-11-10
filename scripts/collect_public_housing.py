@@ -11,7 +11,8 @@ LH·GH·SH 와 지방 개발공사의 공고를 한 형식으로 모아 data/pub
 
 - API 키는 환경 변수 DATA_GO_KR_KEY 로만 받는다. 코드·로그·결과 파일에 남기지 않는다.
 - 사이트 화면은 수집기 이름을 그대로 밝힌 User-Agent 로 하루 몇 번, 목록 첫 쪽만 읽는다.
-  접속 대기열(넷퍼넬)이 걸린 상세 화면은 읽지 않는다.
+- 상세(첨부파일·일정·단지)는 진행 중 공고만, 공고당 한 번 읽고 이후에는 저장된 값을 다시 쓴다.
+  LH 는 공식 상세 API, GH 는 모든 공고, SH 는 모집공고 글만 읽는다. 파일 자체는 내려받지 않고 이름·주소만 남긴다.
 - 한 출처가 실패해도 나머지는 저장하고, 실패한 출처는 직전 수집분을 그대로 둔다.
 
 실행: python scripts/collect_public_housing.py [--only lh,myhome,gh,sh] [--days 90]
@@ -37,6 +38,7 @@ UA = "sohyunrichlab-notice-collector/1.0 (+https://revi404.github.io/sohyunrichl
 SOURCES = ("lh", "myhome", "gh", "sh")
 
 LH_LIST = "https://apis.data.go.kr/B552555/lhLeaseNoticeInfo1/lhLeaseNoticeInfo1"
+LH_DETAIL = "https://apis.data.go.kr/B552555/lhLeaseNoticeDtlInfo1/getLeaseNoticeDtlInfo1"
 LH_KINDS = {"06": "임대", "13": "임대", "05": "분양", "39": "분양"}  # 06 임대주택, 13 주거복지(매입·전세임대), 05 분양주택, 39 신혼희망타운
 MYHOME = "https://apis.data.go.kr/1613000/HWSPR02/"
 MYHOME_EPS = {"rsdtRcritNtcList": "임대", "ltRsdtRcritNtcList": "분양"}
@@ -117,7 +119,9 @@ def collect_lh(key: str, since: datetime, today: datetime) -> list[dict]:
                     title=(r.get("PAN_NM") or "").strip(), region=r.get("CNP_CD_NM"),
                     notice_date=ymd(r.get("PAN_NT_ST_DT")) or ymd(r.get("PAN_DT")),
                     apply_end=ymd(r.get("CLSG_DT")), status=r.get("PAN_SS"),
-                    url=r.get("DTL_URL") or "", src="lh"))
+                    url=r.get("DTL_URL") or "", src="lh",
+                    _lh={"PAN_ID": r.get("PAN_ID"), "CCR_CNNT_SYS_DS_CD": r.get("CCR_CNNT_SYS_DS_CD"),
+                         "SPL_INF_TP_CD": r.get("SPL_INF_TP_CD"), "UPP_AIS_TP_CD": code, "AIS_TP_CD": r.get("AIS_TP_CD")}))
             total = num(rows[0].get("ALL_CNT")) if rows else 0
             if not rows or page * 500 >= (total or 0):
                 break
@@ -215,7 +219,9 @@ def collect_gh(since: datetime, today: datetime) -> list[dict]:
                        city=cells[3] if len(cells) > 3 and not re.search(r"\d{4}-", cells[3]) else None,
                        notice_date=dates[0] if dates else None, apply_end=dates[1] if len(dates) > 1 else None,
                        status=next((s for s in ("접수중", "공고중", "접수마감", "공고마감") if s in cells), None),
-                       url=GH_BASE + path, src="gh")
+                       url=GH_BASE + path, src="gh",
+                       _gh=GH_BASE + path.replace("selectPbancRentHouseList", "selectPbancDetailView") + "?" + urllib.parse.urlencode(
+                           {"pbancNo": no.group(1), "pbancKndCd": (re.search(r'data-pbancKndCd="(\w*)"', row) or [0, "01"])[1], "previewYn": "N"}))
             if (n["notice_date"] or "9") < floor and (n["apply_end"] or "") < now:
                 continue
             out.append(n)
@@ -248,6 +254,120 @@ def collect_sh(since: datetime, today: datetime) -> list[dict]:
                               url=f"{SH_LIST.replace('list.do', 'view.do')}?seq={seq.group(1)}&multi_itm_seq={cat}", src="sh"))
         time.sleep(2)
     return out
+
+
+# ── 상세 (첨부파일·일정·단지) ─────────────────────────────────────────────────
+ACTIVE = ("공고중", "접수중", "정정공고중")
+
+
+def clean(d: dict) -> dict:
+    return {k: v for k, v in d.items() if v not in (None, "", [], {})}
+
+
+def lh_detail(key: str, n: dict) -> dict:
+    data = json.loads(fetch(LH_DETAIL, {"serviceKey": key, **n["_lh"]}))
+    block = {k: v for b in data if isinstance(b, dict) for k, v in b.items() if isinstance(v, list)}
+    return clean({
+        "files": [clean({"name": f.get("CMN_AHFL_NM"), "kind": f.get("SL_PAN_AHFL_DS_CD_NM"), "url": f.get("AHFL_URL")})
+                  for f in block.get("dsAhflInfo", [])],
+        # 단지별 위치도·평면도·조감도 등 이미지
+        "images": [clean({"site": f.get("LCC_NT_NM"), "name": f.get("CMN_AHFL_NM"), "kind": f.get("LS_SPL_INF_UPL_FL_DS_CD_NM"),
+                          "url": f.get("AHFL_URL")}) for f in block.get("dsSbdAhfl", [])],
+        "schedule": [clean({"site": r.get("SBD_LGO_NM"), "apply_start": ymd(r.get("SBSC_ACP_ST_DT")),
+                            "apply_end": ymd(r.get("SBSC_ACP_CLSG_DT")), "docs_start": ymd(r.get("PPR_ACP_ST_DT")),
+                            "docs_end": ymd(r.get("PPR_ACP_CLSG_DT")), "winner_date": ymd(r.get("PZWR_ANC_DT")),
+                            "contract_start": ymd(r.get("CTRT_ST_DT")), "contract_end": ymd(r.get("CTRT_ED_DT"))})
+                     for r in block.get("dsSplScdl", [])],
+        "sites": [clean({"name": r.get("LCC_NT_NM"), "addr": " ".join(x for x in (r.get("LGDN_ADR"), r.get("LGDN_DTL_ADR")) if x),
+                         "total_units": num(r.get("HSH_CNT")), "area": r.get("DDO_AR"), "heating": r.get("HTN_FMLA_DESC"),
+                         "move_in": r.get("MVIN_XPC_YM")}) for r in block.get("dsSbd", [])],
+    })
+
+
+def gh_detail(n: dict) -> dict:
+    page = fetch(n["_gh"]).decode("utf-8", "replace")
+    start = page.find("sub_content")
+    body = page[start:] if start > 0 else page
+    if "상세정보" not in body:
+        raise RuntimeError("GH 상세 화면이 예상과 다름")
+    files = []
+    for href, inner in re.findall(r'<a\s+href="([^"]*selectFileDown\.do[^"]*)"[^>]*>(.*?)</a>', body, re.S):
+        name = re.sub(r"\s*\(\d+ Byte\)\s*$", "", text(inner))
+        files.append({"name": name, "url": html.unescape(href)})
+    plain = text(re.sub(r"<script.*?</script>|<style.*?</style>", " ", body, flags=re.S))
+
+    def span(label: str) -> tuple[str | None, str | None]:
+        m = re.search(label + r"\s*:\s*(\d{4}\.\d{2}\.\d{2})[\d: ]*(?:~\s*(\d{4}\.\d{2}\.\d{2}))?", plain)
+        return (ymd(m.group(1)), ymd(m.group(2))) if m else (None, None)
+
+    types = []
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", body, re.S):
+        cells = [text(c) for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)]
+        if len(cells) >= 5 and re.fullmatch(r"[\d.]+", cells[1] or "") and re.fullmatch(r"[\d,]+", cells[2] or ""):
+            types.append(clean({"type": cells[0], "area": float(cells[1]), "units": num(cells[2]),
+                                "deposit": num(cells[3]), "rent": num(cells[4])}))
+    addr = re.search(r"소재지\s+(.+?)\s+전용면적", plain)
+    units = re.search(r"모집호수\s+([\d,]+)", plain)
+    move = re.search(r"입주예정월\s+(\d{4}\.\d{2})", plain)
+    online, offline, docs = span("온라인접수기간"), span("현장접수기간"), span("서류제출기간")
+    return clean({
+        "files": files, "types": types,
+        "schedule": [clean({"apply_start": online[0] or offline[0], "apply_end": online[1] or offline[1],
+                            "docs_start": docs[0], "docs_end": docs[1], "winner_date": span("당첨자발표일")[0]})],
+        "sites": [clean({"addr": addr.group(1) if addr else None, "units": num(units.group(1)) if units else None,
+                         "move_in": move.group(1) if move else None})],
+    })
+
+
+def sh_detail(n: dict) -> dict:
+    page = fetch(n["url"]).decode("utf-8", "replace")
+    files = []
+    # 첨부 한 줄 = 파일 이름(existFile 링크) + 미리보기 주소. 화면 위쪽의 확장자 아이콘 설명은 건너뛴다.
+    for row in re.findall(r"<tr[^>]*>.*?</tr>", page, re.S):
+        name = re.search(r"onclick=\"existFile\([^)]*\)[^>]*>(.*?)</a>", row, re.S)
+        if not name:
+            continue
+        view = re.search(r'href="(/main/com/util/htmlConverter\.do[^"]*)"', row)
+        files.append(clean({"name": text(name.group(1)),
+                            "preview_url": "https://www.i-sh.co.kr" + html.unescape(view.group(1)) if view else None}))
+    return clean({"files": files})
+
+
+def enrich(notices: list[dict], prev: dict[str, dict], key: str, today: str, limit: int = 200) -> dict:
+    """진행 중 공고에 상세(detail)를 붙인다. 제목·마감일이 그대로면 직전 수집분을 다시 쓴다(사이트 재방문 없음)."""
+    stat = {"new": 0, "reused": 0, "failed": 0}
+    for n in notices:
+        old = prev.get(n["id"]) or {}
+        if old.get("detail") and old.get("title") == n["title"] and old.get("apply_end") == n["apply_end"]:
+            n["detail"] = old["detail"]
+            stat["reused"] += 1
+            continue
+        want = (n["src"] == "lh" and n.get("_lh") and key and n["status"] in ACTIVE) \
+            or (n["src"] == "gh" and n.get("_gh")) \
+            or (n["src"] == "sh" and n["kind"] == "모집공고")
+        if not want or stat["new"] >= limit:
+            continue
+        try:
+            n["detail"] = lh_detail(key, n) if n["src"] == "lh" else gh_detail(n) if n["src"] == "gh" else sh_detail(n)
+            n["detail"]["at"] = today
+            stat["new"] += 1
+        except Exception as e:  # noqa: BLE001
+            stat["failed"] += 1
+            print(f"[상세] {n['id']} 실패: {e}", file=sys.stderr)
+        time.sleep(0.3 if n["src"] == "lh" else 2)
+    for n in notices:
+        d = n.get("detail") or {}
+        sched = (d.get("schedule") or [{}])[0]
+        if n["src"] == "gh":  # 목록에 없는 접수 시작일·발표일·호수를 상세에서 채운다
+            n["apply_start"] = n["apply_start"] or sched.get("apply_start")
+            n["winner_date"] = n["winner_date"] or sched.get("winner_date")
+            n["units"] = n["units"] or ((d.get("sites") or [{}])[0]).get("units")
+        if n["src"] == "lh" and len(d.get("schedule") or []) == 1:
+            start = sched.get("apply_start")
+            if start and n["apply_end"] and start <= n["apply_end"]:
+                n["apply_start"] = n["apply_start"] or start
+            n["winner_date"] = n["winner_date"] or sched.get("winner_date")
+    return stat
 
 
 # ── 실행 ──────────────────────────────────────────────────────────────────────
@@ -287,9 +407,12 @@ def main() -> int:
         api = merge_lh_myhome(lh, myhome)
     else:  # 한쪽만 새로 받았으면 다른 쪽은 직전 수집분을 쓴다
         api = (lh if lh is not None else kept["lh"]) + (myhome if myhome is not None else kept["myhome"])
-        for n in api:
-            n.pop("_myhome_url", None)
     notices = api + fresh.get("gh", kept["gh"]) + fresh.get("sh", kept["sh"])
+    stat = enrich(notices, {n["id"]: n for n in prev.get("notices", [])}, key, today.strftime("%Y-%m-%d"))
+    print(f"[상세] 새로 {stat['new']}건, 재사용 {stat['reused']}건, 실패 {stat['failed']}건")
+    for n in notices:
+        for k in [k for k in n if k.startswith("_")]:
+            del n[k]
     notices.sort(key=lambda n: (n.get("notice_date") or "", n["id"]), reverse=True)
 
     body = {"sources": meta, "notices": notices}

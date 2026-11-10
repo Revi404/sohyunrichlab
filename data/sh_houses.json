@@ -1,0 +1,1057 @@
+{
+ "updated": "2026-11-11 01:18",
+ "source_note": "SH 서울주택정보(i-sh.co.kr/houseinfo) 화면 데이터",
+ "progress": {
+  "collected": 12,
+  "next_page": 1
+ },
+ "notices": [
+  {
+   "seq": 312339,
+   "title": "2026년 3차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고(2026. 10. 28.)",
+   "code": "202620713",
+   "date": "2026.10.28",
+   "complex_ids": [
+    "22344",
+    "70249"
+   ],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312339"
+  },
+  {
+   "seq": 311965,
+   "title": "강북구 신혼부부(수요자맞춤형)주택 1~4차 잔여세대 입주자 모집 공고",
+   "date": "2026.10.22",
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=311965"
+  }
+ ],
+ "model_houses": [
+  {
+   "complex_id": "70145",
+   "name": "무악현대 (무악1)",
+   "type": "32",
+   "url": "https://rowi-ai.com/UZvCwflkYk1F57IzLsKLm",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70148",
+   "name": "상계불암현대 (상계3-2)",
+   "type": "27",
+   "url": "https://rowi-ai.com/FNFJ9_oWwL-qcaT7LYLiO",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70166",
+   "name": "중림삼성 (충정삼성)",
+   "type": "31",
+   "url": "https://rowi-ai.com/Gb-rn8hbO1ecAi3HXLZkMQ",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70182",
+   "name": "관악드림타운 (봉천3)",
+   "type": "32",
+   "url": "https://rowi-ai.com/e71PA7tt6282Dn5nk_Cfd",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70199",
+   "name": "본동 한신휴플러스 (본동2-3)",
+   "type": "32",
+   "url": "https://rowi-ai.com/XVcK-87nikEkQzpsHLMSX",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70211",
+   "name": "상도 SH-ville",
+   "type": "32",
+   "url": "https://rowi-ai.com/RWXJ5th7SjWj1Mkp3P3oi",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70547",
+   "name": "개포자이 프레지던스",
+   "type": "45",
+   "url": "https://rowi-ai.com/FDebNVpNxXi5LgsFDdaOP",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70112",
+   "name": "천호삼성",
+   "type": "32",
+   "url": "https://rowi-ai.com/l2FZsmxOon5Gu-xySvJAP",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70129",
+   "name": "도화현대2차",
+   "type": "27",
+   "url": "https://rowi-ai.com/JEgvakdgO3-wn2t2sAOy5g",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70133",
+   "name": "양지대림2(중계4-2)",
+   "type": "29",
+   "url": "https://rowi-ai.com/k37c4XxxwwrD0fr34jQIv",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70141",
+   "name": "봉천동아 (봉천2-2)",
+   "type": "32",
+   "url": "https://rowi-ai.com/1En0eQp5MzfYdKQaIGouO",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70167",
+   "name": "봉천두산 (봉천8)",
+   "type": "31",
+   "url": "https://rowi-ai.com/N8-2oQMcyneBjilAlPEDB",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70187",
+   "name": "하왕극동 미라주 (하왕5)",
+   "type": "32",
+   "url": "https://rowi-ai.com/u37PUGj7QOfS8LX-Z6Wxs",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70201",
+   "name": "길음 SH-ville (길음5)",
+   "type": "30",
+   "url": "https://rowi-ai.com/alRuO9cxpCDqSSQI-QgF6",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70262",
+   "name": "길음뉴타운 7단지(길음7)",
+   "type": "32",
+   "url": "https://rowi-ai.com/IEvndZORYzaIhKb5C-Hkc",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70565",
+   "name": "디에이치퍼스티어아이파크",
+   "type": "49",
+   "url": "https://rowi-ai.com/pK6i1FkHlfkksscM2OSL0",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70565",
+   "name": "디에이치퍼스티어아이파크",
+   "type": "59",
+   "url": "https://rowi-ai.com/iv_viPhSs1EilOySeGus9",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70116",
+   "name": "오류동부골든 (오류1)",
+   "type": "32",
+   "url": "https://rowi-ai.com/lT5ODK5JpAxRJyyFbxfjt",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70136",
+   "name": "돈암삼성 (돈암3-2)",
+   "type": "32",
+   "url": "https://rowi-ai.com/fii5DuuuCdI2WcfCEOeKA",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70196",
+   "name": "관악벽산 블루밍",
+   "type": "32",
+   "url": "https://rowi-ai.com/eItWbb1pxYy19pPFrD-8-",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70198",
+   "name": "관악푸르지오 (봉천7-2)",
+   "type": "32",
+   "url": "https://rowi-ai.com/h3K5_B90yshMvxKqfKrgw",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70576",
+   "name": "목동현대A(신정6-1)",
+   "type": "32",
+   "url": "https://rowi-ai.com/jJcYmR05LsI5lpV01wFnO",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70161",
+   "name": "산천리버힐 삼성 (산천삼성)",
+   "type": "32",
+   "url": "https://rowi-ai.com/5hFLbgQZNXGPazIgqYyBag",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70175",
+   "name": "행당한신 (행당2)",
+   "type": "28",
+   "url": "https://rowi-ai.com/oekZxN-WDfcTb72xj6muV",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70184",
+   "name": "도원삼성 (도원)",
+   "type": "32",
+   "url": "https://rowi-ai.com/v2JN1bJiOyeVWqFuNcwqBQ",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70188",
+   "name": "길음동부 (길음3)",
+   "type": "34",
+   "url": "https://rowi-ai.com/5p4avACabpnEb65henPAq",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70192",
+   "name": "월곡두산",
+   "type": "30",
+   "url": "https://rowi-ai.com/xyYCYktbpU_AlQ8VWY8sf",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70210",
+   "name": "불광 SH-ville (불광1)",
+   "type": "32",
+   "url": "https://rowi-ai.com/mWld6XWSRw5V1HfFujAYc",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70383",
+   "name": "삼성동센트럴 아이파크",
+   "type": "49",
+   "url": "https://rowi-ai.com/mkR_n1dMnHmNjL_9Q_RPE",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70146",
+   "name": "상계동아불암 (상계3-1)",
+   "type": "27",
+   "url": "https://rowi-ai.com/RyWyyAt3fz3sMTHZYYP0i",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70150",
+   "name": "이문현대 (이문1)",
+   "type": "32",
+   "url": "https://rowi-ai.com/Ikp2tLCT8EF6R81OLAgv8",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70335",
+   "name": "왕십리텐즈힐1(왕십리뉴타운1)",
+   "type": "36",
+   "url": "https://rowi-ai.com/nCL28ck9B3ZyMffZwq4zy",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70493",
+   "name": "디에이치자이 개포",
+   "type": "41",
+   "url": "https://rowi-ai.com/YStPlUzfHV2aC-vICOIUv",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70493",
+   "name": "디에이치자이 개포",
+   "type": "44",
+   "url": "https://rowi-ai.com/ooErehT2veEB5TN-aDxx9",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70172",
+   "name": "하왕금호 베스트빌 (하왕1-3)",
+   "type": "32",
+   "url": "https://rowi-ai.com/4CCnIQ4nc8dpxGs7SYJfD",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70185",
+   "name": "수색대림 (수색2-1)",
+   "type": "32",
+   "url": "https://rowi-ai.com/2AXtPlOkEevF7Ig7Bh_17",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70186",
+   "name": "SK북한산시티 (미아1-1)",
+   "type": "32",
+   "url": "https://rowi-ai.com/wrP79_Tpg7qL-zI9LpyvK",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70394",
+   "name": "래미안개포 루체하임",
+   "type": "49",
+   "url": "https://rowi-ai.com/XgFKmQkKpCmQ-3bAc2bpG",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70505",
+   "name": "대치르엘",
+   "type": "35",
+   "url": "https://rowi-ai.com/yqX4r5ikzKPRII8VDya4i",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70505",
+   "name": "대치르엘",
+   "type": "43",
+   "url": "https://rowi-ai.com/YgB_YJeLA62p-OdZMikkh",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70203",
+   "name": "신림 SH-ville (신림7)",
+   "type": "30",
+   "url": "https://rowi-ai.com/Fw5AO-eHaNQPXTyr9JZTh",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70106",
+   "name": "북가좌삼호 (북가좌2)",
+   "type": "31",
+   "url": "https://rowi-ai.com/_4wzxcMosYtDEyFf-0kIJ",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70261",
+   "name": "래미안 종암3차 (종암5)",
+   "type": "31",
+   "url": "https://rowi-ai.com/QegXdFWorSdRj3yfAZTrD",
+   "as_of": "202611"
+  },
+  {
+   "complex_id": "70518",
+   "name": "래미안 라클래시",
+   "type": "59",
+   "url": "https://rowi-ai.com/wKwROsEuethbXOZtTIdnF",
+   "as_of": "202611"
+  }
+ ],
+ "complexes": {
+  "22344": {
+   "id": "22344",
+   "name": "내발산동740 기숙사",
+   "addr": "서울특별시 강서구 수명로1길 131 ",
+   "category": "아파트 등",
+   "supply": "기타수탁임대",
+   "type_list": "23F, 23M",
+   "heating": "개별난방",
+   "corridor": "계단식",
+   "builder": "-",
+   "center": "강서주거안심종합센터",
+   "surroundings": "1. 자연환경\r\n- 발산근린공원, 어린이공원, 수명산이 인접해 있어 쾌적한 자연환경을 가지고 있습니다.\r\n\r\n 2. 교통환경\r\n - 지하철 5호선 마곡역 6번출구에서 시내버스(388, 6642번)로 약15분, 도보로는 약 12분 소요되며, 자가용 이용시 인접한 올림픽대로, 가양대교 이용 가능하여 편리한 교통환경을 가지고 있습니다.\r\n\r\n 3. 교육환경\r\n - 수명초등학교, 수명중학교, 수명고등학교, 하나린어린이집 등이 인접해 있어 최상의 학군을 형성하고 있습니다.\r\n\r\n4. 주위환경\r\n - 근처에 강서운전면허시험장과 수협강서수산물도매시장이 있으며, 발산지구대가 인근에 위치하고 있습니다. 단지 내 경사도는 완만하여 이동에 불편함이 없습니다. 가까운 거리에 수협강서수산물도매시장, 공항이 있어 편리한 생활환경을 가지고 있습니다. 마곡지구가 본격적으로 개발되고 있어 서울 어느지역 부럽지 않은 생활환경 속에서 거주하실 수 있는 환경조건입니다.\r\n",
+   "types": [
+    {
+     "type": "23F",
+     "class": "기타수탁임대",
+     "households": 2,
+     "exclusive_area": 23.26,
+     "contract_area": 36.85,
+     "rooms": 0,
+     "deposit": 0,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.10"
+    },
+    {
+     "type": "23M",
+     "class": "기타수탁임대",
+     "households": 2,
+     "exclusive_area": 23.26,
+     "contract_area": 36.85,
+     "rooms": 0,
+     "deposit": 0,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.10"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70249": {
+   "id": "70249",
+   "name": "희망하우징 (정릉동1036)",
+   "addr": "서울특별시 성북구 정릉로 199",
+   "category": "아파트 등",
+   "supply": "희망하우징",
+   "type_list": "14F, 14M",
+   "heating": "-",
+   "corridor": "-",
+   "builder": "태영건설(주)",
+   "center": "성북주거안심종합센터",
+   "surroundings": "-",
+   "types": [
+    {
+     "type": "14F",
+     "class": "희망하우징",
+     "households": 30,
+     "exclusive_area": 14.23,
+     "contract_area": 30.33,
+     "rooms": 0,
+     "deposit": 1090000,
+     "rent": 90900,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 5,
+     "as_of": "2026.10"
+    },
+    {
+     "type": "14M",
+     "class": "희망하우징",
+     "households": 24,
+     "exclusive_area": 14.23,
+     "contract_area": 30.33,
+     "rooms": 0,
+     "deposit": 1090000,
+     "rent": 90900,
+     "vacant": 4,
+     "waitlist": 0,
+     "moved_out_1y": 7,
+     "as_of": "2026.10"
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "희망하우징",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230120153722518_24_%5B%ED%81%AC%EA%B8%B0%EB%B3%80%ED%99%98%5D%5B%ED%8F%AC%EB%A7%B7%EB%B3%80%ED%99%98%5Dimage007.jpg",
+     "taken": "20230116"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70145": {
+   "id": "70145",
+   "name": "무악현대 (무악1)",
+   "addr": "서울특별시 종로구 통일로 246-11 ",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 550,
+   "type_list": "32",
+   "heating": "개별난방",
+   "corridor": "복도식",
+   "builder": "현대건설",
+   "center": "종로주거안심종합센터",
+   "surroundings": "1. 교통환경\r\n   - 지하철 3호선 독립문 하차 도보로 3분거리.\r\n   - 내부순환도로 ,서울 도심지와 인접, 서울역 마을버스 운행.\r\n2. 자연환경\r\n   - 인왕산자락에 위치해 있고 독립문 공원이 맞은편에 있어 쾌적한 환경과 함께 도심과 가까워 교통이 매우 편리하며 인근에 큰병원이 자리 잡고 있어 편리한 생활 문화를 누리실 수 있습니다.\r\n3. 주변환경\r\n   - 무악동주민센터, 적십자병원, 삼성병원, 영천시장 등이 인접해 있습니다.\r\n4. 교육환경\r\n   - 초ㆍ중ㆍ고교가 단지 인근에 있고 명문고 한성과학고, 대학은 연세대,서강대,이화여대 등 명문대가 가까이에 있습니다.",
+   "model_houses": [
+    {
+     "type": "32",
+     "url": "https://rowi-ai.com/UZvCwflkYk1F57IzLsKLm",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "32",
+     "class": "재개발임대",
+     "households": 550,
+     "exclusive_area": 32.93,
+     "contract_area": 61.16,
+     "rooms": 2,
+     "deposit": 11560000,
+     "rent": 162700,
+     "vacant": 0,
+     "waitlist": 2,
+     "moved_out_1y": 15,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "name": "세대평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70145_2452_02_02.jpg"
+      },
+      {
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20151119191047430_1_%EC%84%B8%EB%8C%80%20%ED%8F%89%EB%A9%B4%EB%8F%84%201.jpg"
+      },
+      {
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20151119191102302_2_%EC%84%B8%EB%8C%80%20%ED%8F%89%EB%A9%B4%EB%8F%84%202.jpg"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2022101811110623_14_%EC%A0%84%EA%B2%BD1.jpg"
+    },
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221018111115633_15_%EC%A0%84%EA%B2%BD2.jpg"
+    },
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2022101811112612_16_%EC%A0%84%EA%B2%BD3.jpg"
+    },
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221018111137539_17_%EC%A0%84%EA%B2%BD4.jpg"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70148": {
+   "id": "70148",
+   "name": "상계불암현대 (상계3-2)",
+   "addr": "서울특별시 노원구 덕릉로118길 27 ",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 472,
+   "type_list": "27",
+   "heating": "개별난방",
+   "corridor": "복도식",
+   "builder": "현대산업개발(주)",
+   "center": "노원주거안심종합센터",
+   "surroundings": "1. 자연환경\r\n- 인근에 불암산자연공원이 위치해 맑은 공기와 자연과 친숙해질수 있는 환경적 조건을 갖추고 있으며 대형할인마트, 롯데백화점, 백병원, 을지병원 등도 근거리에 위치해 쾌적하고 편안한 생활환경을 느낄수 있습니다.\r\n\r\n2. 교통환경\r\n- 지하철 4호선 당고개역 도보로 5분거리에 있으며, 다양한 버스 노선과 동일로, 동부 간선도로를 이용하여 시내 중심지뿐 아니라 경기도 생활권과도 자유롭게 이동하실\r\n수 있습니다.\r\n\r\n3. 교육환경\r\n- 초·중·고교가 인근에 위치해 있으며, 서울산업대, 광운대, 인덕대등 대학도 가까\r\n이 있습니다.",
+   "model_houses": [
+    {
+     "type": "27",
+     "url": "https://rowi-ai.com/FNFJ9_oWwL-qcaT7LYLiO",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "27",
+     "class": "재개발임대",
+     "households": 472,
+     "exclusive_area": 27,
+     "contract_area": 47.991,
+     "rooms": 2,
+     "deposit": 8890000,
+     "rent": 136100,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 26,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "name": "세대 평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20191014115049607_4_%EC%83%81%EA%B3%84%EB%B6%88%EC%95%94%ED%98%84%EB%8C%80%20%ED%8F%89%EB%A9%B4%EB%8F%84.jpg"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "아파트 전경사진 1",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70148_405_02_02.jpg",
+     "taken": "20090924"
+    },
+    {
+     "kind": "전경",
+     "name": "아파트 전경사진 2",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70148_406_02_02.jpg",
+     "taken": "20090924"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70166": {
+   "id": "70166",
+   "name": "중림삼성 (충정삼성)",
+   "addr": "서울특별시 중구 중림로4길 41 ",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 355,
+   "type_list": "31",
+   "heating": "개별난방",
+   "corridor": "복도식",
+   "builder": "삼성물산",
+   "center": "중구주거안심종합센터",
+   "surroundings": "1. 자연환경\r\n- 단지 바로 뒤에 손기정기념공원이 위치하고 있으며, 강북삼성병원, 교보문고 등이 인접해 있어 수준높은 생활문화를 누리실 수 있습니다.\r\n\r\n2. 교통환경\r\n- 지하철 2호선, 5호선 환승역인 충정로역에서 200Ｍ(도보로 3분)\r\n- 여의도, 신촌, 광화문, 시청, 서울역, 종로 등이 대중교통 이용시 5분거리\r\n- 지하철 2호선, 5호선 환승역인 충정로역에서 200Ｍ(도보로 3분)\r\n- 여의도, 신촌, 광화문, 시청, 서울역, 종로 등이 대중교통 이용시 5분거리\r\n\r\n3. 교육환경\r\n- 명문 초,중,고교를 비롯하여, 연세대, 서강대, 이화여대, 홍익대 등 명문대가 가까이에 있습니다.\r\n\r\n4. 주변환경\r\n - 단지 바로 옆에 손기정 체육공원이 있으며, 서소문성지 역사 박물관, 롯데 대형마트, 중림파출소 등이 자리잡고 있습니다.",
+   "model_houses": [
+    {
+     "type": "31",
+     "url": "https://rowi-ai.com/Gb-rn8hbO1ecAi3HXLZkMQ",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "31",
+     "class": "재개발임대",
+     "households": 355,
+     "exclusive_area": 31.59,
+     "contract_area": 67.31,
+     "rooms": 2,
+     "deposit": 15870000,
+     "rent": 186100,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 6,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "name": "평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20191017150406109_48_%EC%A4%91%EB%A6%BC%EC%82%BC%EC%84%B1.jpg"
+      }
+     ]
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70182": {
+   "id": "70182",
+   "name": "관악드림타운 (봉천3)",
+   "addr": "서울특별시 관악구 구암길 106 (봉천동, 관악드림타운아파트)",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 1843,
+   "type_list": "32",
+   "heating": "개별난방",
+   "corridor": "복도식",
+   "builder": "삼성물산(주)",
+   "center": "관악주거안심종합센터",
+   "surroundings": "1. 자연환경\r\n   - 단지 인근에 등산로와 약수터가 위치하고 있으며 가까운거리에 보라매병원과 관악산이 \r\n      있습니다.\r\n\r\n2. 교통환경\r\n   - 지하철 2호선 봉천역에서 7호선 숭실대입구에서 마을버스로 5분에서 10분거리에 있으며\r\n      서울대입구에서 초록색지선버스로 5분거리에 있습니다.\r\n\r\n3. 교육환경\r\n   - 단지인근에 구암초등학교, 은천초등학교, 구암중학교를 비롯하여 당곡고등학교를 비롯하여\r\n      서울대, 중앙대, 숭실대등이 가까이 있습니다.",
+   "model_houses": [
+    {
+     "type": "32",
+     "url": "https://rowi-ai.com/e71PA7tt6282Dn5nk_Cfd",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "32",
+     "class": "재개발임대",
+     "households": 1843,
+     "exclusive_area": 32.76,
+     "contract_area": 62.07,
+     "rooms": 2,
+     "deposit": 11800000,
+     "rent": 163200,
+     "vacant": 6,
+     "waitlist": 0,
+     "moved_out_1y": 67,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "name": "세대도면",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20180626134310708_48_%EC%84%B8%EB%8C%80%20%ED%8F%89%EB%A9%B4%EB%8F%84001.jpg"
+      },
+      {
+       "name": "세대 평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20180626134550585_53_%EC%84%B8%EB%8C%80%20%ED%8F%89%EB%A9%B4%EB%8F%84001.jpg"
+      },
+      {
+       "name": "세대 평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2021012508565517_23_%EA%B4%80%EC%95%85%EB%93%9C%EB%A6%BC%ED%83%80%EC%9A%B4_%EC%84%B8%EB%8C%80%ED%8F%89%EB%A9%B4%EB%8F%84.tiff"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "단지전경2",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70182_163_02_02.jpg",
+     "taken": "20090903"
+    },
+    {
+     "kind": "전경",
+     "name": "단지전경3",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70182_164_02_02.jpg",
+     "taken": "20090903"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70199": {
+   "id": "70199",
+   "name": "본동 한신휴플러스 (본동2-3)",
+   "addr": "서울특별시 동작구 매봉로 99 ",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 247,
+   "type_list": "32",
+   "heating": "-",
+   "corridor": "-",
+   "builder": "한신공영(주)",
+   "center": "동작주거안심종합센터",
+   "surroundings": "1. 자연환경\r\n- 한강이 내려다 보이며 뒤쪽으로는 관악산이 인접해 있어 등산 및 편리한 생활문화를 누릴 수 있습니다. \r\n2. 교통환경\r\n- 지하철 7호선 상도역에서 도보로 10분거리. 지하철 1호선 노량진역에서 마을버스 8번을 편리하게 이용가능.\r\n- 지하철9호선 노들역에서 하차 5번출구로 나와 도보로 8분거리에 위치 \r\n3. 교육환경\r\n- 노량진일대에 유명한 학원이 인접해 있으며, 인근에 초,중,고는 물론이고 중앙대, 숭실대가 가까이에 있습니다.",
+   "model_houses": [
+    {
+     "type": "32",
+     "url": "https://rowi-ai.com/XVcK-87nikEkQzpsHLMSX",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "32",
+     "class": "재개발임대",
+     "households": 134,
+     "exclusive_area": 32.51,
+     "contract_area": 77.9,
+     "rooms": 2,
+     "deposit": 16050000,
+     "rent": 168300,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 6,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "name": "세대 평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20210120163540629_37_%EB%B3%B8%EB%8F%99%ED%95%9C%EC%8B%A0%ED%9C%B4%ED%94%8C%EB%9F%AC%EC%8A%A4_%EC%84%B8%EB%8C%80%ED%8F%89%EB%A9%B4%EB%8F%84.JPG"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "단지전경1",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70199_88_02_02.jpg",
+     "taken": "20090903"
+    },
+    {
+     "kind": "전경",
+     "name": "단지전경2",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70199_89_02_02.jpg",
+     "taken": "20090903"
+    },
+    {
+     "kind": "전경",
+     "name": "단지전경3",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70199_90_02_02.jpg",
+     "taken": "20090903"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70211": {
+   "id": "70211",
+   "name": "상도 SH-ville",
+   "addr": "서울특별시 동작구 상도로53길 70",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 953,
+   "type_list": "32",
+   "heating": "-",
+   "corridor": "-",
+   "builder": "우방",
+   "center": "동작주거안심종합센터",
+   "surroundings": "-",
+   "model_houses": [
+    {
+     "type": "32",
+     "url": "https://rowi-ai.com/RWXJ5th7SjWj1Mkp3P3oi",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "32",
+     "class": "재개발임대",
+     "households": 953,
+     "exclusive_area": 32.43,
+     "contract_area": 68.09,
+     "rooms": 2,
+     "deposit": 19020000,
+     "rent": 190400,
+     "vacant": 3,
+     "waitlist": 0,
+     "moved_out_1y": 21,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "name": "세대 평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20210120163625927_38_%EC%83%81%EB%8F%84SH%EB%B9%8C_%EC%84%B8%EB%8C%80%ED%8F%89%EB%A9%B4%EB%8F%84.JPG"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "단지전경사진",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70211_76_02_02.jpg",
+     "taken": "20090903"
+    },
+    {
+     "kind": "전경",
+     "name": "단지전경사진",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70211_77_02_02.jpg",
+     "taken": "20090903"
+    },
+    {
+     "kind": "전경",
+     "name": "단지전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70211_78_02_02.jpg",
+     "taken": "20090903"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70547": {
+   "id": "70547",
+   "name": "개포자이 프레지던스",
+   "addr": "서울특별시 강남구 삼성로 14 ",
+   "category": "아파트 등",
+   "supply": "행복주택",
+   "type_list": "39, 45, 49",
+   "heating": "-",
+   "corridor": "-",
+   "builder": "-",
+   "center": "강남주거안심종합센터",
+   "surroundings": "-",
+   "model_houses": [
+    {
+     "type": "45",
+     "url": "https://rowi-ai.com/FDebNVpNxXi5LgsFDdaOP",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "39",
+     "class": "행복주택",
+     "households": 114,
+     "exclusive_area": 39.945,
+     "contract_area": 101.5618,
+     "rooms": 1,
+     "deposit": 154400000,
+     "rent": 567000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 5,
+     "as_of": "2026.10"
+    },
+    {
+     "type": "45",
+     "class": "행복주택",
+     "households": 87,
+     "exclusive_area": 45.8769,
+     "contract_area": 116.3324,
+     "rooms": 2,
+     "deposit": 176000000,
+     "rent": 651000,
+     "vacant": 1,
+     "waitlist": 0,
+     "moved_out_1y": 4,
+     "as_of": "2026.10"
+    },
+    {
+     "type": "49",
+     "class": "행복주택",
+     "households": 19,
+     "exclusive_area": 49.9528,
+     "contract_area": 126.4426,
+     "rooms": 2,
+     "deposit": 192000000,
+     "rent": 710000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 2,
+     "as_of": "2026.10"
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20240217115647856_102_%EC%A0%84%EA%B2%BD1.jpg",
+     "taken": "20240201"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70112": {
+   "id": "70112",
+   "name": "천호삼성",
+   "addr": "서울특별시 강동구 성안로25길 15 ",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 247,
+   "type_list": "32",
+   "heating": "개별난방",
+   "corridor": "복도식",
+   "builder": "삼성물산(주)",
+   "center": "강동주거안심종합센터",
+   "surroundings": "1. 자연환경: 한강공원과 풍납토성, 올림픽공원이 인근에 있어 자연환경이 우수함.  2. 교통환경: 대중교통으로 지하철 5호선 강동역 500m(도보 7분), 버스는 1-4, 23, 30-3, 112-1, 112-5, 341, 342, 370, 3214, 3316, 1113, 인근에 천호대교, 광진교, 올림픽대로, 수도권제1순환고속국도 강일IC, 상일IC, 서하남IC, 판교 구리간 고속도로, 용마산 터널과 연결되는 구리~암사대교, 강일~춘천~양양간 고속도로 이용이 용이한 사통팔달 교통요지로 뛰어남. ※ 관리사무소는 104동 뒤편에 있습니다. 3. 교육환경: 인근에 천동초등학교, 천일초등학교, 동신중학교, 영파여고, 둔촌고, 명일여고, 잠실고, 서울체육고, 보성고, 동북고, 한영외고가 있음. 4. 주위환경: 서울아산병원, 강동성심병원, 강동경희대의대병원, 현대백화점, 이마트, 2001아울렛 등 생활편의 시설이 가까이 위치하여 생활 편리.",
+   "model_houses": [
+    {
+     "type": "32",
+     "url": "https://rowi-ai.com/l2FZsmxOon5Gu-xySvJAP",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "32",
+     "class": "재개발임대",
+     "households": 247,
+     "exclusive_area": 32.97,
+     "contract_area": 55.96,
+     "rooms": 2,
+     "deposit": 10490000,
+     "rent": 101400,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 9,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "name": "14",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025085220504_722_14.jpg"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221019101832518_225_13.jpg",
+     "taken": "20221018"
+    },
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221019101839481_226_12.jpg",
+     "taken": "20221018"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70129": {
+   "id": "70129",
+   "name": "도화현대2차",
+   "addr": "서울특별시 마포구 새창로8길 72 도화동,현대2차아파트",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 793,
+   "type_list": "27",
+   "heating": "개별난방",
+   "corridor": "복도식",
+   "builder": "현대건설",
+   "center": "마포주거안심종합센터",
+   "surroundings": "1. 자연환경\r\n- 시내의 중심지로 어느 지역이든 교통이 편리하며, 제 1,2 금융권등이 있습니다.\r\n\r\n2. 교통환경\r\n- 지하철 5호선 마포역과 지하철 5,6호선 환승역인 공덕역에서 도보로 10분 거리에 있습니다.\r\n\r\n3. 교육환경\r\n- 주변에 초·중·고교를 비롯하여, 연세대, 서강대, 이화여대, 홍익대등의 명문대가 가까운 거리에 있습니다.\r\n\r\n4. 주변환경\r\n- 구청, 법원, 병원, 스포츠센타등의 생활을 여유롭게 즐기실 수 있는 생활권입니다.\r\n",
+   "model_houses": [
+    {
+     "type": "27",
+     "url": "https://rowi-ai.com/JEgvakdgO3-wn2t2sAOy5g",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "27",
+     "class": "재개발임대",
+     "households": 793,
+     "exclusive_area": 27.72,
+     "contract_area": 46.13,
+     "rooms": 2,
+     "deposit": 9190000,
+     "rent": 132400,
+     "vacant": 3,
+     "waitlist": 0,
+     "moved_out_1y": 36,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20151021180108575_1_9.%EC%84%B8%EB%8C%80%20%ED%8F%89%EB%A9%B4%EB%8F%84.JPG"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "아파트 전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70129_1530_02_02.jpg",
+     "taken": "20131004"
+    },
+    {
+     "kind": "전경",
+     "name": "아파트 전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70129_1531_02_02.jpg",
+     "taken": "20131004"
+    },
+    {
+     "kind": "전경",
+     "name": "아파트 전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70129_1532_02_02.jpg",
+     "taken": "20131004"
+    }
+   ],
+   "fetched": "2026-11-11"
+  },
+  "70133": {
+   "id": "70133",
+   "name": "양지대림2(중계4-2)",
+   "addr": "서울특별시 노원구 덕릉로77길 27 ",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 331,
+   "type_list": "29",
+   "heating": "지역난방",
+   "corridor": "복도식",
+   "builder": "대림산업(주)",
+   "center": "노원주거안심종합센터",
+   "surroundings": "1. 자연환경\r\n- 까르푸등 대형할인매장과 롯데(구 미도파)백화점 이용. 구민체육센터, 원자력·백병원 이용.\r\n\r\n2. 교통환경\r\n- 4호선 상계역에서 하차 마을버스 9-2번 이용. 일반버스 117번, 10-1번, 10번(상계역방향) 이용.\r\n\r\n3. 교육환경\r\n- 초·중·고교와 서울 산업대, 서울여대, 삼육대학교와 인접.",
+   "model_houses": [
+    {
+     "type": "29",
+     "url": "https://rowi-ai.com/k37c4XxxwwrD0fr34jQIv",
+     "as_of": "202611"
+    }
+   ],
+   "types": [
+    {
+     "type": "29",
+     "class": "재개발임대",
+     "households": 331,
+     "exclusive_area": 29.67,
+     "contract_area": 48.52,
+     "rooms": 2,
+     "deposit": 10150000,
+     "rent": 140200,
+     "vacant": 0,
+     "waitlist": 1,
+     "moved_out_1y": 7,
+     "as_of": "2026.09",
+     "floorplans": [
+      {
+       "name": "평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024142428291_246_%EC%84%B8%EB%8C%80%ED%8F%89%EB%A9%B4%EB%8F%84.gif"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "아파트 전경사진1",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70133_409_02_02.jpg",
+     "taken": "20090929"
+    },
+    {
+     "kind": "전경",
+     "name": "아파트 전경사진2",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70133_410_02_02.jpg",
+     "taken": "20090929"
+    },
+    {
+     "kind": "전경",
+     "name": "아파트 전경사진3",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/70133_411_02_02.jpg",
+     "taken": "20090929"
+    }
+   ],
+   "fetched": "2026-11-11"
+  }
+ }
+}
