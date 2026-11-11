@@ -1,25 +1,26 @@
 {
- "updated": "2026-11-11 10:04",
+ "updated": "2026-11-11 10:53",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-11 10:04",
+   "at": "2026-11-11 10:53",
    "count": 425
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-11 10:04",
+   "at": "2026-11-11 10:53",
    "count": 130
   },
   "gh": {
-   "ok": true,
-   "at": "2026-11-11 10:04",
-   "count": 7
+   "ok": false,
+   "at": "2026-11-11 10:53",
+   "error": "URLError",
+   "last_ok": "2026-11-11 10:04"
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-11 10:04",
+   "at": "2026-11-11 10:53",
    "count": 19
   }
  },
@@ -14146,7 +14147,7 @@
    "city": null,
    "notice_date": "2026-09-04",
    "apply_start": null,
-   "apply_end": "2027-09-04",
+   "apply_end": "2026-11-13",
    "winner_date": null,
    "status": "공고중",
    "units": null,
