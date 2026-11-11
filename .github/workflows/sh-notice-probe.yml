@@ -1,0 +1,26 @@
+# 시험용, 확인 후 삭제 (SH 미리보기 변환본 구조 진단)
+name: SH 공고문 미리보기 시험
+
+on:
+  push:
+    branches: ['claude/**']
+    paths:
+      - 'scripts/extract_sh_notice.py'
+      - '.github/workflows/sh-notice-probe.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 미리보기 변환본 진단
+        run: python scripts/extract_sh_notice.py --ids sh-313161 --force --debug --debug-js
