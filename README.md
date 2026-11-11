@@ -85,6 +85,8 @@
 - SH는 첨부 내려받기 주소가 공개돼 있지 않아 대상이 아닙니다.
 - `text_ok`가 false면 그림으로 된 PDF라 글을 뽑지 못한 것이고, `tables_missing`이 붙은 쪽은 표 없이 글만 뽑힌 쪽입니다.
 
+- SH 공고문은 첨부를 직접 받을 수 없어, 미리보기 변환본의 쪽 그림을 받아 글자 인식(tesseract)으로 글만 남깁니다(`scripts/extract_sh_notice.py`, `engine` 이 `synap-preview-ocr`, `ocr: true`). 그림은 저장하지 않습니다. 글자 인식 결과라 표 안의 숫자가 틀릴 수 있으니 금액은 원문을 확인해야 합니다.
+
 ## SH 주택정보 파일: `data/sh_houses.json`
 
 공개 주소: https://revi404.github.io/sohyunrichlab/data/sh_houses.json · 출처: [SH 서울주택정보](https://www.i-sh.co.kr/houseinfo/main/mainPage.do)
