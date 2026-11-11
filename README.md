@@ -59,6 +59,23 @@
 | `detail.schedule[]` | 접수·서류 제출·당첨 발표·계약 일정 |
 | `detail.sites[]` · `detail.types[]` | 단지 주소·세대수·전용면적·입주 예정월 · GH 주택형별 면적·호수 |
 
+## 공고 요약 파일: `data/public_housing_digest.json`
+
+공개 주소: https://revi404.github.io/sohyunrichlab/data/public_housing_digest.json · 스레드 작성처럼 큰 공고 파일 전체가 필요 없는 곳에서 이 요약만 읽습니다(약 20KB, 목표 40KB 이하).
+
+| 항목 | 뜻 |
+|---|---|
+| `updated` · `today` · `source_updated` | 만든 시각(KST) · 기준 날짜 · 원본 `public_housing.json` 의 수집 시각 |
+| `counts` | `active`(진행 중 모집공고) `new_3d` `closing_3d` `opening_7d` 해당 건수(최대 건수로 자르기 전) |
+| `new` | 공고일이 오늘 포함 최근 3일인 공고, 점수 높은 순 최대 15건 |
+| `closing` | 접수 마감이 오늘~3일 뒤인 공고, 마감 빠른 순 최대 10건 |
+| `opening` | 접수 시작이 내일~7일 뒤인 공고, 시작 빠른 순 최대 10건 |
+
+- 항목: `id` `org` `deal` `type` `title` `region` `city` `notice_date` `apply_start` `apply_end` `winner_date` `units` `houses`(최대 3곳) `house_count` `areas`(GH 주택형 면적·호수, 최대 5) `move_in` `url` `has_text`(`data/notice_text/<id>.json` 있음) `score` `reasons`. 값이 없는 칸은 넣지 않습니다.
+- 대상은 모집공고만입니다. LH·마이홈·GH 는 공고중·접수중·정정공고중인 것, SH 는 상태·접수일이 없어 공고일이 최근 3일인 것만 `new` 에 들어갑니다. 가정어린이집·상가는 뺍니다.
+- 점수(수도권, 공급 호수, 분양, SH/GH, 관심 유형, 정정·추가·선착순 가감)는 `scripts/build_public_digest.py` 맨 위 상수 표에서 고칩니다. 점수를 매긴 사유는 `reasons` 에 한글로 남습니다.
+- 공고 수집 직후 같은 워크플로에서 만듭니다. 직접 실행: `python scripts/build_public_digest.py` (날짜를 바꿔 시험: `--today 2026-11-14`). 날짜 외에 바뀐 내용이 없으면 파일을 다시 쓰지 않습니다.
+
 ## 공고문 추출 파일: `data/notice_text/<공고 id>.json`
 
 공고문 PDF를 받아 쪽별 글(`pages[].text`)과 표(`pages[].tables`)만 남깁니다. PDF 원본은 저장하지 않습니다.
