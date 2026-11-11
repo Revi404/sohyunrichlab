@@ -9,7 +9,7 @@
 |---|---|---|
 | 이번 주 청약단지 탭 | `sohyun-blog-kit/richlab/calendar.json`(티스토리 홈 '다가오는 7일 청약 일정'과 같은 데이터)을 화면이 바로 읽어 오늘부터 7일 안의 청약 접수·당첨 발표를 표시. 주소가 막히면 `data/calendar.json` 사본 사용 | 열 때마다(사본은 30분마다) |
 | 분석 리포트 탭 | 티스토리 상위 카테고리(지역 하위 카테고리 합침)별 최신 글. 카테고리는 블로그 홈 메뉴에서 읽어 새 카테고리도 자동 추가, 글이 없는 카테고리는 숨김 | 30분마다 |
-| 공공임대·분양 공고 파일 | `scripts/collect_public_housing.py`가 LH·GH·SH와 지방 개발공사 공고를 `data/public_housing.json` 한 파일로 정리 (아래 설명) | 하루 4번(07·12·17·21시) |
+| 공공임대·분양 공고 파일 | `scripts/collect_public_housing.py`가 LH·GH·SH와 지방 개발공사 공고를 `data/public_housing.json` 한 파일로 정리 (아래 설명) | 06~22시 매시간 시도(GitHub 사정으로 일부 누락될 수 있음) |
 | 배포 | GitHub Actions → GitHub Pages | 수집 직후 · 파일 수정 시 |
 
 - 공고 요약 글이 있는 단지는 '요약 글' 표시와 함께 티스토리 글로, 없으면 블로그 홈으로 연결됩니다.
