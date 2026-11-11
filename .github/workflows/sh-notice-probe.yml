@@ -14,7 +14,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -22,5 +22,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: 글자 인식 도구 설치
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
+
+      - name: Pillow 설치
+        run: pip install -q pillow
+
       - name: 미리보기 변환본 진단
-        run: python scripts/extract_sh_notice.py --ids sh-313161 --force --debug --debug-js
+        run: python scripts/extract_sh_notice.py --ids sh-313161 --force --debug
