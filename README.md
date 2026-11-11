@@ -85,7 +85,7 @@
 - SH는 첨부 내려받기 주소가 공개돼 있지 않아 대상이 아닙니다.
 - `text_ok`가 false면 그림으로 된 PDF라 글을 뽑지 못한 것이고, `tables_missing`이 붙은 쪽은 표 없이 글만 뽑힌 쪽입니다.
 
-- SH 공고문은 첨부를 직접 받을 수 없어, 미리보기 변환본의 쪽 그림을 받아 글자 인식(tesseract)으로 글만 남깁니다(`scripts/extract_sh_notice.py`, `engine` 이 `synap-preview-ocr`, `ocr: true`). 그림은 저장하지 않습니다. 글자 인식 결과라 표 안의 숫자가 틀릴 수 있으니 금액은 원문을 확인해야 합니다.
+- SH 공고문은 첨부를 직접 받을 수 없어, 미리보기 변환본의 쪽 그림을 받아 글자 인식(tesseract)으로 글만 남깁니다(`scripts/extract_sh_notice.py`, `engine` 이 `synap-preview-ocr`, `ocr: true`). 그림은 저장하지 않습니다. 기본 글은 4배 확대·선명화 후 tesseract(tessdata_best)로 읽어 `pages[].text` 에 두고, 금액 표로 보이는 쪽은 paddle(없으면 tesseract psm 11)로 다시 읽어 `pages[].table_text`·`amounts` 에 남기며 두 방식이 일치한 금액만 `pages[].amounts_checked` 에 담습니다. 글자 인식 결과라 표 안의 숫자가 틀릴 수 있으니 `amounts_checked` 밖의 금액은 원문을 확인해야 합니다.
 
 ## SH 주택정보 파일: `data/sh_houses.json`
 
