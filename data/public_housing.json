@@ -1,30 +1,49 @@
 {
- "updated": "2026-11-11 10:53",
+ "updated": "2026-11-11 18:40",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-11 10:53",
-   "count": 425
+   "at": "2026-11-11 18:40",
+   "count": 429
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-11 10:53",
-   "count": 130
+   "at": "2026-11-11 18:40",
+   "count": 136
   },
   "gh": {
    "ok": false,
-   "at": "2026-11-11 10:53",
+   "at": "2026-11-11 18:40",
    "error": "URLError",
    "last_ok": "2026-11-11 10:04"
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-11 10:53",
+   "at": "2026-11-11 18:40",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "sh-313180",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "홈페이지 등 공사 시스템 일시 중단 안내",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-11",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313180&multi_itm_seq=2",
+   "src": "sh"
+  },
   {
    "id": "sh-313161",
    "org": "SH",
@@ -94,6 +113,186 @@
    }
   },
   {
+   "id": "lh-2015122300021052",
+   "org": "LH",
+   "deal": "임대",
+   "type": "행복주택",
+   "kind": "모집공고",
+   "title": "인천산곡 A1블록 행복주택(산곡솔마루아파트) 예비입주자 모집",
+   "region": "인천광역시",
+   "city": "부평구",
+   "notice_date": "2026-11-11",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-25",
+   "winner_date": "2027-04-15",
+   "status": "공고중",
+   "units": 30,
+   "houses": [
+    {
+     "name": "인천산곡 A1블록",
+     "addr": "인천광역시 부평구 산청로17번길 67",
+     "city": "부평구",
+     "units": 30,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "deposit": 84400000,
+     "rent": 372760,
+     "down": 4220000,
+     "middle": 0,
+     "balance": 80180000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021052&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21522&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(양식1)공통제출서류(예비자중복선정,개인정보수집,자산보유,금융정보)_전원필수제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69385802"
+     },
+     {
+      "name": "(양식2)추가제출서류(예비신혼부부신청시)_해당자만제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69385812"
+     },
+     {
+      "name": "(양식3)위임장(현장대리인신청시)_해당자만제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69385817"
+     },
+     {
+      "name": "[공고문]인천산곡A1블록행복주택(산곡솔마루아파트)예비입주자모집(`26.11.11.).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69385652"
+     },
+     {
+      "name": "[공고문]인천산곡A1블록행복주택(산곡솔마루아파트)예비입주자모집(`26.11.11.).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69385666"
+     },
+     {
+      "name": "인천산곡A1블록행복주택팸플릿.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69385680"
+     }
+    ],
+    "images": [
+     {
+      "site": "인천산곡 A1블록 행복주택",
+      "name": "인천산곡A1블록_교통망도.JPG",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=62575877"
+     },
+     {
+      "site": "인천산곡 A1블록 행복주택",
+      "name": "인천산곡A1블록_단지조감도.JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=62575876"
+     },
+     {
+      "site": "인천산곡 A1블록 행복주택",
+      "name": "인천산곡A1블록_단지배치도.JPG",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=62575879"
+     },
+     {
+      "site": "인천산곡 A1블록 행복주택",
+      "name": "인천산곡A1블록_동호배치도.JPG",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=62575878"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-25",
+      "docs_start": "2026-12-08",
+      "docs_end": "2026-12-11",
+      "winner_date": "2027-04-15"
+     }
+    ],
+    "sites": [
+     {
+      "name": "인천산곡 A1블록 행복주택",
+      "addr": "인천광역시 부평구 산청로17번길 67(산곡동) 산곡솔마루아파트",
+      "total_units": 400,
+      "area": "16.99~44.75",
+      "heating": "개별난방",
+      "move_in": "2026.08"
+     }
+    ],
+    "at": "2026-11-11"
+   }
+  },
+  {
+   "id": "lh-2015122300021050",
+   "org": "LH",
+   "deal": "임대",
+   "type": "영구임대",
+   "kind": "모집공고",
+   "title": "수원시 영구임대주택 예비입주자 모집공고(2026.11.11.)",
+   "region": "경기도",
+   "city": "수원시 팔달구",
+   "notice_date": "2026-11-11",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-25",
+   "winner_date": "2027-04-30",
+   "status": "공고중",
+   "units": 500,
+   "houses": [
+    {
+     "name": "수원우만3",
+     "addr": "경기도 수원시 팔달구 창룡대로210번길 13",
+     "city": "수원시 팔달구",
+     "units": 500,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "deposit": 2747000,
+     "rent": 54660,
+     "down": 137350,
+     "middle": 0,
+     "balance": 2609650
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021050&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21520&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "수원우만3영구임대주택예비입주자모집공고문(2026.11.11.).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69382122"
+     },
+     {
+      "name": "수원우만3영구임대주택예비입주자모집공고문(2026.11.11.).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69382093"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-25",
+      "winner_date": "2027-04-30"
+     }
+    ],
+    "sites": [
+     {
+      "name": "(수원우만3)영구임대주택 예비입주자 모집 공고",
+      "addr": "경기도 수원시 팔달구 창룡대로210번길 13(우만동,주공3단지아파트)",
+      "total_units": 1213,
+      "area": "26.37~31.32",
+      "heating": "지역난방",
+      "move_in": "2019.09"
+     }
+    ],
+    "at": "2026-11-11"
+   }
+  },
+  {
    "id": "lh-2015122300021033",
    "org": "LH",
    "deal": "임대",
@@ -101,16 +300,31 @@
    "kind": "모집공고",
    "title": "인제서화 고령자복지주택(국민임대) 추가 입주자 모집",
    "region": "강원특별자치도",
-   "city": null,
+   "city": "인제군",
    "notice_date": "2026-11-11",
    "apply_start": "2026-11-30",
    "apply_end": "2026-12-04",
    "winner_date": "2027-04-16",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 9,
+   "houses": [
+    {
+     "name": "인제서화",
+     "addr": "강원특별자치도 인제군 서화면 천도로81번길 43",
+     "city": "인제군",
+     "units": 9,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-04",
+     "deposit": 8300000,
+     "rent": 188000,
+     "down": 415000,
+     "middle": 0,
+     "balance": 7885000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21518&houseSn=1",
    "detail": {
     "files": [
      {
@@ -191,16 +405,31 @@
    "kind": "모집공고",
    "title": "인제서화 고령자복지주택(영구임대) 추가 입주자 모집",
    "region": "강원특별자치도",
-   "city": null,
+   "city": "인제군",
    "notice_date": "2026-11-11",
    "apply_start": "2026-11-30",
    "apply_end": "2026-12-04",
    "winner_date": "2027-04-16",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 4,
+   "houses": [
+    {
+     "name": "인제서화",
+     "addr": "강원특별자치도 인제군 서화면 천도로81번길 43",
+     "city": "인제군",
+     "units": 4,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-04",
+     "deposit": 3106000,
+     "rent": 61760,
+     "down": 155000,
+     "middle": 0,
+     "balance": 2951000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021032&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21517&houseSn=1",
    "detail": {
     "files": [
      {
@@ -274,6 +503,226 @@
    }
   },
   {
+   "id": "lh-2015122300021018",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "대구신서13,14, 경산삼주봉황1,2 국민임대주택 입주자격완화 선계약 후검증 동호지정 입주자 모집",
+   "region": "대구광역시 외",
+   "city": null,
+   "notice_date": "2026-11-11",
+   "apply_start": null,
+   "apply_end": "2026-12-02",
+   "winner_date": null,
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021018&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(국민임대_양식_HWP)개인정보수집이용및제3자제공동의서등.zip",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69300835"
+     },
+     {
+      "name": "★국민임대주택입주자격완화선계약후검증동호지정모집공고문(26.11.11.)_최종.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69334951"
+     },
+     {
+      "name": "★국민임대주택입주자격완화선계약후검증동호지정모집공고문(26.11.11.)_최종.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69334954"
+     },
+     {
+      "name": "팸플릿_대구신서A-5,6BL.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69300713"
+     }
+    ],
+    "images": [
+     {
+      "site": "대구신서 A-5BL 국민임대",
+      "name": "신서13,14단지조감도.png",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=48072151"
+     },
+     {
+      "site": "대구신서 A-5BL 국민임대",
+      "name": "신서13,14동호배치도.png",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=48072152"
+     },
+     {
+      "site": "대구신서 A-5BL 국민임대",
+      "name": "신서1333.png",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=48072154"
+     },
+     {
+      "site": "대구신서 A-5BL 국민임대",
+      "name": "신서1326.png",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=48072153"
+     },
+     {
+      "site": "대구신서 A-5BL 국민임대",
+      "name": "시가도(혁신)(2).jpg",
+      "kind": "대구신서 A-5BL 국민임대주택 지역도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548559"
+     },
+     {
+      "site": "대구신서 A-6BL 국민임대",
+      "name": "신서13,14단지조감도.png",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=48072164"
+     },
+     {
+      "site": "대구신서 A-6BL 국민임대",
+      "name": "신서13,14동호배치도.png",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=48072165"
+     },
+     {
+      "site": "대구신서 A-6BL 국민임대",
+      "name": "신서1446.png",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=48072167"
+     },
+     {
+      "site": "대구신서 A-6BL 국민임대",
+      "name": "신서1426.png",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=48072166"
+     },
+     {
+      "site": "대구신서 A-6BL 국민임대",
+      "name": "시가도(혁신).jpg",
+      "kind": "대구신서 A-6BL 국민임대주택",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546596"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "경산삼주봉황1차",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "winner_date": "2026-12-09"
+     },
+     {
+      "site": "대구신서 A-5BL 국민임대",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "winner_date": "2026-12-09"
+     },
+     {
+      "site": "경산삼주봉황2차",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "winner_date": "2026-12-09"
+     },
+     {
+      "site": "대구신서 A-6BL 국민임대",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "winner_date": "2026-12-09"
+     }
+    ],
+    "sites": [
+     {
+      "name": "대구신서 A-5BL 국민임대",
+      "addr": "대구광역시 동구 초례로 66(숙천동,대구신서혁신엘에이치천년나무13단지)",
+      "total_units": 340,
+      "area": "26.92~33.97",
+      "heating": "지역난방",
+      "move_in": "2016.11"
+     },
+     {
+      "name": "대구신서 A-6BL 국민임대",
+      "addr": "대구광역시 동구 초례로16길 3(숙천동,대구신서혁신엘에이치천년나무14단지)",
+      "total_units": 178,
+      "area": "26.96~46.93",
+      "heating": "지역난방",
+      "move_in": "2016.11"
+     },
+     {
+      "name": "경산삼주봉황1차",
+      "addr": "경상북도 경산시 봉황길 29",
+      "total_units": 37,
+      "area": "33.54~59.26",
+      "heating": "개별가스난방"
+     },
+     {
+      "name": "경산삼주봉황2차",
+      "addr": "경상북도 경산시 봉황길 36",
+      "total_units": 4,
+      "area": "59.26~59.26",
+      "heating": "개별가스난방",
+      "move_in": "2010.07"
+     }
+    ],
+    "at": "2026-11-11"
+   }
+  },
+  {
+   "id": "lh-2015122300020997",
+   "org": "LH",
+   "deal": "임대",
+   "type": "매입임대",
+   "kind": "모집공고",
+   "title": "[전남광주통합특별시 북구] 기존주택 등 매입임대주택 예비입주자 모집 공고",
+   "region": "전남광주통합특별시",
+   "city": "북구",
+   "notice_date": "2026-11-11",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-24",
+   "winner_date": "2026-12-22",
+   "status": "공고중",
+   "units": 29,
+   "houses": [
+    {
+     "city": "북구",
+     "units": 29,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-24",
+     "middle": 0
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020997&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21521",
+   "detail": {
+    "files": [
+     {
+      "name": "기존주택등매입임대주택공급대상주택목록.pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69296407"
+     },
+     {
+      "name": "기존주택등매입임대주택입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69296396"
+     },
+     {
+      "name": "기존주택등매입임대주택입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69296405"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-24",
+      "winner_date": "2026-12-22"
+     }
+    ],
+    "at": "2026-11-11"
+   }
+  },
+  {
    "id": "lh-2015122300021045",
    "org": "LH",
    "deal": "임대",
@@ -281,16 +730,31 @@
    "kind": "모집공고",
    "title": "[정정공고]익산제3일반산단 행복주택 입주자격완화 추가모집(동호지정,선계약후검증)",
    "region": "전북특별자치도",
-   "city": null,
+   "city": "익산시",
    "notice_date": "2026-11-10",
    "apply_start": "2026-10-15",
    "apply_end": "2026-11-12",
    "winner_date": "2026-11-12",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 49,
+   "houses": [
+    {
+     "name": "익산제3일반산단",
+     "addr": "전북특별자치도 익산시 낭산면 삼기북길 178",
+     "city": "익산시",
+     "units": 49,
+     "apply_start": "2026-10-15",
+     "apply_end": "2026-11-12",
+     "deposit": 15096000,
+     "rent": 83020,
+     "down": 500000,
+     "middle": 0,
+     "balance": 14596000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021045&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21519&houseSn=1",
    "detail": {
     "files": [
      {
@@ -1339,7 +1803,7 @@
    "kind": "모집공고",
    "title": "2026년 청년매입임대주택 입주자모집 공고",
    "region": "경상남도",
-   "city": "진주시",
+   "city": "김해시",
    "notice_date": "2026-11-06",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
@@ -1348,15 +1812,15 @@
    "units": 40,
    "houses": [
     {
-     "city": "진주시",
-     "units": 30,
+     "city": "김해시",
+     "units": 10,
      "apply_start": "2026-11-16",
      "apply_end": "2026-11-18",
      "middle": 0
     },
     {
-     "city": "김해시",
-     "units": 10,
+     "city": "진주시",
+     "units": 30,
      "apply_start": "2026-11-16",
      "apply_end": "2026-11-18",
      "middle": 0
@@ -2113,7 +2577,7 @@
    "city": "남동구",
    "notice_date": "2026-11-05",
    "apply_start": "2026-11-18",
-   "apply_end": "2026-11-20",
+   "apply_end": "2026-11-18",
    "winner_date": "2027-03-26",
    "status": "공고중",
    "units": 100,
@@ -2425,7 +2889,7 @@
    "city": "남동구",
    "notice_date": "2026-11-05",
    "apply_start": "2026-11-18",
-   "apply_end": "2026-11-20",
+   "apply_end": "2026-11-18",
    "winner_date": "2027-03-26",
    "status": "정정공고중",
    "units": 100,
@@ -3382,7 +3846,7 @@
   {
    "id": "sh-312706",
    "org": "SH",
-   "deal": "임대",
+   "deal": "분양",
    "type": null,
    "kind": "후속·안내",
    "title": "2027년 금천주거안심종합센터 희망돌보미(사무지원) 채용 공고",
@@ -3395,7 +3859,7 @@
    "status": null,
    "units": null,
    "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312706&multi_itm_seq=2",
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312706&multi_itm_seq=1",
    "src": "sh"
   },
   {
@@ -5244,7 +5708,7 @@
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-11",
    "winner_date": "2027-01-14",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 28,
    "houses": [
     {
@@ -7322,7 +7786,7 @@
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-11",
    "winner_date": "2027-02-11",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 101,
    "houses": [
     {
@@ -7597,7 +8061,7 @@
    "apply_start": "2026-11-10",
    "apply_end": "2026-11-11",
    "winner_date": "2026-11-17",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 70,
    "houses": [
     {
@@ -14740,25 +15204,6 @@
    "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061153&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
    "src": "lh"
-  },
-  {
-   "id": "sh-309377",
-   "org": "SH",
-   "deal": "분양",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "서울항동지구 5공구 7공구(항동하버라인4단지 10단지) 공급용지 및 분양주택 분양상가 대지권 이전등기시행",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-08-28",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=309377&multi_itm_seq=1",
-   "src": "sh"
   },
   {
    "id": "lh-2015122300020656",
