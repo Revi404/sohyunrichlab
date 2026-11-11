@@ -1,29 +1,277 @@
 {
- "updated": "2026-11-11 01:12",
+ "updated": "2026-11-11 10:04",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-11 01:12",
-   "count": 423
+   "at": "2026-11-11 10:04",
+   "count": 425
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-11 01:12",
+   "at": "2026-11-11 10:04",
    "count": 130
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-11 01:12",
+   "at": "2026-11-11 10:04",
    "count": 7
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-11 01:12",
+   "at": "2026-11-11 10:04",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "sh-313161",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "모집공고",
+   "title": "[토지임대부 사회주택] 옥류서원 입주자 모집 공고문",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-11",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313161&multi_itm_seq=2",
+   "src": "sh",
+   "detail": {
+    "files": [
+     {
+      "name": "옥류서원 입주자모집공고문.pdf",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313161&data_tp=A&file_seq=1"
+     },
+     {
+      "name": "[별지1~3] 옥류서원 입주신청서양식 (261111).docx",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313161&data_tp=A&file_seq=2"
+     }
+    ],
+    "at": "2026-11-11"
+   }
+  },
+  {
+   "id": "sh-312903",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "모집공고",
+   "title": "[청년형] 특화형 매입임대주택 입주자 모집 공고(운영기관 : 한지붕 협동조합)",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-11",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312903&multi_itm_seq=2",
+   "src": "sh",
+   "detail": {
+    "files": [
+     {
+      "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_구천면로 46길 38 리츠하우스 401호.pdf",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=1"
+     },
+     {
+      "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_독산로22길 75 은행나무 A동 302호.pdf",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=2"
+     },
+     {
+      "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_은행나무로12길 50 파크빌오나동 203호.pdf",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=3"
+     }
+    ],
+    "at": "2026-11-11"
+   }
+  },
+  {
+   "id": "lh-2015122300021033",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "인제서화 고령자복지주택(국민임대) 추가 입주자 모집",
+   "region": "강원특별자치도",
+   "city": null,
+   "notice_date": "2026-11-11",
+   "apply_start": "2026-11-30",
+   "apply_end": "2026-12-04",
+   "winner_date": "2027-04-16",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021033&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "261111_인제서화_팜플렛_업로드용(수정).pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69338149"
+     },
+     {
+      "name": "위임장(양식)_임대주택.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69338160"
+     },
+     {
+      "name": "인제서화_고령자복지주택(국민임대)_추가입주자모집공고문(261111).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69338134"
+     },
+     {
+      "name": "인제서화_고령자복지주택(국민임대)_추가입주자모집공고문(261111).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69338139"
+     },
+     {
+      "name": "제출서류(양식)_고령자복지.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69338152"
+     }
+    ],
+    "images": [
+     {
+      "site": "인제서화 고령자복지주택(국민임대)",
+      "name": "인제서화_단지조감도.JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=67152963"
+     },
+     {
+      "site": "인제서화 고령자복지주택(국민임대)",
+      "name": "인제서화_단지배치도.JPG",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=67152964"
+     },
+     {
+      "site": "인제서화 고령자복지주택(국민임대)",
+      "name": "인제서화_동호배치도.JPG",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=67152965"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-04",
+      "docs_start": "2026-12-14",
+      "docs_end": "2026-12-16",
+      "winner_date": "2027-04-16",
+      "contract_start": "2027-05-10",
+      "contract_end": "2027-05-12"
+     }
+    ],
+    "sites": [
+     {
+      "name": "인제서화 고령자복지주택(국민임대)",
+      "addr": "강원특별자치도 인제군 서화면 천도로81번길 43",
+      "total_units": 40,
+      "area": "36.56~44.28",
+      "heating": "개별난방",
+      "move_in": "2027.02"
+     }
+    ],
+    "at": "2026-11-11"
+   }
+  },
+  {
+   "id": "lh-2015122300021032",
+   "org": "LH",
+   "deal": "임대",
+   "type": "영구임대",
+   "kind": "모집공고",
+   "title": "인제서화 고령자복지주택(영구임대) 추가 입주자 모집",
+   "region": "강원특별자치도",
+   "city": null,
+   "notice_date": "2026-11-11",
+   "apply_start": "2026-11-30",
+   "apply_end": "2026-12-04",
+   "winner_date": "2027-04-16",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021032&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "261111_인제서화_팜플렛_업로드용(수정).pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69335778"
+     },
+     {
+      "name": "위임장(양식)_임대주택.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69335785"
+     },
+     {
+      "name": "인제서화_고령자복지주택(영구임대)_추가입주자모집공고문(261111).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69335771"
+     },
+     {
+      "name": "인제서화_고령자복지주택(영구임대)_추가입주자모집공고문(261111).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69335775"
+     },
+     {
+      "name": "제출서류(양식)_고령자복지.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69335783"
+     }
+    ],
+    "images": [
+     {
+      "site": "인제서화 고령자복지주택(영구임대)",
+      "name": "인제서화_단지조감도.JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=67153028"
+     },
+     {
+      "site": "인제서화 고령자복지주택(영구임대)",
+      "name": "인제서화_단지배치도.JPG",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=67153029"
+     },
+     {
+      "site": "인제서화 고령자복지주택(영구임대)",
+      "name": "인제서화_동호배치도.JPG",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=67153030"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-04",
+      "docs_start": "2026-12-14",
+      "docs_end": "2026-12-16",
+      "winner_date": "2027-04-16",
+      "contract_start": "2027-05-10",
+      "contract_end": "2027-05-12"
+     }
+    ],
+    "sites": [
+     {
+      "name": "인제서화 고령자복지주택(영구임대)",
+      "addr": "강원특별자치도 인제군 서화면 천도로81번길 43",
+      "total_units": 40,
+      "area": "32.32~32.32",
+      "heating": "개별난방",
+      "move_in": "2027.02"
+     }
+    ],
+    "at": "2026-11-11"
+   }
+  },
   {
    "id": "lh-2015122300021045",
    "org": "LH",
@@ -3676,25 +3924,6 @@
    "src": "sh"
   },
   {
-   "id": "sh-312427",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "제5차 장기전세주택2(2025.07.28.공고) 마곡17단지 예비자 유효기간 연장 안내",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-03",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312427&multi_itm_seq=2",
-   "src": "sh"
-  },
-  {
    "id": "lh-0000061200",
    "org": "LH",
    "deal": "분양",
@@ -3960,7 +4189,7 @@
    "apply_start": "2026-11-11",
    "apply_end": "2026-11-12",
    "winner_date": "2026-11-19",
-   "status": "공고중",
+   "status": "접수중",
    "units": 32,
    "houses": [
     {
@@ -4072,25 +4301,6 @@
     ],
     "at": "2026-11-11"
    }
-  },
-  {
-   "id": "sh-312406",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "행복주택(서울리츠 행복주택 포함) 재심사대상자 예비당첨자 게시",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-02",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312406&multi_itm_seq=2",
-   "src": "sh"
   },
   {
    "id": "lh-2015122300020994",
