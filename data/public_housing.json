@@ -1,26 +1,25 @@
 {
- "updated": "2026-11-11 18:40",
+ "updated": "2026-11-12 02:56",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-11 18:40",
-   "count": 429
+   "at": "2026-11-12 02:56",
+   "count": 424
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-11 18:40",
-   "count": 136
+   "at": "2026-11-12 02:56",
+   "count": 133
   },
   "gh": {
-   "ok": false,
-   "at": "2026-11-11 18:40",
-   "error": "URLError",
-   "last_ok": "2026-11-11 10:04"
+   "ok": true,
+   "at": "2026-11-12 02:56",
+   "count": 6
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-11 18:40",
+   "at": "2026-11-12 02:56",
    "count": 19
   }
  },
@@ -5632,7 +5631,7 @@
    "kind": "모집공고",
    "title": "[부산] 2026년 2차 일반 매입임대주택 입주자 모집 공고",
    "region": "부산광역시",
-   "city": "수영구",
+   "city": "금정구",
    "notice_date": "2026-10-29",
    "apply_start": "2026-11-10",
    "apply_end": "2026-11-12",
@@ -5641,8 +5640,8 @@
    "units": 52,
    "houses": [
     {
-     "city": "수영구",
-     "units": 25,
+     "city": "금정구",
+     "units": 20,
      "apply_start": "2026-11-10",
      "apply_end": "2026-11-12",
      "middle": 0
@@ -5655,8 +5654,8 @@
      "middle": 0
     },
     {
-     "city": "금정구",
-     "units": 20,
+     "city": "수영구",
+     "units": 25,
      "apply_start": "2026-11-10",
      "apply_end": "2026-11-12",
      "middle": 0
@@ -5703,39 +5702,16 @@
    "kind": "모집공고",
    "title": "청주시 다자녀 매입임대주택 예비입주자 모집(261029공고)",
    "region": "충청북도",
-   "city": "청주시 청원구",
+   "city": null,
    "notice_date": "2026-10-29",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-11",
    "winner_date": "2027-01-14",
    "status": "접수마감",
-   "units": 28,
-   "houses": [
-    {
-     "city": "청주시 청원구",
-     "units": 8,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-11",
-     "middle": 0
-    },
-    {
-     "city": "청주시 흥덕구",
-     "units": 1,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-11",
-     "middle": 0
-    },
-    {
-     "city": "청주시 상당구",
-     "units": 19,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-11",
-     "middle": 0
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020965&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21486",
    "detail": {
     "files": [
      {
@@ -7781,31 +7757,16 @@
    "kind": "모집공고",
    "title": "도청이전신도시 RH10-2BL 국민임대주택 자격완화 추가모집(2026.10.27)",
    "region": "충청남도",
-   "city": "홍성군",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-11",
    "winner_date": "2027-02-11",
    "status": "접수마감",
-   "units": 101,
-   "houses": [
-    {
-     "name": "도청이전신도시 RH10-2BL",
-     "addr": "충청남도 홍성군 홍북읍 홍예로 163",
-     "city": "홍성군",
-     "units": 101,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-11",
-     "deposit": 12440000,
-     "rent": 177470,
-     "down": 622000,
-     "middle": 0,
-     "balance": 11818000
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020932&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21468&houseSn=1",
    "detail": {
     "files": [
      {
@@ -8056,31 +8017,16 @@
    "kind": "모집공고",
    "title": "광주선운 3블록 10년 공공임대주택 리츠 예비입주자 모집 공고",
    "region": "전남광주통합특별시",
-   "city": "광산구",
+   "city": null,
    "notice_date": "2026-10-27",
-   "apply_start": "2026-11-10",
+   "apply_start": null,
    "apply_end": "2026-11-11",
    "winner_date": "2026-11-17",
    "status": "접수마감",
-   "units": 70,
-   "houses": [
-    {
-     "name": "광주선운 3블록",
-     "addr": "전남광주통합특별시 광산구 선운로 65",
-     "city": "광산구",
-     "units": 70,
-     "apply_start": "2026-11-10",
-     "apply_end": "2026-11-11",
-     "deposit": 37780000,
-     "rent": 561300,
-     "down": 7000000,
-     "middle": 0,
-     "balance": 30780000
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061188&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21467&houseSn=1",
    "detail": {
     "files": [
      {
@@ -17050,181 +16996,6 @@
    "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061156&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
    "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020560",
-   "org": "LH",
-   "deal": "임대",
-   "type": "매입임대",
-   "kind": "모집공고",
-   "title": "[수원시]수원시 역세권 새빛 청년존(Zone) 4호 및 1호 예비입주자 모집공고",
-   "region": "경기도",
-   "city": null,
-   "notice_date": "2026-08-13",
-   "apply_start": null,
-   "apply_end": "2026-08-28",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020560&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020547",
-   "org": "LH",
-   "deal": "임대",
-   "type": "매입임대",
-   "kind": "모집공고",
-   "title": "경남 밀양시 일반 매입임대주택 예비입주자 모집공고",
-   "region": "경상남도",
-   "city": null,
-   "notice_date": "2026-08-13",
-   "apply_start": null,
-   "apply_end": "2026-09-04",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020547&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020545",
-   "org": "LH",
-   "deal": "분양",
-   "type": "행복주택(신혼희망)",
-   "kind": "모집공고",
-   "title": "남양주진접2 A-4BL 신혼희망타운 행복주택 최초 입주자 모집공고('26.08.13)",
-   "region": "경기도",
-   "city": null,
-   "notice_date": "2026-08-13",
-   "apply_start": null,
-   "apply_end": "2026-08-28",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020545&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020540",
-   "org": "LH",
-   "deal": "임대",
-   "type": "매입임대",
-   "kind": "모집공고",
-   "title": "26년 2차 부산 분양전환형 든든전세 입주자 모집 공고",
-   "region": "부산광역시",
-   "city": null,
-   "notice_date": "2026-08-13",
-   "apply_start": null,
-   "apply_end": "2026-08-26",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020540&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020531",
-   "org": "LH",
-   "deal": "임대",
-   "type": "통합공공임대",
-   "kind": "모집공고",
-   "title": "이천장호원 B2블록 통합공공임대주택 예비입주자 모집공고",
-   "region": "경기도",
-   "city": null,
-   "notice_date": "2026-08-13",
-   "apply_start": null,
-   "apply_end": "2026-08-27",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020531&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "gh-808",
-   "org": "GH",
-   "deal": "임대",
-   "type": "장기전세",
-   "kind": "모집공고",
-   "title": "경기리츠1호 다산진건데시앙 장기전세주택 예비입주자 모집공고",
-   "region": "경기도",
-   "city": "남양주시",
-   "notice_date": "2026-08-13",
-   "apply_start": "2026-08-24",
-   "apply_end": "2026-08-24",
-   "winner_date": "2027-03-04",
-   "status": "접수마감",
-   "units": 97,
-   "houses": [],
-   "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do",
-   "src": "gh",
-   "detail": {
-    "files": [
-     {
-      "name": "경기리츠1호 다산진건데시앙 장기전세주택 예비입주자 모집공고(26.08.13).hwp",
-      "url": "https://apply-cdn.gh.or.kr/sr/sr7150/selectFileDown.do?pbancNo=808&atchFileSn=1720251&atchFileDtlSn=5&mode=1&v=20260813143035"
-     },
-     {
-      "name": "경기리츠1호 다산진건데시앙 장기전세주택 예비입주자 모집공고(26.08.13).pdf",
-      "url": "https://apply-cdn.gh.or.kr/sr/sr7150/selectFileDown.do?pbancNo=808&atchFileSn=1720251&atchFileDtlSn=6&mode=1&v=20260813143035"
-     }
-    ],
-    "types": [
-     {
-      "type": "72A",
-      "area": 72.9858,
-      "units": 13
-     },
-     {
-      "type": "84A",
-      "area": 84.9876,
-      "units": 41
-     },
-     {
-      "type": "84B",
-      "area": 84.9585,
-      "units": 13
-     },
-     {
-      "type": "84C1",
-      "area": 84.9825,
-      "units": 8
-     },
-     {
-      "type": "84C2",
-      "area": 84.9825,
-      "units": 12
-     },
-     {
-      "type": "84D",
-      "area": 84.9511,
-      "units": 10
-     }
-    ],
-    "schedule": [
-     {
-      "apply_start": "2026-08-24",
-      "apply_end": "2026-08-24",
-      "docs_start": "2026-09-21",
-      "docs_end": "2026-09-28",
-      "winner_date": "2027-03-04"
-     }
-    ],
-    "sites": [
-     {
-      "addr": "경기도 남양주시 다산동 6026",
-      "units": 97,
-      "move_in": "2027.05"
-     }
-    ],
-    "at": "2026-11-11"
-   }
   },
   {
    "id": "myhome-r20935",
