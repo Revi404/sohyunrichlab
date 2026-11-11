@@ -39,11 +39,14 @@ jobs:
           pip install -q pdfplumber
           python scripts/extract_notice.py --auto --max 3 --ids "$NOTICE_IDS"
 
+      - name: 오늘 뜬 공고 요약 파일 만들기
+        run: python scripts/build_public_digest.py
+
       - name: 수집 결과 저장
         run: |
           git config user.name "sohyunrichlab-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/public_housing.json data/notice_text
+          git add data/public_housing.json data/public_housing_digest.json data/notice_text
           if ! git diff --cached --quiet; then
             git commit -m "공공주택 공고 수집 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
             git pull --rebase origin main
