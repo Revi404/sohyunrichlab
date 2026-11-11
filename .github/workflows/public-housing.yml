@@ -39,6 +39,13 @@ jobs:
           pip install -q pdfplumber
           python scripts/extract_notice.py --auto --max 3 --ids "$NOTICE_IDS"
 
+      - name: SH 공고문 미리보기에서 글 읽기 (쪽 그림을 글자 인식, 그림은 저장하지 않음)
+        continue-on-error: true
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
+          pip install -q pillow
+          python scripts/extract_sh_notice.py --auto --max 3
+
       - name: 오늘 뜬 공고 요약 파일 만들기
         run: python scripts/build_public_digest.py
 
