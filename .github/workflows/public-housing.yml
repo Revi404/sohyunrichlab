@@ -41,10 +41,17 @@ jobs:
 
       - name: SH 공고문 미리보기에서 글 읽기 (쪽 그림을 글자 인식, 그림은 저장하지 않음)
         continue-on-error: true
+        timeout-minutes: 30
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor
+          mkdir -p "$RUNNER_TEMP/tessdata_best"
+          for m in kor eng; do
+            curl -fL --retry 3 -o "$RUNNER_TEMP/tessdata_best/$m.traineddata" \
+              "https://github.com/tesseract-ocr/tessdata_best/raw/main/$m.traineddata"
+          done
           pip install -q pillow
-          python scripts/extract_sh_notice.py --auto --max 3
+          pip install -q paddlepaddle paddleocr || echo "paddle 설치 실패, tesseract 만 사용"
+          python scripts/extract_sh_notice.py --auto --max 2 --tessdata-dir "$RUNNER_TEMP/tessdata_best"
 
       - name: 오늘 뜬 공고 요약 파일 만들기
         run: python scripts/build_public_digest.py
