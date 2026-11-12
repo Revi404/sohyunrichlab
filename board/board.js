@@ -18,6 +18,7 @@
   const SORT = {
     unit: [["dep", "임대보증금 낮은순"], ["rent", "월 임대료 낮은순"], ["real", "실질임대료 낮은순"], ["area", "전용면적 넓은순"]],
     complex: [["dep", "임대보증금 낮은순"], ["rent", "월 임대료 낮은순"], ["area", "주거전용 넓은순"], ["vac", "공가 많은순"]],
+    building: [["vac", "공가 많은순"], ["dep", "임대보증금 낮은순"], ["rent", "월 임대료 낮은순"], ["area", "전용면적 넓은순"]],
     type: [["vac", "공가 많은순"], ["dep", "임대보증금 낮은순"], ["rent", "월 임대료 낮은순"], ["area", "전용면적 넓은순"]],
   };
   const DESC = new Set(["area", "vac"]);
@@ -80,13 +81,21 @@
 
   function card(d) {
     const cell = (k, v) => `<div><dt>${k}</dt><dd>${v}</dd></div>`;
-    const area = `${esc(d.area)}㎡ <small>(${py(d.area)}평)</small>`;
+    const area = d.area ? `${esc(d.area)}㎡ <small>(${py(d.area)}평)</small>` : "-";
     if (tab.kind === "unit") {
       const floor = Math.floor(d.ho / 100);
       return `<article class="card">${planBox(d)}<div class="body">
         <div class="top"><div><div class="nm">${esc(d.name)}</div><div class="meta">${esc(d.gu)} · 단지코드 ${esc(d.code)}</div></div><span class="no">연번 ${esc(d.no)}</span></div>
         <div class="chips"><span class="chip">${esc(d.room)}</span><span class="chip ${d.elev === "미설치" ? "warn" : "ok"}">승강기 ${esc(d.elev)}</span><span class="chip">${esc(d.ho)}호 · ${floor}층</span></div>
         <dl>${cell("전용면적", area)}${cell("실질임대료(이자반영)", won(d.real))}${cell("임대보증금", won(d.dep))}${cell("월 임대료", won(d.rent))}${cell("전세보증금(전환)", won(d.jdep))}${cell("전세 전환 시 임대료", won(d.jrent))}</dl>
+        <div class="addr">${esc(d.addr)}</div></div></article>`;
+    }
+    if (tab.kind === "building") {
+      const range = (r, f) => (!r ? "-" : r[0] === r[1] ? f(r[0]) : `${f(r[0])} ~ ${f(r[1])}`);
+      return `<article class="card">${planBox(d)}<div class="body">
+        <div class="top"><div><div class="nm">${esc(d.name)}</div><div class="meta">${esc(d.gu)} · ${esc(d.supply)}</div></div><span class="no">${esc(d.units)}호</span></div>
+        <div class="chips"><span class="chip ${d.vac ? "ok" : "warn"}">공가 ${esc(d.vac ?? 0)} · 예비 ${esc(d.wait ?? 0)}</span>${d.elevator ? `<span class="chip ${d.elevator === "설치" ? "ok" : "warn"}">승강기 ${esc(d.elevator)}</span>` : ""}${d.floors ? `<span class="chip">${esc(d.floors)}층</span>` : ""}${d.built ? `<span class="chip">준공 ${esc(String(d.built).slice(0, 4))}</span>` : ""}</div>
+        <dl>${cell("전용면적", range(d.area_range, (v) => v + "㎡"))}${cell("기준월", esc(d.as_of || "-"))}${cell("임대보증금", range(d.dep_range, man))}${cell("월 임대료", range(d.rent_range, won))}</dl>
         <div class="addr">${esc(d.addr)}</div></div></article>`;
     }
     if (tab.kind === "type") {
@@ -107,7 +116,7 @@
   function stats(list) {
     const min = (k) => list.reduce((a, b) => (b[k] < a[k] ? b : a));
     const a = min("dep"), b = min("rent");
-    const s = [[list.length + "건", tab.kind === "type" ? "표시 중인 주택형" : "표시 중인 단지/호"], [man(a.dep), "최저 보증금 · " + short(a.name)], [won(b.rent), "최저 월 임대료 · " + short(b.name)]];
+    const s = [[list.length + "건", tab.kind === "type" ? "표시 중인 주택형" : tab.kind === "building" ? "표시 중인 건물" : "표시 중인 단지/호"], [man(a.dep), "최저 보증금 · " + short(a.name)], [won(b.rent), "최저 월 임대료 · " + short(b.name)]];
     if (tab.kind === "unit") s.push([list.filter((d) => d.elev === "전체동 설치").length + " / " + list.length, "승강기 설치 호수"]);
     else s.push([list.reduce((t, d) => t + (d.vac || 0), 0) + " / " + list.reduce((t, d) => t + (d.wait || 0), 0), "공가 / 예비 합계(세대)"]);
     $("stats").innerHTML = s.map(([v, t]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(t)}</span></div>`).join("");

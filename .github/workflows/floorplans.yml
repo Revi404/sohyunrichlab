@@ -2,7 +2,7 @@ name: 임대주택 보드·블로그 글 만들기
 
 on:
   workflow_run:
-    workflows: ["SH 주택정보 수집"]   # 수집이 끝나면 이어서 실행
+    workflows: ["SH 주택정보 수집", "SH 매입임대 수집"]   # 수집이 끝나면 이어서 실행
     types: [completed]
   push:
     branches: [main]

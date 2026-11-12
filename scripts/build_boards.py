@@ -7,6 +7,8 @@ data/sh_houses.json(SH 주택정보 수집 결과)에서 단지를 골라 보드
 | 공고 보드 | 진행 중인 모집공고마다, 그 공고에 묶인 단지의 주택형 전부 | sh-notice-<공고 번호> |
 | 조건 보드 | data/board_specs.json 에 적은 조건(자치구·공급 유형·공가 여부)마다 | 조건에 적은 slug |
 
+조건에 "category": "매입임대" 를 적으면 아파트형 단지 대신 매입임대 빌라(data/sh_purchased.json)에서 건물 단위로 고른다.
+
 - 사람이 직접 만든 보드(파일에 "generated" 가 없는 것, 예: sh-3gu)는 건드리지 않는다.
 - 공고가 끝나도 공고 보드는 지우지 않고 "closed": true 만 붙인다(블로그 글 주소가 살아 있도록).
 - 공고에 단지 번호가 없거나 단지가 아직 수집되지 않았으면 보드를 만들지 않고 이유를 출력한다.
@@ -24,12 +26,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "sh_houses.json"
+PURCHASED = ROOT / "data" / "sh_purchased.json"
 SPECS = ROOT / "data" / "board_specs.json"
 BOARDS = ROOT / "data" / "boards"
 KST = timezone(timedelta(hours=9))
 SOURCE = {"name": "SH 서울주택도시개발공사 서울주택정보", "url": "https://www.i-sh.co.kr/houseinfo/main/mainPage.do"}
 NOTE = ("SH 서울주택정보에 공개된 자료를 그대로 모은 것입니다. 보증금·월임대료·공가·예비자 수는 주택형별 기준월 자료이고, "
         "평은 전용면적 ÷ 3.3058로 환산했습니다. 금액 단위는 원이며, 신청 전에는 반드시 SH 공고 원문을 확인하세요.")
+NOTE_VILLA = ("SH 서울주택정보에 공개된 매입임대 건물 자료를 그대로 모은 것입니다. 도면은 세대별 평면이 아니라 층별 건축 도면이며, "
+              "면적·보증금·월임대료는 건물 안 호별 값의 범위입니다. 공가 수는 건물 단위 기준월 자료라 어느 호가 비었는지는 알 수 없습니다. "
+              "금액 단위는 원이며, 신청 전에는 반드시 SH 공고 원문을 확인하세요.")
 IMAGE_EXT = re.compile(r"\.(jpe?g|png|gif|webp|bmp|tiff?)$", re.I)
 
 
@@ -56,6 +62,25 @@ def items_of(cx: dict) -> list[dict]:
     return out
 
 
+def building_item(b: dict) -> dict:
+    """매입임대 건물 한 곳을 카드 자료로 바꾼다. 호별 값은 범위(최소~최대)로 줄인다."""
+    units = b.get("units") or []
+    col = lambda i: [u[i] for u in units if u[i]]  # noqa: E731
+    span = lambda v: [min(v), max(v)] if v else None  # noqa: E731
+    addr = b.get("addr", "")
+    short = re.sub(r"^서울특별시\s+\S+구\s+", "", addr) or b.get("name")
+    plans = [p for p in b.get("plans") or [] if p.get("url") and IMAGE_EXT.search(p["url"].split("?")[0])]
+    item = {
+        "id": b["id"], "gu": gu_of(addr), "name": short, "addr": addr, "supply": b.get("category"),
+        "units": len(units), "area_range": span(col(2)), "dep_range": span(col(3)), "rent_range": span(col(4)),
+        "area": max(col(2), default=None), "dep": min(col(3), default=None), "rent": min(col(4), default=None),
+        "vac": b.get("vacant", 0), "wait": b.get("waitlist", 0), "elevator": b.get("elevator"), "floors": b.get("floors"),
+        "built": b.get("built"), "as_of": b.get("as_of"),
+        "plan_urls": [p["url"] for p in plans], "plan_names": [p.get("name") or "" for p in plans],
+    }
+    return {k: v for k, v in item.items() if v not in (None, "", [])}
+
+
 def tabs_of(items: list[dict]) -> list[dict]:
     """공급 유형이 여럿이면 유형별 탭으로, 하나면 탭 하나로."""
     groups: dict[str, list[dict]] = {}
@@ -63,7 +88,8 @@ def tabs_of(items: list[dict]) -> list[dict]:
         groups.setdefault(it.get("supply") or "임대", []).append(it)
     if len(groups) > 4:
         return [{"id": "all", "label": "전체", "kind": "type", "items": items}]
-    return [{"id": f"t{i}", "label": label, "kind": "type", "items": rows} for i, (label, rows) in enumerate(groups.items())]
+    kind = lambda rows: "building" if "units" in rows[0] else "type"  # noqa: E731
+    return [{"id": f"t{i}", "label": label, "kind": kind(rows), "items": rows} for i, (label, rows) in enumerate(groups.items())]
 
 
 def write(slug: str, board: dict, today: str) -> bool:
@@ -107,10 +133,25 @@ def main() -> int:
 
     # 2) 조건 보드
     specs = json.loads(SPECS.read_text(encoding="utf-8")) if SPECS.exists() else []
+    purchased = (json.loads(PURCHASED.read_text(encoding="utf-8")).get("buildings", {}) if PURCHASED.exists() else {})
     for s in specs:
         slug = s["slug"]
         items = []
-        for cx in complexes.values():
+        if s.get("category") == "매입임대":
+            for b in purchased.values():
+                it = building_item(b)
+                if s.get("gu") and it.get("gu") not in s["gu"]:
+                    continue
+                if s.get("supply") and it.get("supply") not in s["supply"]:
+                    continue
+                if s.get("vacant_only") and not it.get("vac"):
+                    continue
+                if s.get("plan_only") and not it.get("plan_urls"):
+                    continue
+                items.append(it)
+            items.sort(key=lambda it: (-it.get("vac", 0), it.get("dep") or 0))
+            items = items[: s.get("max", 120)]
+        for cx in ([] if s.get("category") == "매입임대" else complexes.values()):
             if s.get("gu") and gu_of(cx.get("addr", "")) not in s["gu"]:
                 continue
             for it in items_of(cx):
@@ -125,8 +166,8 @@ def main() -> int:
             print(f"건너뜀: 조건 보드 {slug} (맞는 주택형 없음)")
             continue
         board = {"slug": slug, "generated": "spec", "title": s["title"],
-                 "sub": (s.get("sub") or "") + f" 주택형 {len(items)}개. 평면도를 누르면 크게 볼 수 있습니다.",
-                 "note": NOTE, "source": SOURCE, "tabs": tabs_of(items)}
+                 "sub": (s.get("sub") or "") + f" {'건물' if s.get('category') == '매입임대' else '주택형'} {len(items)}{'곳' if s.get('category') == '매입임대' else '개'}. 평면도를 누르면 크게 볼 수 있습니다.",
+                 "note": NOTE_VILLA if s.get("category") == "매입임대" else NOTE, "source": SOURCE, "tabs": tabs_of(items)}
         changed += write(slug, board, today)
 
     # 3) 끝난 공고 표시와 보드 목록

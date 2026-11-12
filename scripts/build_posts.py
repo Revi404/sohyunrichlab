@@ -48,6 +48,12 @@ def py(a) -> str:
     return f"{a / 3.3058:.1f}" if a else "-"
 
 
+def span(r, f) -> str:
+    if not r:
+        return "-"
+    return f(r[0]) if r[0] == r[1] else f"{f(r[0])} ~ {f(r[1])}"
+
+
 def label(d: dict) -> str:
     return f"{d['name']} {d['type']}형" if d.get("type") else str(d.get("name"))
 
@@ -61,6 +67,10 @@ def table(kind: str, items: list[dict]) -> str:
         head = ["단지", "자치구", "주거전용", "모집", "공가", "예비", "임대보증금", "월 임대료"]
         rows = [[label(d), d.get("gu"), f"{d.get('area')}㎡ ({py(d.get('area'))}평)", f"{d.get('total')}세대", d.get("vac"), d.get("wait"),
                  won(d.get("dep")), won(d.get("rent"))] for d in items]
+    elif kind == "building":
+        head = ["건물", "자치구", "호수", "전용면적", "공가", "승강기", "임대보증금", "월 임대료"]
+        rows = [[label(d), d.get("gu"), f"{d.get('units')}호", span(d.get("area_range"), lambda v: f"{v}㎡"), d.get("vac", 0), d.get("elevator", "-"),
+                 span(d.get("dep_range"), man), span(d.get("rent_range"), won)] for d in items]
     else:
         head = ["단지·주택형", "자치구", "전용면적", "방", "공가", "예비", "임대보증금", "월 임대료"]
         rows = [[label(d), d.get("gu"), f"{d.get('area')}㎡ ({py(d.get('area'))}평)", d.get("rooms", "-"), d.get("vac", 0), d.get("wait", 0),
@@ -76,6 +86,12 @@ def table(kind: str, items: list[dict]) -> str:
 
 def facts(kind: str, d: dict) -> list[tuple[str, str]]:
     area = f"{d.get('area')}㎡ ({py(d.get('area'))}평)"
+    if kind == "building":
+        return [("구분", str(d.get("supply"))), ("호수", f"{d.get('units')}호"), ("전용면적", span(d.get("area_range"), lambda v: f"{v}㎡ ({py(v)}평)")),
+                ("공가 · 예비", f"{d.get('vac', 0)} · {d.get('wait', 0)} ({d.get('as_of', '-')} 기준)"),
+                ("승강기", str(d.get("elevator") or "-")), ("층수", f"{d['floors']}층" if d.get("floors") else "-"), ("준공", str(d.get("built") or "-")),
+                ("임대보증금", span(d.get("dep_range"), lambda v: won(v) + "원")), ("월 임대료", span(d.get("rent_range"), lambda v: won(v) + "원")),
+                ("주소", str(d.get("addr")))]
     if kind == "unit":
         return [("전용면적", area), ("구조", str(d.get("room"))), ("호수", f"{d.get('ho')}호"), ("승강기", str(d.get("elev"))),
                 ("임대보증금", won(d.get("dep")) + "원"), ("월 임대료", won(d.get("rent")) + "원"),
@@ -97,7 +113,13 @@ def section(kind: str, d: dict, plans: dict) -> str:
     out.append(f'<ul style="margin:0 0 10px;padding-left:18px;color:{INK};font-size:15px;line-height:1.7;">')
     out += [f'<li><b>{e(k)}</b> {e(v)}</li>' for k, v in facts(kind, d) if v and v not in ("None", "-")]
     out.append("</ul>")
-    for p in imgs:
+    names = dict(zip(d.get("plan_urls") or [], d.get("plan_names") or []))
+    for u in urls:
+        if u not in plans:
+            continue
+        p = plans[u]
+        if names.get(u):
+            out.append(f'<p style="margin:10px 0 4px;font-size:13px;color:{SOFT};text-align:center;">{e(names[u])}</p>')
         out.append(f'<p style="margin:0 0 10px;text-align:center;"><img src="{e(SITE + p["file"])}" width="{p["w"]}" height="{p["h"]}" alt="{e(label(d))} 평면도" loading="lazy" '
                    f'style="max-width:100%;max-height:760px;width:auto;height:auto;border:1px solid {LINE};border-radius:8px;"></p>')
     if not imgs:
@@ -110,7 +132,8 @@ def section(kind: str, d: dict, plans: dict) -> str:
 def build(board: dict, plans: dict) -> str:
     slug = board["slug"]
     total = sum(len(t.get("items", [])) for t in board.get("tabs", []))
-    tags = ["SH임대주택", "임대주택평면도", "서울임대주택"] + [t["label"] for t in board.get("tabs", []) if t.get("label") not in ("전체", "임대")]
+    villa = any(t.get("kind") == "building" for t in board.get("tabs", []))
+    tags = ["SH임대주택", "임대주택평면도", "서울임대주택"] + (["매입임대주택", "빌라평면도"] if villa else []) + [t["label"] for t in board.get("tabs", []) if t.get("label") not in ("전체", "임대")]
     gus = list(dict.fromkeys(d.get("gu") for t in board.get("tabs", []) for d in t.get("items", []) if d.get("gu")))
     tags += gus[:5]
     meta = {"title": f"{board['title']} 평면도·보증금·월임대료 한눈에 비교", "tags": list(dict.fromkeys(tags)), "slug": slug, "count": total}
