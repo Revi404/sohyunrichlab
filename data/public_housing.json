@@ -1,29 +1,266 @@
 {
- "updated": "2026-11-12 11:19",
+ "updated": "2026-11-12 18:58",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-12 11:19",
-   "count": 427
+   "at": "2026-11-12 18:58",
+   "count": 431
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-12 11:19",
-   "count": 133
+   "at": "2026-11-12 18:58",
+   "count": 141
   },
   "gh": {
-   "ok": true,
-   "at": "2026-11-12 11:19",
-   "count": 6
+   "ok": false,
+   "at": "2026-11-12 18:58",
+   "error": "URLError",
+   "last_ok": "2026-11-12 11:19"
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-12 11:19",
+   "at": "2026-11-12 18:58",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "sh-313233",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "[당첨자발표] 청년 매입임대주택 예비자 공급 계약대상자 발표(2025년 1차 예비6차) 및 계약안내",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-12",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313233&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "lh-2015122300021062",
+   "org": "LH",
+   "deal": "분양",
+   "type": "행복주택(신혼희망)",
+   "kind": "모집공고",
+   "title": "울산다운2 A-9블록 행복주택(신혼희망타운) 입주자 추가모집(입주자격완화, 선계약후검증)",
+   "region": "울산광역시",
+   "city": "울주군",
+   "notice_date": "2026-11-12",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-25",
+   "winner_date": "2026-12-16",
+   "status": "공고중",
+   "units": 122,
+   "houses": [
+    {
+     "name": "울산다운2 A-9블록",
+     "addr": "울산광역시 울주군 범서읍 다운서사로 240",
+     "city": "울주군",
+     "units": 122,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "deposit": 66000000,
+     "rent": 302500,
+     "down": 3300000,
+     "middle": 0,
+     "balance": 62700000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021062&ccrCnntSysDsCd=03&uppAisTpCd=39&aisTpCd=42&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21527&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(공고)울산다운2A-9블록행복주택(신혼희망타운)입주자추가모집공고문(입주자격완화,선계약후검증)_261112.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69390539"
+     },
+     {
+      "name": "(공고)울산다운2A-9블록행복주택(신혼희망타운)입주자추가모집공고문(입주자격완화,선계약후검증)_261112.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69390543"
+     },
+     {
+      "name": "(양식)본인행정정보제공요구서.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69390580"
+     },
+     {
+      "name": "(양식)서류제출등작성서류(금융정보,자산보유등)_울산다운2A-9블록.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69390588"
+     },
+     {
+      "name": "(양식)입주자격완화확약서및선계약후검증확약서(울산다운2).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69390602"
+     },
+     {
+      "name": "★울산다운2A-9블록행복주택팸플릿최종안.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69390559"
+     }
+    ],
+    "images": [
+     {
+      "site": "울산다운2 A-9블록 신혼희망타운 행복주택",
+      "name": "지역조감도.JPG",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=55291516"
+     },
+     {
+      "site": "울산다운2 A-9블록 신혼희망타운 행복주택",
+      "name": "지구조감도.JPG",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=55291517"
+     },
+     {
+      "site": "울산다운2 A-9블록 신혼희망타운 행복주택",
+      "name": "단지조감도.JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=55291518"
+     },
+     {
+      "site": "울산다운2 A-9블록 신혼희망타운 행복주택",
+      "name": "단지배치도.JPG",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=55291520"
+     },
+     {
+      "site": "울산다운2 A-9블록 신혼희망타운 행복주택",
+      "name": "이미지투시도.JPG",
+      "kind": "전경사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=55291519"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-25",
+      "docs_start": "2026-12-03",
+      "docs_end": "2026-12-08",
+      "winner_date": "2026-12-16",
+      "contract_start": "2026-12-28",
+      "contract_end": "2026-12-30"
+     }
+    ],
+    "sites": [
+     {
+      "name": "울산다운2 A-9블록 신혼희망타운 행복주택",
+      "addr": "울산광역시 울주군 범서읍 다운서사로 240(서사시티프라디움)",
+      "total_units": 417,
+      "area": "55.93~55.97",
+      "heating": "개별난방",
+      "move_in": "2025.06"
+     }
+    ],
+    "at": "2026-11-12"
+   }
+  },
+  {
+   "id": "lh-2015122300021060",
+   "org": "LH",
+   "deal": "임대",
+   "type": "행복주택",
+   "kind": "모집공고",
+   "title": "울산다운2 A-6블록 행복주택 입주자 추가모집(입주자격완화, 선계약후검증)",
+   "region": "울산광역시",
+   "city": "중구",
+   "notice_date": "2026-11-12",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-25",
+   "winner_date": "2026-12-16",
+   "status": "공고중",
+   "units": 207,
+   "houses": [
+    {
+     "name": "울산다운2 A-6블록",
+     "addr": "울산광역시 중구 다전로 277",
+     "city": "중구",
+     "units": 207,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "deposit": 20400000,
+     "rent": 93500,
+     "down": 1020000,
+     "middle": 0,
+     "balance": 19380000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021060&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21528&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(공고)울산다운2A-6블록행복주택입주자추가모집(입주자격완화,선계약후검증)_261112.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389515"
+     },
+     {
+      "name": "(공고)울산다운2A-6블록행복주택입주자추가모집(입주자격완화,선계약후검증)_261112.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389516"
+     },
+     {
+      "name": "(양식)본인행정정보제공요구서.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389550"
+     },
+     {
+      "name": "(양식)서류제출등작성서류(금융정보,자산보유등)_울산다운2A-6블록.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389555"
+     },
+     {
+      "name": "(양식)위임장_울산다운2A-6블록.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389608"
+     },
+     {
+      "name": "(양식)입주자격완화확약서및선계약후검증확약서(울산다운2).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389567"
+     },
+     {
+      "name": "★울산다운2a-6행복주택팜플렛(최종).pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389536"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-25",
+      "docs_start": "2026-12-03",
+      "docs_end": "2026-12-08",
+      "winner_date": "2026-12-16",
+      "contract_start": "2026-12-28",
+      "contract_end": "2026-12-30"
+     }
+    ],
+    "sites": [
+     {
+      "name": "울산다운2 A-6블록 행복주택",
+      "addr": "울산광역시 중구 다전로 277(다운동,울산다운2 6단지)",
+      "total_units": 800,
+      "area": "16.99~36.74",
+      "heating": "개별난방",
+      "move_in": "2025.10"
+     }
+    ],
+    "at": "2026-11-12"
+   }
+  },
   {
    "id": "lh-2015122300021051",
    "org": "LH",
@@ -32,16 +269,31 @@
    "kind": "모집공고",
    "title": "원주명륜2 영구임대주택 예비입주자 모집",
    "region": "강원특별자치도",
-   "city": null,
+   "city": "원주시",
    "notice_date": "2026-11-12",
    "apply_start": "2026-11-25",
    "apply_end": "2026-11-27",
    "winner_date": "2027-03-10",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 100,
+   "houses": [
+    {
+     "name": "원주명륜2",
+     "addr": "강원특별자치도 원주시 예술관길 31",
+     "city": "원주시",
+     "units": 100,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-27",
+     "deposit": 2520000,
+     "rent": 50160,
+     "down": 126000,
+     "middle": 0,
+     "balance": 2394000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021051&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21524&houseSn=1",
    "detail": {
     "files": [
      {
@@ -83,16 +335,57 @@
    "kind": "모집공고",
    "title": "춘천시 철원군지역 행복주택 예비입주자 모집공고",
    "region": "강원특별자치도",
-   "city": null,
+   "city": "춘천시",
    "notice_date": "2026-11-12",
-   "apply_start": null,
+   "apply_start": "2026-11-25",
    "apply_end": "2026-11-27",
-   "winner_date": null,
+   "winner_date": "2027-04-06",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 144,
+   "houses": [
+    {
+     "name": "춘천거두2",
+     "addr": "강원특별자치도 춘천시 동내면 거두택지길 70",
+     "city": "춘천시",
+     "units": 100,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-27",
+     "deposit": 13192000,
+     "rent": 70350,
+     "down": 659600,
+     "middle": 0,
+     "balance": 12532400
+    },
+    {
+     "name": "철원갈말",
+     "addr": "강원특별자치도 철원군 갈말읍 명성로111번길 18",
+     "city": "철원군",
+     "units": 15,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-27",
+     "deposit": 10506000,
+     "rent": 56900,
+     "down": 525300,
+     "middle": 0,
+     "balance": 9980700
+    },
+    {
+     "name": "철원철원",
+     "addr": "강원특별자치도 철원군 철원읍 금학로279번길 15",
+     "city": "철원군",
+     "units": 29,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-27",
+     "deposit": 19554000,
+     "rent": 114060,
+     "down": 977700,
+     "middle": 0,
+     "balance": 18576300
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021049&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21523&houseSn=1",
    "detail": {
     "files": [
      {
@@ -241,6 +534,72 @@
    }
   },
   {
+   "id": "lh-2015122300021041",
+   "org": "LH",
+   "deal": "임대",
+   "type": "영구임대",
+   "kind": "모집공고",
+   "title": "밀양가곡1 영구임대주택 예비입주자 모집",
+   "region": "경상남도",
+   "city": "밀양시",
+   "notice_date": "2026-11-12",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-27",
+   "winner_date": "2027-04-06",
+   "status": "공고중",
+   "units": 170,
+   "houses": [
+    {
+     "name": "밀양가곡",
+     "addr": "경상남도 밀양시 중앙로 47",
+     "city": "밀양시",
+     "units": 170,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-27",
+     "deposit": 2520000,
+     "rent": 50160,
+     "down": 126000,
+     "middle": 0,
+     "balance": 2394000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021041&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21529&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "20261112밀양시영구임대주택예비입주자모집공고.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69363674"
+     },
+     {
+      "name": "20261112밀양시영구임대주택예비입주자모집공고.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69363675"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-27",
+      "winner_date": "2027-04-06"
+     }
+    ],
+    "sites": [
+     {
+      "name": "밀양가곡 영구임대주택 예비입주자 모집",
+      "addr": "경상남도 밀양시 중앙로 47(가곡동,가곡주공아파트)",
+      "total_units": 447,
+      "area": "26.37~31.32",
+      "heating": "중앙난방",
+      "move_in": "1995.05"
+     }
+    ],
+    "at": "2026-11-12"
+   }
+  },
+  {
    "id": "lh-2015122300021029",
    "org": "LH",
    "deal": "임대",
@@ -248,16 +607,44 @@
    "kind": "모집공고",
    "title": "익산시(익산부송1, 익산동산)영구임대주택 예비입주자 모집공고",
    "region": "전북특별자치도",
-   "city": null,
+   "city": "익산시",
    "notice_date": "2026-11-12",
-   "apply_start": null,
+   "apply_start": "2026-11-23",
    "apply_end": "2026-11-27",
-   "winner_date": null,
+   "winner_date": "2027-01-29",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 600,
+   "houses": [
+    {
+     "name": "익산부송1",
+     "addr": "전북특별자치도 익산시 무왕로22길 12",
+     "city": "익산시",
+     "units": 350,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-27",
+     "deposit": 2520000,
+     "rent": 50160,
+     "down": 126000,
+     "middle": 0,
+     "balance": 2394000
+    },
+    {
+     "name": "익산동산",
+     "addr": "전북특별자치도 익산시 동천로7길 26-5",
+     "city": "익산시",
+     "units": 250,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-27",
+     "deposit": 2520000,
+     "rent": 50160,
+     "down": 126000,
+     "middle": 0,
+     "balance": 2394000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021029&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21525&houseSn=1",
    "detail": {
     "files": [
      {
@@ -299,6 +686,76 @@
       "area": "26.37~31.32",
       "heating": "중앙가스난방",
       "move_in": "1992.04"
+     }
+    ],
+    "at": "2026-11-12"
+   }
+  },
+  {
+   "id": "lh-2015122300021012",
+   "org": "LH",
+   "deal": "임대",
+   "type": "공공임대",
+   "kind": "모집공고",
+   "title": "대전문화1단지 50년공공임대주택 예비입주자 모집공고(2026.11.12.)",
+   "region": "대전광역시",
+   "city": "중구",
+   "notice_date": "2026-11-12",
+   "apply_start": "2026-11-26",
+   "apply_end": "2026-11-26",
+   "winner_date": "2027-02-04",
+   "status": "공고중",
+   "units": 130,
+   "houses": [
+    {
+     "name": "대전문화1",
+     "addr": "대전광역시 중구 보문산로161번길 55",
+     "city": "중구",
+     "units": 130,
+     "apply_start": "2026-11-26",
+     "apply_end": "2026-11-26",
+     "deposit": 14461000,
+     "rent": 195130,
+     "down": 2892000,
+     "middle": 0,
+     "balance": 11569000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021012&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=08&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21530&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "대전문화150년공공임대주택예비입주자모집공고문(2026.11.12.).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69289388"
+     },
+     {
+      "name": "대전문화150년공공임대주택예비입주자모집공고문(2026.11.12.).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69289364"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-26",
+      "apply_end": "2026-11-26",
+      "docs_start": "2026-12-09",
+      "docs_end": "2026-12-11",
+      "winner_date": "2027-02-04",
+      "contract_start": "2027-02-05",
+      "contract_end": "2027-12-31"
+     }
+    ],
+    "sites": [
+     {
+      "name": "대전문화1 50년 공공임대",
+      "addr": "대전광역시 중구 보문산로161번길 55(문화동,주공1차아파트)",
+      "total_units": 960,
+      "area": "39.69~39.69",
+      "heating": "중앙난방",
+      "move_in": "1994.09"
      }
     ],
     "at": "2026-11-12"
@@ -789,16 +1246,70 @@
    "kind": "모집공고",
    "title": "대구신서13,14, 경산삼주봉황1,2 국민임대주택 입주자격완화 선계약 후검증 동호지정 입주자 모집",
    "region": "대구광역시 외",
-   "city": null,
+   "city": "동구",
    "notice_date": "2026-11-11",
-   "apply_start": null,
+   "apply_start": "2026-12-01",
    "apply_end": "2026-12-02",
-   "winner_date": null,
+   "winner_date": "2026-12-09",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 116,
+   "houses": [
+    {
+     "name": "대구신서혁신 13단지",
+     "addr": "대구광역시 동구 초례로 66",
+     "city": "동구",
+     "units": 64,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 11801000,
+     "rent": 163600,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11301000
+    },
+    {
+     "name": "대구신서혁신 14단지",
+     "addr": "대구광역시 동구 초례로16길 3",
+     "city": "동구",
+     "units": 39,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 11566000,
+     "rent": 164760,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11066000
+    },
+    {
+     "name": "경산삼주봉황1",
+     "addr": "경상북도 경산시 진량읍 봉황길 31",
+     "city": "경산시",
+     "units": 11,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 9530000,
+     "rent": 53070,
+     "down": 500000,
+     "middle": 0,
+     "balance": 9030000
+    },
+    {
+     "name": "경산삼주봉황2",
+     "addr": "경상북도 경산시 진량읍 봉황길 36",
+     "city": "경산시",
+     "units": 2,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 20970000,
+     "rent": 117080,
+     "down": 500000,
+     "middle": 0,
+     "balance": 20470000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021018&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21526&houseSn=3",
    "detail": {
     "files": [
      {
@@ -4104,25 +4615,6 @@
    "src": "sh"
   },
   {
-   "id": "sh-312726",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "[당첨자발표] 2026년 다자녀 매입임대주택 예비자 공급 계약대상자 발표(2026년 예비2차) 및 계약 안내",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-04",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312726&multi_itm_seq=2",
-   "src": "sh"
-  },
-  {
    "id": "sh-312706",
    "org": "SH",
    "deal": "분양",
@@ -4933,7 +5425,7 @@
    "apply_start": "2026-11-11",
    "apply_end": "2026-11-12",
    "winner_date": "2026-11-19",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 32,
    "houses": [
     {
@@ -6770,7 +7262,7 @@
    "apply_start": "2026-11-10",
    "apply_end": "2026-11-12",
    "winner_date": "2027-03-24",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 1424,
    "houses": [
     {
@@ -7351,7 +7843,7 @@
    "apply_start": "2026-11-10",
    "apply_end": "2026-11-12",
    "winner_date": "2026-12-09",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 861,
    "houses": [
     {
@@ -7892,7 +8384,7 @@
    "apply_start": "2026-11-10",
    "apply_end": "2026-11-12",
    "winner_date": "2027-04-22",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 552,
    "houses": [
     {
