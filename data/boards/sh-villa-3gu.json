@@ -1,0 +1,2448 @@
+{
+ "slug": "sh-villa-3gu",
+ "generated": "spec",
+ "title": "SH 강동·성동·송파 공가 있는 매입임대 빌라",
+ "sub": "지금 비어 있는 집이 있고 건축 도면이 공개된 건물만 모았습니다. 건물 60곳. 평면도를 누르면 크게 볼 수 있습니다.",
+ "note": "SH 서울주택정보에 공개된 매입임대 건물 자료를 그대로 모은 것입니다. 도면은 세대별 평면이 아니라 층별 건축 도면이며, 면적·보증금·월임대료는 건물 안 호별 값의 범위입니다. 공가 수는 건물 단위 기준월 자료라 어느 호가 비었는지는 알 수 없습니다. 금액 단위는 원이며, 신청 전에는 반드시 SH 공고 원문을 확인하세요.",
+ "source": {
+  "name": "SH 서울주택도시개발공사 서울주택정보",
+  "url": "https://www.i-sh.co.kr/houseinfo/main/mainPage.do"
+ },
+ "tabs": [
+  {
+   "id": "t0",
+   "label": "매입다가구",
+   "kind": "building",
+   "items": [
+    {
+     "id": "530020228",
+     "gu": "강동구",
+     "name": "동남로83길 56-8",
+     "addr": "서울특별시 강동구 동남로83길 56-8",
+     "supply": "매입다가구",
+     "units": 19,
+     "area_range": [
+      30.04,
+      45.94
+     ],
+     "dep_range": [
+      26720000,
+      46060000
+     ],
+     "rent_range": [
+      275400,
+      474600
+     ],
+     "area": 45.94,
+     "dep": 26720000,
+     "rent": 275400,
+     "vac": 11,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2022.09.08",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211101714896_12_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%EA%B3%A0%EB%8D%95%EB%8F%99638-6_%EA%B1%B4%EC%B6%95_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211101720610_13_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%EA%B3%A0%EB%8D%95%EB%8F%99638-6_%EA%B1%B4%EC%B6%95_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211101728365_14_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%EA%B3%A0%EB%8D%95%EB%8F%99638-6_%EA%B1%B4%EC%B6%95_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211101734679_15_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%EA%B3%A0%EB%8D%95%EB%8F%99638-6_%EA%B1%B4%EC%B6%95_4.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211101742762_16_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%EA%B3%A0%EB%8D%95%EB%8F%99638-6_%EA%B1%B4%EC%B6%95_5.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2층",
+      "3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020236",
+     "gu": "강동구",
+     "name": "진황도로27가길 26",
+     "addr": "서울특별시 강동구 진황도로27가길 26",
+     "supply": "매입다가구",
+     "units": 23,
+     "area_range": [
+      29.39,
+      29.99
+     ],
+     "dep_range": [
+      22280000,
+      28180000
+     ],
+     "rent_range": [
+      229600,
+      290300
+     ],
+     "area": 29.99,
+     "dep": 22280000,
+     "rent": 229600,
+     "vac": 8,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 10,
+     "built": "2023.04.20",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110654862_41_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%5D_01.%20%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20166-69_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/2025021111070385_42_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%5D_01.%20%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20166-69_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110712947_43_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%5D_01.%20%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20166-69_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110721168_44_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%5D_01.%20%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20166-69_4.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110729173_45_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%5D_01.%20%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20166-69_5.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2층",
+      "3~7층",
+      "8층",
+      "9층"
+     ]
+    },
+    {
+     "id": "530020182",
+     "gu": "강동구",
+     "name": "양재대로117길 16",
+     "addr": "서울특별시 강동구 양재대로117길 16",
+     "supply": "매입다가구",
+     "units": 49,
+     "area_range": [
+      45.83,
+      57.3
+     ],
+     "dep_range": [
+      38080000,
+      70610000
+     ],
+     "rent_range": [
+      392300,
+      727700
+     ],
+     "area": 57.3,
+     "dep": 38080000,
+     "rent": 392300,
+     "vac": 5,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 6,
+     "built": "2021.03.05",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220117143804773_1_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B8%B8%EB%8F%99%20369-5_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220117143810171_2_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B8%B8%EB%8F%99%20369-5_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220117143815168_3_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B8%B8%EB%8F%99%20369-5_3.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020191",
+     "gu": "강동구",
+     "name": "상암로21길 12-5",
+     "addr": "서울특별시 강동구 상암로21길 12-5",
+     "supply": "매입다가구",
+     "units": 16,
+     "area_range": [
+      25.8,
+      49.33
+     ],
+     "dep_range": [
+      17080000,
+      32790000
+     ],
+     "rent_range": [
+      175600,
+      338200
+     ],
+     "area": 49.33,
+     "dep": 17080000,
+     "rent": 175600,
+     "vac": 4,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2021.04.08",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811162024148_3_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20489-22%EC%99%B81%ED%95%84%EC%A7%80_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/202208111620319_4_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20489-22%EC%99%B81%ED%95%84%EC%A7%80_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811162036328_5_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20489-22%EC%99%B81%ED%95%84%EC%A7%80_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811162054290_6_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20489-22%EC%99%B81%ED%95%84%EC%A7%80_4.jpg"
+     ],
+     "plan_names": [
+      "1",
+      "2-3",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "id": "530180092",
+     "gu": "송파구",
+     "name": "동남로23가길 8-14",
+     "addr": "서울특별시 송파구 동남로23가길 8-14",
+     "supply": "매입다가구",
+     "units": 8,
+     "area_range": [
+      25.1,
+      44.96
+     ],
+     "dep_range": [
+      18740000,
+      32000000
+     ],
+     "rent_range": [
+      244100,
+      329800
+     ],
+     "area": 44.96,
+     "dep": 18740000,
+     "rent": 244100,
+     "vac": 4,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.09.14",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114160615150_126_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_%20%EC%98%A4%EA%B8%88%EB%8F%99%2057_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114160630549_127_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_%20%EC%98%A4%EA%B8%88%EB%8F%99%2057_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114160639754_128_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_%20%EC%98%A4%EA%B8%88%EB%8F%99%2057_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114160647955_129_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_%20%EC%98%A4%EA%B8%88%EB%8F%99%2057_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020234",
+     "gu": "강동구",
+     "name": "동남로65길 12-20",
+     "addr": "서울특별시 강동구 동남로65길 12-20",
+     "supply": "매입다가구",
+     "units": 9,
+     "area_range": [
+      31.67,
+      47.7
+     ],
+     "dep_range": [
+      26310000,
+      37210000
+     ],
+     "rent_range": [
+      271100,
+      383400
+     ],
+     "area": 47.7,
+     "dep": 26310000,
+     "rent": 271100,
+     "vac": 4,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2022.06.30",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110116188_33_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B3%84%EC%95%BD%29_%EB%AA%85%EC%9D%BC%EB%8F%99%20141_%EA%B1%B4%EC%B6%95_%283%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110130304_34_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B3%84%EC%95%BD%29_%EB%AA%85%EC%9D%BC%EB%8F%99%20141_%EA%B1%B4%EC%B6%95_%283%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110137547_35_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B3%84%EC%95%BD%29_%EB%AA%85%EC%9D%BC%EB%8F%99%20141_%EA%B1%B4%EC%B6%95_%283%29_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110143697_36_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B3%84%EC%95%BD%29_%EB%AA%85%EC%9D%BC%EB%8F%99%20141_%EA%B1%B4%EC%B6%95_%283%29_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2층~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530180086",
+     "gu": "송파구",
+     "name": "오금로49길 43",
+     "addr": "서울특별시 송파구 오금로49길 43",
+     "supply": "매입다가구",
+     "units": 15,
+     "area_range": [
+      27.4,
+      46.56
+     ],
+     "dep_range": [
+      22180000,
+      32200000
+     ],
+     "rent_range": [
+      288900,
+      419400
+     ],
+     "area": 46.56,
+     "dep": 22180000,
+     "rent": 288900,
+     "vac": 3,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.08.06",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114154500157_122_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B1%B4%EC%B6%95%29%EC%98%A4%EA%B8%88%EB%8F%99%20143-16%ED%98%B8%28%EB%A7%A4%EB%A7%A4%EC%95%BD%EC%A0%95%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114154509736_123_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B1%B4%EC%B6%95%29%EC%98%A4%EA%B8%88%EB%8F%99%20143-16%ED%98%B8%28%EB%A7%A4%EB%A7%A4%EC%95%BD%EC%A0%95%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114154517508_124_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B1%B4%EC%B6%95%29%EC%98%A4%EA%B8%88%EB%8F%99%20143-16%ED%98%B8%28%EB%A7%A4%EB%A7%A4%EC%95%BD%EC%A0%95%29_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114154524870_125_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B1%B4%EC%B6%95%29%EC%98%A4%EA%B8%88%EB%8F%99%20143-16%ED%98%B8%28%EB%A7%A4%EB%A7%A4%EC%95%BD%EC%A0%95%29_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530180123",
+     "gu": "송파구",
+     "name": "오금로48길 22",
+     "addr": "서울특별시 송파구 오금로48길 22",
+     "supply": "매입다가구",
+     "units": 9,
+     "area_range": [
+      32.97,
+      49.81
+     ],
+     "dep_range": [
+      28560000,
+      42900000
+     ],
+     "rent_range": [
+      294300,
+      442100
+     ],
+     "area": 49.81,
+     "dep": 28560000,
+     "rent": 294300,
+     "vac": 3,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2021.08.13",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720155435799_273_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%20175-26_%ED%8C%8C%ED%8A%B85_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720155445381_274_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%20175-26_%ED%8C%8C%ED%8A%B84_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720155455192_275_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%20175-26_%ED%8C%8C%ED%8A%B83_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720155505387_276_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%20175-26_%ED%8C%8C%ED%8A%B82_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720155515262_277_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%20175-26_%ED%8C%8C%ED%8A%B81_1.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020112",
+     "gu": "강동구",
+     "name": "구천면로40길 7",
+     "addr": "서울특별시 강동구 구천면로40길 7",
+     "supply": "매입다가구",
+     "units": 16,
+     "area_range": [
+      23.42,
+      29.61
+     ],
+     "dep_range": [
+      14430000,
+      18940000
+     ],
+     "rent_range": [
+      187900,
+      246700
+     ],
+     "area": 29.61,
+     "dep": 14430000,
+     "rent": 187900,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2019.07.30",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20191018155940952_73_%EC%B2%9C%ED%98%B8%EB%8F%99%20237-27%EC%99%B8%20%EA%B1%B4%EC%B6%95%EB%8F%84%EB%A9%B4_1.png",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20191018155945251_74_%EC%B2%9C%ED%98%B8%EB%8F%99%20237-27%EC%99%B8%20%EA%B1%B4%EC%B6%95%EB%8F%84%EB%A9%B4_2.png",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20191018155949959_75_%EC%B2%9C%ED%98%B8%EB%8F%99%20237-27%EC%99%B8%20%EA%B1%B4%EC%B6%95%EB%8F%84%EB%A9%B4_3.png"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020053",
+     "gu": "강동구",
+     "name": "상암로 125-6",
+     "addr": "서울특별시 강동구 상암로 125-6",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      32.74,
+      52.2
+     ],
+     "dep_range": [
+      15270000,
+      22910000
+     ],
+     "rent_range": [
+      198900,
+      298400
+     ],
+     "area": 52.2,
+     "dep": 15270000,
+     "rent": 198900,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.04.28",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116114426843_28_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99224-25%2C26%29-010-010.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116114430573_29_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99224-25%2C26%29-011-011.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116114434321_30_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99224-25%2C26%29-012-012.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116114438528_31_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99224-25%2C26%29-013-013.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020105",
+     "gu": "강동구",
+     "name": "고덕로20다길 4-19",
+     "addr": "서울특별시 강동구 고덕로20다길 4-19",
+     "supply": "매입다가구",
+     "units": 14,
+     "area_range": [
+      29.92,
+      54.8
+     ],
+     "dep_range": [
+      15881000,
+      25465000
+     ],
+     "rent_range": [
+      206900,
+      331800
+     ],
+     "area": 54.8,
+     "dep": 15881000,
+     "rent": 206900,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2018.11.23",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151606797_19_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%20%28%EC%95%94%EC%82%AC%EB%8F%99%20456-70%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151609762_20_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%20%28%EC%95%94%EC%82%AC%EB%8F%99%20456-70%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151612971_21_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%20%28%EC%95%94%EC%82%AC%EB%8F%99%20456-70%29_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151616581_22_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%20%28%EC%95%94%EC%82%AC%EB%8F%99%20456-70%29_4.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020090",
+     "gu": "강동구",
+     "name": "천중로2길 7-23",
+     "addr": "서울특별시 강동구 천중로2길 7-23",
+     "supply": "매입다가구",
+     "units": 8,
+     "area_range": [
+      44.16,
+      51.36
+     ],
+     "dep_range": [
+      19721000,
+      23845000
+     ],
+     "rent_range": [
+      256800,
+      310600
+     ],
+     "area": 51.36,
+     "dep": 19721000,
+     "rent": 256800,
+     "vac": 2,
+     "wait": 0,
+     "floors": 5,
+     "built": "2017.04.28",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116150155878_113_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99331-51%29-022-022.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116150158234_114_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99331-51%29-023-023.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116150200810_115_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99331-51%29-024-024.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020060",
+     "gu": "강동구",
+     "name": "상암로 82-8",
+     "addr": "서울특별시 강동구 상암로 82-8",
+     "supply": "매입다가구",
+     "units": 8,
+     "area_range": [
+      43.74,
+      58.7
+     ],
+     "dep_range": [
+      19730000,
+      25920000
+     ],
+     "rent_range": [
+      257000,
+      337800
+     ],
+     "area": 58.7,
+     "dep": 19730000,
+     "rent": 257000,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.03.30",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019011614101745_24_%EC%82%AC%EC%9A%A9%EC%8A%B9%EC%9D%B8%EC%84%A4%EA%B3%84%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99291-4%29-010-010.jpg"
+     ],
+     "plan_names": [
+      ""
+     ]
+    },
+    {
+     "id": "530180090",
+     "gu": "송파구",
+     "name": "성내천로23가길 9",
+     "addr": "서울특별시 송파구 성내천로23가길 9",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      27.49,
+      38.21
+     ],
+     "dep_range": [
+      19820000,
+      28950000
+     ],
+     "rent_range": [
+      258300,
+      377100
+     ],
+     "area": 38.21,
+     "dep": 19820000,
+     "rent": 258300,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.09.23",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114150624497_96_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%A7%88%EC%B2%9C%EB%8F%99%2014-4_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114150633425_97_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%A7%88%EC%B2%9C%EB%8F%99%2014-4_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114150640994_98_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%A7%88%EC%B2%9C%EB%8F%99%2014-4_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114150648960_99_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%A7%88%EC%B2%9C%EB%8F%99%2014-4_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020172",
+     "gu": "강동구",
+     "name": "천중로16길 13",
+     "addr": "서울특별시 강동구 천중로16길 13",
+     "supply": "매입다가구",
+     "units": 16,
+     "area_range": [
+      28.52,
+      29.98
+     ],
+     "dep_range": [
+      20020000,
+      24740000
+     ],
+     "rent_range": [
+      206300,
+      254800
+     ],
+     "area": 29.98,
+     "dep": 20020000,
+     "rent": 206300,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.12.18",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811164145978_7_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20391-1%EC%99%B81%ED%95%84%EC%A7%80_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811164152431_8_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20391-1%EC%99%B81%ED%95%84%EC%A7%80_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811164200965_9_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20391-1%EC%99%B81%ED%95%84%EC%A7%80_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811164210275_10_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20391-1%EC%99%B81%ED%95%84%EC%A7%80_4.jpg"
+     ],
+     "plan_names": [
+      "1",
+      "2-3",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "id": "530020079",
+     "gu": "강동구",
+     "name": "구천면로48길 11",
+     "addr": "서울특별시 강동구 구천면로48길 11",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      51.16,
+      59.95
+     ],
+     "dep_range": [
+      20215000,
+      25157000
+     ],
+     "rent_range": [
+      262800,
+      327300
+     ],
+     "area": 59.95,
+     "dep": 20215000,
+     "rent": 262800,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.07.15",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116144325306_77_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%B2%9C%ED%98%B8%EB%8F%99233-17%2C18%29-011-011.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116144328223_78_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%B2%9C%ED%98%B8%EB%8F%99233-17%2C18%29-012-012.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019011614433651_79_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%B2%9C%ED%98%B8%EB%8F%99233-17%2C18%29-013-013.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530180095",
+     "gu": "송파구",
+     "name": "동남로6길 35-13",
+     "addr": "서울특별시 송파구 동남로6길 35-13",
+     "supply": "매입다가구",
+     "units": 13,
+     "area_range": [
+      29.29,
+      41.26
+     ],
+     "dep_range": [
+      25220000,
+      32790000
+     ],
+     "rent_range": [
+      259900,
+      337800
+     ],
+     "area": 41.26,
+     "dep": 25220000,
+     "rent": 259900,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.12.07",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115223958_84_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-11_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115228512_85_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-11_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022081211523584_86_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-11_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115239741_87_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-11_4.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115247399_88_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-11_5.jpg"
+     ],
+     "plan_names": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "id": "530180104",
+     "gu": "송파구",
+     "name": "동남로6길 35-9",
+     "addr": "서울특별시 송파구 동남로6길 35-9",
+     "supply": "매입다가구",
+     "units": 13,
+     "area_range": [
+      29.29,
+      41.26
+     ],
+     "dep_range": [
+      25220000,
+      32790000
+     ],
+     "rent_range": [
+      259900,
+      337800
+     ],
+     "area": 41.26,
+     "dep": 25220000,
+     "rent": 259900,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.12.07",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115454842_89_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-13_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115458649_90_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-13_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115503261_91_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-13_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115506937_92_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-13_4.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812115510967_93_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AC%B8%EC%A0%95%EB%8F%99%2035-13_5.jpg"
+     ],
+     "plan_names": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "id": "530180081",
+     "gu": "송파구",
+     "name": "마천로27길 5",
+     "addr": "서울특별시 송파구 마천로27길 5",
+     "supply": "매입다가구",
+     "units": 18,
+     "area_range": [
+      33.37,
+      49.97
+     ],
+     "dep_range": [
+      25620000,
+      36810000
+     ],
+     "rent_range": [
+      333800,
+      479500
+     ],
+     "area": 49.97,
+     "dep": 25620000,
+     "rent": 333800,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.07.09",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153609238_113_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20115-1_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153615985_114_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20115-1_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153624391_115_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20115-1_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153632919_116_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20115-1_4.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153640530_117_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20115-1_5.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2층",
+      "3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020144",
+     "gu": "강동구",
+     "name": "구천면로50길 16",
+     "addr": "서울특별시 강동구 구천면로50길 16",
+     "supply": "매입다가구",
+     "units": 9,
+     "area_range": [
+      45,
+      56.58
+     ],
+     "dep_range": [
+      25710000,
+      32590000
+     ],
+     "rent_range": [
+      335000,
+      424500
+     ],
+     "area": 56.58,
+     "dep": 25710000,
+     "rent": 335000,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.06.01",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20210528095814423_10_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20243-208-1.pdf_page_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20210528095836377_11_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20243-208-1.pdf_page_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20210528095848110_12_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20243-208-1.pdf_page_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20210528095904628_13_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20243-208-1.pdf_page_4.jpg"
+     ],
+     "plan_names": [
+      "1층 평면도",
+      "2-3층 평면도",
+      "4층 평면도",
+      "5층 평면도"
+     ]
+    },
+    {
+     "id": "530180087",
+     "gu": "송파구",
+     "name": "송이로17길 58-7",
+     "addr": "서울특별시 송파구 송이로17길 58-7",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      29.55,
+      43.91
+     ],
+     "dep_range": [
+      26900000,
+      38880000
+     ],
+     "rent_range": [
+      350300,
+      506500
+     ],
+     "area": 43.91,
+     "dep": 26900000,
+     "rent": 350300,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.07.29",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114150031835_92_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%2011-18_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114150042126_93_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%2011-18_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114150054168_94_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%2011-18_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022011415010369_95_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B0%80%EB%9D%BD%EB%8F%99%2011-18_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020235",
+     "gu": "강동구",
+     "name": "천중로 87",
+     "addr": "서울특별시 강동구 천중로 87",
+     "supply": "매입다가구",
+     "units": 15,
+     "area_range": [
+      28.93,
+      47.5
+     ],
+     "dep_range": [
+      27490000,
+      42610000
+     ],
+     "rent_range": [
+      283200,
+      439100
+     ],
+     "area": 47.5,
+     "dep": 27490000,
+     "rent": 283200,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2023.02.23",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110348952_37_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B3%84%EC%95%BD%29%EC%B2%9C%ED%98%B8%EB%8F%99%20300-7_%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/2025021111040088_38_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B3%84%EC%95%BD%29%EC%B2%9C%ED%98%B8%EB%8F%99%20300-7_%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110410134_39_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B3%84%EC%95%BD%29%EC%B2%9C%ED%98%B8%EB%8F%99%20300-7_%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250211110416489_40_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B3%84%EC%95%BD%29%EC%B2%9C%ED%98%B8%EB%8F%99%20300-7_%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530180129",
+     "gu": "송파구",
+     "name": "백제고분로44길 28",
+     "addr": "서울특별시 송파구 백제고분로44길 28",
+     "supply": "매입다가구",
+     "units": 14,
+     "area_range": [
+      29.61,
+      51.21
+     ],
+     "dep_range": [
+      29550000,
+      48990000
+     ],
+     "rent_range": [
+      304400,
+      504800
+     ],
+     "area": 51.21,
+     "dep": 29550000,
+     "rent": 304400,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2021.12.21",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209113723999_150_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EC%86%A1%ED%8C%8C%EB%8F%99%20117-8%2C28_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209113730761_151_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EC%86%A1%ED%8C%8C%EB%8F%99%20117-8%2C28_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209113737721_152_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EC%86%A1%ED%8C%8C%EB%8F%99%20117-8%2C28_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209113744290_153_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EC%86%A1%ED%8C%8C%EB%8F%99%20117-8%2C28_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020121",
+     "gu": "강동구",
+     "name": "상암로27길 19",
+     "addr": "서울특별시 강동구 상암로27길 19",
+     "supply": "매입다가구",
+     "units": 9,
+     "area_range": [
+      44.84,
+      59.83
+     ],
+     "dep_range": [
+      31800000,
+      57920000
+     ],
+     "rent_range": [
+      414200,
+      595900
+     ],
+     "area": 59.83,
+     "dep": 31800000,
+     "rent": 414200,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2019.12.17",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20200310114337828_41_%5B%EA%B3%84%EC%95%BD%2819%EB%85%84-1%EC%B0%A8%EB%B6%84-32%29%5D%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20228-1_1.png",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20200310114342311_42_%5B%EA%B3%84%EC%95%BD%2819%EB%85%84-1%EC%B0%A8%EB%B6%84-32%29%5D%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20228-1_2.png",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2020031011434621_43_%5B%EA%B3%84%EC%95%BD%2819%EB%85%84-1%EC%B0%A8%EB%B6%84-32%29%5D%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20228-1_3.png",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20200310114350169_44_%5B%EA%B3%84%EC%95%BD%2819%EB%85%84-1%EC%B0%A8%EB%B6%84-32%29%5D%EA%B1%B4%EC%B6%95_%EC%B2%9C%ED%98%B8%EB%8F%99%20228-1_4.png"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530180103",
+     "gu": "송파구",
+     "name": "마천로 129-6",
+     "addr": "서울특별시 송파구 마천로 129-6",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      42.42,
+      54.98
+     ],
+     "dep_range": [
+      33740000,
+      42530000
+     ],
+     "rent_range": [
+      347700,
+      438200
+     ],
+     "area": 54.98,
+     "dep": 33740000,
+     "rent": 347700,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2021.01.15",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220118103453536_95_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%2079-4%2C5_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220118103456342_96_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%2079-4%2C5_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220118103500771_97_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%2079-4%2C5_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220118103503946_98_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%2079-4%2C5_4.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530180058",
+     "gu": "송파구",
+     "name": "성내천로23가길 11",
+     "addr": "서울특별시 송파구 성내천로23가길 11",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      30.44,
+      49.44
+     ],
+     "dep_range": [
+      11820000,
+      18500000
+     ],
+     "rent_range": [
+      153900,
+      241100
+     ],
+     "area": 49.44,
+     "dep": 11820000,
+     "rent": 153900,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.03.21",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124095938724_1_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EB%A7%88%EC%B2%9C%EB%8F%9914-5%2C14-10%29-009-009.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124095941103_2_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EB%A7%88%EC%B2%9C%EB%8F%9914-5%2C14-10%29-010-010.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124095943541_3_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EB%A7%88%EC%B2%9C%EB%8F%9914-5%2C14-10%29-011-011.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020093",
+     "gu": "강동구",
+     "name": "암사길 83-26",
+     "addr": "서울특별시 강동구 암사길 83-26",
+     "supply": "매입다가구",
+     "units": 13,
+     "area_range": [
+      28.825,
+      57.655
+     ],
+     "dep_range": [
+      12950000,
+      23750000
+     ],
+     "rent_range": [
+      168770,
+      309450
+     ],
+     "area": 57.655,
+     "dep": 12950000,
+     "rent": 168770,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2017.07.04",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116151457599_126_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99430-6%2C7%29-011-011.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116151501366_127_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99430-6%2C7%29-012-012.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116151505955_128_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99430-6%2C7%29-013-013.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020075",
+     "gu": "강동구",
+     "name": "구천면로53길 36-23",
+     "addr": "서울특별시 강동구 구천면로53길 36-23",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      32,
+      59.76
+     ],
+     "dep_range": [
+      12960000,
+      23510000
+     ],
+     "rent_range": [
+      169000,
+      306500
+     ],
+     "area": 59.76,
+     "dep": 12960000,
+     "rent": 169000,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.04.29",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116143419535_64_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99478-3%2C4%2C5%29-012-012.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116143423582_65_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99478-3%2C4%2C5%29-013-013.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116143427887_66_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99478-3%2C4%2C5%29-014-014.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020094",
+     "gu": "강동구",
+     "name": "성안로31나길 28 가동",
+     "addr": "서울특별시 강동구 성안로31나길 28 가동",
+     "supply": "매입다가구",
+     "units": 8,
+     "area_range": [
+      29.75,
+      56.86
+     ],
+     "dep_range": [
+      13330000,
+      23890000
+     ],
+     "rent_range": [
+      173600,
+      311300
+     ],
+     "area": 56.86,
+     "dep": 13330000,
+     "rent": 173600,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2017.05.12",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116152014599_135_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99208-1%2C2%2C3%29-014-014.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116152017588_136_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99208-1%2C2%2C3%29-015-015.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116152021177_137_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99208-1%2C2%2C3%29-016-016.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020095",
+     "gu": "강동구",
+     "name": "성안로31나길 28 나동",
+     "addr": "서울특별시 강동구 성안로31나길 28 나동",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      29.55,
+      54.62
+     ],
+     "dep_range": [
+      13820000,
+      23220000
+     ],
+     "rent_range": [
+      179900,
+      302400
+     ],
+     "area": 54.62,
+     "dep": 13820000,
+     "rent": 179900,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2017.05.12",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116152104276_138_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99208-1%2C2%2C3%29-014-014.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116152112554_139_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99208-1%2C2%2C3%29-015-015.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019011615211596_140_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99208-1%2C2%2C3%29-016-016.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020056",
+     "gu": "강동구",
+     "name": "구천면로50길 15-5",
+     "addr": "서울특별시 강동구 구천면로50길 15-5",
+     "supply": "매입다가구",
+     "units": 9,
+     "area_range": [
+      29.95,
+      59.69
+     ],
+     "dep_range": [
+      14190000,
+      24140000
+     ],
+     "rent_range": [
+      184800,
+      314600
+     ],
+     "area": 59.69,
+     "dep": 14190000,
+     "rent": 184800,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.03.07",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116134140683_11_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99243-159%2C160%29-009-009.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116134144972_12_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99243-159%2C160%29-010-010.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116134151386_13_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99243-159%2C160%29-011-011.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020080",
+     "gu": "강동구",
+     "name": "상암로27나길 26",
+     "addr": "서울특별시 강동구 상암로27나길 26",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      37.48,
+      58.09
+     ],
+     "dep_range": [
+      15129000,
+      23233000
+     ],
+     "rent_range": [
+      196300,
+      302100
+     ],
+     "area": 58.09,
+     "dep": 15129000,
+     "rent": 196300,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.08.08",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019011614441073_80_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99231-6%2C7%29-014-014.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116144413392_81_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99231-6%2C7%29-015-015.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116144416617_82_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%B2%9C%ED%98%B8%EB%8F%99231-6%2C7%29-016-016.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020062",
+     "gu": "강동구",
+     "name": "상암로 79-6",
+     "addr": "서울특별시 강동구 상암로 79-6",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      36.38,
+      46.81
+     ],
+     "dep_range": [
+      15450000,
+      19770000
+     ],
+     "rent_range": [
+      201300,
+      257600
+     ],
+     "area": 46.81,
+     "dep": 15450000,
+     "rent": 201300,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.05.18",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019011614110826_25_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99490-16%29-009-009.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019011614111241_26_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99490-16%29-010-010.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116141115400_27_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99490-16%29-011-011.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530180070",
+     "gu": "송파구",
+     "name": "성내천로21길 20-16",
+     "addr": "서울특별시 송파구 성내천로21길 20-16",
+     "supply": "매입다가구",
+     "units": 12,
+     "area_range": [
+      37.19,
+      59.86
+     ],
+     "dep_range": [
+      15660000,
+      24700000
+     ],
+     "rent_range": [
+      204200,
+      321900
+     ],
+     "area": 59.86,
+     "dep": 15660000,
+     "rent": 204200,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.11.01",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124103218673_37_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EB%A7%88%EC%B2%9C%EB%8F%9917-18%2C19%29-009-009.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124103220406_38_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EB%A7%88%EC%B2%9C%EB%8F%9917-18%2C19%29-010-010.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124103223145_39_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EB%A7%88%EC%B2%9C%EB%8F%9917-18%2C19%29-011-011.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020100",
+     "gu": "강동구",
+     "name": "천중로16길 20",
+     "addr": "서울특별시 강동구 천중로16길 20",
+     "supply": "매입다가구",
+     "units": 16,
+     "area_range": [
+      29.99,
+      43
+     ],
+     "dep_range": [
+      16480000,
+      23610000
+     ],
+     "rent_range": [
+      214700,
+      307700
+     ],
+     "area": 43,
+     "dep": 16480000,
+     "rent": 214700,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2018.07.12",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019030715124540_1_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8F%99%20363-26%2C27%2C28%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151248322_2_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8F%99%20363-26%2C27%2C28%29_2.jpg"
+     ],
+     "plan_names": [
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020106",
+     "gu": "강동구",
+     "name": "구천면로34길 56",
+     "addr": "서울특별시 강동구 구천면로34길 56",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      29.78,
+      51.75
+     ],
+     "dep_range": [
+      16580000,
+      25780000
+     ],
+     "rent_range": [
+      216000,
+      335800
+     ],
+     "area": 51.75,
+     "dep": 16580000,
+     "rent": 216000,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2018.12.03",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151647604_23_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8F%99%20210-3%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151650654_24_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8F%99%20210-3%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151654475_25_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8F%99%20210-3%29_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151658433_26_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%20%EC%B2%9C%ED%98%B8%EB%8F%99%20210-3%29_4.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020052",
+     "gu": "강동구",
+     "name": "고덕로20가길 5",
+     "addr": "서울특별시 강동구 고덕로20가길 5",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      44.04,
+      57.79
+     ],
+     "dep_range": [
+      16970000,
+      21430000
+     ],
+     "rent_range": [
+      221200,
+      279300
+     ],
+     "area": 57.79,
+     "dep": 16970000,
+     "rent": 221200,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.01.21",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116114150232_25_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99457-15%2C49%29-019-019.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116114154301_26_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99457-15%2C49%29-020-020.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116114157890_27_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99457-15%2C49%29-021-021.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020113",
+     "gu": "강동구",
+     "name": "고덕로 84-13",
+     "addr": "서울특별시 강동구 고덕로 84-13",
+     "supply": "매입다가구",
+     "units": 13,
+     "area_range": [
+      29.86,
+      58.97
+     ],
+     "dep_range": [
+      17370000,
+      31310000
+     ],
+     "rent_range": [
+      226300,
+      408000
+     ],
+     "area": 58.97,
+     "dep": 17370000,
+     "rent": 226300,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2019.06.21",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20191018155332238_65_%EA%B1%B4%EC%B6%95%EB%8F%84%EB%A9%B4_1.png",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20191018155336911_66_%EA%B1%B4%EC%B6%95%EB%8F%84%EB%A9%B4_2.png",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20191018155341450_67_%EA%B1%B4%EC%B6%95%EB%8F%84%EB%A9%B4_3.png",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20191018155345971_68_%EA%B1%B4%EC%B6%95%EB%8F%84%EB%A9%B4_4.png"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020142",
+     "gu": "강동구",
+     "name": "구천면로42길 88",
+     "addr": "서울특별시 강동구 구천면로42길 88",
+     "supply": "매입다가구",
+     "units": 12,
+     "area_range": [
+      27.42,
+      39.28
+     ],
+     "dep_range": [
+      17570000,
+      24630000
+     ],
+     "rent_range": [
+      228800,
+      320900
+     ],
+     "area": 39.28,
+     "dep": 17570000,
+     "rent": 228800,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.05.27",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220113174816482_34_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_%20%EC%B2%9C%ED%98%B8%EB%8F%99%2084-15%2C162_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220113174827769_35_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_%20%EC%B2%9C%ED%98%B8%EB%8F%99%2084-15%2C162_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220113174837174_36_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_%20%EC%B2%9C%ED%98%B8%EB%8F%99%2084-15%2C162_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220113174845400_37_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95%2C%EA%B5%AC%EC%A1%B0_%20%EC%B2%9C%ED%98%B8%EB%8F%99%2084-15%2C162_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020049",
+     "gu": "강동구",
+     "name": "상암로79가길 14",
+     "addr": "서울특별시 강동구 상암로79가길 14",
+     "supply": "매입다가구",
+     "units": 8,
+     "area_range": [
+      45.55,
+      46.33
+     ],
+     "dep_range": [
+      18050000,
+      19340000
+     ],
+     "rent_range": [
+      235200,
+      252000
+     ],
+     "area": 46.33,
+     "dep": 18050000,
+     "rent": 235200,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.02.23",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116094342663_4_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%83%81%EC%9D%BC%EB%8F%99333-3%29-012-012.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116094347401_5_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%83%81%EC%9D%BC%EB%8F%99333-3%29-013-013.jpg"
+     ],
+     "plan_names": [
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020081",
+     "gu": "강동구",
+     "name": "구천면로57길 9",
+     "addr": "서울특별시 강동구 구천면로57길 9",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      45.1,
+      59.92
+     ],
+     "dep_range": [
+      19062000,
+      23738000
+     ],
+     "rent_range": [
+      248300,
+      309200
+     ],
+     "area": 59.92,
+     "dep": 19062000,
+     "rent": 248300,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2016.08.29",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116144748320_83_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99476-6%2C7%2C8%29-011-011.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190116144752746_84_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99476-6%2C7%2C8%29-012-012.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019011614475675_85_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B0%95%EB%8F%99%EA%B5%AC%EC%95%94%EC%82%AC%EB%8F%99476-6%2C7%2C8%29-013-013.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020213",
+     "gu": "강동구",
+     "name": "동남로65길 52-10",
+     "addr": "서울특별시 강동구 동남로65길 52-10",
+     "supply": "매입다가구",
+     "units": 8,
+     "area_range": [
+      25.3,
+      59.24
+     ],
+     "dep_range": [
+      19140000,
+      41420000
+     ],
+     "rent_range": [
+      197200,
+      426900
+     ],
+     "area": 59.24,
+     "dep": 19140000,
+     "rent": 197200,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2021.12.08",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209093511214_20_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AA%85%EC%9D%BC%EB%8F%99%20240-1_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209093519106_21_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AA%85%EC%9D%BC%EB%8F%99%20240-1_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209093528993_22_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AA%85%EC%9D%BC%EB%8F%99%20240-1_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209093535832_23_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EB%AA%85%EC%9D%BC%EB%8F%99%20240-1_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020211",
+     "gu": "강동구",
+     "name": "천호대로186길 23",
+     "addr": "서울특별시 강동구 천호대로186길 23",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      25,
+      54.79
+     ],
+     "dep_range": [
+      20120000,
+      38680000
+     ],
+     "rent_range": [
+      207400,
+      398500
+     ],
+     "area": 54.79,
+     "dep": 20120000,
+     "rent": 207400,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2021.11.24",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209114853408_164_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EB%91%94%EC%B4%8C%EB%8F%99%2061-5_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209114901659_165_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EB%91%94%EC%B4%8C%EB%8F%99%2061-5_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/2023020911490822_166_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EB%91%94%EC%B4%8C%EB%8F%99%2061-5_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209114914591_167_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EB%91%94%EC%B4%8C%EB%8F%99%2061-5_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530180066",
+     "gu": "송파구",
+     "name": "마천로25길 2-12",
+     "addr": "서울특별시 송파구 마천로25길 2-12",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      50.26,
+      59.18
+     ],
+     "dep_range": [
+      20420000,
+      24290000
+     ],
+     "rent_range": [
+      266200,
+      316500
+     ],
+     "area": 59.18,
+     "dep": 20420000,
+     "rent": 266200,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2015.12.22",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124101013411_24_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%98%A4%EA%B8%88%EB%8F%99115-10%2C11%29-007-007.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124101015335_25_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%98%A4%EA%B8%88%EB%8F%99115-10%2C11%29-008-008.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124101017115_26_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%98%A4%EA%B8%88%EB%8F%99115-10%2C11%29-009-009.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2019012410101990_27_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%98%A4%EA%B8%88%EB%8F%99115-10%2C11%29-010-010.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530180085",
+     "gu": "송파구",
+     "name": "오금로49길 45",
+     "addr": "서울특별시 송파구 오금로49길 45",
+     "supply": "매입다가구",
+     "units": 13,
+     "area_range": [
+      26.51,
+      40.86
+     ],
+     "dep_range": [
+      21200000,
+      30040000
+     ],
+     "rent_range": [
+      276100,
+      391300
+     ],
+     "area": 40.86,
+     "dep": 21200000,
+     "rent": 276100,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.08.06",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153931199_118_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20143-6_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153939931_119_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20143-6_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022011415394812_120_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20143-6_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153957174_121_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%98%A4%EA%B8%88%EB%8F%99%20143-6_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530180074",
+     "gu": "송파구",
+     "name": "동남로23가길 4-8",
+     "addr": "서울특별시 송파구 동남로23가길 4-8",
+     "supply": "매입다가구",
+     "units": 12,
+     "area_range": [
+      42.27,
+      54.96
+     ],
+     "dep_range": [
+      21613000,
+      27824000
+     ],
+     "rent_range": [
+      281500,
+      362500
+     ],
+     "area": 54.96,
+     "dep": 21613000,
+     "rent": 281500,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2017.03.28",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/201901241731530_48_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EC%98%A4%EA%B8%88%EB%8F%9958-3%2C4%29-010-010.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190124173154950_49_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EC%98%A4%EA%B8%88%EB%8F%9958-3%2C4%29-011-011.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/201901241731576_50_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%86%A1%ED%8C%8C%EA%B5%AC%EC%98%A4%EA%B8%88%EB%8F%9958-3%2C4%29-012-012.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020103",
+     "gu": "강동구",
+     "name": "구천면로29길 67",
+     "addr": "서울특별시 강동구 구천면로29길 67",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      37.86,
+      57.97
+     ],
+     "dep_range": [
+      21620000,
+      31860000
+     ],
+     "rent_range": [
+      281800,
+      415200
+     ],
+     "area": 57.97,
+     "dep": 21620000,
+     "rent": 281800,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2018.10.23",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151419563_11_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%20%28%EC%B2%9C%ED%98%B8%EB%8F%99%20387-50%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151422938_12_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%20%28%EC%B2%9C%ED%98%B8%EB%8F%99%20387-50%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151426407_13_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%20%28%EC%B2%9C%ED%98%B8%EB%8F%99%20387-50%29_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190307151430251_14_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%20%28%EC%B2%9C%ED%98%B8%EB%8F%99%20387-50%29_4.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530180077",
+     "gu": "송파구",
+     "name": "백제고분로28길 6-15",
+     "addr": "서울특별시 송파구 백제고분로28길 6-15",
+     "supply": "매입다가구",
+     "units": 15,
+     "area_range": [
+      24.65,
+      29.2
+     ],
+     "dep_range": [
+      22380000,
+      26210000
+     ],
+     "rent_range": [
+      291500,
+      341400
+     ],
+     "area": 29.2,
+     "dep": 22380000,
+     "rent": 291500,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2021071316185480_14_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B1%B4%EC%B6%95%29%EC%82%BC%EC%A0%84%EB%8F%99%2061-7%ED%98%B8%28%EB%A7%A4%EB%A7%A4%EC%95%BD%EC%A0%95%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20210713161904451_15_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B1%B4%EC%B6%95%29%EC%82%BC%EC%A0%84%EB%8F%99%2061-7%ED%98%B8%28%EB%A7%A4%EB%A7%A4%EC%95%BD%EC%A0%95%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2021071316191557_16_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B1%B4%EC%B6%95%29%EC%82%BC%EC%A0%84%EB%8F%99%2061-7%ED%98%B8%28%EB%A7%A4%EB%A7%A4%EC%95%BD%EC%A0%95%29_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20210713161925280_17_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%28%EA%B1%B4%EC%B6%95%29%EC%82%BC%EC%A0%84%EB%8F%99%2061-7%ED%98%B8%28%EB%A7%A4%EB%A7%A4%EC%95%BD%EC%A0%95%29_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2층",
+      "3~4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020184",
+     "gu": "강동구",
+     "name": "천중로32길 12-4",
+     "addr": "서울특별시 강동구 천중로32길 12-4",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      37.71,
+      59.85
+     ],
+     "dep_range": [
+      22480000,
+      33870000
+     ],
+     "rent_range": [
+      231700,
+      349100
+     ],
+     "area": 59.85,
+     "dep": 22480000,
+     "rent": 231700,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2021.04.06",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022081117512140_11_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20133-21%EC%99%B82%ED%95%84%EC%A7%80_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811175125872_12_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20133-21%EC%99%B82%ED%95%84%EC%A7%80_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/202208111751326_13_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20133-21%EC%99%B82%ED%95%84%EC%A7%80_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220811175138116_14_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20133-21%EC%99%B82%ED%95%84%EC%A7%80_4.jpg"
+     ],
+     "plan_names": [
+      "2",
+      "3",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "id": "530020208",
+     "gu": "강동구",
+     "name": "천중로34길 16",
+     "addr": "서울특별시 강동구 천중로34길 16",
+     "supply": "매입다가구",
+     "units": 9,
+     "area_range": [
+      29.96,
+      59.92
+     ],
+     "dep_range": [
+      22670000,
+      37800000
+     ],
+     "rent_range": [
+      233600,
+      389400
+     ],
+     "area": 59.92,
+     "dep": 22670000,
+     "rent": 233600,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2021.08.02",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720110209255_6_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20130-1%EC%99%B83%ED%95%84%EC%A7%80_%ED%8C%8C%ED%8A%B88_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720110220263_7_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20130-1%EC%99%B83%ED%95%84%EC%A7%80_%ED%8C%8C%ED%8A%B87_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720110231525_8_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20130-1%EC%99%B83%ED%95%84%EC%A7%80_%ED%8C%8C%ED%8A%B86_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720110257979_9_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20130-1%EC%99%B83%ED%95%84%EC%A7%80_%ED%8C%8C%ED%8A%B85_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220720110323520_10_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20130-1%EC%99%B83%ED%95%84%EC%A7%80_%ED%8C%8C%ED%8A%B81_1.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "530020203",
+     "gu": "강동구",
+     "name": "구천면로53길 6",
+     "addr": "서울특별시 강동구 구천면로53길 6",
+     "supply": "매입다가구",
+     "units": 11,
+     "area_range": [
+      29.16,
+      58.86
+     ],
+     "dep_range": [
+      22770000,
+      40450000
+     ],
+     "rent_range": [
+      234600,
+      416800
+     ],
+     "area": 58.86,
+     "dep": 22770000,
+     "rent": 234600,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2021.08.13",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812133010928_120_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20477-16_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812133015379_121_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20477-16_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812133021795_122_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20477-16_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220812133028480_123_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20477-16_4.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/202208121330351_124_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%95%94%EC%82%AC%EB%8F%99%20477-16_5.jpg"
+     ],
+     "plan_names": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+     ]
+    },
+    {
+     "id": "530180088",
+     "gu": "송파구",
+     "name": "송이로6길 8-1",
+     "addr": "서울특별시 송파구 송이로6길 8-1",
+     "supply": "매입다가구",
+     "units": 12,
+     "area_range": [
+      26.98,
+      35.11
+     ],
+     "dep_range": [
+      23060000,
+      30040000
+     ],
+     "rent_range": [
+      300500,
+      391300
+     ],
+     "area": 35.11,
+     "dep": 23060000,
+     "rent": 300500,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 4,
+     "built": "2020.07.21",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153038218_110_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%86%A1%ED%8C%8C%EB%8F%99%20101-20_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153046260_111_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%86%A1%ED%8C%8C%EB%8F%99%20101-20_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114153053849_112_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%86%A1%ED%8C%8C%EB%8F%99%20101-20_3.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층"
+     ]
+    },
+    {
+     "id": "530020136",
+     "gu": "강동구",
+     "name": "상암로 111",
+     "addr": "서울특별시 강동구 상암로 111",
+     "supply": "매입다가구",
+     "units": 12,
+     "area_range": [
+      29.92,
+      43.82
+     ],
+     "dep_range": [
+      23750000,
+      33180000
+     ],
+     "rent_range": [
+      309400,
+      432300
+     ],
+     "area": 43.82,
+     "dep": 23750000,
+     "rent": 309400,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "설치",
+     "floors": 5,
+     "built": "2020.05.06",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022011317293594_19_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20233-5%EC%99%B84%ED%95%84%EC%A7%8044_6.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220113172944937_20_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20233-5%EC%99%B84%ED%95%84%EC%A7%8044_7.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220113172958243_21_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%20233-5%EC%99%B84%ED%95%84%EC%A7%8044_8.jpg"
+     ],
+     "plan_names": [
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "530020201",
+     "gu": "강동구",
+     "name": "동남로83길 8",
+     "addr": "서울특별시 강동구 동남로83길 8",
+     "supply": "매입다가구",
+     "units": 10,
+     "area_range": [
+      29.27,
+      56.62
+     ],
+     "dep_range": [
+      23950000,
+      43690000
+     ],
+     "rent_range": [
+      246800,
+      450200
+     ],
+     "area": 56.62,
+     "dep": 23950000,
+     "rent": 246800,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2021.08.13",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209114558445_160_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B3%A0%EB%8D%95%EB%8F%99%20508-6_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209114605350_161_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B3%A0%EB%8D%95%EB%8F%99%20508-6_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/2023020911461290_162_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B3%A0%EB%8D%95%EB%8F%99%20508-6_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209114618740_163_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EC%95%BD%EC%A0%95%5D%20%EA%B1%B4%EC%B6%95_%20%EA%B3%A0%EB%8D%95%EB%8F%99%20508-6_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "label": "매입원룸",
+   "kind": "building",
+   "items": [
+    {
+     "id": "813020027",
+     "gu": "강동구",
+     "name": "천중로16길 19",
+     "addr": "서울특별시 강동구 천중로16길 19",
+     "supply": "매입원룸",
+     "units": 20,
+     "area_range": [
+      21.95,
+      29.98
+     ],
+     "dep_range": [
+      14130000,
+      20120000
+     ],
+     "rent_range": [
+      184100,
+      262200
+     ],
+     "area": 29.98,
+     "dep": 14130000,
+     "rent": 184100,
+     "vac": 4,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2019.04.22",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190612095033178_9_%EC%9B%90%20%28%EA%B1%B4%EC%B6%95%29%EC%B2%9C%ED%98%B8%EB%8F%99391-5%EC%99%B8%202%ED%95%84%EC%A7%80%28%EB%A7%A4%EB%A7%A4%EA%B3%84%EC%95%BD%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190612095035516_10_%EC%9B%90%20%28%EA%B1%B4%EC%B6%95%29%EC%B2%9C%ED%98%B8%EB%8F%99391-5%EC%99%B8%202%ED%95%84%EC%A7%80%28%EB%A7%A4%EB%A7%A4%EA%B3%84%EC%95%BD%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190612095039209_11_%EC%9B%90%20%28%EA%B1%B4%EC%B6%95%29%EC%B2%9C%ED%98%B8%EB%8F%99391-5%EC%99%B8%202%ED%95%84%EC%A7%80%28%EB%A7%A4%EB%A7%A4%EA%B3%84%EC%95%BD%29_3.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "813020023",
+     "gu": "강동구",
+     "name": "천중로56길 59",
+     "addr": "서울특별시 강동구 천중로56길 59",
+     "supply": "매입원룸",
+     "units": 15,
+     "area_range": [
+      22.23,
+      34.5
+     ],
+     "dep_range": [
+      14630000,
+      22700000
+     ],
+     "rent_range": [
+      190600,
+      295700
+     ],
+     "area": 34.5,
+     "dep": 14630000,
+     "rent": 190600,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2018.11.14",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190513140518496_13_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B8%B8%EB%8F%99%20127-8%20A%EB%8F%99%2CB%EB%8F%99%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190513140521407_14_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B8%B8%EB%8F%99%20127-8%20A%EB%8F%99%2CB%EB%8F%99%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190513140524325_15_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B8%B8%EB%8F%99%20127-8%20A%EB%8F%99%2CB%EB%8F%99%29_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190513140527749_16_%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EA%B8%B8%EB%8F%99%20127-8%20A%EB%8F%99%2CB%EB%8F%99%29_4.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "813020038",
+     "gu": "강동구",
+     "name": "구천면로64길 9-22",
+     "addr": "서울특별시 강동구 구천면로64길 9-22",
+     "supply": "매입원룸",
+     "units": 14,
+     "area_range": [
+      25.07,
+      29.93
+     ],
+     "dep_range": [
+      16240000,
+      20800000
+     ],
+     "rent_range": [
+      167200,
+      214400
+     ],
+     "area": 29.93,
+     "dep": 16240000,
+     "rent": 167200,
+     "vac": 2,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2020.11.11",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114173513136_18_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%2018-163%EC%99%B81%ED%95%84%EC%A7%80_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114173521802_19_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%2018-163%EC%99%B81%ED%95%84%EC%A7%80_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114173529395_20_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%2018-163%EC%99%B81%ED%95%84%EC%A7%80_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20220114173536636_21_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%9B%90%EB%B3%B8%20%5B%EA%B3%84%EC%95%BD%5D%20%EA%B1%B4%EC%B6%95_%20%EC%B2%9C%ED%98%B8%EB%8F%99%2018-163%EC%99%B81%ED%95%84%EC%A7%80_4.jpg"
+     ],
+     "plan_names": [
+      "1층",
+      "2~3층",
+      "4층",
+      "5층"
+     ]
+    },
+    {
+     "id": "813020021",
+     "gu": "강동구",
+     "name": "천중로 122-1",
+     "addr": "서울특별시 강동구 천중로 122-1",
+     "supply": "매입원룸",
+     "units": 13,
+     "area_range": [
+      25.96,
+      45.48
+     ],
+     "dep_range": [
+      3270000,
+      25220000
+     ],
+     "rent_range": [
+      195200,
+      334000
+     ],
+     "area": 45.48,
+     "dep": 3270000,
+     "rent": 195200,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2018.11.07",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190513140315603_5_18-1-08%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%B2%9C%ED%98%B8%EB%8F%99%20214-54%2C55%29_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190513140319100_6_18-1-08%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%B2%9C%ED%98%B8%EB%8F%99%20214-54%2C55%29_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190513140322697_7_18-1-08%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%B2%9C%ED%98%B8%EB%8F%99%20214-54%2C55%29_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20190513140326686_8_18-1-08%EC%A4%80%EA%B3%B5%EB%8F%84%EB%A9%B4%28%EC%B2%9C%ED%98%B8%EB%8F%99%20214-54%2C55%29_4.jpg"
+     ],
+     "plan_names": [
+      "",
+      "",
+      "",
+      ""
+     ]
+    },
+    {
+     "id": "813020033",
+     "gu": "강동구",
+     "name": "천중로29길 29-9",
+     "addr": "서울특별시 강동구 천중로29길 29-9",
+     "supply": "매입원룸",
+     "units": 14,
+     "area_range": [
+      26.22,
+      37.9
+     ],
+     "dep_range": [
+      15310000,
+      22380000
+     ],
+     "rent_range": [
+      199500,
+      291500
+     ],
+     "area": 37.9,
+     "dep": 15310000,
+     "rent": 199500,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2019.12.23",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20201208174932406_36_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%28%EA%B3%84%EC%95%BD%EB%8F%84%EB%A9%B4%29%20%EC%B2%9C%ED%98%B8%EB%8F%99%2084-6.26.pdf_page_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20201208174943246_37_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%28%EA%B3%84%EC%95%BD%EB%8F%84%EB%A9%B4%29%20%EC%B2%9C%ED%98%B8%EB%8F%99%2084-6.26.pdf_page_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20201208174953515_38_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%28%EA%B3%84%EC%95%BD%EB%8F%84%EB%A9%B4%29%20%EC%B2%9C%ED%98%B8%EB%8F%99%2084-6.26.pdf_page_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20201208175010284_39_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%28%EA%B3%84%EC%95%BD%EB%8F%84%EB%A9%B4%29%20%EC%B2%9C%ED%98%B8%EB%8F%99%2084-6.26.pdf_page_4.jpg"
+     ],
+     "plan_names": [
+      "1층평면도",
+      "2~3층 평면도",
+      "4층 평면도",
+      "5층평면도"
+     ]
+    },
+    {
+     "id": "813020032",
+     "gu": "강동구",
+     "name": "상암로23길 15-9",
+     "addr": "서울특별시 강동구 상암로23길 15-9",
+     "supply": "매입원룸",
+     "units": 12,
+     "area_range": [
+      28.92,
+      39.56
+     ],
+     "dep_range": [
+      16590000,
+      23260000
+     ],
+     "rent_range": [
+      216100,
+      303000
+     ],
+     "area": 39.56,
+     "dep": 16590000,
+     "rent": 216100,
+     "vac": 1,
+     "wait": 0,
+     "elevator": "미설치",
+     "floors": 5,
+     "built": "2019.12.23",
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20201208173857133_32_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%28%EA%B3%84%EC%95%BD%EB%8F%84%EB%A9%B4%29%20%EC%95%94%EC%82%AC%EB%8F%99%20489-36%2C37.pdf_page_1.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20201208173906830_33_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%28%EA%B3%84%EC%95%BD%EB%8F%84%EB%A9%B4%29%20%EC%95%94%EC%82%AC%EB%8F%99%20489-36%2C37.pdf_page_2.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20201208173915423_34_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%28%EA%B3%84%EC%95%BD%EB%8F%84%EB%A9%B4%29%20%EC%95%94%EC%82%AC%EB%8F%99%20489-36%2C37.pdf_page_3.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20201208173925630_35_%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%B2%94%EC%9C%84%20%28%EA%B3%84%EC%95%BD%EB%8F%84%EB%A9%B4%29%20%EC%95%94%EC%82%AC%EB%8F%99%20489-36%2C37.pdf_page_4.jpg"
+     ],
+     "plan_names": [
+      "1층평면도",
+      "2~3층 평면도",
+      "4층 평면도",
+      "5층평면도"
+     ]
+    }
+   ]
+  }
+ ],
+ "updated": "2026-11-12"
+}
