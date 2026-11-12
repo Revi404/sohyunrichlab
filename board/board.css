@@ -1,0 +1,84 @@
+/* 임대주택 평면 보드. 색·모서리 값은 링크페이지(style.css)의 소현리치랩 토큰과 같다. */
+:root {
+  --paper: #f3f5f9; --card: #ffffff;
+  --ink: #121a2b; --ink-text: #2a3347; --ink-soft: #4f5970; --ink-faint: #8a93a6;
+  --line: rgba(18, 26, 43, .12);
+  --accent: #2457d6; --accent-soft: #e3ebfb;
+  --highlight: #f5c342;
+  --ok: #0c5230; --ok-soft: #e6f1e2; --warn: #7a5600; --warn-soft: #fdf3d3;
+  --r-md: 10px; --r-lg: 14px; --r-pill: 999px;
+  --shadow-card: 0 1px 2px rgba(15,27,51,.04), 0 6px 20px rgba(15,27,51,.06);
+  --kr: "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--paper); color: var(--ink-text); font-family: var(--kr); font-size: 14px; line-height: 1.5; letter-spacing: -.01em; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 20px 16px calc(40px + env(safe-area-inset-bottom)); display: grid; gap: 16px; }
+.brand { font-size: 13px; font-weight: 600; text-decoration: none; }
+.head h1 { margin-top: 6px; font-size: 24px; font-weight: 800; letter-spacing: -.03em; line-height: 1.25; color: var(--ink); text-wrap: balance; }
+.sub { margin-top: 4px; color: var(--ink-soft); }
+
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tab { border: 1px solid var(--line); background: var(--card); padding: 8px 14px; border-radius: var(--r-pill); font-weight: 600; cursor: pointer; }
+.tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+.stat { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-md); padding: 12px 14px; }
+.stat b { display: block; font-size: 20px; font-weight: 800; color: var(--ink); font-variant-numeric: tabular-nums; }
+.stat span { color: var(--ink-soft); font-size: 12px; }
+
+.bar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.bar label { font-size: 12px; color: var(--ink-soft); display: flex; gap: 6px; align-items: center; }
+.bar label[hidden] { display: none; }
+.ctl { border: 1px solid var(--line); background: var(--card); border-radius: 8px; padding: 7px 10px; }
+.count { margin-left: auto; color: var(--ink-soft); font-size: 13px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-card); overflow: hidden; display: flex; flex-direction: column; }
+.body { padding: 14px 16px 16px; display: grid; gap: 10px; }
+
+/* 평면도: 카드 맨 위에 바로 보이고, 누르면 크게 열린다 */
+.plan { position: relative; display: block; width: 100%; aspect-ratio: 4 / 3; background: #fff; border: 0; border-bottom: 1px solid var(--line); cursor: zoom-in; padding: 8px; }
+.plan img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.plan .zoom { position: absolute; right: 10px; bottom: 10px; font-size: 12px; font-weight: 600; background: rgba(18,26,43,.78); color: #fff; padding: 3px 9px; border-radius: var(--r-pill); }
+.plan.none { cursor: default; display: grid; place-items: center; background: var(--paper); color: var(--ink-faint); font-size: 13px; text-align: center; }
+.plan.none a { display: inline-block; margin-top: 4px; font-weight: 700; }
+
+.top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+.nm { font-weight: 700; font-size: 16px; line-height: 1.35; color: var(--ink); }
+.meta { color: var(--ink-soft); font-size: 12px; margin-top: 2px; }
+.no { font-size: 12px; color: var(--ink-faint); white-space: nowrap; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip { font-size: 12px; padding: 2px 9px; border-radius: var(--r-pill); background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.chip.ok { background: var(--ok-soft); color: var(--ok); }
+.chip.warn { background: var(--warn-soft); color: var(--warn); }
+dl { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 14px; }
+dl div { border-top: 1px solid var(--line); padding-top: 6px; }
+dt { font-size: 11.5px; color: var(--ink-soft); }
+dd { font-size: 15px; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+dd small { font-weight: 400; color: var(--ink-soft); font-size: 11.5px; }
+.addr { font-size: 12px; color: var(--ink-soft); }
+.empty { color: var(--ink-soft); }
+
+.foot { font-size: 12px; color: var(--ink-soft); display: grid; gap: 4px; }
+.foot .meta { color: var(--ink-faint); }
+
+.viewer { border: 0; padding: 0; width: min(1100px, 96vw); max-height: 94vh; border-radius: var(--r-lg); background: var(--card); color: var(--ink-text); margin: auto; overflow: hidden; }
+.viewer[open] { display: flex; flex-direction: column; }
+.viewer::backdrop { background: rgba(18,26,43,.6); }
+.v-head { display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.v-head strong { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink); }
+.v-head a { font-size: 13px; font-weight: 600; white-space: nowrap; text-decoration: none; }
+.v-head button { border: 0; background: var(--paper); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; }
+.v-body { overflow: auto; background: #fff; padding: 8px; }
+.v-body img { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+
+@media (max-width: 420px) {
+  .grid { grid-template-columns: 1fr; }
+  .count { margin-left: 0; width: 100%; }
+  .head h1 { font-size: 21px; }
+}
