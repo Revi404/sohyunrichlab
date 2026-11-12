@@ -1,6 +1,7 @@
 """평면도 이미지 내려받기 (소현리치랩 임대주택 보드).
 
-data/boards/*.json 에 적힌 평면도 주소(plan_url)를 받아 보드 화면에서 바로 보이도록 줄여서 저장한다.
+보드(data/boards/*.json)에 적힌 평면도와 SH 주택정보 수집 결과(data/sh_houses.json)의 평면도 전부를 받아
+화면과 블로그 글에서 바로 보이도록 줄여서 저장한다. 보드에 쓰는 평면도를 먼저 받고, 나머지는 실행마다 조금씩 채운다.
 
 | 결과 | 내용 |
 |---|---|
@@ -10,9 +11,9 @@ data/boards/*.json 에 적힌 평면도 주소(plan_url)를 받아 보드 화면
 - 이미 받은 주소는 다시 받지 않는다(--refresh 로 전부 다시 받기).
 - 이미지 파일이 아닌 주소(블로그·영상)는 건너뛰고, 화면에서는 링크로 남는다.
 - 요청 사이에 1.5초를 쉬고, 수집기 이름을 그대로 밝힌 User-Agent 를 쓴다.
-- 어느 보드에서도 쓰지 않게 된 파일은 지운다.
+- 보드에도 수집 결과에도 없게 된 파일은 지운다.
 
-실행: python scripts/fetch_floorplans.py [--refresh] [--max 200]
+실행: python scripts/fetch_floorplans.py [--refresh] [--max 300]
 """
 from __future__ import annotations
 
@@ -33,6 +34,7 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parent.parent
 BOARDS = ROOT / "data" / "boards"
 PLANS = ROOT / "assets" / "plans"
+HOUSES = ROOT / "data" / "sh_houses.json"
 MANIFEST = ROOT / "data" / "plans.json"
 KST = timezone(timedelta(hours=9))
 UA = "sohyunrichlab-notice-collector/1.0 (+https://revi404.github.io/sohyunrichlab/)"
@@ -49,12 +51,27 @@ def board_urls() -> list[str]:
     """모든 보드에서 평면도 주소를 순서대로, 겹치지 않게 모은다."""
     urls: dict[str, None] = {}
     for f in sorted(BOARDS.glob("*.json")):
+        if f.name == "index.json":
+            continue
         board = json.loads(f.read_text(encoding="utf-8"))
         for tab in board.get("tabs", []):
             for item in tab.get("items", []):
                 for u in [item.get("plan_url"), *(item.get("plan_urls") or [])]:
                     if u and is_image_url(u):
                         urls[u] = None
+    return list(urls)
+
+
+def house_urls() -> list[str]:
+    """SH 주택정보 수집 결과에 있는 모든 주택형의 평면도 주소."""
+    if not HOUSES.exists():
+        return []
+    urls: dict[str, None] = {}
+    for cx in json.loads(HOUSES.read_text(encoding="utf-8")).get("complexes", {}).values():
+        for t in cx.get("types") or []:
+            for p in t.get("floorplans") or []:
+                if p.get("url") and is_image_url(p["url"]):
+                    urls[p["url"]] = None
     return list(urls)
 
 
@@ -87,13 +104,14 @@ def to_webp(data: bytes) -> tuple[bytes, int, int]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true", help="이미 받은 이미지도 다시 받기")
-    ap.add_argument("--max", type=int, default=200, help="한 번 실행에서 새로 받을 최대 장수")
+    ap.add_argument("--max", type=int, default=300, help="한 번 실행에서 새로 받을 최대 장수")
     args = ap.parse_args()
     today = datetime.now(KST).strftime("%Y-%m-%d")
     prev = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else {}
     before = prev.get("plans", {})
     plans: dict[str, dict] = dict(before)
-    urls = board_urls()
+    first = board_urls()
+    urls = list(dict.fromkeys([*first, *house_urls()]))  # 보드에 쓰는 것 먼저
     PLANS.mkdir(parents=True, exist_ok=True)
 
     done = failed = 0
@@ -111,6 +129,9 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001
             failed += 1
             print(f"실패: {url} ({type(e).__name__}: {e})", file=sys.stderr)
+            if failed >= 30 and not done:
+                print("연속 실패가 많아 중단", file=sys.stderr)
+                break
             continue
         name = hashlib.sha1(url.encode()).hexdigest()[:16] + ".webp"
         (PLANS / name).write_bytes(webp)
@@ -127,7 +148,7 @@ def main() -> int:
             f.unlink()
             removed += 1
 
-    print(f"평면도 주소 {len(urls)}개, 새로 받음 {done}장, 실패 {failed}건, 정리 {removed}장, 보유 {len(plans)}장")
+    print(f"보드용 {len(first)}개 포함 평면도 주소 {len(urls)}개, 새로 받음 {done}장, 실패 {failed}건, 정리 {removed}장, 보유 {len(plans)}장")
     if plans != before:
         MANIFEST.write_text(json.dumps({"updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"), "plans": plans},
                                        ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>티스토리 글 복사 | 소현리치랩</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="board.css">
+<style>
+.tool { background: var(--card); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 16px; display: grid; gap: 12px; }
+.tool label { font-size: 12px; color: var(--ink-soft); display: grid; gap: 4px; }
+.tool input, .tool select { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; background: var(--paper); font: inherit; color: var(--ink); }
+.btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.btn { border: 1px solid var(--line); background: var(--card); border-radius: var(--r-pill); padding: 9px 16px; font-weight: 700; cursor: pointer; }
+.btn.main { background: var(--accent); border-color: var(--accent); color: #fff; }
+.steps { padding-left: 18px; color: var(--ink-soft); font-size: 13px; }
+.preview { background: #fff; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 20px; max-width: 760px; overflow: hidden; }
+.preview img { max-width: 100%; height: auto; }
+#done { font-size: 13px; color: var(--ok); font-weight: 600; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="head">
+    <a class="brand" href="./">← 보드 목록</a>
+    <h1>티스토리 글 복사</h1>
+    <p class="sub">보드를 고르고 제목과 본문을 복사해 티스토리에 붙여 넣으면 됩니다.</p>
+  </header>
+
+  <section class="tool">
+    <label for="pick">보드 <select id="pick"></select></label>
+    <label for="p-title">제목 <input id="p-title" readonly></label>
+    <label for="p-tags">태그 <input id="p-tags" readonly></label>
+    <div class="btns">
+      <button type="button" class="btn" data-copy="p-title">제목 복사</button>
+      <button type="button" class="btn" data-copy="p-tags">태그 복사</button>
+      <button type="button" class="btn main" id="copy-html">본문 HTML 복사</button>
+      <span id="done" aria-live="polite"></span>
+    </div>
+    <ol class="steps">
+      <li>티스토리 글쓰기에서 오른쪽 위 '기본모드'를 눌러 'HTML'로 바꿉니다.</li>
+      <li>'본문 HTML 복사'를 누른 뒤 편집 칸에 붙여 넣습니다.</li>
+      <li>다시 '기본모드'로 돌아와 모양을 확인하고 제목과 태그를 넣어 발행합니다.</li>
+    </ol>
+  </section>
+
+  <h2 style="font-size:16px;color:var(--ink)">미리보기</h2>
+  <section class="preview" id="preview"></section>
+</main>
+<script>
+(async () => {
+  const $ = (id) => document.getElementById(id);
+  const get = (p, json) => fetch(p, { cache: "no-cache" }).then((r) => (r.ok ? (json ? r.json() : r.text()) : null)).catch(() => null);
+  const idx = await get("../data/boards/index.json", true);
+  const boards = (idx && idx.boards) || [];
+  const want = new URLSearchParams(location.search).get("b");
+  boards.forEach((b) => { const o = new Option(`${b.title} (${b.count}건)`, b.slug); $("pick").add(o); });
+  if (want && boards.some((b) => b.slug === want)) $("pick").value = want;
+  let html = "";
+  async function load() {
+    const slug = $("pick").value.replace(/[^a-z0-9-]/gi, "");
+    html = (await get(`../posts/${slug}.html`)) || "";
+    const m = html.match(/^<!-- sohyunrichlab-post (.*?) -->\n?/);
+    let meta = {};
+    try { meta = m ? JSON.parse(m[1]) : {}; } catch (e) { meta = {}; }
+    if (m) html = html.slice(m[0].length);
+    $("p-title").value = meta.title || "";
+    $("p-tags").value = (meta.tags || []).join(", ");
+    /* 미리보기는 스크립트가 실행되지 않도록 따로 읽어 들인 문서에서 본문만 옮긴다 */
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    doc.querySelectorAll("script,iframe,object,embed").forEach((n) => n.remove());
+    $("preview").replaceChildren(...doc.body.childNodes);
+    $("done").textContent = html ? "" : "이 보드의 글이 아직 없습니다.";
+    history.replaceState(null, "", "?b=" + slug);
+  }
+  async function copy(text, what) {
+    try { await navigator.clipboard.writeText(text); }
+    catch (e) { const t = document.createElement("textarea"); t.value = text; document.body.append(t); t.select(); document.execCommand("copy"); t.remove(); }
+    $("done").textContent = what + " 복사했습니다.";
+  }
+  $("pick").addEventListener("change", load);
+  $("copy-html").addEventListener("click", () => copy(html, "본문 HTML을"));
+  document.querySelectorAll("[data-copy]").forEach((b) => b.addEventListener("click", () => copy($(b.dataset.copy).value, b.textContent.replace(" 복사", "") + "을")));
+  if (boards.length) load(); else $("done").textContent = "아직 보드가 없습니다.";
+})();
+</script>
+</body>
+</html>

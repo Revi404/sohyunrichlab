@@ -18,11 +18,28 @@
   const SORT = {
     unit: [["dep", "임대보증금 낮은순"], ["rent", "월 임대료 낮은순"], ["real", "실질임대료 낮은순"], ["area", "전용면적 넓은순"]],
     complex: [["dep", "임대보증금 낮은순"], ["rent", "월 임대료 낮은순"], ["area", "주거전용 넓은순"], ["vac", "공가 많은순"]],
+    type: [["vac", "공가 많은순"], ["dep", "임대보증금 낮은순"], ["rent", "월 임대료 낮은순"], ["area", "전용면적 넓은순"]],
   };
   const DESC = new Set(["area", "vac"]);
 
-  const slug = (new URLSearchParams(location.search).get("b") || "sh-3gu").replace(/[^a-z0-9-]/gi, "");
+  const slug = (new URLSearchParams(location.search).get("b") || "").replace(/[^a-z0-9-]/gi, "");
   const get = (path) => fetch(path, { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+
+  /* 보드 이름이 없으면 보드 목록을 보여 준다 */
+  if (!slug) {
+    const idx = await get("../data/boards/index.json");
+    const rows = (idx && idx.boards) || [];
+    const KIND = { notice: "모집공고", spec: "조건 모음", manual: "직접 정리" };
+    $("sub").textContent = "SH 임대주택의 면적·보증금·월임대료와 평면도를 보드별로 비교합니다.";
+    ["tabs", "stats"].forEach((id) => ($(id).hidden = true));
+    document.querySelector(".bar").hidden = true;
+    $("grid").classList.add("list");
+    $("grid").innerHTML = rows.length ? rows.map((b) => `<a class="card row" href="?b=${esc(b.slug)}"><div class="body">
+      <div class="chips"><span class="chip ${b.closed ? "warn" : ""}">${esc(KIND[b.kind] || b.kind)}${b.closed ? " · 마감" : ""}</span><span class="chip">${esc(b.count)}건</span></div>
+      <div class="nm">${esc(b.title)}</div><div class="meta">${esc(b.notice_date ? "공고일 " + b.notice_date : b.updated ? b.updated + " 기준" : "")}</div></div></a>`).join("")
+      : '<p class="empty">아직 보드가 없습니다.</p>';
+    return;
+  }
   const [board, manifest] = await Promise.all([get(`../data/boards/${slug}.json`), get("../data/plans.json")]);
   if (!board) {
     $("grid").innerHTML = '<p class="empty">보드를 찾지 못했습니다. 주소를 확인해 주세요.</p>';
@@ -37,6 +54,9 @@
   if (board.source) { $("source").textContent = board.source.name; $("source").href = safeUrl(board.source.url); }
   const stamp = board.updated || (manifest && manifest.updated);
   $("updated").textContent = stamp ? `${stamp} 기준` : "";
+  if (board.notice && safeUrl(board.notice.url)) {
+    $("sub").insertAdjacentHTML("afterend", `<p class="sub"><a href="${esc(board.notice.url)}" target="_blank" rel="noopener">SH 공고 원문 보기 ↗</a></p>`);
+  }
 
   let tab = board.tabs[0];
   $("tabs").innerHTML = board.tabs.map((t) => `<button class="tab" role="tab" data-id="${esc(t.id)}">${esc(t.label)} ${t.items.length}</button>`).join("");
@@ -44,14 +64,18 @@
 
   /* 평면도 칸: 받아 둔 사본 → 원본 이미지 → 링크 순으로 쓴다 */
   function planBox(d) {
-    const url = safeUrl(d.plan_url);
+    const all = [d.plan_url, ...(d.plan_urls || [])].map(safeUrl).filter(Boolean);
+    const url = all[0];
     if (!url) return '<div class="plan none"><span>평면도 없음</span></div>';
     if (!isImg(url)) return `<div class="plan none"><span>평면도 이미지 없음<br><a href="${esc(url)}" target="_blank" rel="noopener">관련 링크 열기 ↗</a></span></div>`;
     const local = plans[url];
-    const src = local ? "../" + local.file : url;
+    const srcOf = (u) => (plans[u] ? "../" + plans[u].file : u);
+    const src = srcOf(url);
     const size = local ? ` width="${local.w}" height="${local.h}"` : "";
-    return `<button type="button" class="plan" data-src="${esc(src)}" data-origin="${esc(url)}" data-name="${esc(d.name)}">
-      <img src="${esc(src)}"${size} alt="${esc(d.name)} 평면도" loading="lazy" referrerpolicy="no-referrer"><span class="zoom">크게 보기</span></button>`;
+    const imgs = all.filter(isImg);
+    const label = d.type ? `${d.name} ${d.type}형` : d.name;
+    return `<button type="button" class="plan" data-srcs="${esc(JSON.stringify(imgs.map(srcOf)))}" data-origin="${esc(url)}" data-name="${esc(label)}">
+      <img src="${esc(src)}"${size} alt="${esc(label)} 평면도" loading="lazy" referrerpolicy="no-referrer"><span class="zoom">크게 보기${imgs.length > 1 ? " · " + imgs.length + "장" : ""}</span></button>`;
   }
 
   function card(d) {
@@ -65,6 +89,14 @@
         <dl>${cell("전용면적", area)}${cell("실질임대료(이자반영)", won(d.real))}${cell("임대보증금", won(d.dep))}${cell("월 임대료", won(d.rent))}${cell("전세보증금(전환)", won(d.jdep))}${cell("전세 전환 시 임대료", won(d.jrent))}</dl>
         <div class="addr">${esc(d.addr)}</div></div></article>`;
     }
+    if (tab.kind === "type") {
+      const model = safeUrl(d.model_url);
+      return `<article class="card">${planBox(d)}<div class="body">
+        <div class="top"><div><div class="nm">${esc(d.name)}</div><div class="meta">${esc(d.gu)} · ${esc(d.supply)}</div></div><span class="no">${esc(d.type)}형</span></div>
+        <div class="chips"><span class="chip">방 ${esc(d.rooms ?? "-")}</span><span class="chip">${esc(d.households ?? "-")}세대</span><span class="chip ${d.vac ? "ok" : "warn"}">공가 ${esc(d.vac ?? 0)} · 예비 ${esc(d.wait ?? 0)}</span></div>
+        <dl>${cell("전용면적", area)}${cell("기준월", esc(d.as_of || "-"))}${cell("임대보증금", d.dep ? won(d.dep) : "-")}${cell("월 임대료", d.rent ? won(d.rent) : "-")}</dl>
+        <div class="addr">${esc(d.addr)}${model ? ` · <a href="${esc(model)}" target="_blank" rel="noopener">사이버 모델하우스 ↗</a>` : ""}</div></div></article>`;
+    }
     return `<article class="card">${planBox(d)}<div class="body">
       <div class="top"><div><div class="nm">${esc(d.name)}</div><div class="meta">${esc(d.gu)}</div></div><span class="no">연번 ${esc(d.no)}</span></div>
       <div class="chips"><span class="chip">구조 ${esc(d.room)}</span><span class="chip">모집 ${esc(d.total)}세대</span><span class="chip ${d.vac ? "ok" : "warn"}">공가 ${esc(d.vac)} · 예비 ${esc(d.wait)}</span></div>
@@ -75,7 +107,7 @@
   function stats(list) {
     const min = (k) => list.reduce((a, b) => (b[k] < a[k] ? b : a));
     const a = min("dep"), b = min("rent");
-    const s = [[list.length + "건", "표시 중인 단지/호"], [man(a.dep), "최저 보증금 · " + short(a.name)], [won(b.rent), "최저 월 임대료 · " + short(b.name)]];
+    const s = [[list.length + "건", tab.kind === "type" ? "표시 중인 주택형" : "표시 중인 단지/호"], [man(a.dep), "최저 보증금 · " + short(a.name)], [won(b.rent), "최저 월 임대료 · " + short(b.name)]];
     if (tab.kind === "unit") s.push([list.filter((d) => d.elev === "전체동 설치").length + " / " + list.length, "승강기 설치 호수"]);
     else s.push([list.reduce((t, d) => t + (d.vac || 0), 0) + " / " + list.reduce((t, d) => t + (d.wait || 0), 0), "공가 / 예비 합계(세대)"]);
     $("stats").innerHTML = s.map(([v, t]) => `<div class="stat"><b>${esc(v)}</b><span>${esc(t)}</span></div>`).join("");
@@ -119,8 +151,8 @@
     const p = e.target.closest("button.plan");
     if (!p) return;
     $("v-title").textContent = p.dataset.name + " 평면도";
-    $("v-img").src = p.dataset.src;
-    $("v-img").alt = p.dataset.name + " 평면도";
+    const srcs = JSON.parse(p.dataset.srcs || "[]");
+    $("v-body").innerHTML = srcs.map((u) => `<img src="${esc(u)}" alt="${esc(p.dataset.name)} 평면도" referrerpolicy="no-referrer">`).join("");
     $("v-src").href = p.dataset.origin;
     viewer.showModal();
   });
