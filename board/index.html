@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>임대주택 평면 보드 | 소현리치랩</title>
+<meta name="description" content="SH 임대주택 공고 단지의 면적·보증금·월임대료와 평면도를 한 화면에서 비교합니다.">
+<meta property="og:title" content="임대주택 평면 보드 | 소현리치랩">
+<meta property="og:description" content="공고 단지의 면적·보증금·월임대료와 평면도를 한 화면에서 비교">
+<meta property="og:image" content="../assets/og.png">
+<meta name="theme-color" content="#f3f5f9">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="board.css">
+</head>
+<body>
+<main class="wrap">
+  <header class="head">
+    <a class="brand" href="../">← 소현리치랩</a>
+    <h1 id="title">임대주택 평면 보드</h1>
+    <p class="sub" id="sub"></p>
+  </header>
+
+  <div class="tabs" role="tablist" id="tabs" aria-label="공급 유형"></div>
+  <section class="stats" id="stats" aria-label="요약"></section>
+
+  <div class="bar">
+    <label for="f-gu">자치구 <select class="ctl" id="f-gu"></select></label>
+    <label for="f-el" id="l-el">승강기 <select class="ctl" id="f-el"><option value="">전체</option><option>전체동 설치</option><option>미설치</option></select></label>
+    <label for="f-sort">정렬 <select class="ctl" id="f-sort"></select></label>
+    <span class="count" id="count" aria-live="polite"></span>
+  </div>
+
+  <section class="grid" id="grid"></section>
+
+  <footer class="foot">
+    <p id="note"></p>
+    <p>자료·평면도 출처: <a id="source" target="_blank" rel="noopener"></a> · 공익 목적의 정보 공유이며 저작권은 원 출처에 있습니다.</p>
+    <p class="meta"><span id="updated"></span> · © 소현리치랩</p>
+  </footer>
+</main>
+
+<dialog class="viewer" id="viewer" aria-labelledby="v-title">
+  <div class="v-head">
+    <strong id="v-title"></strong>
+    <a id="v-src" target="_blank" rel="noopener">원본 ↗</a>
+    <button type="button" id="v-close" aria-label="닫기">✕</button>
+  </div>
+  <div class="v-body"><img id="v-img" alt=""></div>
+</dialog>
+
+<script src="board.js" defer></script>
+</body>
+</html>
