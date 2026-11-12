@@ -1,29 +1,309 @@
 {
- "updated": "2026-11-12 02:56",
+ "updated": "2026-11-12 11:19",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-12 02:56",
-   "count": 424
+   "at": "2026-11-12 11:19",
+   "count": 427
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-12 02:56",
+   "at": "2026-11-12 11:19",
    "count": 133
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-12 02:56",
+   "at": "2026-11-12 11:19",
    "count": 6
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-12 02:56",
+   "at": "2026-11-12 11:19",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "lh-2015122300021051",
+   "org": "LH",
+   "deal": "임대",
+   "type": "영구임대",
+   "kind": "모집공고",
+   "title": "원주명륜2 영구임대주택 예비입주자 모집",
+   "region": "강원특별자치도",
+   "city": null,
+   "notice_date": "2026-11-12",
+   "apply_start": "2026-11-25",
+   "apply_end": "2026-11-27",
+   "winner_date": "2027-03-10",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021051&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(261112)원주명륜2영구임대예비입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69382725"
+     },
+     {
+      "name": "(261112)원주명륜2영구임대예비입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69382729"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-25",
+      "apply_end": "2026-11-27",
+      "winner_date": "2027-03-10"
+     }
+    ],
+    "sites": [
+     {
+      "name": "원주명륜2",
+      "addr": "강원특별자치도 원주시 예술관길 31(명륜동,명륜2단지아파트)",
+      "total_units": 1133,
+      "area": "26.37~31.32",
+      "heating": "중앙가스난방",
+      "move_in": "1992.08"
+     }
+    ],
+    "at": "2026-11-12"
+   }
+  },
+  {
+   "id": "lh-2015122300021049",
+   "org": "LH",
+   "deal": "임대",
+   "type": "행복주택",
+   "kind": "모집공고",
+   "title": "춘천시 철원군지역 행복주택 예비입주자 모집공고",
+   "region": "강원특별자치도",
+   "city": null,
+   "notice_date": "2026-11-12",
+   "apply_start": null,
+   "apply_end": "2026-11-27",
+   "winner_date": null,
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021049&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(261112)춘천시철원군지역행복주택예비입주자모집공고.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69384291"
+     },
+     {
+      "name": "(261112)춘천시철원군지역행복주택예비입주자모집공고.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69384297"
+     },
+     {
+      "name": "서류제출양식.zip",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69381974"
+     }
+    ],
+    "images": [
+     {
+      "site": "춘천거두2 행복주택",
+      "name": "지구조감도.jpg",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=28026988"
+     },
+     {
+      "site": "춘천거두2 행복주택",
+      "name": "단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=28026989"
+     },
+     {
+      "site": "춘천거두2 행복주택",
+      "name": "동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=28158075"
+     },
+     {
+      "site": "춘천거두2 행복주택",
+      "name": "36A아이소.jpg",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=28026995"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "name": "철원(철원)_교통망동.jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54835226"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "name": "철원(철원)_단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54835227"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "name": "철원(철원)_단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54835228"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "name": "철원(철원)_동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54835229"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "name": "철원(철원)_평면도_26B_주거약자.jpg",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54835231"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "name": "철원(철원)_평면도_36A.jpg",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54835232"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "name": "철원(철원)_평면도_36B_주거약자.jpg",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54835233"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "name": "철원(철원)_평면도_26A.jpg",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54835230"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "철원갈말 마을정비형 임대주택",
+      "apply_start": "2026-11-25",
+      "apply_end": "2026-11-27",
+      "docs_start": "2026-12-11",
+      "docs_end": "2026-12-15",
+      "winner_date": "2027-04-06"
+     },
+     {
+      "site": "철원철원 도시재생(행복주택)",
+      "apply_start": "2026-11-25",
+      "apply_end": "2026-11-27",
+      "docs_start": "2026-12-11",
+      "docs_end": "2026-12-15",
+      "winner_date": "2027-04-06"
+     },
+     {
+      "site": "춘천거두2 행복주택",
+      "apply_start": "2026-11-25",
+      "apply_end": "2026-11-27",
+      "docs_start": "2026-12-11",
+      "docs_end": "2026-12-15",
+      "winner_date": "2027-04-06"
+     }
+    ],
+    "sites": [
+     {
+      "name": "춘천거두2 행복주택",
+      "addr": "강원특별자치도 춘천시 동내면 거두택지길 70(춘천거두2지구행복주택) 춘천거두2 행복주택",
+      "total_units": 480,
+      "area": "16.91~36.91",
+      "heating": "개별가스난방",
+      "move_in": "2018.02"
+     },
+     {
+      "name": "철원갈말 마을정비형 임대주택",
+      "addr": "강원특별자치도 철원군 갈말읍 명성로111번길 18",
+      "total_units": 20,
+      "area": "16.78~36.38",
+      "heating": "개별가스난방",
+      "move_in": "2021.10"
+     },
+     {
+      "name": "철원철원 도시재생(행복주택)",
+      "addr": "강원특별자치도 철원군 철원읍 금학로279번길 15",
+      "total_units": 90,
+      "area": "26.82~36.93",
+      "heating": "개별가스난방",
+      "move_in": "2025.04"
+     }
+    ],
+    "at": "2026-11-12"
+   }
+  },
+  {
+   "id": "lh-2015122300021029",
+   "org": "LH",
+   "deal": "임대",
+   "type": "영구임대",
+   "kind": "모집공고",
+   "title": "익산시(익산부송1, 익산동산)영구임대주택 예비입주자 모집공고",
+   "region": "전북특별자치도",
+   "city": null,
+   "notice_date": "2026-11-12",
+   "apply_start": null,
+   "apply_end": "2026-11-27",
+   "winner_date": null,
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021029&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "익산시영구임대주택(익산부송1,익산동산)예비입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69404151"
+     },
+     {
+      "name": "익산시영구임대주택(익산부송1,익산동산)예비입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69404157"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "익산부송1단지",
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-27"
+     },
+     {
+      "site": "익산동산",
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-27"
+     }
+    ],
+    "sites": [
+     {
+      "name": "익산부송1단지",
+      "addr": "전북특별자치도 익산시 무왕로22길 12(부송동,익산부송1주공아파트)",
+      "total_units": 1582,
+      "area": "26.37~52.74",
+      "heating": "지역난방",
+      "move_in": "1993.04"
+     },
+     {
+      "name": "익산동산",
+      "addr": "전북특별자치도 익산시 동천로7길 26-5(동산동,동산 주공아파트)",
+      "total_units": 686,
+      "area": "26.37~31.32",
+      "heating": "중앙가스난방",
+      "move_in": "1992.04"
+     }
+    ],
+    "at": "2026-11-12"
+   }
+  },
   {
    "id": "sh-313180",
    "org": "SH",
@@ -4400,7 +4680,7 @@
    "apply_start": "2026-11-12",
    "apply_end": "2026-11-13",
    "winner_date": "2026-11-19",
-   "status": "공고중",
+   "status": "접수중",
    "units": 3,
    "houses": [
     {
@@ -4496,7 +4776,7 @@
    "apply_start": "2026-11-12",
    "apply_end": "2026-11-13",
    "winner_date": "2026-11-18",
-   "status": "공고중",
+   "status": "접수중",
    "units": 8,
    "houses": [
     {
