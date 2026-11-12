@@ -1,11 +1,14 @@
-name: 임대주택 보드 평면도 받기
+name: 임대주택 보드·블로그 글 만들기
 
 on:
+  workflow_run:
+    workflows: ["SH 주택정보 수집"]   # 수집이 끝나면 이어서 실행
+    types: [completed]
   push:
     branches: [main]
-    paths: ["data/boards/**", "scripts/fetch_floorplans.py", ".github/workflows/floorplans.yml"]
+    paths: ["data/boards/**", "data/board_specs.json", "scripts/build_boards.py", "scripts/fetch_floorplans.py", "scripts/build_posts.py", ".github/workflows/floorplans.yml"]
   schedule:
-    - cron: "20 19 * * *"   # 한국 시간 04:20, SH 주택정보 수집(03:40) 뒤 하루 한 번
+    - cron: "20 21 * * *"   # 한국 시간 06:20, 수집 뒤 실행이 빠졌을 때를 대비해 하루 한 번
   workflow_dispatch:
     inputs:
       refresh:
@@ -21,11 +24,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -34,17 +39,24 @@ jobs:
       - name: 이미지 처리 라이브러리
         run: pip install -q pillow
 
-      - name: 보드에 쓰는 평면도 받아서 줄이기
+      - name: 새 공고·조건에 맞는 단지로 보드 만들기
+        run: python scripts/build_boards.py
+
+      - name: 평면도 받아서 줄이기 (보드용 먼저, 나머지는 조금씩)
         run: python scripts/fetch_floorplans.py ${{ inputs.refresh && '--refresh' || '' }}
 
-      - name: 받은 평면도 저장 (화면 반영은 다음 배포 때, 최대 30분)
+      - name: 티스토리에 붙여 넣을 글 만들기
+        if: always()
+        run: python scripts/build_posts.py
+
+      - name: 결과 저장 (화면 반영은 다음 배포 때, 최대 30분)
         if: always()
         run: |
           git config user.name "sohyunrichlab-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A assets data
+          git add -A assets data posts
           if ! git diff --cached --quiet; then
-            git commit -m "평면도 받기 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
+            git commit -m "임대주택 보드 갱신 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
             git pull --rebase origin main
             git push
           fi

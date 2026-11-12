@@ -15,7 +15,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
 
@@ -24,7 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: SH 단지·주택형·평면도·사이버 모델하우스 수집
-        run: python scripts/collect_sh_houses.py
+        run: python scripts/collect_sh_houses.py --batch 120 --max-requests 1500
 
       - name: 수집 결과 저장
         run: |

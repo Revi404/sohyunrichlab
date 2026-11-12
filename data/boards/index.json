@@ -1,0 +1,25 @@
+{
+ "boards": [
+  {
+   "slug": "sh-notice-312339",
+   "title": "2026년 3차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고(2026. 10. 28.)",
+   "kind": "notice",
+   "count": 4,
+   "updated": "2026-11-12",
+   "notice_date": "2026.10.28"
+  },
+  {
+   "slug": "sh-3gu",
+   "title": "SH 장기미임대·재개발임대 3구 단지 보드",
+   "kind": "manual",
+   "count": 27
+  },
+  {
+   "slug": "sh-vacant-3gu",
+   "title": "SH 강동·성동·송파 공가 있는 임대주택",
+   "kind": "spec",
+   "count": 40,
+   "updated": "2026-11-12"
+  }
+ ]
+}

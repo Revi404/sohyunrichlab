@@ -42,8 +42,8 @@ button, select { font: inherit; color: inherit; }
 .body { padding: 14px 16px 16px; display: grid; gap: 10px; }
 
 /* 평면도: 카드 맨 위에 바로 보이고, 누르면 크게 열린다 */
-.plan { position: relative; display: block; width: 100%; aspect-ratio: 4 / 3; background: #fff; border: 0; border-bottom: 1px solid var(--line); cursor: zoom-in; padding: 8px; }
-.plan img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.plan { position: relative; display: block; width: 100%; aspect-ratio: 4 / 3; background: #fff; border: 0; border-bottom: 1px solid var(--line); cursor: zoom-in; padding: 0; overflow: hidden; }
+.plan img { position: absolute; inset: 8px; width: calc(100% - 16px); height: calc(100% - 16px); object-fit: contain; display: block; }
 .plan .zoom { position: absolute; right: 10px; bottom: 10px; font-size: 12px; font-weight: 600; background: rgba(18,26,43,.78); color: #fff; padding: 3px 9px; border-radius: var(--r-pill); }
 .plan.none { cursor: default; display: grid; place-items: center; background: var(--paper); color: var(--ink-faint); font-size: 13px; text-align: center; }
 .plan.none a { display: inline-block; margin-top: 4px; font-weight: 700; }
@@ -63,6 +63,11 @@ dd { font-size: 15px; font-weight: 600; color: var(--ink); font-variant-numeric:
 dd small { font-weight: 400; color: var(--ink-soft); font-size: 11.5px; }
 .addr { font-size: 12px; color: var(--ink-soft); }
 .empty { color: var(--ink-soft); }
+.addr a { font-weight: 600; text-decoration: none; }
+.grid.list { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.card.row { text-decoration: none; color: inherit; }
+.card.row:hover { border-color: var(--accent); }
+.tabs[hidden], .stats[hidden], .bar[hidden] { display: none; }
 
 .foot { font-size: 12px; color: var(--ink-soft); display: grid; gap: 4px; }
 .foot .meta { color: var(--ink-faint); }
@@ -76,6 +81,7 @@ dd small { font-weight: 400; color: var(--ink-soft); font-size: 11.5px; }
 .v-head button { border: 0; background: var(--paper); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; }
 .v-body { overflow: auto; background: #fff; padding: 8px; }
 .v-body img { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+.v-body img + img { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }
 
 @media (max-width: 420px) {
   .grid { grid-template-columns: 1fr; }
