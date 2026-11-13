@@ -1,29 +1,351 @@
 {
- "updated": "2026-11-13 10:58",
+ "updated": "2026-11-13 18:45",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-13 10:58",
-   "count": 425
+   "at": "2026-11-13 18:45",
+   "count": 427
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-13 10:58",
-   "count": 132
+   "at": "2026-11-13 18:45",
+   "count": 134
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-13 10:58",
-   "count": 6
+   "at": "2026-11-13 18:45",
+   "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-13 10:58",
+   "at": "2026-11-13 18:45",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "sh-313316",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "제47차 장기전세주택(2025.04.30.) 예비 6차 입주대상자 발표",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-13",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313316&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "sh-313303",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "2026년 3차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고(2026. 10. 28.) 서류심사대상자 발표",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-13",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313303&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "lh-2015122300021077",
+   "org": "LH",
+   "deal": "임대",
+   "type": "매입임대",
+   "kind": "모집공고",
+   "title": "[대전·충남] 2026년 2차 든든전세주택 입주자 모집공고 (분양전환형)",
+   "region": "충청남도",
+   "city": "천안시 서북구",
+   "notice_date": "2026-11-13",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-25",
+   "winner_date": "2027-01-07",
+   "status": "공고중",
+   "units": 106,
+   "houses": [
+    {
+     "city": "천안시 서북구",
+     "units": 33,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "middle": 0
+    },
+    {
+     "city": "당진시",
+     "units": 44,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "middle": 0
+    },
+    {
+     "city": "아산시",
+     "units": 29,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "middle": 0
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021077&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21532",
+   "detail": {
+    "files": [
+     {
+      "name": "(대전충남)26년_2차_든든전세주택_분양전환형_입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424209"
+     },
+     {
+      "name": "(대전충남)26년_2차_든든전세주택_분양전환형_입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424210"
+     },
+     {
+      "name": "(대전충남)든든전세(분양전환형)_매입임대_공급주택보유목록_261113공고.xlsx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424211"
+     },
+     {
+      "name": "든든전세주택(분양전환형)_QnA.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424212"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-25",
+      "docs_start": "2026-11-30",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-01-07"
+     }
+    ],
+    "at": "2026-11-13"
+   }
+  },
+  {
+   "id": "lh-0000061211",
+   "org": "LH",
+   "deal": "분양",
+   "type": "분양주택",
+   "kind": "모집공고",
+   "title": "의정부우정 A-1블록 공공분양주택 잔여세대 추가입주자모집공고(순번추첨 동호지정)",
+   "region": "경기도",
+   "city": "남양주시",
+   "notice_date": "2026-11-13",
+   "apply_start": "2026-12-07",
+   "apply_end": "2026-12-10",
+   "winner_date": "2026-12-11",
+   "status": "공고중",
+   "units": 433,
+   "houses": [
+    {
+     "name": "의정부우정지구 A-1블록",
+     "addr": "경기도 남양주시 별내동 816-1 경기도 남양주시 별내동 816-1",
+     "city": "남양주시",
+     "units": 433,
+     "apply_start": "2026-12-07",
+     "apply_end": "2026-12-10",
+     "down": 10000000,
+     "middle": 0,
+     "balance": 302140000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061211&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1518&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(261113)의정부우정A-1블록공공분양주택잔여세대동호판.pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69429460"
+     },
+     {
+      "name": "(261113)의정부우정A-1블록잔여세대추가입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69429428"
+     },
+     {
+      "name": "(261113)의정부우정A-1블록잔여세대추가입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69429454"
+     },
+     {
+      "name": "(최초공고_250828)의정부우정A-1블록팸플릿.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69429458"
+     },
+     {
+      "name": "1.위임장.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69429462"
+     }
+    ],
+    "images": [
+     {
+      "name": "의정부우정A-1블록_단지조감도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69418497"
+     },
+     {
+      "name": "의정부우정A-1블록_동호배치도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69418498"
+     },
+     {
+      "name": "의정부우정A-1블록_토지이용계획도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69418499"
+     },
+     {
+      "name": "의정부우정A-1블록_지역위치도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69418500"
+     },
+     {
+      "name": "의정부우정A-1블록_단지배치도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69418501"
+     }
+    ],
+    "schedule": [
+     {
+      "winner_date": "2026-12-11",
+      "contract_start": "2026-12-14",
+      "contract_end": "2026-12-18"
+     }
+    ],
+    "sites": [
+     {
+      "move_in": "2028년 06월"
+     }
+    ],
+    "at": "2026-11-13"
+   }
+  },
+  {
+   "id": "gh-852",
+   "org": "GH",
+   "deal": "임대",
+   "type": "매입임대",
+   "kind": "모집공고",
+   "title": "'26년 경기도형 창업특화주택 입주자 추가 모집 공고(운영기관 : 나눔과미래)",
+   "region": "경기도",
+   "city": "경기도",
+   "notice_date": "2026-11-13",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://apply.gh.or.kr/sb/sr/sr7155/selectPbancRentHouseList.do",
+   "src": "gh",
+   "detail": {
+    "files": [
+     {
+      "name": "붙임. 경기도형 청년창업특화주택 입주자 추가 모집 공고문(2026.11.12. 공고).pdf",
+      "url": "https://apply-cdn.gh.or.kr/sr/sr7155/selectFileDown.do?pbancNo=852&atchFileSn=1793498&atchFileDtlSn=2&mode=1&v=20261113163252"
+     },
+     {
+      "name": "붙임. 경기도형 청년창업특화주택 입주자 모집 공고문(2026.11.12. 공고).hwp",
+      "url": "https://apply-cdn.gh.or.kr/sr/sr7155/selectFileDown.do?pbancNo=852&atchFileSn=1793498&atchFileDtlSn=3&mode=1&v=20261113163311"
+     },
+     {
+      "name": "붙임. 경기도형 청년창업특화주택 입주자 추가 모집 공고문(2026.11.12. 공고).pdf",
+      "url": "https://apply-cdn.gh.or.kr/sr/sr7155/selectFileDown.do?pbancNo=852&atchFileSn=1793498&atchFileDtlSn=4&mode=1&v=20261113163312"
+     }
+    ],
+    "schedule": [
+     {}
+    ],
+    "sites": [
+     {}
+    ],
+    "at": "2026-11-13"
+   }
+  },
+  {
+   "id": "gh-850",
+   "org": "GH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "다산메트로3단지 국민임대주택 예비입주자 모집공고",
+   "region": "경기도",
+   "city": "남양주시",
+   "notice_date": "2026-11-13",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-25",
+   "winner_date": "2027-04-30",
+   "status": "공고중",
+   "units": 120,
+   "houses": [],
+   "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do",
+   "src": "gh",
+   "detail": {
+    "files": [
+     {
+      "name": "다산 메트로3단지 국민임대주택 예비입주자 모집 공고(26.11.13.).hwp",
+      "url": "https://apply-cdn.gh.or.kr/sr/sr7150/selectFileDown.do?pbancNo=850&atchFileSn=1792540&atchFileDtlSn=5&mode=1&v=20261112091600"
+     },
+     {
+      "name": "다산 메트로3단지 국민임대주택 예비입주자 모집 공고(26.11.13.).pdf",
+      "url": "https://apply-cdn.gh.or.kr/sr/sr7150/selectFileDown.do?pbancNo=850&atchFileSn=1792540&atchFileDtlSn=6&mode=1&v=20261112091601"
+     }
+    ],
+    "types": [
+     {
+      "type": "32B",
+      "area": 32.5579,
+      "units": 40
+     },
+     {
+      "type": "34A",
+      "area": 34.9749,
+      "units": 40
+     },
+     {
+      "type": "41A",
+      "area": 41.8732,
+      "units": 15
+     },
+     {
+      "type": "51A",
+      "area": 51.8043,
+      "units": 25
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-25",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-09",
+      "winner_date": "2027-04-30"
+     }
+    ],
+    "sites": [
+     {
+      "addr": "경기도 남양주시 다산동 6076 다산 메트로3단지",
+      "units": 120,
+      "move_in": "2027.12"
+     }
+    ],
+    "at": "2026-11-13"
+   }
+  },
   {
    "id": "sh-313233",
    "org": "SH",
@@ -2577,7 +2899,7 @@
    "kind": "모집공고",
    "title": "2026년 청년매입임대주택 입주자모집 공고",
    "region": "경상남도",
-   "city": "김해시",
+   "city": "진주시",
    "notice_date": "2026-11-06",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
@@ -2586,15 +2908,15 @@
    "units": 40,
    "houses": [
     {
-     "city": "김해시",
-     "units": 10,
+     "city": "진주시",
+     "units": 30,
      "apply_start": "2026-11-16",
      "apply_end": "2026-11-18",
      "middle": 0
     },
     {
-     "city": "진주시",
-     "units": 30,
+     "city": "김해시",
+     "units": 10,
      "apply_start": "2026-11-16",
      "apply_end": "2026-11-18",
      "middle": 0
@@ -3131,44 +3453,6 @@
    "units": null,
    "houses": [],
    "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312883&multi_itm_seq=1",
-   "src": "sh"
-  },
-  {
-   "id": "sh-312775",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "2026년 1차 장기미임대 매입임대주택(2026.02.27.) 예비4차 당첨자 발표 및 계약안내",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-05",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312775&multi_itm_seq=2",
-   "src": "sh"
-  },
-  {
-   "id": "sh-312668",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "장기안심주택 2027년 4월 재계약 대상자 입주자격 심사서류 제출 안내",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-05",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312668&multi_itm_seq=2",
    "src": "sh"
   },
   {
@@ -5156,7 +5440,7 @@
    "apply_start": "2026-11-12",
    "apply_end": "2026-11-13",
    "winner_date": "2026-11-19",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 3,
    "houses": [
     {
@@ -5252,7 +5536,7 @@
    "apply_start": "2026-11-12",
    "apply_end": "2026-11-13",
    "winner_date": "2026-11-18",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 8,
    "houses": [
     {
