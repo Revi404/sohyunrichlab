@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-13 18:45",
+ "updated": "2026-11-14 02:53",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-13 18:45",
+   "at": "2026-11-14 02:53",
    "count": 427
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-13 18:45",
-   "count": 134
+   "at": "2026-11-14 02:53",
+   "count": 114
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-13 18:45",
+   "at": "2026-11-14 02:53",
    "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-13 18:45",
+   "at": "2026-11-14 02:53",
    "count": 19
   }
  },
@@ -5435,29 +5435,16 @@
    "kind": "모집공고",
    "title": "고양지축 B-1블록 공공분양주택 잔여세대 추가입주자모집공고",
    "region": "경기도",
-   "city": "고양시 덕양구",
+   "city": null,
    "notice_date": "2026-11-03",
-   "apply_start": "2026-11-12",
+   "apply_start": null,
    "apply_end": "2026-11-13",
    "winner_date": "2026-11-19",
    "status": "접수마감",
-   "units": 3,
-   "houses": [
-    {
-     "name": "고양지축 B-1블록",
-     "addr": "경기도 고양시 덕양구 오부자로 55",
-     "city": "고양시 덕양구",
-     "units": 3,
-     "apply_start": "2026-11-12",
-     "apply_end": "2026-11-13",
-     "down": 46406000,
-     "middle": 0,
-     "balance": 362654000
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061200&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1502&houseSn=1",
    "detail": {
     "files": [
      {
@@ -5531,51 +5518,16 @@
    "kind": "모집공고",
    "title": "고양장항 A-2, A-4, A-5블록 신혼희망타운(공공분양) 잔여세대 추가입주자모집공고",
    "region": "경기도",
-   "city": "고양시 일산동구",
+   "city": null,
    "notice_date": "2026-11-03",
-   "apply_start": "2026-11-12",
+   "apply_start": null,
    "apply_end": "2026-11-13",
    "winner_date": "2026-11-18",
    "status": "접수마감",
-   "units": 8,
-   "houses": [
-    {
-     "name": "고양장항 A-2블록",
-     "addr": "경기도 고양시 일산동구 장항한강5로 10",
-     "city": "고양시 일산동구",
-     "units": 4,
-     "apply_start": "2026-11-12",
-     "apply_end": "2026-11-13",
-     "down": 34254000,
-     "middle": 0,
-     "balance": 253286000
-    },
-    {
-     "name": "고양장항 A-4블록",
-     "addr": "경기도 고양시 일산동구 장항한강3로 30",
-     "city": "고양시 일산동구",
-     "units": 1,
-     "apply_start": "2026-11-12",
-     "apply_end": "2026-11-13",
-     "down": 36196000,
-     "middle": 0,
-     "balance": 270764000
-    },
-    {
-     "name": "고양장항 A-5블록",
-     "addr": "경기도 고양시 일산동구 장항한강2로 20",
-     "city": "고양시 일산동구",
-     "units": 3,
-     "apply_start": "2026-11-12",
-     "apply_end": "2026-11-13",
-     "down": 32983000,
-     "middle": 0,
-     "balance": 241847000
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061199&ccrCnntSysDsCd=02&uppAisTpCd=39&aisTpCd=39&mi=1027",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1501&houseSn=1",
    "detail": {
     "files": [
      {
@@ -6934,39 +6886,6 @@
    }
   },
   {
-   "id": "myhome-r21471",
-   "org": "한국자산관리공사",
-   "deal": "임대",
-   "type": "행복주택",
-   "kind": "모집공고",
-   "title": "나라키움영등포복합청사 예비입주자 모집공고(21형)",
-   "region": "서울특별시",
-   "city": "영등포구",
-   "notice_date": "2026-10-28",
-   "apply_start": "2026-11-09",
-   "apply_end": "2026-11-13",
-   "winner_date": "2027-03-05",
-   "status": "접수중",
-   "units": null,
-   "houses": [
-    {
-     "name": "나라키움영등포복합청사 행복주택",
-     "addr": "서울특별시 영등포구 버드나루로 112",
-     "city": "영등포구",
-     "total_units": 63,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 46500000,
-     "rent": 225000,
-     "down": 4650000,
-     "middle": 0,
-     "balance": 41850000
-    }
-   ],
-   "url": "https://www.kohom.or.kr/web/mainComm/HM001002002.do?mode=view&p_idx=16068",
-   "src": "myhome"
-  },
-  {
    "id": "lh-2015122300020985",
    "org": "LH",
    "deal": "임대",
@@ -6993,32 +6912,16 @@
    "kind": "모집공고",
    "title": "[정정공고]광주두암4 영구임대주택 예비입주자모집 공고(모집공고일 : 2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "북구",
+   "city": null,
    "notice_date": "2026-10-28",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "공고중",
-   "units": 100,
-   "houses": [
-    {
-     "name": "광주두암4",
-     "addr": "전남광주통합특별시 북구 삼정로 10",
-     "city": "북구",
-     "total_units": 1133,
-     "units": 100,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2801000,
-     "rent": 55750,
-     "down": 140050,
-     "middle": 0,
-     "balance": 2660950
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020981&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21472&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7060,32 +6963,16 @@
    "kind": "모집공고",
    "title": "[정정공고]광주하남1 영구임대주택 예비입주자 모집공고(모집공고일:2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "광산구",
+   "city": null,
    "notice_date": "2026-10-28",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "공고중",
-   "units": 20,
-   "houses": [
-    {
-     "name": "광주하남",
-     "addr": "전남광주통합특별시 광산구 월곡산정로 12",
-     "city": "광산구",
-     "total_units": 1878,
-     "units": 20,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 3328000,
-     "rent": 66210,
-     "down": 166400,
-     "middle": 0,
-     "balance": 3161600
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020980&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21478&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7127,32 +7014,16 @@
    "kind": "모집공고",
    "title": "[정정공고] 광주하남1 영구임대주택 그린리모델링 예비입주자 모집 공고(공고일 2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "광산구",
+   "city": null,
    "notice_date": "2026-10-28",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "공고중",
-   "units": 10,
-   "houses": [
-    {
-     "name": "광주하남",
-     "addr": "전남광주통합특별시 광산구 월곡산정로 12",
-     "city": "광산구",
-     "total_units": 1878,
-     "units": 10,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2801000,
-     "rent": 55750,
-     "down": 140050,
-     "middle": 0,
-     "balance": 2660950
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020979&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21479&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7194,32 +7065,16 @@
    "kind": "모집공고",
    "title": "[정정공고]광주오치1 영구임대주택 예비입주자 표준모집공고문(2026.10.27. 공고)",
    "region": "전남광주통합특별시",
-   "city": "북구",
+   "city": null,
    "notice_date": "2026-10-28",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "공고중",
-   "units": 150,
-   "houses": [
-    {
-     "name": "광주 오치1",
-     "addr": "전남광주통합특별시 북구 서하로194번길 6",
-     "city": "북구",
-     "total_units": 1658,
-     "units": 150,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2801000,
-     "rent": 55750,
-     "down": 140050,
-     "middle": 0,
-     "balance": 2660950
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020978&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21475&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7261,31 +7116,16 @@
    "kind": "모집공고",
    "title": "[정정공고]광주두암2 영구임대주택 예비입주자 모집공고(모집공고일:2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "북구",
+   "city": null,
    "notice_date": "2026-10-28",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "공고중",
-   "units": 180,
-   "houses": [
-    {
-     "name": "광주두암2",
-     "addr": "전남광주통합특별시 북구 삼정로 7",
-     "city": "북구",
-     "units": 180,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2801000,
-     "rent": 55750,
-     "down": 140050,
-     "middle": 0,
-     "balance": 2660950
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020977&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21473&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7327,32 +7167,16 @@
    "kind": "모집공고",
    "title": "[정정공고]광주우산3 영구임대주택 예비입주자 모집 공고(모집공고일: 2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "북구",
+   "city": null,
    "notice_date": "2026-10-28",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "공고중",
-   "units": 30,
-   "houses": [
-    {
-     "name": "광주우산3",
-     "addr": "전남광주통합특별시 북구 중문로 55",
-     "city": "북구",
-     "total_units": 1274,
-     "units": 30,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 3328000,
-     "rent": 66210,
-     "down": 166400,
-     "middle": 0,
-     "balance": 3161600
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020976&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21476&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7606,24 +7430,16 @@
    "kind": "모집공고",
    "title": "경남 창원시 일반 매입임대주택 예비입주자 모집 공고",
    "region": "경상남도",
-   "city": "",
+   "city": null,
    "notice_date": "2026-10-28",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
-   "winner_date": "2026-12-31",
-   "status": "접수중",
-   "units": 401,
-   "houses": [
-    {
-     "units": 401,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "middle": 0
-    }
-   ],
+   "winner_date": null,
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020944&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21470",
    "detail": {
     "files": [
      {
@@ -7654,32 +7470,16 @@
    "kind": "모집공고",
    "title": "광주하남1 영구임대주택 그린리모델링 예비입주자 모집 공고(공고일 2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "광산구",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "정정공고중",
-   "units": 10,
-   "houses": [
-    {
-     "name": "광주하남",
-     "addr": "전남광주통합특별시 광산구 월곡산정로 12",
-     "city": "광산구",
-     "total_units": 1878,
-     "units": 10,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2801000,
-     "rent": 55750,
-     "down": 140050,
-     "middle": 0,
-     "balance": 2660950
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020971&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21465&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7721,32 +7521,16 @@
    "kind": "모집공고",
    "title": "광주하남1 영구임대주택 예비입주자 모집공고(모집공고일:2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "광산구",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "정정공고중",
-   "units": 20,
-   "houses": [
-    {
-     "name": "광주하남",
-     "addr": "전남광주통합특별시 광산구 월곡산정로 12",
-     "city": "광산구",
-     "total_units": 1878,
-     "units": 20,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 3328000,
-     "rent": 66210,
-     "down": 166400,
-     "middle": 0,
-     "balance": 3161600
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020970&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21458&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7788,31 +7572,16 @@
    "kind": "모집공고",
    "title": "광주두암2 영구임대주택 예비입주자 모집공고(모집공고일:2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "북구",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "정정공고중",
-   "units": 180,
-   "houses": [
-    {
-     "name": "광주두암2",
-     "addr": "전남광주통합특별시 북구 삼정로 7",
-     "city": "북구",
-     "units": 180,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2801000,
-     "rent": 55750,
-     "down": 140050,
-     "middle": 0,
-     "balance": 2660950
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020969&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21459&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7854,32 +7623,16 @@
    "kind": "모집공고",
    "title": "광주오치1 영구임대주택 예비입주자 표준모집공고문(2026.10.27. 공고)",
    "region": "전남광주통합특별시",
-   "city": "북구",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "정정공고중",
-   "units": 150,
-   "houses": [
-    {
-     "name": "광주 오치1",
-     "addr": "전남광주통합특별시 북구 서하로194번길 6",
-     "city": "북구",
-     "total_units": 1658,
-     "units": 150,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2801000,
-     "rent": 55750,
-     "down": 140050,
-     "middle": 0,
-     "balance": 2660950
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020968&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21460&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7921,32 +7674,16 @@
    "kind": "모집공고",
    "title": "광주두암4 영구임대주택 예비입주자모집 공고(모집공고일 : 2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "북구",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "정정공고중",
-   "units": 100,
-   "houses": [
-    {
-     "name": "광주두암4",
-     "addr": "전남광주통합특별시 북구 삼정로 10",
-     "city": "북구",
-     "total_units": 1133,
-     "units": 100,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2801000,
-     "rent": 55750,
-     "down": 140050,
-     "middle": 0,
-     "balance": 2660950
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020967&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21461&houseSn=1",
    "detail": {
     "files": [
      {
@@ -7988,32 +7725,16 @@
    "kind": "모집공고",
    "title": "광주우산3 영구임대주택 예비입주자 모집 공고(모집공고일: 2026.10.27)",
    "region": "전남광주통합특별시",
-   "city": "북구",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-05-21",
-   "status": "정정공고중",
-   "units": 30,
-   "houses": [
-    {
-     "name": "광주우산3",
-     "addr": "전남광주통합특별시 북구 중문로 55",
-     "city": "북구",
-     "total_units": 1274,
-     "units": 30,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 3328000,
-     "rent": 66210,
-     "down": 166400,
-     "middle": 0,
-     "balance": 3161600
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020966&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21462&houseSn=1",
    "detail": {
     "files": [
      {
@@ -8575,25 +8296,16 @@
    "kind": "모집공고",
    "title": "경남 거창군 신원면 다자녀 매입임대주택 예비입주자 모집공고",
    "region": "전국",
-   "city": "거창군",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-02",
    "apply_end": "2026-11-13",
    "winner_date": "2027-01-15",
-   "status": "접수중",
-   "units": 1,
-   "houses": [
-    {
-     "city": "거창군",
-     "units": 1,
-     "apply_start": "2026-11-02",
-     "apply_end": "2026-11-13",
-     "middle": 0
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020933&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21463",
    "detail": {
     "files": [
      {
@@ -8693,25 +8405,16 @@
    "kind": "모집공고",
    "title": "경남 의령군 화정면 다자녀 매입임대주택 예비입주자 모집공고",
    "region": "전국",
-   "city": "의령군",
+   "city": null,
    "notice_date": "2026-10-27",
    "apply_start": "2026-11-02",
    "apply_end": "2026-11-13",
    "winner_date": "2027-01-15",
-   "status": "접수중",
-   "units": 1,
-   "houses": [
-    {
-     "city": "의령군",
-     "units": 1,
-     "apply_start": "2026-11-02",
-     "apply_end": "2026-11-13",
-     "middle": 0
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020928&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21464",
    "detail": {
     "files": [
      {
@@ -9144,31 +8847,16 @@
    "kind": "모집공고",
    "title": "김제검산 영구임대주택 입주자격완화 예비입주자 모집",
    "region": "전북특별자치도",
-   "city": "김제시",
+   "city": null,
    "notice_date": "2026-10-26",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-01-28",
-   "status": "공고중",
-   "units": 100,
-   "houses": [
-    {
-     "name": "김제검산",
-     "addr": "전북특별자치도 김제시 요촌북로 110",
-     "city": "김제시",
-     "units": 100,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 2520000,
-     "rent": 50160,
-     "down": 126000,
-     "middle": 0,
-     "balance": 2394000
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020959&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21454&houseSn=1",
    "detail": {
     "files": [
      {
@@ -9623,7 +9311,7 @@
    "apply_start": "2026-10-21",
    "apply_end": "2026-11-13",
    "winner_date": "2026-12-07",
-   "status": "공고중",
+   "status": "접수마감",
    "units": null,
    "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020930&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
@@ -9937,31 +9625,16 @@
    "kind": "모집공고",
    "title": "전주1산단(전주팔복) 행복주택 입주자격완화예비입주자 모집",
    "region": "전북특별자치도",
-   "city": "전주시 덕진구",
+   "city": null,
    "notice_date": "2026-10-19",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-13",
    "winner_date": "2027-02-04",
-   "status": "접수중",
-   "units": 430,
-   "houses": [
-    {
-     "name": "전주1산단(전주팔복)",
-     "addr": "전북특별자치도 전주시 덕진구 팔과정로 168",
-     "city": "전주시 덕진구",
-     "units": 430,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-13",
-     "deposit": 10948000,
-     "rent": 56560,
-     "down": 547400,
-     "middle": 0,
-     "balance": 10400600
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020916&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21431&houseSn=1",
    "detail": {
     "files": [
      {
@@ -15381,7 +15054,7 @@
    "apply_start": null,
    "apply_end": "2026-11-13",
    "winner_date": null,
-   "status": "공고중",
+   "status": "접수마감",
    "units": null,
    "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061171&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
