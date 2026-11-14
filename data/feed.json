@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 06:21",
+ "updated": "2026-11-14 10:40",
  "categories": [
   "모집공고 분석",
   "부동산 인사이트",
@@ -15,9 +15,9 @@
   "https://sohyun-richlab.tistory.com/entry/gyeyang-kaive-yubora-ac3-result",
   "https://sohyun-richlab.tistory.com/entry/acmer-dongtan-95-result",
   "https://sohyun-richlab.tistory.com/entry/news-bujeong-cheongyak-354",
-  "https://sohyun-richlab.tistory.com/entry/thesharp-dongin-centriche-result",
-  "https://sohyun-richlab.tistory.com/entry/ssangyong-platinum-hangang-result",
-  "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-2%EC%A3%BC%EC%B0%A8"
+  "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-2%EC%A3%BC%EC%B0%A8",
+  "https://sohyun-richlab.tistory.com/entry/%EC%9D%98%EC%A0%95%EB%B6%80%EC%97%AD%ED%8E%A0%EB%A6%AC%EC%8A%A4%ED%83%80%EC%9B%8C%EC%96%91%EC%9A%B0%EB%82%B4%EC%95%88%EC%95%A0-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
+  "https://sohyun-richlab.tistory.com/entry/%EA%B4%91%EA%B5%90%EC%9E%90%EC%97%B0%EC%95%A4%EC%84%BC%ED%8A%B8%EB%A0%88%EB%B9%8C-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8"
  ],
  "posts": {
   "모집공고 분석": [
@@ -172,6 +172,22 @@
   ],
   "청약결과 해석": [
    {
+    "title": "신분평 에피트 더웨이시티 청약 결과 | 84㎡A 2.19 대 1, 2순위까지 89세대 미달",
+    "url": "https://sohyun-richlab.tistory.com/entry/sinbunpyeong-epit-thewaycity-result",
+    "date": "09-00-20",
+    "summary": "[세줄요약]1. 신분평 에피트 더웨이시티는 일반공급 830세대(특별공급에서 넘어온 329세대 포함)에 1순위 1,063건, 2순위 170건이 접수돼 2순위까지 3",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/d75757e7f53c6650.jpg"
+   },
+   {
+    "title": "GTX운정중앙역 시티프라디움 4단지 청약 결과 | 60㎡ 73.3 대 1, 최저 가점 63점",
+    "url": "https://sohyun-richlab.tistory.com/entry/gtx-unjeong-cityprodium-4-result",
+    "date": "08-00-25",
+    "summary": "[세줄요약]1. GTX운정중앙역 시티프라디움 4단지는 일반공급 128세대에 1순위 6,624건이 접수돼 평균 51.8 대 1로 두 타입 모두 1순위에서 마감됐어요",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/332890ef7ffffe9c.jpg"
+   },
+   {
     "title": "계양신도시 카이브 유보라(AC4BL) 청약 결과 | 2순위까지 143세대 미달, 84㎡C 1순위 2건",
     "url": "https://sohyun-richlab.tistory.com/entry/gyeyang-kaive-yubora-ac4-result",
     "date": "2026-11-12",
@@ -202,22 +218,6 @@
     "summary": "[세줄요약]1. 아크메르 동탄 95는 84㎡C(82세대)에 1순위 644건이 몰려 해당지역 최저 가점 40점으로 1순위에서 끝났고, 84㎡F도 2순위에서 마감됐어",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/f9c40c53880445c6.jpg"
-   },
-   {
-    "title": "더샵 동인센트리체 청약 결과 | 1순위 접수 17건, 2순위까지 283세대 미달",
-    "url": "https://sohyun-richlab.tistory.com/entry/thesharp-dongin-centriche-result",
-    "date": "2026-11-10",
-    "summary": "[세줄요약]1. 더샵 동인센트리체는 일반공급 310세대에 1순위 17건, 2순위 10건이 접수돼 2순위까지 받은 뒤에도 283세대가 미달됐어요. 4개 타입 모두 ",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/de9fdfde623a2fce.jpg"
-   },
-   {
-    "title": "쌍용 더 플래티넘 한강 청약 결과 | 146㎡P 2세대에 1순위 15건, 84㎡A 74세대 미달",
-    "url": "https://sohyun-richlab.tistory.com/entry/ssangyong-platinum-hangang-result",
-    "date": "2026-11-10",
-    "summary": "[세줄요약]1. 쌍용 더 플래티넘 한강은 일반공급 320세대에 1순위 124건, 2순위 37건이 접수돼 2순위까지 받은 뒤에도 172세대가 미달됐어요. 6개 타입",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/72ff5e4b94ecb829.jpg"
    }
   ],
   "공공임대": []
