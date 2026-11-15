@@ -2,7 +2,7 @@
  "slug": "sh-vacant-3gu",
  "generated": "spec",
  "title": "SH 강동·성동·송파 공가 있는 임대주택",
- "sub": "지금 비어 있는 집이 있는 주택형만 모았습니다. 주택형 103개. 평면도를 누르면 크게 볼 수 있습니다.",
+ "sub": "지금 비어 있는 집이 있는 주택형만 모았습니다. 주택형 110개. 평면도를 누르면 크게 볼 수 있습니다.",
  "note": "SH 서울주택정보에 공개된 자료를 그대로 모은 것입니다. 보증금·월임대료·공가·예비자 수는 주택형별 기준월 자료이고, 평은 전용면적 ÷ 3.3058로 환산했습니다. 금액 단위는 원이며, 신청 전에는 반드시 SH 공고 원문을 확인하세요.",
  "source": {
   "name": "SH 서울주택도시개발공사 서울주택정보",
@@ -10,8 +10,8 @@
  },
  "tabs": [
   {
-   "id": "t0",
-   "label": "재개발임대",
+   "id": "all",
+   "label": "전체",
    "kind": "type",
    "items": [
     {
@@ -36,6 +36,419 @@
      "model_url": "https://rowi-ai.com/oekZxN-WDfcTb72xj6muV"
     },
     {
+     "id": "22367-39S-국민임대",
+     "complex_id": "22367",
+     "gu": "송파구",
+     "name": "위례포레샤인 23단지",
+     "addr": "서울특별시 송파구 위례순환로 477",
+     "supply": "국민임대",
+     "type": "39S",
+     "area": 39.93,
+     "rooms": 1,
+     "households": 66,
+     "dep": 42610000,
+     "rent": 260700,
+     "vac": 3,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110246789_618_39A1S.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110310181_619_39As.JPG"
+     ]
+    },
+    {
+     "id": "22367-49S-국민임대",
+     "complex_id": "22367",
+     "gu": "송파구",
+     "name": "위례포레샤인 23단지",
+     "addr": "서울특별시 송파구 위례순환로 477",
+     "supply": "국민임대",
+     "type": "49S",
+     "area": 49.59,
+     "rooms": 2,
+     "households": 81,
+     "dep": 63670000,
+     "rent": 332500,
+     "vac": 2,
+     "wait": 1,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102511035920_622_49A1S.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110418354_623_49AS.JPG"
+     ]
+    },
+    {
+     "id": "22367-59-장기전세",
+     "complex_id": "22367",
+     "gu": "송파구",
+     "name": "위례포레샤인 23단지",
+     "addr": "서울특별시 송파구 위례순환로 477",
+     "supply": "장기전세",
+     "type": "59",
+     "area": 59.97,
+     "rooms": 3,
+     "households": 502,
+     "dep": 491400000,
+     "rent": 0,
+     "vac": 17,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110435104_624_59A.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110509126_626_59B.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110529476_627_59B1.JPG"
+     ]
+    },
+    {
+     "id": "22367-59S-장기전세",
+     "complex_id": "22367",
+     "gu": "송파구",
+     "name": "위례포레샤인 23단지",
+     "addr": "서울특별시 송파구 위례순환로 477",
+     "supply": "장기전세",
+     "type": "59S",
+     "area": 59.97,
+     "rooms": 3,
+     "households": 54,
+     "dep": 491400000,
+     "rent": 0,
+     "vac": 5,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110452993_625_59As.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110556414_628_59Bs.JPG"
+     ]
+    },
+    {
+     "id": "22367-74-장기전세",
+     "complex_id": "22367",
+     "gu": "송파구",
+     "name": "위례포레샤인 23단지",
+     "addr": "서울특별시 송파구 위례순환로 477",
+     "supply": "장기전세",
+     "type": "74",
+     "area": 74.95,
+     "rooms": 3,
+     "households": 408,
+     "dep": 543660000,
+     "rent": 0,
+     "vac": 11,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110612954_629_74A.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102511065411_631_74B.JPG"
+     ]
+    },
+    {
+     "id": "22367-74S-장기전세",
+     "complex_id": "22367",
+     "gu": "송파구",
+     "name": "위례포레샤인 23단지",
+     "addr": "서울특별시 송파구 위례순환로 477",
+     "supply": "장기전세",
+     "type": "74S",
+     "area": 74.95,
+     "rooms": 3,
+     "households": 34,
+     "dep": 543660000,
+     "rent": 0,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110634127_630_74As.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110712494_632_74Bs.JPG"
+     ]
+    },
+    {
+     "id": "20555-49-국민임대",
+     "complex_id": "20555",
+     "gu": "강동구",
+     "name": "고덕리엔파크 3단지",
+     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
+     "supply": "국민임대",
+     "type": "49",
+     "area": 49.92,
+     "rooms": 2,
+     "households": 449,
+     "dep": 44420000,
+     "rent": 320100,
+     "vac": 10,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164519511_474_49A.jpg"
+     ]
+    },
+    {
+     "id": "20555-59-국민임대",
+     "complex_id": "20555",
+     "gu": "강동구",
+     "name": "고덕리엔파크 3단지",
+     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
+     "supply": "국민임대",
+     "type": "59",
+     "area": 59.83,
+     "rooms": 3,
+     "households": 180,
+     "dep": 52280000,
+     "rent": 358800,
+     "vac": 25,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164608431_480_59A.jpg"
+     ]
+    },
+    {
+     "id": "20555-59S-국민임대",
+     "complex_id": "20555",
+     "gu": "강동구",
+     "name": "고덕리엔파크 3단지",
+     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
+     "supply": "국민임대",
+     "type": "59S",
+     "area": 59.89,
+     "rooms": 3,
+     "households": 18,
+     "dep": 52280000,
+     "rent": 358800,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164703616_484_59A1.jpg"
+     ]
+    },
+    {
+     "id": "20555-84-장기전세",
+     "complex_id": "20555",
+     "gu": "강동구",
+     "name": "고덕리엔파크 3단지",
+     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.96,
+     "rooms": 3,
+     "households": 325,
+     "dep": 495300000,
+     "rent": 0,
+     "vac": 35,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164823717_493_84A.jpg"
+     ]
+    },
+    {
+     "id": "20555-84S-장기전세",
+     "complex_id": "20555",
+     "gu": "강동구",
+     "name": "고덕리엔파크 3단지",
+     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
+     "supply": "장기전세",
+     "type": "84S",
+     "area": 84.96,
+     "rooms": 3,
+     "households": 43,
+     "dep": 495300000,
+     "rent": 0,
+     "vac": 5,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164834912_495_84B.jpg"
+     ]
+    },
+    {
+     "id": "70392-39-행복주택",
+     "complex_id": "70392",
+     "gu": "송파구",
+     "name": "송파 헬리오시티",
+     "addr": "서울특별시 송파구 송파대로 345",
+     "supply": "행복주택",
+     "type": "39",
+     "area": 39.1,
+     "rooms": 2,
+     "households": 1065,
+     "dep": 161600000,
+     "rent": 525000,
+     "vac": 17,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112001589_9_39A.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112033166_10_39B.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112139652_11_39C.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112153530_12_39D.JPG"
+     ]
+    },
+    {
+     "id": "70392-49-행복주택",
+     "complex_id": "70392",
+     "gu": "송파구",
+     "name": "송파 헬리오시티",
+     "addr": "서울특별시 송파구 송파대로 345",
+     "supply": "행복주택",
+     "type": "49",
+     "area": 49.19,
+     "rooms": 2,
+     "households": 316,
+     "dep": 195200000,
+     "rent": 614000,
+     "vac": 11,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112208595_13_49A.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112220510_14_49B.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112231640_15_49C.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112244816_16_49D.JPG"
+     ]
+    },
+    {
+     "id": "30162-29-국민임대",
+     "complex_id": "30162",
+     "gu": "강동구",
+     "name": "강동리버스트 6단지",
+     "addr": "서울특별시 강동구 아리수로93가길 77",
+     "supply": "국민임대",
+     "type": "29",
+     "area": 29.98,
+     "rooms": 0,
+     "households": 163,
+     "dep": 18840000,
+     "rent": 182400,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160544648_390_29A.jpg"
+     ]
+    },
+    {
+     "id": "30162-39-국민임대",
+     "complex_id": "30162",
+     "gu": "강동구",
+     "name": "강동리버스트 6단지",
+     "addr": "서울특별시 강동구 아리수로93가길 77",
+     "supply": "국민임대",
+     "type": "39",
+     "area": 39.94,
+     "rooms": 1,
+     "households": 173,
+     "dep": 36030000,
+     "rent": 251500,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160609262_392_39A.jpg"
+     ]
+    },
+    {
+     "id": "30162-39S-국민임대",
+     "complex_id": "30162",
+     "gu": "강동구",
+     "name": "강동리버스트 6단지",
+     "addr": "서울특별시 강동구 아리수로93가길 77",
+     "supply": "국민임대",
+     "type": "39S",
+     "area": 39.89,
+     "rooms": 1,
+     "households": 10,
+     "dep": 36030000,
+     "rent": 251500,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160622879_394_39BS.jpg"
+     ]
+    },
+    {
+     "id": "30162-49-국민임대",
+     "complex_id": "30162",
+     "gu": "강동구",
+     "name": "강동리버스트 6단지",
+     "addr": "서울특별시 강동구 아리수로93가길 77",
+     "supply": "국민임대",
+     "type": "49",
+     "area": 49.86,
+     "rooms": 2,
+     "households": 297,
+     "dep": 54620000,
+     "rent": 330100,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160632174_396_49A.jpg"
+     ]
+    },
+    {
+     "id": "30162-59-장기전세",
+     "complex_id": "30162",
+     "gu": "강동구",
+     "name": "강동리버스트 6단지",
+     "addr": "서울특별시 강동구 아리수로93가길 77",
+     "supply": "장기전세",
+     "type": "59",
+     "area": 59.97,
+     "rooms": 3,
+     "households": 473,
+     "dep": 385320000,
+     "rent": 0,
+     "vac": 23,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102416064816_399_59A.jpg"
+     ]
+    },
+    {
+     "id": "30162-74-장기전세",
+     "complex_id": "30162",
+     "gu": "강동구",
+     "name": "강동리버스트 6단지",
+     "addr": "서울특별시 강동구 아리수로93가길 77",
+     "supply": "장기전세",
+     "type": "74",
+     "area": 74.92,
+     "rooms": 3,
+     "households": 40,
+     "dep": 438750000,
+     "rent": 0,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160733108_402_74A.jpg"
+     ]
+    },
+    {
+     "id": "30162-84-장기전세",
+     "complex_id": "30162",
+     "gu": "강동구",
+     "name": "강동리버스트 6단지",
+     "addr": "서울특별시 강동구 아리수로93가길 77",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.9,
+     "rooms": 3,
+     "households": 42,
+     "dep": 459420000,
+     "rent": 0,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160746638_403_84A.jpg"
+     ]
+    },
+    {
      "id": "70163-29-재개발임대",
      "complex_id": "70163",
      "gu": "성동구",
@@ -53,6 +466,46 @@
      "as_of": "2026.11",
      "plan_urls": [
       "https://www.i-sh.co.kr/houseinfo/upload/lease/20210126151125600_3_%EA%B8%88%ED%98%B8%EB%B2%BD%EC%82%B0%20%ED%8F%89%EB%A9%B4%EB%8F%84.JPG"
+     ]
+    },
+    {
+     "id": "30163-59-장기전세",
+     "complex_id": "30163",
+     "gu": "강동구",
+     "name": "강동리버스트 7단지",
+     "addr": "서울특별시 강동구 아리수로93가길 70",
+     "supply": "장기전세",
+     "type": "59",
+     "area": 59.92,
+     "rooms": 3,
+     "households": 343,
+     "dep": 385320000,
+     "rent": 0,
+     "vac": 16,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024161906484_412_59A.jpg"
+     ]
+    },
+    {
+     "id": "30163-74-장기전세",
+     "complex_id": "30163",
+     "gu": "강동구",
+     "name": "강동리버스트 7단지",
+     "addr": "서울특별시 강동구 아리수로93가길 70",
+     "supply": "장기전세",
+     "type": "74",
+     "area": 74.79,
+     "rooms": 3,
+     "households": 29,
+     "dep": 423540000,
+     "rent": 0,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024161940568_415_74A.jpg"
      ]
     },
     {
@@ -76,6 +529,66 @@
      ]
     },
     {
+     "id": "20412-49-국민임대",
+     "complex_id": "20412",
+     "gu": "강동구",
+     "name": "강일리버파크 9단지",
+     "addr": "서울특별시 강동구 고덕로97길 29",
+     "supply": "국민임대",
+     "type": "49",
+     "area": 49.9,
+     "rooms": 2,
+     "households": 268,
+     "dep": 41570000,
+     "rent": 275600,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024153500808_322_49A.jpg"
+     ]
+    },
+    {
+     "id": "20412-59-국민임대",
+     "complex_id": "20412",
+     "gu": "강동구",
+     "name": "강일리버파크 9단지",
+     "addr": "서울특별시 강동구 고덕로97길 29",
+     "supply": "국민임대",
+     "type": "59",
+     "area": 59.87,
+     "rooms": 3,
+     "households": 52,
+     "dep": 51650000,
+     "rent": 324000,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024153602272_328_59A.jpg"
+     ]
+    },
+    {
+     "id": "20412-84-장기전세",
+     "complex_id": "20412",
+     "gu": "강동구",
+     "name": "강일리버파크 9단지",
+     "addr": "서울특별시 강동구 고덕로97길 29",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.83,
+     "rooms": 3,
+     "households": 60,
+     "dep": 443820000,
+     "rent": 0,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024153735354_336_84A.jpg"
+     ]
+    },
+    {
      "id": "70137-32-재개발임대",
      "complex_id": "70137",
      "gu": "성동구",
@@ -93,6 +606,373 @@
      "as_of": "2026.11",
      "plan_urls": [
       "https://www.i-sh.co.kr/houseinfo/upload/lease/2021012114321133_28_%ED%96%89%EB%8B%B9%ED%95%9C%EC%A7%84%20%EC%84%B8%EB%8C%80%ED%8F%89%EB%A9%B4%EB%8F%84.jpg"
+     ]
+    },
+    {
+     "id": "30160-29-행복주택",
+     "complex_id": "30160",
+     "gu": "강동구",
+     "name": "고덕강일 공공주택지구 2단지",
+     "addr": "서울특별시 강동구 아리수로 385",
+     "supply": "행복주택",
+     "type": "29",
+     "area": 29.46,
+     "rooms": 1,
+     "households": 126,
+     "dep": 84360000,
+     "rent": 331000,
+     "vac": 6,
+     "wait": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "id": "30160-36-행복주택",
+     "complex_id": "30160",
+     "gu": "강동구",
+     "name": "고덕강일 공공주택지구 2단지",
+     "addr": "서울특별시 강동구 아리수로 385",
+     "supply": "행복주택",
+     "type": "36",
+     "area": 36.73,
+     "rooms": 1,
+     "households": 165,
+     "dep": 109600000,
+     "rent": 430000,
+     "vac": 11,
+     "wait": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "id": "22366-74-장기전세",
+     "complex_id": "22366",
+     "gu": "송파구",
+     "name": "위례포레샤인 18단지",
+     "addr": "서울특별시 송파구 위례북로4길 12",
+     "supply": "장기전세",
+     "type": "74",
+     "area": 74.82,
+     "rooms": 3,
+     "households": 416,
+     "dep": 492180000,
+     "rent": 0,
+     "vac": 10,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025133425491_730_74A.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025133441988_731_74B.JPG"
+     ]
+    },
+    {
+     "id": "22366-84-장기전세",
+     "complex_id": "22366",
+     "gu": "송파구",
+     "name": "위례포레샤인 18단지",
+     "addr": "서울특별시 송파구 위례북로4길 12",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.66,
+     "rooms": 3,
+     "households": 214,
+     "dep": 536250000,
+     "rent": 0,
+     "vac": 3,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025133457577_733_84A.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025133512725_735_84B.JPG"
+     ]
+    },
+    {
+     "id": "22366-84S-장기전세",
+     "complex_id": "22366",
+     "gu": "송파구",
+     "name": "위례포레샤인 18단지",
+     "addr": "서울특별시 송파구 위례북로4길 12",
+     "supply": "장기전세",
+     "type": "84S",
+     "area": 84.66,
+     "rooms": 3,
+     "households": 17,
+     "dep": 519480000,
+     "rent": 0,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.10"
+    },
+    {
+     "id": "30167-59-장기전세",
+     "complex_id": "30167",
+     "gu": "강동구",
+     "name": "강동리엔파크 13단지",
+     "addr": "서울특별시 강동구 고덕로98길 161",
+     "supply": "장기전세",
+     "type": "59",
+     "area": 59.91,
+     "rooms": 3,
+     "households": 339,
+     "dep": 383760000,
+     "rent": 0,
+     "vac": 18,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163454117_456_59A.JPG"
+     ]
+    },
+    {
+     "id": "20568-59S-장기전세",
+     "complex_id": "20568",
+     "gu": "송파구",
+     "name": "송파파크데일 2단지",
+     "addr": "서울특별시 송파구 성내천로47길 38 송파파크데일2단지",
+     "supply": "장기전세",
+     "type": "59S",
+     "area": 59.91,
+     "rooms": 3,
+     "households": 23,
+     "dep": 142850000,
+     "rent": 0,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.10"
+    },
+    {
+     "id": "20568-84-장기전세",
+     "complex_id": "20568",
+     "gu": "송파구",
+     "name": "송파파크데일 2단지",
+     "addr": "서울특별시 송파구 성내천로47길 38 송파파크데일2단지",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.13,
+     "rooms": 3,
+     "households": 50,
+     "dep": 492700000,
+     "rent": 0,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.10"
+    },
+    {
+     "id": "20406-39-국민임대",
+     "complex_id": "20406",
+     "gu": "강동구",
+     "name": "강일리버파크 3단지",
+     "addr": "서울특별시 강동구 아리수로93길 40 강일리버파크",
+     "supply": "국민임대",
+     "type": "39",
+     "area": 39.9,
+     "rooms": 2,
+     "households": 318,
+     "dep": 30520000,
+     "rent": 237400,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024095556587_92_39A.jpg"
+     ]
+    },
+    {
+     "id": "20406-39S-국민임대",
+     "complex_id": "20406",
+     "gu": "강동구",
+     "name": "강일리버파크 3단지",
+     "addr": "서울특별시 강동구 아리수로93길 40 강일리버파크",
+     "supply": "국민임대",
+     "type": "39S",
+     "area": 39.64,
+     "rooms": 2,
+     "households": 48,
+     "dep": 30520000,
+     "rent": 237400,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024095608412_93_39A1.jpg"
+     ]
+    },
+    {
+     "id": "20406-84-장기전세",
+     "complex_id": "20406",
+     "gu": "강동구",
+     "name": "강일리버파크 3단지",
+     "addr": "서울특별시 강동구 아리수로93길 40 강일리버파크",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.83,
+     "rooms": 3,
+     "households": 20,
+     "dep": 443820000,
+     "rent": 0,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024095805602_104_84A.jpg"
+     ]
+    },
+    {
+     "id": "30161-59-장기전세",
+     "complex_id": "30161",
+     "gu": "강동구",
+     "name": "강동리버스트 4단지",
+     "addr": "서울특별시 강동구 아리수로93가길 110",
+     "supply": "장기전세",
+     "type": "59",
+     "area": 59.99,
+     "rooms": 3,
+     "households": 158,
+     "dep": 425100000,
+     "rent": 0,
+     "vac": 1,
+     "wait": 1,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024155625551_382_59mA.jpg"
+     ]
+    },
+    {
+     "id": "20434-59-장기전세",
+     "complex_id": "20434",
+     "gu": "송파구",
+     "name": "송파파인타운 8단지",
+     "addr": "서울특별시 송파구 충민로4길 6 (장지동, 송파파인타운8단지)",
+     "supply": "장기전세",
+     "type": "59",
+     "area": 59.95,
+     "rooms": 3,
+     "households": 112,
+     "dep": 161740000,
+     "rent": 335000,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025162012273_995_59.jpg"
+     ]
+    },
+    {
+     "id": "30168-17-행복주택",
+     "complex_id": "30168",
+     "gu": "강동구",
+     "name": "강동리엔파크 14단지",
+     "addr": "서울특별시 강동구 고덕로98길 160",
+     "supply": "행복주택",
+     "type": "17",
+     "area": 17.81,
+     "rooms": 0,
+     "households": 180,
+     "dep": 61200000,
+     "rent": 215000,
+     "vac": 32,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163709373_459_17A.jpg"
+     ]
+    },
+    {
+     "id": "30168-29-국민임대",
+     "complex_id": "30168",
+     "gu": "강동구",
+     "name": "강동리엔파크 14단지",
+     "addr": "서울특별시 강동구 고덕로98길 160",
+     "supply": "국민임대",
+     "type": "29",
+     "area": 29.84,
+     "rooms": 0,
+     "households": 72,
+     "dep": 20610000,
+     "rent": 202400,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163723263_460_29A.jpg"
+     ]
+    },
+    {
+     "id": "30168-29S-국민임대",
+     "complex_id": "30168",
+     "gu": "강동구",
+     "name": "강동리엔파크 14단지",
+     "addr": "서울특별시 강동구 고덕로98길 160",
+     "supply": "국민임대",
+     "type": "29S",
+     "area": 29.84,
+     "rooms": 0,
+     "households": 27,
+     "dep": 20610000,
+     "rent": 202400,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163730254_461_29AS.jpg"
+     ]
+    },
+    {
+     "id": "30168-29S-행복주택",
+     "complex_id": "30168",
+     "gu": "강동구",
+     "name": "강동리엔파크 14단지",
+     "addr": "서울특별시 강동구 고덕로98길 160",
+     "supply": "행복주택",
+     "type": "29S",
+     "area": 29.84,
+     "rooms": 0,
+     "households": 63,
+     "dep": 108680000,
+     "rent": 381000,
+     "vac": 10,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163730254_461_29AS.jpg"
+     ]
+    },
+    {
+     "id": "30168-36-행복주택",
+     "complex_id": "30168",
+     "gu": "강동구",
+     "name": "강동리엔파크 14단지",
+     "addr": "서울특별시 강동구 고덕로98길 160",
+     "supply": "행복주택",
+     "type": "36",
+     "area": 36.87,
+     "rooms": 1,
+     "households": 110,
+     "dep": 116000000,
+     "rent": 464000,
+     "vac": 6,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163737703_462_36A.jpg"
+     ]
+    },
+    {
+     "id": "30168-39-국민임대",
+     "complex_id": "30168",
+     "gu": "강동구",
+     "name": "강동리엔파크 14단지",
+     "addr": "서울특별시 강동구 고덕로98길 160",
+     "supply": "국민임대",
+     "type": "39",
+     "area": 39.82,
+     "rooms": 1,
+     "households": 64,
+     "dep": 39350000,
+     "rent": 273100,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163747153_463_39A.jpg"
      ]
     },
     {
@@ -133,6 +1013,226 @@
      "as_of": "2026.11",
      "plan_urls": [
       "https://www.i-sh.co.kr/houseinfo/upload/lease/20210126151035979_2_%EA%B8%88%ED%98%B8%EB%8C%80%EC%9A%B0%20%ED%8F%89%EB%A9%B4%EB%8F%84.JPG"
+     ]
+    },
+    {
+     "id": "20413-84-장기전세",
+     "complex_id": "20413",
+     "gu": "강동구",
+     "name": "강일리버파크 10단지",
+     "addr": "서울특별시 강동구 고덕로97길 20 강일리버파크",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.53,
+     "rooms": 3,
+     "households": 36,
+     "dep": 443820000,
+     "rent": 0,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024154247540_359_84B.jpg"
+     ]
+    },
+    {
+     "id": "20553-49-국민임대",
+     "complex_id": "20553",
+     "gu": "강동구",
+     "name": "고덕리엔파크 1단지",
+     "addr": "서울특별시 강동구 상일로 152",
+     "supply": "국민임대",
+     "type": "49",
+     "area": 49.92,
+     "rooms": 2,
+     "households": 125,
+     "dep": 43810000,
+     "rent": 324000,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024165414500_541_49A.jpg"
+     ]
+    },
+    {
+     "id": "20553-59-국민임대",
+     "complex_id": "20553",
+     "gu": "강동구",
+     "name": "고덕리엔파크 1단지",
+     "addr": "서울특별시 강동구 상일로 152",
+     "supply": "국민임대",
+     "type": "59",
+     "area": 59.83,
+     "rooms": 3,
+     "households": 38,
+     "dep": 51570000,
+     "rent": 363800,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20221207172353378_36_59A1.jpg"
+     ]
+    },
+    {
+     "id": "20553-84-장기전세",
+     "complex_id": "20553",
+     "gu": "강동구",
+     "name": "고덕리엔파크 1단지",
+     "addr": "서울특별시 강동구 상일로 152",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.87,
+     "rooms": 3,
+     "households": 121,
+     "dep": 495300000,
+     "rent": 0,
+     "vac": 9,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110510861_832_84B.jpg"
+     ]
+    },
+    {
+     "id": "20553-84S-장기전세",
+     "complex_id": "20553",
+     "gu": "강동구",
+     "name": "고덕리엔파크 1단지",
+     "addr": "서울특별시 강동구 상일로 152",
+     "supply": "장기전세",
+     "type": "84S",
+     "area": 84.87,
+     "rooms": 3,
+     "households": 19,
+     "dep": 367500000,
+     "rent": 0,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110520835_834_84BB.jpg"
+     ]
+    },
+    {
+     "id": "20554-59-국민임대",
+     "complex_id": "20554",
+     "gu": "강동구",
+     "name": "고덕리엔파크 2단지",
+     "addr": "서울특별시 강동구 고덕로 427",
+     "supply": "국민임대",
+     "type": "59",
+     "area": 59.83,
+     "rooms": 3,
+     "households": 62,
+     "dep": 52380000,
+     "rent": 355300,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025111607760_894_59A.jpg"
+     ]
+    },
+    {
+     "id": "20554-59S-국민임대",
+     "complex_id": "20554",
+     "gu": "강동구",
+     "name": "고덕리엔파크 2단지",
+     "addr": "서울특별시 강동구 고덕로 427",
+     "supply": "국민임대",
+     "type": "59S",
+     "area": 59.98,
+     "rooms": 3,
+     "households": 9,
+     "dep": 52380000,
+     "rent": 355300,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025111614387_895_59B.jpg"
+     ]
+    },
+    {
+     "id": "20554-84-장기전세",
+     "complex_id": "20554",
+     "gu": "강동구",
+     "name": "고덕리엔파크 2단지",
+     "addr": "서울특별시 강동구 고덕로 427",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.96,
+     "rooms": 3,
+     "households": 76,
+     "dep": 495300000,
+     "rent": 0,
+     "vac": 4,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025111646975_900_84A.jpg"
+     ]
+    },
+    {
+     "id": "20408-49-국민임대",
+     "complex_id": "20408",
+     "gu": "강동구",
+     "name": "강일리버파크 5단지",
+     "addr": "서울특별시 강동구 아리수로97길 20",
+     "supply": "국민임대",
+     "type": "49",
+     "area": 49.9,
+     "rooms": 2,
+     "households": 324,
+     "dep": 41570000,
+     "rent": 275600,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100123270_119_49A.JPG"
+     ]
+    },
+    {
+     "id": "20408-49S-국민임대",
+     "complex_id": "20408",
+     "gu": "강동구",
+     "name": "강일리버파크 5단지",
+     "addr": "서울특별시 강동구 아리수로97길 20",
+     "supply": "국민임대",
+     "type": "49S",
+     "area": 49.87,
+     "rooms": 2,
+     "households": 48,
+     "dep": 41570000,
+     "rent": 275600,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100140599_120_49B.JPG"
+     ]
+    },
+    {
+     "id": "20408-59-국민임대",
+     "complex_id": "20408",
+     "gu": "강동구",
+     "name": "강일리버파크 5단지",
+     "addr": "서울특별시 강동구 아리수로97길 20",
+     "supply": "국민임대",
+     "type": "59",
+     "area": 59.87,
+     "rooms": 3,
+     "households": 30,
+     "dep": 55490000,
+     "rent": 334600,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100156500_122_59A.JPG"
      ]
     },
     {
@@ -217,6 +1317,106 @@
      ]
     },
     {
+     "id": "30165-29-국민임대",
+     "complex_id": "30165",
+     "gu": "강동구",
+     "name": "강동리엔파크 9단지",
+     "addr": "서울특별시 강동구 고덕로98길 29",
+     "supply": "국민임대",
+     "type": "29",
+     "area": 29.03,
+     "rooms": 0,
+     "households": 76,
+     "dep": 18470000,
+     "rent": 180000,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162930704_434_29A.jpg"
+     ]
+    },
+    {
+     "id": "30165-49-국민임대",
+     "complex_id": "30165",
+     "gu": "강동구",
+     "name": "강동리엔파크 9단지",
+     "addr": "서울특별시 강동구 고덕로98길 29",
+     "supply": "국민임대",
+     "type": "49",
+     "area": 49.67,
+     "rooms": 2,
+     "households": 95,
+     "dep": 54310000,
+     "rent": 328700,
+     "vac": 3,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163029446_440_49A.jpg"
+     ]
+    },
+    {
+     "id": "30165-59-장기전세",
+     "complex_id": "30165",
+     "gu": "강동구",
+     "name": "강동리엔파크 9단지",
+     "addr": "서울특별시 강동구 고덕로98길 29",
+     "supply": "장기전세",
+     "type": "59",
+     "area": 59.17,
+     "rooms": 3,
+     "households": 111,
+     "dep": 383760000,
+     "rent": 0,
+     "vac": 6,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163041716_442_59A.jpg"
+     ]
+    },
+    {
+     "id": "22336-29-행복주택",
+     "complex_id": "22336",
+     "gu": "강동구",
+     "name": "강일리버파크 11단지",
+     "addr": "서울특별시 강동구 고덕로97길 100 (강일동, 강일리버파크11단지)",
+     "supply": "행복주택",
+     "type": "29",
+     "area": 29.96,
+     "rooms": 0,
+     "households": 312,
+     "dep": 65360000,
+     "rent": 261000,
+     "vac": 21,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025095044774_765_29A%2CB.jpg"
+     ]
+    },
+    {
+     "id": "22336-29S-행복주택",
+     "complex_id": "22336",
+     "gu": "강동구",
+     "name": "강일리버파크 11단지",
+     "addr": "서울특별시 강동구 고덕로97길 100 (강일동, 강일리버파크11단지)",
+     "supply": "행복주택",
+     "type": "29S",
+     "area": 29.96,
+     "rooms": 0,
+     "households": 34,
+     "dep": 63080000,
+     "rent": 246000,
+     "vac": 1,
+     "wait": 1,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025095050116_766_29A%2CB.jpg"
+     ]
+    },
+    {
      "id": "70134-32-재개발임대",
      "complex_id": "70134",
      "gu": "성동구",
@@ -234,6 +1434,66 @@
      "as_of": "2026.11",
      "plan_urls": [
       "https://www.i-sh.co.kr/houseinfo/upload/lease/20210126151639420_13_%EC%98%A5%EC%88%98%EC%82%BC%EC%84%B1%20%ED%8F%89%EB%A9%B4%EB%8F%84.JPG"
+     ]
+    },
+    {
+     "id": "20409-39-국민임대",
+     "complex_id": "20409",
+     "gu": "강동구",
+     "name": "강일리버파크 6단지",
+     "addr": "서울특별시 강동구 아리수로94길 19",
+     "supply": "국민임대",
+     "type": "39",
+     "area": 39.9,
+     "rooms": 2,
+     "households": 185,
+     "dep": 30520000,
+     "rent": 237400,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100340732_128_39A.jpg"
+     ]
+    },
+    {
+     "id": "20409-39S-국민임대",
+     "complex_id": "20409",
+     "gu": "강동구",
+     "name": "강일리버파크 6단지",
+     "addr": "서울특별시 강동구 아리수로94길 19",
+     "supply": "국민임대",
+     "type": "39S",
+     "area": 39.64,
+     "rooms": 2,
+     "households": 26,
+     "dep": 30520000,
+     "rent": 237400,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100348753_129_39A-1.jpg"
+     ]
+    },
+    {
+     "id": "20409-59-국민임대",
+     "complex_id": "20409",
+     "gu": "강동구",
+     "name": "강일리버파크 6단지",
+     "addr": "서울특별시 강동구 아리수로94길 19",
+     "supply": "국민임대",
+     "type": "59",
+     "area": 59.87,
+     "rooms": 3,
+     "households": 28,
+     "dep": 53280000,
+     "rent": 333500,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100357292_130_59A.jpg"
      ]
     },
     {
@@ -294,6 +1554,126 @@
      "as_of": "2026.11",
      "plan_urls": [
       "https://www.i-sh.co.kr/houseinfo/upload/lease/20210201084306628_9_%ED%8F%89%EB%A9%B4%EB%8F%84.JPG"
+     ]
+    },
+    {
+     "id": "20433-49-국민임대",
+     "complex_id": "20433",
+     "gu": "송파구",
+     "name": "송파파인타운 7단지",
+     "addr": "서울특별시 송파구 충민로4길 19 (장지동, 송파파인타운7단지)",
+     "supply": "국민임대",
+     "type": "49",
+     "area": 49.93,
+     "rooms": 2,
+     "households": 300,
+     "dep": 39070000,
+     "rent": 276000,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025163421244_1007_49.png"
+     ]
+    },
+    {
+     "id": "20405-84-장기전세",
+     "complex_id": "20405",
+     "gu": "강동구",
+     "name": "강일리버파크 2단지",
+     "addr": "서울특별시 강동구 아리수로97길 68 강일리버파크",
+     "supply": "장기전세",
+     "type": "84",
+     "area": 84.83,
+     "rooms": 3,
+     "households": 100,
+     "dep": 443820000,
+     "rent": 0,
+     "vac": 5,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024094422282_84_84A.jpg"
+     ]
+    },
+    {
+     "id": "20405-84S-장기전세",
+     "complex_id": "20405",
+     "gu": "강동구",
+     "name": "강일리버파크 2단지",
+     "addr": "서울특별시 강동구 아리수로97길 68 강일리버파크",
+     "supply": "장기전세",
+     "type": "84S",
+     "area": 84.67,
+     "rooms": 3,
+     "households": 20,
+     "dep": 443820000,
+     "rent": 0,
+     "vac": 4,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102409443039_85_84A1.jpg"
+     ]
+    },
+    {
+     "id": "20428-49-국민임대",
+     "complex_id": "20428",
+     "gu": "송파구",
+     "name": "송파파인타운 2단지",
+     "addr": "서울특별시 송파구 충민로 151",
+     "supply": "국민임대",
+     "type": "49",
+     "area": 49.77,
+     "rooms": 2,
+     "households": 263,
+     "dep": 47150000,
+     "rent": 302500,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025170648900_1079_49B.JPG"
+     ]
+    },
+    {
+     "id": "20432-59-국민임대",
+     "complex_id": "20432",
+     "gu": "송파구",
+     "name": "송파파인타운 6단지",
+     "addr": "서울특별시 송파구 충민로6길 14",
+     "supply": "국민임대",
+     "type": "59",
+     "area": 59.95,
+     "rooms": 3,
+     "households": 136,
+     "dep": 49580000,
+     "rent": 335000,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025164615889_1023_59A.JPG"
+     ]
+    },
+    {
+     "id": "20432-59-장기전세",
+     "complex_id": "20432",
+     "gu": "송파구",
+     "name": "송파파인타운 6단지",
+     "addr": "서울특별시 송파구 충민로6길 14",
+     "supply": "장기전세",
+     "type": "59",
+     "area": 59.95,
+     "rooms": 3,
+     "households": 89,
+     "dep": 153950000,
+     "rent": 0,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.10",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025164615889_1023_59A.JPG"
      ]
     },
     {
@@ -442,6 +1822,43 @@
      ]
     },
     {
+     "id": "30150-21-행복주택",
+     "complex_id": "30150",
+     "gu": "송파구",
+     "name": "송파파크데일 3단지",
+     "addr": "서울특별시 송파구 성내천로47길 22 송파파크데일3단지",
+     "supply": "행복주택",
+     "type": "21",
+     "area": 21.92,
+     "rooms": 0,
+     "households": 106,
+     "dep": 59040000,
+     "rent": 207000,
+     "vac": 9,
+     "wait": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "id": "70427-59-행복주택",
+     "complex_id": "70427",
+     "gu": "강동구",
+     "name": "고덕그라시움",
+     "addr": "서울특별시 강동구 고덕로 333",
+     "supply": "행복주택",
+     "type": "59",
+     "area": 59.79,
+     "rooms": 3,
+     "households": 140,
+     "dep": 176800000,
+     "rent": 645000,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164108835_465_59A.jpg"
+     ]
+    },
+    {
      "id": "70385-30-재개발임대",
      "complex_id": "70385",
      "gu": "성동구",
@@ -476,6 +1893,26 @@
      "as_of": "2026.11"
     },
     {
+     "id": "79304-28S-행복주택",
+     "complex_id": "79304",
+     "gu": "강동구",
+     "name": "강일푸르내",
+     "addr": "서울특별시 강동구 상일로12길 95",
+     "supply": "행복주택",
+     "type": "28S",
+     "area": 28.01,
+     "rooms": 1,
+     "households": 12,
+     "dep": 80430000,
+     "rent": 261000,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025085440471_730_281.JPG"
+     ]
+    },
+    {
      "id": "70569-47-재개발임대",
      "complex_id": "70569",
      "gu": "강동구",
@@ -506,676 +1943,6 @@
      ]
     },
     {
-     "id": "70389-38-재개발임대",
-     "complex_id": "70389",
-     "gu": "성동구",
-     "name": "힐스테이트서울숲리버(금호20)",
-     "addr": "서울특별시 성동구 금호로 40 힐스테이트서울숲리버",
-     "supply": "재개발임대",
-     "type": "38",
-     "area": 38.2,
-     "rooms": 2,
-     "households": 12,
-     "dep": 37510000,
-     "rent": 194900,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20180612092256875_11_%EA%B8%88%ED%98%B820%EA%B5%AC%EC%97%AD%20%EB%8B%A8%EC%9C%84%EC%84%B8%EB%8C%80%20%ED%8F%89%EB%A9%B4%EB%8F%84%20_%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%8138.2%EC%A0%9C%EA%B3%B1%EB%AF%B8%ED%84%B0-1.jpg"
-     ]
-    },
-    {
-     "id": "70279-36-재개발임대",
-     "complex_id": "70279",
-     "gu": "성동구",
-     "name": "서울숲행당 푸르지오 (행당5)",
-     "addr": "서울특별시 성동구 고산자로 175",
-     "supply": "재개발임대",
-     "type": "36",
-     "area": 36.95,
-     "rooms": 2,
-     "households": 94,
-     "dep": 36270000,
-     "rent": 314500,
-     "vac": 3,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20210126151502795_10_%EC%84%9C%EC%9A%B8%EC%88%B2%ED%96%89%EB%8B%B9%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A41.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20160701175344521_3_%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.jpg"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "t1",
-   "label": "국민임대",
-   "kind": "type",
-   "items": [
-    {
-     "id": "22367-39S-국민임대",
-     "complex_id": "22367",
-     "gu": "송파구",
-     "name": "위례포레샤인 23단지",
-     "addr": "서울특별시 송파구 위례순환로 477",
-     "supply": "국민임대",
-     "type": "39S",
-     "area": 39.93,
-     "rooms": 1,
-     "households": 66,
-     "dep": 42610000,
-     "rent": 260700,
-     "vac": 3,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110246789_618_39A1S.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110310181_619_39As.JPG"
-     ]
-    },
-    {
-     "id": "22367-49S-국민임대",
-     "complex_id": "22367",
-     "gu": "송파구",
-     "name": "위례포레샤인 23단지",
-     "addr": "서울특별시 송파구 위례순환로 477",
-     "supply": "국민임대",
-     "type": "49S",
-     "area": 49.59,
-     "rooms": 2,
-     "households": 81,
-     "dep": 63670000,
-     "rent": 332500,
-     "vac": 2,
-     "wait": 1,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102511035920_622_49A1S.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110418354_623_49AS.JPG"
-     ]
-    },
-    {
-     "id": "20555-49-국민임대",
-     "complex_id": "20555",
-     "gu": "강동구",
-     "name": "고덕리엔파크 3단지",
-     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
-     "supply": "국민임대",
-     "type": "49",
-     "area": 49.92,
-     "rooms": 2,
-     "households": 449,
-     "dep": 44420000,
-     "rent": 320100,
-     "vac": 10,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164519511_474_49A.jpg"
-     ]
-    },
-    {
-     "id": "20555-59-국민임대",
-     "complex_id": "20555",
-     "gu": "강동구",
-     "name": "고덕리엔파크 3단지",
-     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
-     "supply": "국민임대",
-     "type": "59",
-     "area": 59.83,
-     "rooms": 3,
-     "households": 180,
-     "dep": 52280000,
-     "rent": 358800,
-     "vac": 25,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164608431_480_59A.jpg"
-     ]
-    },
-    {
-     "id": "20555-59S-국민임대",
-     "complex_id": "20555",
-     "gu": "강동구",
-     "name": "고덕리엔파크 3단지",
-     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
-     "supply": "국민임대",
-     "type": "59S",
-     "area": 59.89,
-     "rooms": 3,
-     "households": 18,
-     "dep": 52280000,
-     "rent": 358800,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164703616_484_59A1.jpg"
-     ]
-    },
-    {
-     "id": "30162-29-국민임대",
-     "complex_id": "30162",
-     "gu": "강동구",
-     "name": "강동리버스트 6단지",
-     "addr": "서울특별시 강동구 아리수로93가길 77",
-     "supply": "국민임대",
-     "type": "29",
-     "area": 29.98,
-     "rooms": 0,
-     "households": 163,
-     "dep": 18840000,
-     "rent": 182400,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160544648_390_29A.jpg"
-     ]
-    },
-    {
-     "id": "30162-39-국민임대",
-     "complex_id": "30162",
-     "gu": "강동구",
-     "name": "강동리버스트 6단지",
-     "addr": "서울특별시 강동구 아리수로93가길 77",
-     "supply": "국민임대",
-     "type": "39",
-     "area": 39.94,
-     "rooms": 1,
-     "households": 173,
-     "dep": 36030000,
-     "rent": 251500,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160609262_392_39A.jpg"
-     ]
-    },
-    {
-     "id": "30162-39S-국민임대",
-     "complex_id": "30162",
-     "gu": "강동구",
-     "name": "강동리버스트 6단지",
-     "addr": "서울특별시 강동구 아리수로93가길 77",
-     "supply": "국민임대",
-     "type": "39S",
-     "area": 39.89,
-     "rooms": 1,
-     "households": 10,
-     "dep": 36030000,
-     "rent": 251500,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160622879_394_39BS.jpg"
-     ]
-    },
-    {
-     "id": "30162-49-국민임대",
-     "complex_id": "30162",
-     "gu": "강동구",
-     "name": "강동리버스트 6단지",
-     "addr": "서울특별시 강동구 아리수로93가길 77",
-     "supply": "국민임대",
-     "type": "49",
-     "area": 49.86,
-     "rooms": 2,
-     "households": 297,
-     "dep": 54620000,
-     "rent": 330100,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160632174_396_49A.jpg"
-     ]
-    },
-    {
-     "id": "20412-49-국민임대",
-     "complex_id": "20412",
-     "gu": "강동구",
-     "name": "강일리버파크 9단지",
-     "addr": "서울특별시 강동구 고덕로97길 29",
-     "supply": "국민임대",
-     "type": "49",
-     "area": 49.9,
-     "rooms": 2,
-     "households": 268,
-     "dep": 41570000,
-     "rent": 275600,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024153500808_322_49A.jpg"
-     ]
-    },
-    {
-     "id": "20412-59-국민임대",
-     "complex_id": "20412",
-     "gu": "강동구",
-     "name": "강일리버파크 9단지",
-     "addr": "서울특별시 강동구 고덕로97길 29",
-     "supply": "국민임대",
-     "type": "59",
-     "area": 59.87,
-     "rooms": 3,
-     "households": 52,
-     "dep": 51650000,
-     "rent": 324000,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024153602272_328_59A.jpg"
-     ]
-    },
-    {
-     "id": "20406-39-국민임대",
-     "complex_id": "20406",
-     "gu": "강동구",
-     "name": "강일리버파크 3단지",
-     "addr": "서울특별시 강동구 아리수로93길 40 강일리버파크",
-     "supply": "국민임대",
-     "type": "39",
-     "area": 39.9,
-     "rooms": 2,
-     "households": 318,
-     "dep": 30520000,
-     "rent": 237400,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024095556587_92_39A.jpg"
-     ]
-    },
-    {
-     "id": "20406-39S-국민임대",
-     "complex_id": "20406",
-     "gu": "강동구",
-     "name": "강일리버파크 3단지",
-     "addr": "서울특별시 강동구 아리수로93길 40 강일리버파크",
-     "supply": "국민임대",
-     "type": "39S",
-     "area": 39.64,
-     "rooms": 2,
-     "households": 48,
-     "dep": 30520000,
-     "rent": 237400,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024095608412_93_39A1.jpg"
-     ]
-    },
-    {
-     "id": "30168-29-국민임대",
-     "complex_id": "30168",
-     "gu": "강동구",
-     "name": "강동리엔파크 14단지",
-     "addr": "서울특별시 강동구 고덕로98길 160",
-     "supply": "국민임대",
-     "type": "29",
-     "area": 29.84,
-     "rooms": 0,
-     "households": 72,
-     "dep": 20610000,
-     "rent": 202400,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163723263_460_29A.jpg"
-     ]
-    },
-    {
-     "id": "30168-29S-국민임대",
-     "complex_id": "30168",
-     "gu": "강동구",
-     "name": "강동리엔파크 14단지",
-     "addr": "서울특별시 강동구 고덕로98길 160",
-     "supply": "국민임대",
-     "type": "29S",
-     "area": 29.84,
-     "rooms": 0,
-     "households": 27,
-     "dep": 20610000,
-     "rent": 202400,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163730254_461_29AS.jpg"
-     ]
-    },
-    {
-     "id": "30168-39-국민임대",
-     "complex_id": "30168",
-     "gu": "강동구",
-     "name": "강동리엔파크 14단지",
-     "addr": "서울특별시 강동구 고덕로98길 160",
-     "supply": "국민임대",
-     "type": "39",
-     "area": 39.82,
-     "rooms": 1,
-     "households": 64,
-     "dep": 39350000,
-     "rent": 273100,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163747153_463_39A.jpg"
-     ]
-    },
-    {
-     "id": "20553-49-국민임대",
-     "complex_id": "20553",
-     "gu": "강동구",
-     "name": "고덕리엔파크 1단지",
-     "addr": "서울특별시 강동구 상일로 152",
-     "supply": "국민임대",
-     "type": "49",
-     "area": 49.92,
-     "rooms": 2,
-     "households": 125,
-     "dep": 43810000,
-     "rent": 324000,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024165414500_541_49A.jpg"
-     ]
-    },
-    {
-     "id": "20553-59-국민임대",
-     "complex_id": "20553",
-     "gu": "강동구",
-     "name": "고덕리엔파크 1단지",
-     "addr": "서울특별시 강동구 상일로 152",
-     "supply": "국민임대",
-     "type": "59",
-     "area": 59.83,
-     "rooms": 3,
-     "households": 38,
-     "dep": 51570000,
-     "rent": 363800,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20221207172353378_36_59A1.jpg"
-     ]
-    },
-    {
-     "id": "20554-59-국민임대",
-     "complex_id": "20554",
-     "gu": "강동구",
-     "name": "고덕리엔파크 2단지",
-     "addr": "서울특별시 강동구 고덕로 427",
-     "supply": "국민임대",
-     "type": "59",
-     "area": 59.83,
-     "rooms": 3,
-     "households": 62,
-     "dep": 52380000,
-     "rent": 355300,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025111607760_894_59A.jpg"
-     ]
-    },
-    {
-     "id": "20554-59S-국민임대",
-     "complex_id": "20554",
-     "gu": "강동구",
-     "name": "고덕리엔파크 2단지",
-     "addr": "서울특별시 강동구 고덕로 427",
-     "supply": "국민임대",
-     "type": "59S",
-     "area": 59.98,
-     "rooms": 3,
-     "households": 9,
-     "dep": 52380000,
-     "rent": 355300,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025111614387_895_59B.jpg"
-     ]
-    },
-    {
-     "id": "20408-49-국민임대",
-     "complex_id": "20408",
-     "gu": "강동구",
-     "name": "강일리버파크 5단지",
-     "addr": "서울특별시 강동구 아리수로97길 20",
-     "supply": "국민임대",
-     "type": "49",
-     "area": 49.9,
-     "rooms": 2,
-     "households": 324,
-     "dep": 41570000,
-     "rent": 275600,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100123270_119_49A.JPG"
-     ]
-    },
-    {
-     "id": "20408-49S-국민임대",
-     "complex_id": "20408",
-     "gu": "강동구",
-     "name": "강일리버파크 5단지",
-     "addr": "서울특별시 강동구 아리수로97길 20",
-     "supply": "국민임대",
-     "type": "49S",
-     "area": 49.87,
-     "rooms": 2,
-     "households": 48,
-     "dep": 41570000,
-     "rent": 275600,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100140599_120_49B.JPG"
-     ]
-    },
-    {
-     "id": "20408-59-국민임대",
-     "complex_id": "20408",
-     "gu": "강동구",
-     "name": "강일리버파크 5단지",
-     "addr": "서울특별시 강동구 아리수로97길 20",
-     "supply": "국민임대",
-     "type": "59",
-     "area": 59.87,
-     "rooms": 3,
-     "households": 30,
-     "dep": 55490000,
-     "rent": 334600,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100156500_122_59A.JPG"
-     ]
-    },
-    {
-     "id": "30165-29-국민임대",
-     "complex_id": "30165",
-     "gu": "강동구",
-     "name": "강동리엔파크 9단지",
-     "addr": "서울특별시 강동구 고덕로98길 29",
-     "supply": "국민임대",
-     "type": "29",
-     "area": 29.03,
-     "rooms": 0,
-     "households": 76,
-     "dep": 18470000,
-     "rent": 180000,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162930704_434_29A.jpg"
-     ]
-    },
-    {
-     "id": "30165-49-국민임대",
-     "complex_id": "30165",
-     "gu": "강동구",
-     "name": "강동리엔파크 9단지",
-     "addr": "서울특별시 강동구 고덕로98길 29",
-     "supply": "국민임대",
-     "type": "49",
-     "area": 49.67,
-     "rooms": 2,
-     "households": 95,
-     "dep": 54310000,
-     "rent": 328700,
-     "vac": 3,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163029446_440_49A.jpg"
-     ]
-    },
-    {
-     "id": "20409-39-국민임대",
-     "complex_id": "20409",
-     "gu": "강동구",
-     "name": "강일리버파크 6단지",
-     "addr": "서울특별시 강동구 아리수로94길 19",
-     "supply": "국민임대",
-     "type": "39",
-     "area": 39.9,
-     "rooms": 2,
-     "households": 185,
-     "dep": 30520000,
-     "rent": 237400,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100340732_128_39A.jpg"
-     ]
-    },
-    {
-     "id": "20409-39S-국민임대",
-     "complex_id": "20409",
-     "gu": "강동구",
-     "name": "강일리버파크 6단지",
-     "addr": "서울특별시 강동구 아리수로94길 19",
-     "supply": "국민임대",
-     "type": "39S",
-     "area": 39.64,
-     "rooms": 2,
-     "households": 26,
-     "dep": 30520000,
-     "rent": 237400,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100348753_129_39A-1.jpg"
-     ]
-    },
-    {
-     "id": "20409-59-국민임대",
-     "complex_id": "20409",
-     "gu": "강동구",
-     "name": "강일리버파크 6단지",
-     "addr": "서울특별시 강동구 아리수로94길 19",
-     "supply": "국민임대",
-     "type": "59",
-     "area": 59.87,
-     "rooms": 3,
-     "households": 28,
-     "dep": 53280000,
-     "rent": 333500,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024100357292_130_59A.jpg"
-     ]
-    },
-    {
-     "id": "20433-49-국민임대",
-     "complex_id": "20433",
-     "gu": "송파구",
-     "name": "송파파인타운 7단지",
-     "addr": "서울특별시 송파구 충민로4길 19 (장지동, 송파파인타운7단지)",
-     "supply": "국민임대",
-     "type": "49",
-     "area": 49.93,
-     "rooms": 2,
-     "households": 300,
-     "dep": 39070000,
-     "rent": 276000,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025163421244_1007_49.png"
-     ]
-    },
-    {
-     "id": "20428-49-국민임대",
-     "complex_id": "20428",
-     "gu": "송파구",
-     "name": "송파파인타운 2단지",
-     "addr": "서울특별시 송파구 충민로 151",
-     "supply": "국민임대",
-     "type": "49",
-     "area": 49.77,
-     "rooms": 2,
-     "households": 263,
-     "dep": 47150000,
-     "rent": 302500,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025170648900_1079_49B.JPG"
-     ]
-    },
-    {
-     "id": "20432-59-국민임대",
-     "complex_id": "20432",
-     "gu": "송파구",
-     "name": "송파파인타운 6단지",
-     "addr": "서울특별시 송파구 충민로6길 14",
-     "supply": "국민임대",
-     "type": "59",
-     "area": 59.95,
-     "rooms": 3,
-     "households": 136,
-     "dep": 49580000,
-     "rent": 335000,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025164615889_1023_59A.JPG"
-     ]
-    },
-    {
      "id": "20404-59-국민임대",
      "complex_id": "20404",
      "gu": "강동구",
@@ -1193,591 +1960,6 @@
      "as_of": "2026.11",
      "plan_urls": [
       "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024094319441_80_59A.jpg"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "t2",
-   "label": "장기전세",
-   "kind": "type",
-   "items": [
-    {
-     "id": "22367-59-장기전세",
-     "complex_id": "22367",
-     "gu": "송파구",
-     "name": "위례포레샤인 23단지",
-     "addr": "서울특별시 송파구 위례순환로 477",
-     "supply": "장기전세",
-     "type": "59",
-     "area": 59.97,
-     "rooms": 3,
-     "households": 502,
-     "dep": 491400000,
-     "rent": 0,
-     "vac": 17,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110435104_624_59A.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110509126_626_59B.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110529476_627_59B1.JPG"
-     ]
-    },
-    {
-     "id": "22367-59S-장기전세",
-     "complex_id": "22367",
-     "gu": "송파구",
-     "name": "위례포레샤인 23단지",
-     "addr": "서울특별시 송파구 위례순환로 477",
-     "supply": "장기전세",
-     "type": "59S",
-     "area": 59.97,
-     "rooms": 3,
-     "households": 54,
-     "dep": 491400000,
-     "rent": 0,
-     "vac": 5,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110452993_625_59As.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110556414_628_59Bs.JPG"
-     ]
-    },
-    {
-     "id": "22367-74-장기전세",
-     "complex_id": "22367",
-     "gu": "송파구",
-     "name": "위례포레샤인 23단지",
-     "addr": "서울특별시 송파구 위례순환로 477",
-     "supply": "장기전세",
-     "type": "74",
-     "area": 74.95,
-     "rooms": 3,
-     "households": 408,
-     "dep": 543660000,
-     "rent": 0,
-     "vac": 11,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110612954_629_74A.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102511065411_631_74B.JPG"
-     ]
-    },
-    {
-     "id": "22367-74S-장기전세",
-     "complex_id": "22367",
-     "gu": "송파구",
-     "name": "위례포레샤인 23단지",
-     "addr": "서울특별시 송파구 위례순환로 477",
-     "supply": "장기전세",
-     "type": "74S",
-     "area": 74.95,
-     "rooms": 3,
-     "households": 34,
-     "dep": 543660000,
-     "rent": 0,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110634127_630_74As.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110712494_632_74Bs.JPG"
-     ]
-    },
-    {
-     "id": "20555-84-장기전세",
-     "complex_id": "20555",
-     "gu": "강동구",
-     "name": "고덕리엔파크 3단지",
-     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.96,
-     "rooms": 3,
-     "households": 325,
-     "dep": 495300000,
-     "rent": 0,
-     "vac": 35,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164823717_493_84A.jpg"
-     ]
-    },
-    {
-     "id": "20555-84S-장기전세",
-     "complex_id": "20555",
-     "gu": "강동구",
-     "name": "고덕리엔파크 3단지",
-     "addr": "서울특별시 강동구 상일로 74 고덕리엔파크3단지",
-     "supply": "장기전세",
-     "type": "84S",
-     "area": 84.96,
-     "rooms": 3,
-     "households": 43,
-     "dep": 495300000,
-     "rent": 0,
-     "vac": 5,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164834912_495_84B.jpg"
-     ]
-    },
-    {
-     "id": "30162-59-장기전세",
-     "complex_id": "30162",
-     "gu": "강동구",
-     "name": "강동리버스트 6단지",
-     "addr": "서울특별시 강동구 아리수로93가길 77",
-     "supply": "장기전세",
-     "type": "59",
-     "area": 59.97,
-     "rooms": 3,
-     "households": 473,
-     "dep": 385320000,
-     "rent": 0,
-     "vac": 23,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102416064816_399_59A.jpg"
-     ]
-    },
-    {
-     "id": "30162-74-장기전세",
-     "complex_id": "30162",
-     "gu": "강동구",
-     "name": "강동리버스트 6단지",
-     "addr": "서울특별시 강동구 아리수로93가길 77",
-     "supply": "장기전세",
-     "type": "74",
-     "area": 74.92,
-     "rooms": 3,
-     "households": 40,
-     "dep": 438750000,
-     "rent": 0,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160733108_402_74A.jpg"
-     ]
-    },
-    {
-     "id": "30162-84-장기전세",
-     "complex_id": "30162",
-     "gu": "강동구",
-     "name": "강동리버스트 6단지",
-     "addr": "서울특별시 강동구 아리수로93가길 77",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.9,
-     "rooms": 3,
-     "households": 42,
-     "dep": 459420000,
-     "rent": 0,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024160746638_403_84A.jpg"
-     ]
-    },
-    {
-     "id": "30163-59-장기전세",
-     "complex_id": "30163",
-     "gu": "강동구",
-     "name": "강동리버스트 7단지",
-     "addr": "서울특별시 강동구 아리수로93가길 70",
-     "supply": "장기전세",
-     "type": "59",
-     "area": 59.92,
-     "rooms": 3,
-     "households": 343,
-     "dep": 385320000,
-     "rent": 0,
-     "vac": 16,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024161906484_412_59A.jpg"
-     ]
-    },
-    {
-     "id": "30163-74-장기전세",
-     "complex_id": "30163",
-     "gu": "강동구",
-     "name": "강동리버스트 7단지",
-     "addr": "서울특별시 강동구 아리수로93가길 70",
-     "supply": "장기전세",
-     "type": "74",
-     "area": 74.79,
-     "rooms": 3,
-     "households": 29,
-     "dep": 423540000,
-     "rent": 0,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024161940568_415_74A.jpg"
-     ]
-    },
-    {
-     "id": "20412-84-장기전세",
-     "complex_id": "20412",
-     "gu": "강동구",
-     "name": "강일리버파크 9단지",
-     "addr": "서울특별시 강동구 고덕로97길 29",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.83,
-     "rooms": 3,
-     "households": 60,
-     "dep": 443820000,
-     "rent": 0,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024153735354_336_84A.jpg"
-     ]
-    },
-    {
-     "id": "22366-74-장기전세",
-     "complex_id": "22366",
-     "gu": "송파구",
-     "name": "위례포레샤인 18단지",
-     "addr": "서울특별시 송파구 위례북로4길 12",
-     "supply": "장기전세",
-     "type": "74",
-     "area": 74.82,
-     "rooms": 3,
-     "households": 416,
-     "dep": 492180000,
-     "rent": 0,
-     "vac": 10,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025133425491_730_74A.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025133441988_731_74B.JPG"
-     ]
-    },
-    {
-     "id": "22366-84-장기전세",
-     "complex_id": "22366",
-     "gu": "송파구",
-     "name": "위례포레샤인 18단지",
-     "addr": "서울특별시 송파구 위례북로4길 12",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.66,
-     "rooms": 3,
-     "households": 214,
-     "dep": 536250000,
-     "rent": 0,
-     "vac": 3,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025133457577_733_84A.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025133512725_735_84B.JPG"
-     ]
-    },
-    {
-     "id": "22366-84S-장기전세",
-     "complex_id": "22366",
-     "gu": "송파구",
-     "name": "위례포레샤인 18단지",
-     "addr": "서울특별시 송파구 위례북로4길 12",
-     "supply": "장기전세",
-     "type": "84S",
-     "area": 84.66,
-     "rooms": 3,
-     "households": 17,
-     "dep": 519480000,
-     "rent": 0,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.10"
-    },
-    {
-     "id": "30167-59-장기전세",
-     "complex_id": "30167",
-     "gu": "강동구",
-     "name": "강동리엔파크 13단지",
-     "addr": "서울특별시 강동구 고덕로98길 161",
-     "supply": "장기전세",
-     "type": "59",
-     "area": 59.91,
-     "rooms": 3,
-     "households": 339,
-     "dep": 383760000,
-     "rent": 0,
-     "vac": 18,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163454117_456_59A.JPG"
-     ]
-    },
-    {
-     "id": "20568-59S-장기전세",
-     "complex_id": "20568",
-     "gu": "송파구",
-     "name": "송파파크데일 2단지",
-     "addr": "서울특별시 송파구 성내천로47길 38 송파파크데일2단지",
-     "supply": "장기전세",
-     "type": "59S",
-     "area": 59.91,
-     "rooms": 3,
-     "households": 23,
-     "dep": 142850000,
-     "rent": 0,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.10"
-    },
-    {
-     "id": "20568-84-장기전세",
-     "complex_id": "20568",
-     "gu": "송파구",
-     "name": "송파파크데일 2단지",
-     "addr": "서울특별시 송파구 성내천로47길 38 송파파크데일2단지",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.13,
-     "rooms": 3,
-     "households": 50,
-     "dep": 492700000,
-     "rent": 0,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.10"
-    },
-    {
-     "id": "20406-84-장기전세",
-     "complex_id": "20406",
-     "gu": "강동구",
-     "name": "강일리버파크 3단지",
-     "addr": "서울특별시 강동구 아리수로93길 40 강일리버파크",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.83,
-     "rooms": 3,
-     "households": 20,
-     "dep": 443820000,
-     "rent": 0,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024095805602_104_84A.jpg"
-     ]
-    },
-    {
-     "id": "30161-59-장기전세",
-     "complex_id": "30161",
-     "gu": "강동구",
-     "name": "강동리버스트 4단지",
-     "addr": "서울특별시 강동구 아리수로93가길 110",
-     "supply": "장기전세",
-     "type": "59",
-     "area": 59.99,
-     "rooms": 3,
-     "households": 158,
-     "dep": 425100000,
-     "rent": 0,
-     "vac": 1,
-     "wait": 1,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024155625551_382_59mA.jpg"
-     ]
-    },
-    {
-     "id": "20434-59-장기전세",
-     "complex_id": "20434",
-     "gu": "송파구",
-     "name": "송파파인타운 8단지",
-     "addr": "서울특별시 송파구 충민로4길 6 (장지동, 송파파인타운8단지)",
-     "supply": "장기전세",
-     "type": "59",
-     "area": 59.95,
-     "rooms": 3,
-     "households": 112,
-     "dep": 161740000,
-     "rent": 335000,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025162012273_995_59.jpg"
-     ]
-    },
-    {
-     "id": "20413-84-장기전세",
-     "complex_id": "20413",
-     "gu": "강동구",
-     "name": "강일리버파크 10단지",
-     "addr": "서울특별시 강동구 고덕로97길 20 강일리버파크",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.53,
-     "rooms": 3,
-     "households": 36,
-     "dep": 443820000,
-     "rent": 0,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024154247540_359_84B.jpg"
-     ]
-    },
-    {
-     "id": "20553-84-장기전세",
-     "complex_id": "20553",
-     "gu": "강동구",
-     "name": "고덕리엔파크 1단지",
-     "addr": "서울특별시 강동구 상일로 152",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.87,
-     "rooms": 3,
-     "households": 121,
-     "dep": 495300000,
-     "rent": 0,
-     "vac": 9,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110510861_832_84B.jpg"
-     ]
-    },
-    {
-     "id": "20553-84S-장기전세",
-     "complex_id": "20553",
-     "gu": "강동구",
-     "name": "고덕리엔파크 1단지",
-     "addr": "서울특별시 강동구 상일로 152",
-     "supply": "장기전세",
-     "type": "84S",
-     "area": 84.87,
-     "rooms": 3,
-     "households": 19,
-     "dep": 367500000,
-     "rent": 0,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025110520835_834_84BB.jpg"
-     ]
-    },
-    {
-     "id": "20554-84-장기전세",
-     "complex_id": "20554",
-     "gu": "강동구",
-     "name": "고덕리엔파크 2단지",
-     "addr": "서울특별시 강동구 고덕로 427",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.96,
-     "rooms": 3,
-     "households": 76,
-     "dep": 495300000,
-     "rent": 0,
-     "vac": 4,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025111646975_900_84A.jpg"
-     ]
-    },
-    {
-     "id": "30165-59-장기전세",
-     "complex_id": "30165",
-     "gu": "강동구",
-     "name": "강동리엔파크 9단지",
-     "addr": "서울특별시 강동구 고덕로98길 29",
-     "supply": "장기전세",
-     "type": "59",
-     "area": 59.17,
-     "rooms": 3,
-     "households": 111,
-     "dep": 383760000,
-     "rent": 0,
-     "vac": 6,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163041716_442_59A.jpg"
-     ]
-    },
-    {
-     "id": "20405-84-장기전세",
-     "complex_id": "20405",
-     "gu": "강동구",
-     "name": "강일리버파크 2단지",
-     "addr": "서울특별시 강동구 아리수로97길 68 강일리버파크",
-     "supply": "장기전세",
-     "type": "84",
-     "area": 84.83,
-     "rooms": 3,
-     "households": 100,
-     "dep": 443820000,
-     "rent": 0,
-     "vac": 5,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024094422282_84_84A.jpg"
-     ]
-    },
-    {
-     "id": "20405-84S-장기전세",
-     "complex_id": "20405",
-     "gu": "강동구",
-     "name": "강일리버파크 2단지",
-     "addr": "서울특별시 강동구 아리수로97길 68 강일리버파크",
-     "supply": "장기전세",
-     "type": "84S",
-     "area": 84.67,
-     "rooms": 3,
-     "households": 20,
-     "dep": 443820000,
-     "rent": 0,
-     "vac": 4,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102409443039_85_84A1.jpg"
-     ]
-    },
-    {
-     "id": "20432-59-장기전세",
-     "complex_id": "20432",
-     "gu": "송파구",
-     "name": "송파파인타운 6단지",
-     "addr": "서울특별시 송파구 충민로6길 14",
-     "supply": "장기전세",
-     "type": "59",
-     "area": 59.95,
-     "rooms": 3,
-     "households": 89,
-     "dep": 153950000,
-     "rent": 0,
-     "vac": 2,
-     "wait": 0,
-     "as_of": "2026.10",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025164615889_1023_59A.JPG"
      ]
     },
     {
@@ -1819,249 +2001,25 @@
      "plan_urls": [
       "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024094328653_81_59A1.jpg"
      ]
-    }
-   ]
-  },
-  {
-   "id": "t3",
-   "label": "행복주택",
-   "kind": "type",
-   "items": [
+    },
     {
-     "id": "70392-39-행복주택",
-     "complex_id": "70392",
-     "gu": "송파구",
-     "name": "송파 헬리오시티",
-     "addr": "서울특별시 송파구 송파대로 345",
-     "supply": "행복주택",
-     "type": "39",
-     "area": 39.1,
+     "id": "70389-38-재개발임대",
+     "complex_id": "70389",
+     "gu": "성동구",
+     "name": "힐스테이트서울숲리버(금호20)",
+     "addr": "서울특별시 성동구 금호로 40 힐스테이트서울숲리버",
+     "supply": "재개발임대",
+     "type": "38",
+     "area": 38.2,
      "rooms": 2,
-     "households": 1065,
-     "dep": 161600000,
-     "rent": 525000,
-     "vac": 17,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112001589_9_39A.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112033166_10_39B.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112139652_11_39C.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112153530_12_39D.JPG"
-     ]
-    },
-    {
-     "id": "70392-49-행복주택",
-     "complex_id": "70392",
-     "gu": "송파구",
-     "name": "송파 헬리오시티",
-     "addr": "서울특별시 송파구 송파대로 345",
-     "supply": "행복주택",
-     "type": "49",
-     "area": 49.19,
-     "rooms": 2,
-     "households": 316,
-     "dep": 195200000,
-     "rent": 614000,
-     "vac": 11,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112208595_13_49A.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112220510_14_49B.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112231640_15_49C.JPG",
-      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230317112244816_16_49D.JPG"
-     ]
-    },
-    {
-     "id": "30160-29-행복주택",
-     "complex_id": "30160",
-     "gu": "강동구",
-     "name": "고덕강일 공공주택지구 2단지",
-     "addr": "서울특별시 강동구 아리수로 385",
-     "supply": "행복주택",
-     "type": "29",
-     "area": 29.46,
-     "rooms": 1,
-     "households": 126,
-     "dep": 84360000,
-     "rent": 331000,
-     "vac": 6,
-     "wait": 0,
-     "as_of": "2026.11"
-    },
-    {
-     "id": "30160-36-행복주택",
-     "complex_id": "30160",
-     "gu": "강동구",
-     "name": "고덕강일 공공주택지구 2단지",
-     "addr": "서울특별시 강동구 아리수로 385",
-     "supply": "행복주택",
-     "type": "36",
-     "area": 36.73,
-     "rooms": 1,
-     "households": 165,
-     "dep": 109600000,
-     "rent": 430000,
-     "vac": 11,
-     "wait": 0,
-     "as_of": "2026.11"
-    },
-    {
-     "id": "30168-17-행복주택",
-     "complex_id": "30168",
-     "gu": "강동구",
-     "name": "강동리엔파크 14단지",
-     "addr": "서울특별시 강동구 고덕로98길 160",
-     "supply": "행복주택",
-     "type": "17",
-     "area": 17.81,
-     "rooms": 0,
-     "households": 180,
-     "dep": 61200000,
-     "rent": 215000,
-     "vac": 32,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163709373_459_17A.jpg"
-     ]
-    },
-    {
-     "id": "30168-29S-행복주택",
-     "complex_id": "30168",
-     "gu": "강동구",
-     "name": "강동리엔파크 14단지",
-     "addr": "서울특별시 강동구 고덕로98길 160",
-     "supply": "행복주택",
-     "type": "29S",
-     "area": 29.84,
-     "rooms": 0,
-     "households": 63,
-     "dep": 108680000,
-     "rent": 381000,
-     "vac": 10,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163730254_461_29AS.jpg"
-     ]
-    },
-    {
-     "id": "30168-36-행복주택",
-     "complex_id": "30168",
-     "gu": "강동구",
-     "name": "강동리엔파크 14단지",
-     "addr": "서울특별시 강동구 고덕로98길 160",
-     "supply": "행복주택",
-     "type": "36",
-     "area": 36.87,
-     "rooms": 1,
-     "households": 110,
-     "dep": 116000000,
-     "rent": 464000,
-     "vac": 6,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163737703_462_36A.jpg"
-     ]
-    },
-    {
-     "id": "22336-29-행복주택",
-     "complex_id": "22336",
-     "gu": "강동구",
-     "name": "강일리버파크 11단지",
-     "addr": "서울특별시 강동구 고덕로97길 100 (강일동, 강일리버파크11단지)",
-     "supply": "행복주택",
-     "type": "29",
-     "area": 29.96,
-     "rooms": 0,
-     "households": 312,
-     "dep": 65360000,
-     "rent": 261000,
-     "vac": 21,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025095044774_765_29A%2CB.jpg"
-     ]
-    },
-    {
-     "id": "22336-29S-행복주택",
-     "complex_id": "22336",
-     "gu": "강동구",
-     "name": "강일리버파크 11단지",
-     "addr": "서울특별시 강동구 고덕로97길 100 (강일동, 강일리버파크11단지)",
-     "supply": "행복주택",
-     "type": "29S",
-     "area": 29.96,
-     "rooms": 0,
-     "households": 34,
-     "dep": 63080000,
-     "rent": 246000,
-     "vac": 1,
-     "wait": 1,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025095050116_766_29A%2CB.jpg"
-     ]
-    },
-    {
-     "id": "30150-21-행복주택",
-     "complex_id": "30150",
-     "gu": "송파구",
-     "name": "송파파크데일 3단지",
-     "addr": "서울특별시 송파구 성내천로47길 22 송파파크데일3단지",
-     "supply": "행복주택",
-     "type": "21",
-     "area": 21.92,
-     "rooms": 0,
-     "households": 106,
-     "dep": 59040000,
-     "rent": 207000,
-     "vac": 9,
-     "wait": 0,
-     "as_of": "2026.11"
-    },
-    {
-     "id": "70427-59-행복주택",
-     "complex_id": "70427",
-     "gu": "강동구",
-     "name": "고덕그라시움",
-     "addr": "서울특별시 강동구 고덕로 333",
-     "supply": "행복주택",
-     "type": "59",
-     "area": 59.79,
-     "rooms": 3,
-     "households": 140,
-     "dep": 176800000,
-     "rent": 645000,
-     "vac": 1,
-     "wait": 0,
-     "as_of": "2026.11",
-     "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024164108835_465_59A.jpg"
-     ]
-    },
-    {
-     "id": "79304-28S-행복주택",
-     "complex_id": "79304",
-     "gu": "강동구",
-     "name": "강일푸르내",
-     "addr": "서울특별시 강동구 상일로12길 95",
-     "supply": "행복주택",
-     "type": "28S",
-     "area": 28.01,
-     "rooms": 1,
      "households": 12,
-     "dep": 80430000,
-     "rent": 261000,
-     "vac": 2,
+     "dep": 37510000,
+     "rent": 194900,
+     "vac": 1,
      "wait": 0,
      "as_of": "2026.11",
      "plan_urls": [
-      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025085440471_730_281.JPG"
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20180612092256875_11_%EA%B8%88%ED%98%B820%EA%B5%AC%EC%97%AD%20%EB%8B%A8%EC%9C%84%EC%84%B8%EB%8C%80%20%ED%8F%89%EB%A9%B4%EB%8F%84%20_%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%8138.2%EC%A0%9C%EA%B3%B1%EB%AF%B8%ED%84%B0-1.jpg"
      ]
     },
     {
@@ -2106,9 +2064,162 @@
       "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025135538272_746_59C.JPG",
       "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025135554842_747_59T.JPG"
      ]
+    },
+    {
+     "id": "70279-36-재개발임대",
+     "complex_id": "70279",
+     "gu": "성동구",
+     "name": "서울숲행당 푸르지오 (행당5)",
+     "addr": "서울특별시 성동구 고산자로 175",
+     "supply": "재개발임대",
+     "type": "36",
+     "area": 36.95,
+     "rooms": 2,
+     "households": 94,
+     "dep": 36270000,
+     "rent": 314500,
+     "vac": 3,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20210126151502795_10_%EC%84%9C%EC%9A%B8%EC%88%B2%ED%96%89%EB%8B%B9%ED%91%B8%EB%A5%B4%EC%A7%80%EC%98%A41.JPG",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20160701175344521_3_%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.jpg"
+     ]
+    },
+    {
+     "id": "30143-33-도시형생활주택",
+     "complex_id": "30143",
+     "gu": "강동구",
+     "name": "리엔타운",
+     "addr": "서울시 강동구 상일로 12길 89 (강일동, 강일준주거)",
+     "supply": "도시형생활주택",
+     "type": "33",
+     "area": 33.83,
+     "rooms": 0,
+     "households": 12,
+     "dep": 18200000,
+     "rent": 199000,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025085008153_719_33A.jpg",
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025085013177_720_33A1.jpg"
+     ]
+    },
+    {
+     "id": "70490-48-행복주택",
+     "complex_id": "70490",
+     "gu": "강동구",
+     "name": "고덕자이",
+     "addr": "서울특별시 강동구 상일로 55",
+     "supply": "행복주택",
+     "type": "48",
+     "area": 48.6765,
+     "rooms": 2,
+     "households": 37,
+     "dep": 144000000,
+     "rent": 494000,
+     "vac": 2,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025093857207_757_48A.jpg"
+     ]
+    },
+    {
+     "id": "74041-43-청년안심주택",
+     "complex_id": "74041",
+     "gu": "송파구",
+     "name": "잠실센트럴파크",
+     "addr": "서울특별시 송파구 백제고분로7길 42",
+     "supply": "청년안심주택",
+     "type": "43",
+     "area": 43.46,
+     "rooms": 0,
+     "households": 15,
+     "dep": 150150000,
+     "rent": 664000,
+     "vac": 4,
+     "wait": 3,
+     "as_of": "2026.11"
+    },
+    {
+     "id": "20458-38-장기전세",
+     "complex_id": "20458",
+     "gu": "성동구",
+     "name": "왕십리 주상복합",
+     "addr": "서울특별시 성동구 청계천로 474",
+     "supply": "장기전세",
+     "type": "38",
+     "area": 38.982,
+     "rooms": 1,
+     "households": 22,
+     "dep": 223860000,
+     "rent": 0,
+     "vac": 5,
+     "wait": 0,
+     "as_of": "2026.10"
+    },
+    {
+     "id": "20458-47-장기전세",
+     "complex_id": "20458",
+     "gu": "성동구",
+     "name": "왕십리 주상복합",
+     "addr": "서울특별시 성동구 청계천로 474",
+     "supply": "장기전세",
+     "type": "47",
+     "area": 47.822,
+     "rooms": 1,
+     "households": 10,
+     "dep": 262080000,
+     "rent": 0,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.10"
+    },
+    {
+     "id": "70612-49-재개발임대",
+     "complex_id": "70612",
+     "gu": "강동구",
+     "name": "더샵강동센트럴시티(천호4)_재개발",
+     "addr": "서울특별시 강동구 진황도로 14",
+     "supply": "재개발임대",
+     "type": "49",
+     "area": 49.99,
+     "rooms": 2,
+     "households": 34,
+     "dep": 36550000,
+     "rent": 209800,
+     "vac": 29,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20260424161246708_1_49%20%ED%8F%89%EB%A9%B4%EB%8F%84%28%ED%99%95%EC%9E%A5%ED%98%95%29_1.jpg"
+     ]
+    },
+    {
+     "id": "70612-59-재개발임대",
+     "complex_id": "70612",
+     "gu": "강동구",
+     "name": "더샵강동센트럴시티(천호4)_재개발",
+     "addr": "서울특별시 강동구 진황도로 14",
+     "supply": "재개발임대",
+     "type": "59",
+     "area": 59.81,
+     "rooms": 3,
+     "households": 34,
+     "dep": 43940000,
+     "rent": 252200,
+     "vac": 1,
+     "wait": 0,
+     "as_of": "2026.11",
+     "plan_urls": [
+      "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20260428154607592_7_59C%20%ED%8F%89%EB%A9%B4%EB%8F%84%28%ED%99%95%EC%9E%A5%ED%98%95%29_1.jpg"
+     ]
     }
    ]
   }
  ],
- "updated": "2026-11-15"
+ "updated": "2026-11-16"
 }
