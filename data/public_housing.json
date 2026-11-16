@@ -1,29 +1,1132 @@
 {
- "updated": "2026-11-16 00:43",
+ "updated": "2026-11-16 10:09",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-16 00:43",
-   "count": 427
+   "at": "2026-11-16 10:09",
+   "count": 439
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-16 00:43",
+   "at": "2026-11-16 10:09",
    "count": 114
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-16 00:43",
+   "at": "2026-11-16 10:09",
    "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-16 00:43",
+   "at": "2026-11-16 10:09",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "lh-2015122300021090",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "음성군 국민임대 예비입주자 모집",
+   "region": "충청북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": null,
+   "apply_end": "2026-12-02",
+   "winner_date": null,
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021090&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "261116-음성군국민임대예비입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69432917"
+     },
+     {
+      "name": "261116-음성군국민임대예비입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69432918"
+     }
+    ],
+    "images": [
+     {
+      "site": "음성금석A2 국민임대",
+      "name": "단지배치도.png",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44544818"
+     },
+     {
+      "site": "음성금석A2 국민임대",
+      "name": "단지배치도_음성금석.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44541133"
+     },
+     {
+      "site": "음성금석A2 국민임대",
+      "name": "동호배치도.JPG",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44541134"
+     },
+     {
+      "site": "충북혁신 A1블록",
+      "name": "단지조감도(2).jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546549"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "음성금석 국민임대주택",
+      "apply_start": "2026-12-02",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2026-12-31",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "음성금석A2 국민임대",
+      "apply_start": "2026-12-02",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2026-12-31",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "음성감곡 휴먼시아 국민임대",
+      "apply_start": "2026-12-02",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2026-12-31",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "음성삼성",
+      "apply_start": "2026-12-02",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2026-12-31",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "음성맹동 국민임대주택",
+      "apply_start": "2026-12-02",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2026-12-31",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "충북혁신 A1블록",
+      "apply_start": "2026-12-02",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2026-12-31",
+      "winner_date": "2027-03-26"
+     }
+    ],
+    "sites": [
+     {
+      "name": "음성감곡 휴먼시아 국민임대",
+      "addr": "충청북도 음성군 감곡면 오향로 31(음성감곡휴먼시아)",
+      "total_units": 566,
+      "area": "39.57~51.93"
+     },
+     {
+      "name": "음성삼성",
+      "addr": "충청북도 음성군 삼성면 덕정로 29-7(음성삼성휴먼시아)",
+      "total_units": 419,
+      "area": "36.55~51.88"
+     },
+     {
+      "name": "음성금석A2 국민임대",
+      "addr": "충청북도 음성군 금왕읍 금석택지길 34",
+      "total_units": 500,
+      "area": "29.23~46.05",
+      "heating": "개별난방",
+      "move_in": "2023.01"
+     },
+     {
+      "name": "음성금석 국민임대주택",
+      "addr": "충청북도 음성군 금왕읍 대금로 1557-13(음성금석엘에이치아파트)",
+      "total_units": 690,
+      "area": "33.48~51.93",
+      "heating": "개별가스난방",
+      "move_in": "2014.12"
+     },
+     {
+      "name": "음성맹동 국민임대주택",
+      "addr": "충청북도 음성군 맹동면 대동로 26(음성맹동휴먼시아)",
+      "total_units": 261,
+      "area": "36.55~46.9",
+      "heating": "개별가스난방"
+     },
+     {
+      "name": "충북혁신 A1블록",
+      "addr": "충청북도 음성군 맹동면 이수로 31 (충북혁신 천년나무 1단지)",
+      "total_units": 1278,
+      "area": "36.71~46.53",
+      "move_in": "2015.12"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021087",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "칠곡왜관4 국민임대아파트 예비입주자 모집 (39형, 46형)",
+   "region": "경상북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": "2026-11-27",
+   "apply_end": "2026-11-27",
+   "winner_date": "2027-03-04",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021087&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "26.11.16공고국민임대예비입주자표준모집공고문(MYMY버전)_39형46형AI_(검토완료).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69429081"
+     },
+     {
+      "name": "26.11.16공고국민임대예비입주자표준모집공고문(MYMY버전)_39형46형AI_(검토완료).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69429083"
+     },
+     {
+      "name": "국민임대인터넷및모바일청약접수절차안내.pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69429090"
+     }
+    ],
+    "images": [
+     {
+      "site": "칠곡왜관4",
+      "name": "단지조감도(2).jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547347"
+     },
+     {
+      "site": "칠곡왜관4",
+      "name": "단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547833"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-27",
+      "apply_end": "2026-11-27",
+      "docs_start": "2026-12-15",
+      "docs_end": "2026-12-16",
+      "winner_date": "2027-03-04",
+      "contract_start": "2027-03-05",
+      "contract_end": "2027-12-31"
+     }
+    ],
+    "sites": [
+     {
+      "name": "칠곡왜관4",
+      "addr": "경상북도 칠곡군 왜관읍 관문로1길 24(왜관휴먼시아4단지)",
+      "total_units": 528,
+      "area": "39.48~51.93",
+      "heating": "개별가스난방"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021084",
+   "org": "LH",
+   "deal": "임대",
+   "type": "영구임대",
+   "kind": "모집공고",
+   "title": "서귀포동홍3 영구임대주택 예비입주자 모집 공고(공고일 `26.11.16)",
+   "region": "제주특별자치도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": "2026-11-30",
+   "apply_end": "2026-12-02",
+   "winner_date": "2027-03-24",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021084&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "영구임대예비입주자모집공고문.owpml",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69426794"
+     },
+     {
+      "name": "영구임대예비입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69426786"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "winner_date": "2027-03-24"
+     }
+    ],
+    "sites": [
+     {
+      "name": "서귀포 동홍(3)",
+      "addr": "제주특별자치도 서귀포시 태평로512번길 9(동홍동,동홍3주공아파트)",
+      "total_units": 400,
+      "area": "26.34~30.48",
+      "heating": "개별유류난방",
+      "move_in": "1993.05"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021078",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "증평군 송산5단지 국민임대주택 자격완화 예비입주자 모집[2026.11.16]",
+   "region": "충청북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-01",
+   "winner_date": "2027-03-26",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021078&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "261116증평군자격완화예비입주자모집공고.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424390"
+     },
+     {
+      "name": "261116증평군자격완화예비입주자모집공고.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424400"
+     }
+    ],
+    "images": [
+     {
+      "site": "증평송산5단지 국민임대",
+      "name": "증평송산단지조감도.JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565162"
+     },
+     {
+      "site": "증평송산5단지 국민임대",
+      "name": "증평송산단지배치도.JPG",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565163"
+     },
+     {
+      "site": "증평송산5단지 국민임대",
+      "name": "증평송산동호배치도.JPG",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565164"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     }
+    ],
+    "sites": [
+     {
+      "name": "증평송산5단지 국민임대",
+      "addr": "충청북도 증평군 증평읍 송산로 30",
+      "total_units": 605,
+      "area": "29.39~46.21",
+      "heating": "개별난방",
+      "move_in": "2022.07"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021076",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "증평군지역 국민임대주택 예비입주자 모집[2026.11.16]",
+   "region": "충청북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": null,
+   "apply_end": "2026-12-01",
+   "winner_date": null,
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021076&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "261116증평군예비입주자모집공고.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424064"
+     },
+     {
+      "name": "261116증평군예비입주자모집공고.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424065"
+     }
+    ],
+    "images": [
+     {
+      "site": "증평송산 3단지 국민임대주택 640호",
+      "name": "단지조감도1.jpg",
+      "kind": "조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547675"
+     },
+     {
+      "site": "증평송산2단지 국민임대주택",
+      "name": "증평송산지구조감도.jpg",
+      "kind": "증평송산 휴먼시아 국민임대주택 입주자 모집",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547303"
+     },
+     {
+      "site": "증평장동 국민임대주택",
+      "name": "건계_증평장동지구조감도(3).jpg",
+      "kind": "증평장동",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546513"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "증평송산2단지 국민임대주택",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "증평송산 3단지 국민임대주택 640호",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "증평장동 국민임대주택",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "증평송산1단지 국민임대주택",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     }
+    ],
+    "sites": [
+     {
+      "name": "증평송산 3단지 국민임대주택 640호",
+      "addr": "충청북도 증평군 증평읍 송산로4길 14 LH 천년나무 3단지",
+      "total_units": 640,
+      "area": "29.99~46.76",
+      "move_in": "2016.02"
+     },
+     {
+      "name": "증평송산1단지 국민임대주택",
+      "addr": "충청북도 증평군 증평읍 송산로 35(증평송산1휴먼시아)",
+      "total_units": 504,
+      "area": "33.39~46.9",
+      "heating": "개별가스난방"
+     },
+     {
+      "name": "증평송산2단지 국민임대주택",
+      "addr": "충청북도 증평군 증평읍 송산로 53(송산휴먼시아 2단지)",
+      "total_units": 514,
+      "area": "33.95~46.99",
+      "heating": "개별가스난방"
+     },
+     {
+      "name": "증평장동 국민임대주택",
+      "addr": "충청북도 증평군 증평읍 증평로 31-11(장동주공아파트)",
+      "total_units": 558,
+      "area": "46.9~59.88",
+      "heating": "개별가스난방"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021070",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "부산광역시 국민임대주택 예비입주자 정례모집 공고(2026.11.16.)",
+   "region": "부산광역시",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": null,
+   "apply_end": "2026-12-02",
+   "winner_date": null,
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021070&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(기장교리_별도양식)장애인고령자편의증진시설설치신청서및위임장.pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424745"
+     },
+     {
+      "name": "마이마이서비스고객매뉴얼(v6).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69416774"
+     },
+     {
+      "name": "부산광역시국민임대예비입주자모집공고문(26.11.16).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424732"
+     },
+     {
+      "name": "부산광역시국민임대예비입주자모집공고문(26.11.16).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69424731"
+     }
+    ],
+    "images": [
+     {
+      "site": "기장교리국민임대",
+      "name": "단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168722"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "16평2.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168717"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "19평1.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168718"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "20평1.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168720"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "20평2.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168721"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "16평1.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168716"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "19평2.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168719"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "name": "장안투시도_저용량.jpg",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42302334"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "name": "1120_장안위치도_보기적합용.jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42277657"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "name": "장안조감도_저용량.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42302332"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "name": "장안단지배치도_저용량.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42302333"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "name": "고촌위치도.jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=27364546"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "name": "고촌단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=27364545"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "name": "고촌단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=27364544"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "name": "고촌동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=27364547"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "기본이미지광역도.JPG",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548181"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "기본이미지위치도.JPG",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548182"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "부산정관4단지조감도.pdf",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272199"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "부산정관4단지배치도.pdf",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272200"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "부산정관4동호배치도.pdf",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272201"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "부산정관4형별평면도등.pdf",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272202"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "기본이미지조감도.JPG",
+      "kind": "조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548183"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "name": "위치도(640-480).jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547935"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "name": "조감도(322-234).jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547495"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "name": "단지배치도(640-480).jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547244"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "name": "부산정관5형별평면도등.pdf",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272846"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "부산장안 국민임대",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-01",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-03-19"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-01",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-03-19"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-01",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-03-19"
+     },
+     {
+      "site": "기장교리국민임대",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-11-30",
+      "docs_start": "2026-12-11",
+      "docs_end": "2026-12-17",
+      "winner_date": "2027-03-31",
+      "contract_start": "2027-04-01",
+      "contract_end": "2028-03-31"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-01",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-03-19"
+     }
+    ],
+    "sites": [
+     {
+      "name": "기장교리국민임대",
+      "addr": "부산광역시 기장군 기장읍 차성로397번길 7(기장교리주공아파트)",
+      "total_units": 875,
+      "area": "36.44~45.32",
+      "heating": "개별가스난방"
+     },
+     {
+      "name": "부산장안 국민임대",
+      "addr": "부산광역시 기장군 장안읍 신좌천로 7 부산장안 LH1단지",
+      "total_units": 332,
+      "area": "29.88~46.76",
+      "heating": "개별난방",
+      "move_in": "2022.10"
+     },
+     {
+      "name": "부산고촌 국민임대주택",
+      "addr": "부산광역시 기장군 철마면 고촌로44번길 16(고촌휴먼시아1)",
+      "total_units": 1084,
+      "area": "39.74~46.77",
+      "heating": "개별난방",
+      "move_in": "2010.02"
+     },
+     {
+      "name": "부산정관4단지(A-22BL)",
+      "addr": "부산광역시 기장군 정관읍 산단4로 160(정관신도시 엘에이치 4단지)",
+      "total_units": 964,
+      "area": "46.46~59.86",
+      "heating": "지역난방",
+      "move_in": "2012.09"
+     },
+     {
+      "name": "부산정관5단지(A-19BL)",
+      "addr": "부산광역시 기장군 정관읍 산단2로 60(정관신도시 엘에이치 5단지)",
+      "total_units": 1128,
+      "area": "46.72~59.94",
+      "heating": "지역난방",
+      "move_in": "2013.10"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021066",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "충주시 지역 국민임대주택 예비입주자 모집[2026.11.16]",
+   "region": "충청북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": null,
+   "apply_end": "2026-12-07",
+   "winner_date": null,
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021066&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "261116충주시지역국민임대예비입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69406081"
+     },
+     {
+      "name": "261116충주시지역국민임대예비입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69406084"
+     }
+    ],
+    "images": [
+     {
+      "site": "충주연수 6단지",
+      "name": "충주연수(5)지구_조감도.jpg",
+      "kind": "연수6단지 조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546260"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "충주연수 6단지",
+      "apply_start": "2026-12-07",
+      "apply_end": "2026-12-07",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     },
+     {
+      "site": "충주연수 휴먼시아 7단지 국민임대",
+      "apply_start": "2026-12-07",
+      "apply_end": "2026-12-07",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     }
+    ],
+    "sites": [
+     {
+      "name": "충주연수 6단지",
+      "addr": "충청북도 충주시 금곡서1길 5(연수동,연수주공6단지아파트)",
+      "total_units": 538,
+      "area": "46.79~59.88",
+      "heating": "개별난방",
+      "move_in": "2007.05"
+     },
+     {
+      "name": "충주연수 휴먼시아 7단지 국민임대",
+      "addr": "충청북도 충주시 갱고개로 230(연수동)",
+      "total_units": 498,
+      "area": "39.66~59.86",
+      "move_in": "3909.12"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021065",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "구미도량2지구3단지 국민임대주택 예비입주자 모집(36,45형)",
+   "region": "경상북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": "2026-11-27",
+   "apply_end": "2026-11-27",
+   "winner_date": "2027-03-03",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021065&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(2026.11.16공고)국민임대예비입주자표준모집공고문(mymy버전_구미도량2-3).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69417179"
+     },
+     {
+      "name": "(2026.11.16공고)국민임대예비입주자표준모집공고문(mymy버전_구미도량2-3).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69417182"
+     },
+     {
+      "name": "국민임대인터넷및모바일청약접수절차안내.pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69417185"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-27",
+      "apply_end": "2026-11-27",
+      "docs_start": "2026-12-09",
+      "docs_end": "2026-12-10",
+      "winner_date": "2027-03-03",
+      "contract_start": "2027-04-01",
+      "contract_end": "2028-02-28"
+     }
+    ],
+    "sites": [
+     {
+      "name": "구미도량2지구3단지",
+      "addr": "경상북도 구미시 도봉로5길 33(도량동,도량2지구3단지)",
+      "total_units": 490,
+      "area": "36.54~45.92",
+      "heating": "개별가스난방"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021059",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "괴산군지역 국민임대주택 예비입주자 모집 공고[2026.11.16]",
+   "region": "충청북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": "2026-11-26",
+   "apply_end": "2026-11-26",
+   "winner_date": "2027-03-25",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021059&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(261116)국민임대예비입주자표준모집공고문(괴산동부).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389126"
+     },
+     {
+      "name": "(261116)국민임대예비입주자표준모집공고문(괴산동부).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69389128"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-26",
+      "apply_end": "2026-11-26",
+      "docs_start": "2026-12-14",
+      "docs_end": "2026-12-16",
+      "winner_date": "2027-03-25"
+     }
+    ],
+    "sites": [
+     {
+      "name": "괴산동부",
+      "addr": "충청북도 괴산군 괴산읍 남산1길 25(동부주공아파트)",
+      "total_units": 310,
+      "area": "39.49~55.83",
+      "heating": "개별가스난방"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021037",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "청주성화1 국민임대주택 예비입주자 모집공고[2026.11.16]",
+   "region": "충청북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": "2026-11-26",
+   "apply_end": "2026-11-26",
+   "winner_date": "2027-03-25",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021037&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(26.11.16)국민임대예비입주자모집공고문(성화1).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69356540"
+     },
+     {
+      "name": "(26.11.16)국민임대예비입주자모집공고문(성화1).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69356541"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-26",
+      "apply_end": "2026-11-26",
+      "docs_start": "2026-12-14",
+      "docs_end": "2026-12-16",
+      "winner_date": "2027-03-25"
+     }
+    ],
+    "sites": [
+     {
+      "name": "청주성화1",
+      "addr": "충청북도 청주시 서원구 성봉로 88(성화동,성화주공1단지아파트)",
+      "total_units": 650,
+      "area": "36.65~51.93",
+      "heating": "지역난방",
+      "move_in": "2019.12"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021035",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "청주시지역(청주율량9) 국민임대주택 예비입주자 모집공고[2026.11.16.]",
+   "region": "충청북도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-01",
+   "winner_date": "2027-03-26",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021035&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "청주시지역(청주율량9)국민임대주택예비입주자모집공고[2026.11.16].hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69346116"
+     },
+     {
+      "name": "청주시지역(청주율량9)국민임대주택예비입주자모집공고[2026.11.16].pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69346127"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     }
+    ],
+    "sites": [
+     {
+      "name": "청주율량 9",
+      "addr": "충청북도 청주시 청원구 율중로7번길 77(율량동,청주율량2엘에이치9단지아파트)",
+      "total_units": 1122,
+      "area": "29.72~46.94",
+      "heating": "개별난방",
+      "move_in": "2014.11"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
+  {
+   "id": "lh-2015122300021020",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "원주무실5 국민임대주택 예비입주자 모집",
+   "region": "강원특별자치도",
+   "city": null,
+   "notice_date": "2026-11-16",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-01",
+   "winner_date": "2027-04-02",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021020&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(261116)원주무실5국민임대예비입주자모집공고문(수정).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69374122"
+     },
+     {
+      "name": "(261116)원주무실5국민임대예비입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69374125"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-16",
+      "docs_end": "2026-12-22",
+      "winner_date": "2027-04-02"
+     }
+    ],
+    "sites": [
+     {
+      "name": "원주무실5단지",
+      "addr": "강원특별자치도 원주시 만대로 96(무실동,원주무실5단지아파트, 501동)",
+      "total_units": 496,
+      "area": "46.9~51.93",
+      "heating": "개별가스난방",
+      "move_in": "2020.02"
+     }
+    ],
+    "at": "2026-11-16"
+   }
+  },
   {
    "id": "sh-313316",
    "org": "SH",
@@ -2283,7 +3386,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-17",
    "winner_date": "2027-03-11",
-   "status": "공고중",
+   "status": "접수중",
    "units": 60,
    "houses": [
     {
@@ -3105,7 +4208,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-16",
    "winner_date": "2026-11-23",
-   "status": "공고중",
+   "status": "접수중",
    "units": 396,
    "houses": [
     {
@@ -3267,7 +4370,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-27",
    "winner_date": "2026-12-08",
-   "status": "공고중",
+   "status": "접수중",
    "units": 480,
    "houses": [
     {
@@ -3394,7 +4497,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-19",
    "winner_date": "2027-03-19",
-   "status": "공고중",
+   "status": "접수중",
    "units": 70,
    "houses": [],
    "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do",
@@ -4440,7 +5543,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-17",
    "winner_date": "2027-03-26",
-   "status": "공고중",
+   "status": "접수중",
    "units": 30,
    "houses": [
     {
@@ -5841,7 +6944,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
    "winner_date": "2026-12-30",
-   "status": "공고중",
+   "status": "접수중",
    "units": 170,
    "houses": [
     {
@@ -6455,7 +7558,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-24",
    "winner_date": "2026-12-04",
-   "status": "공고중",
+   "status": "접수중",
    "units": 251,
    "houses": [
     {
@@ -6817,7 +7920,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
    "winner_date": "2026-11-20",
-   "status": "공고중",
+   "status": "접수중",
    "units": 35,
    "houses": [
     {
