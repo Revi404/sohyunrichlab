@@ -6,9 +6,16 @@ SH 공고 첨부의 preview_url(htmlConverter.do)은 Synap Document Viewer 화�
 - path_html 이 그림(.png/.jpg/.jpeg/.gif)이면 PDF 를 쪽별 그림으로 바꾼 것이라 글이 없다.
   임시 폴더에 받아 글자 인식(OCR)한다. 그림은 끝나면 지우고 저장소에 남기지 않는다.
   · 기본 글(pages[].text): 4배 확대·회색조·선명화·자동 대비 후 tesseract psm 6. tessdata_best 가 있으면 그 모델로.
-  · 표 쪽(금액 낱말·쉼표 맞는 금액 3개 이상·7자리 이상 쉼표 없는 숫자가 있는 쪽, 공고당 최대 8쪽)은 다시 읽는다.
-    paddle(2배 확대)로 읽어 pages[].table_text 와 amounts 를, tesseract psm 11 로도 읽어 두 방식이 일치한
-    금액만 pages[].amounts_checked 에 남긴다. paddle 이 없으면 psm 11 결과를 amounts 로 삼아 psm 6 과 맞춰 본다.
+  · 쪽 수가 40쪽을 넘는 공고도 기본 글은 최대 160쪽(MAX_PAGES_HARD)까지 읽는다. 41쪽부터는 빠른 확인용으로
+    2배 확대로 읽고(표 쪽으로 뽑히면 4배로 다시 읽음), 시간 예산(--time-budget)이 다하면 거기서 멈춘다.
+    저장하는 기본 글은 앞 40쪽과 재인식한 표 쪽뿐이다.
+  · 표 쪽(금액 낱말·10,000 이상 쉼표 맞는 금액 3개 이상·7자리 이상 쉼표 없는 숫자가 있는 쪽)은 다시 읽는다.
+    공고당 최대 8쪽이며 쪽 순서가 아니라 우선순위로 고른다: 분양가·공급금액·임대보증금 같은 강한 금액 낱말이 있는
+    쪽 > 관리비·소득 같은 약한 낱말 > 금액 개수만으로 표 쪽이 된 쪽.
+    paddle(2배 확대)로 읽어 pages[].table_text 와 amounts 를, tesseract psm 11 과 숫자만 읽는 tesseract
+    (실험, --no-digits 로 끔)로도 읽어 다른 방식과 일치한 금액만 pages[].amounts_checked 에 남기고,
+    어느 방식이 확인했는지는 pages[].amounts_by 에 둔다. paddle 이 없으면 psm 11 결과를 amounts 로 삼아 psm 6 과 맞춰 본다.
+  · 금액은 값이 10,000 이상인 것만 센다(평면도의 mm 치수 '3,275' 같은 4자리 값을 뺀다).
 - path_html 이 글 형식(.htm/.html/.xml/.svg/.txt)이면 받아서 태그를 벗겨 글로 만든다.
 - path_html 이 없으면 색인에서 파일 이름을 찾아 여러 주소를 시험한다.
 
@@ -17,11 +24,12 @@ SH 공고 첨부의 preview_url(htmlConverter.do)은 Synap Document Viewer 화�
   아직 뽑지 않은 SH 모집공고를 공고일이 최근인 것부터 고른다.
 - 진단:     --debug (색인 요약, 쪽별 상태·바이트·글자 수, 표 쪽의 table_text 전문과 금액, 방식별 시간, 합계)
 - 글자 인식: --ocr-scale 4 (확대 배율), --psm 6 (tesseract 쪽 분할 방식), --tessdata-dir DIR (tessdata_best, 없으면
-            환경변수 TESSDATA_BEST_DIR), --no-paddle (paddle 건너뛰기), --max-table-pages 8
+            환경변수 TESSDATA_BEST_DIR), --no-paddle (paddle 건너뛰기), --max-table-pages 8,
+            --no-digits (숫자만 읽는 세 번째 확인 끄기), --time-budget 1080 (전체 시간 예산 초, 0 이면 제한 없음)
 - 시험:     --src 공고 파일, --out 출력 폴더
 
 변환 파일 요청은 리다이렉트를 따라가지 않는다. 없는 파일이 302 로 응답하기 때문이다(없음으로 처리).
-요청은 공고 1건당 80회, 요청 사이 1초, 쪽(파일) 5MB·최대 40쪽. 글 형식만 읽을 때는 표준 라이브러리만 쓴다.
+요청은 공고 1건당 200회, 요청 사이 1초, 쪽(파일) 5MB·최대 160쪽. 글 형식만 읽을 때는 표준 라이브러리만 쓴다.
 글자 인식에는 Pillow 와 tesseract(kor+eng)가 필요하고, paddlepaddle·paddleocr 는 있으면 쓴다.
 """
 from __future__ import annotations
@@ -49,12 +57,17 @@ SRC = ROOT / "data" / "public_housing.json"
 OUT = ROOT / "data" / "notice_text"
 KST = timezone(timedelta(hours=9))
 UA = "sohyunrichlab-notice-collector/1.0 (+https://revi404.github.io/sohyunrichlab/)"
-MAX_REQUESTS = 80          # 공고 1건당 요청 상한
+MAX_REQUESTS = 200         # 공고 1건당 요청 상한 (색인 등 몇 건 + 최대 160쪽)
 DELAY = 1.0                # 요청 사이 쉬는 시간(초)
 TIMEOUT = 30
 MAX_FILE = 5 * 1024 * 1024
 MAX_TOTAL = 20 * 1024 * 1024
-MAX_PAGES = 40             # 한 공고에서 읽을 최대 쪽 수
+MAX_PAGES = 40             # 기본 글을 저장하는 쪽 수 (재인식한 표 쪽은 이 밖이어도 저장)
+MAX_PAGES_HARD = 160       # 기본 글을 읽는 쪽 수의 절대 상한 (표 쪽을 찾기 위한 훑기)
+LATE_SCALE = 2             # MAX_PAGES 이후 쪽을 훑을 때 확대 배율 (빠름, 표 쪽으로 뽑히면 정상 배율로 다시 읽음)
+TIME_BUDGET = 1080         # SH 글 읽기 전체 시간 예산(초). 워크플로 30분 안에 설치·저장 시간을 남긴다
+BASE_SHARE = 0.6           # 공고 1건 시간 중 기본 글 훑기에 쓰는 몫 (나머지는 표 쪽 재인식)
+MIN_AMOUNT = 10000         # 이보다 작은 값은 금액으로 세지 않는다 (평면도 mm 치수 등)
 OCR_SCALE = 4
 OCR_PSM = 6
 OCR_TIMEOUT = 240          # 쪽당 tesseract 제한 시간(초)
@@ -63,7 +76,10 @@ TEXT_EXT = (".htm", ".html", ".xml", ".svg", ".txt")
 OCR_NOTE = "글자 인식 결과라 표 안 숫자가 틀릴 수 있음. amounts_checked 는 두 인식 방식이 일치한 금액이며, 그 외 금액은 원문 확인 필요"
 MAX_TABLE_PAGES = 8        # 공고 1건당 표 쪽 재인식 상한
 PADDLE_SCALE = 2           # paddle 에 넣는 그림 확대 배율
-TABLE_WORDS = ("보증금", "임대료", "분양가", "공급금액", "계약금", "중도금", "잔금", "관리비", "전세금", "소득")
+STRONG_WORDS = ("분양가", "공급금액", "공급가격", "임대보증금", "월임대료", "임대조건", "계약금", "중도금", "잔금",
+                "전세금", "보증금", "임대료")
+WEAK_WORDS = ("관리비", "소득")
+TABLE_WORDS = STRONG_WORDS + WEAK_WORDS
 TABLE_MIN_AMOUNTS = 3      # 쉼표 맞는 금액 꼴 토큰이 이만큼 이상이면 표 쪽
 OK_AMOUNT = re.compile(r"^\d{1,3}(,\d{3})+$")
 BIG_NUMBER = re.compile(r"^\d{7,}$")   # 쉼표가 빠진 7자리 이상 숫자(깨진 금액 후보)
@@ -307,12 +323,12 @@ class OcrConf:
     """글자 인식 설정. tessdata_best 가 있으면 그 모델을 쓰고, 없으면 apt 기본 모델."""
 
     def __init__(self, tessdir: str | None = None, scale: int = OCR_SCALE, psm: int = OCR_PSM,
-                 paddle: bool = True, max_table: int = MAX_TABLE_PAGES) -> None:
+                 paddle: bool = True, max_table: int = MAX_TABLE_PAGES, digits: bool = True) -> None:
         d = tessdir or os.environ.get("TESSDATA_BEST_DIR") or ""
         self.tessdir = d if d and (Path(d) / "kor.traineddata").is_file() else None
         self.tessdir_bad = d if d and not self.tessdir else ""   # 지정했는데 kor 가 없는 폴더
         self.lang = "kor+eng" if not self.tessdir or (Path(self.tessdir) / "eng.traineddata").is_file() else "kor"
-        self.scale, self.psm, self.paddle, self.max_table = scale, psm, paddle, max_table
+        self.scale, self.psm, self.paddle, self.max_table, self.digits = scale, psm, paddle, max_table, digits
 
     @property
     def text_label(self) -> str:
@@ -334,14 +350,20 @@ def prep_image(img_path: Path, scale: int) -> Path:
     return big
 
 
-def ocr_image(img_path: Path, conf: OcrConf, psm: int | None = None) -> str:
-    """그림 한 장을 tesseract 로 읽는다(선명화·자동 대비 전처리 포함). 확대한 임시 파일은 바로 지운다."""
+def ocr_image(img_path: Path, conf: OcrConf, psm: int | None = None, scale: int | None = None, digits: bool = False) -> str:
+    """그림 한 장을 tesseract 로 읽는다(선명화·자동 대비 전처리 포함). 확대한 임시 파일은 바로 지운다.
+    digits=True 면 숫자와 쉼표만 읽는다(tessedit_char_whitelist, 언어는 eng)."""
     psm = conf.psm if psm is None else psm
     exe = shutil.which("tesseract")
     if not exe:
         raise OcrError("tesseract 가 없어 글자 인식을 못 함 (apt-get install tesseract-ocr tesseract-ocr-kor)")
-    big = prep_image(img_path, conf.scale)
-    cmd = [exe, str(big), "stdout", "-l", conf.lang, "--psm", str(psm)]
+    big = prep_image(img_path, conf.scale if scale is None else scale)
+    lang = conf.lang
+    if digits:
+        lang = "eng" if not conf.tessdir or (Path(conf.tessdir) / "eng.traineddata").is_file() else conf.lang
+    cmd = [exe, str(big), "stdout", "-l", lang, "--psm", str(psm)]
+    if digits:
+        cmd += ["-c", "tessedit_char_whitelist=0123456789,"]
     if conf.tessdir:
         cmd[1:1] = ["--tessdata-dir", conf.tessdir]
     try:
@@ -368,17 +390,38 @@ def tokens_of(text: str) -> list[str]:
     return toks
 
 
+def is_amount(t: str) -> bool:
+    """쉼표가 맞는 금액 꼴이면서 값이 MIN_AMOUNT(10,000) 이상. '3,275' 같은 mm 치수는 금액이 아니다."""
+    return bool(OK_AMOUNT.match(t)) and int(t.replace(",", "")) >= MIN_AMOUNT
+
+
 def amount_tokens(text: str) -> list[str]:
-    """쉼표가 맞는 금액 꼴 토큰(예: 190,000,000)을 나온 순서대로, 중복도 그대로."""
-    return [t for t in tokens_of(text) if OK_AMOUNT.match(t)]
+    """쉼표가 맞는 금액 꼴 토큰(예: 190,000,000, 값 10,000 이상)을 나온 순서대로, 중복도 그대로."""
+    return [t for t in tokens_of(text) if is_amount(t)]
 
 
 def is_table_page(text: str) -> bool:
-    """금액 낱말이 있거나, 쉼표 맞는 금액 꼴이 3개 이상이거나, 7자리 이상 쉼표 없는 숫자가 있으면 표 쪽."""
+    """금액 낱말이 있거나, 금액 꼴(10,000 이상)이 3개 이상이거나, 7자리 이상 쉼표 없는 숫자가 있으면 표 쪽."""
     if has_amount_word(text):
         return True
     toks = tokens_of(text)
-    return sum(1 for t in toks if OK_AMOUNT.match(t)) >= TABLE_MIN_AMOUNTS or any(BIG_NUMBER.match(t) for t in toks)
+    return sum(1 for t in toks if is_amount(t)) >= TABLE_MIN_AMOUNTS or any(BIG_NUMBER.match(t) for t in toks)
+
+
+def table_priority(text: str) -> tuple:
+    """표 쪽 재인식 순서 키(작을수록 먼저): 강한 금액 낱말+금액(0) > 강한 낱말만(1) > 약한 낱말(2) > 금액 개수만으로 표 쪽(3).
+    같은 단계에서는 낱말 종류가 많은 쪽, 금액 꼴이 많은 쪽이 먼저. 글자 인식이 낱말 안에 띄어쓰기를 넣어도 찾는다."""
+    flat = re.sub(r"\s+", "", text)
+    strong = sum(1 for w in STRONG_WORDS if w in flat)
+    weak = sum(1 for w in WEAK_WORDS if w in flat)
+    n_amt = min(len(amount_tokens(text)), 30)
+    if strong and n_amt:
+        return (0, -strong, -n_amt)   # 강한 낱말 + 금액이 함께 있는 쪽(실제 표일 가능성 높음)
+    if strong:
+        return (1, -strong, 0)        # 강한 낱말만 있는 쪽(유의사항 같은 글 쪽일 수 있음)
+    if weak:
+        return (2, -weak, -n_amt)
+    return (3, 0, -n_amt)
 
 
 def has_amount_word(text: str) -> bool:
@@ -397,6 +440,17 @@ def checked_amounts(amounts: list[str], others: list[list[str]]) -> list[str]:
         if used[t] < other[t]:
             used[t] += 1
             out.append(t)
+    return out
+
+
+def confirmed_by(amounts: list[str], named: dict[str, list[str]]) -> dict[str, list[str]]:
+    """amounts 중 다른 방식에도 나온 금액이 어느 방식(named 의 이름)에서 확인됐는지. 금액별로 방식 이름 목록."""
+    sets = {k: set(v) for k, v in named.items()}
+    out: dict[str, list[str]] = {}
+    for t in amounts:
+        names = [k for k, st in sets.items() if t in st]
+        if names:
+            out[t] = names
     return out
 
 
@@ -537,9 +591,18 @@ def ocr_paddle(img_path: Path) -> str:
 
 
 def reread_table(rec: dict, conf: OcrConf, dbg: Dbg) -> None:
-    """표 쪽 하나를 다시 읽어 rec 에 table_text·amounts·amounts_checked·amounts_method 를 채운다."""
-    src, base = rec["img"], rec["text"]
+    """표 쪽 하나를 다시 읽어 rec 에 table_text·amounts·amounts_checked·amounts_by·amounts_method 를 채운다."""
+    src = rec["img"]
     rec["times"] = {"psm%d" % conf.psm: rec.get("t_base", 0.0)}
+    if rec.get("cheap"):  # 훑기용 낮은 배율로 읽은 쪽은 정상 배율로 기본 글을 다시 읽는다 (확인 기준이 되므로)
+        t0 = time.monotonic()
+        try:
+            rec["text"] = ocr_image(src, conf)
+            rec["cheap"] = False
+        except Exception as e:  # noqa: BLE001  실패하면 낮은 배율 글을 그대로 쓴다
+            dbg(f"    정상 배율 기본 글 재인식 실패: {type(e).__name__} {e}")
+        rec["times"]["psm%d_full" % conf.psm] = time.monotonic() - t0
+    base = rec["text"]
     t11 = None
     t0 = time.monotonic()
     try:
@@ -548,6 +611,15 @@ def reread_table(rec: dict, conf: OcrConf, dbg: Dbg) -> None:
         dbg(f"    tess psm11 실패: {type(e).__name__} {e}")
     rec["times"]["psm11"] = time.monotonic() - t0
     rec["psm11_text"] = t11
+    dig = None
+    if conf.digits:  # 실험: 숫자·쉼표만 읽는 세 번째 확인. 실패해도 조용히 건너뛴다
+        t0 = time.monotonic()
+        try:
+            dig = ocr_image(src, conf, 11, digits=True)
+        except Exception as e:  # noqa: BLE001
+            dbg(f"    숫자 전용 tesseract 실패(건너뜀): {type(e).__name__} {e}")
+        rec["times"]["digits"] = time.monotonic() - t0
+        rec["digits_text"] = dig
     pad = None
     if conf.paddle:
         t0 = time.monotonic()
@@ -557,20 +629,24 @@ def reread_table(rec: dict, conf: OcrConf, dbg: Dbg) -> None:
             dbg(f"    paddle 실패: {type(e).__name__} {e}")
         rec["times"]["paddle"] = time.monotonic() - t0
     psm_n = f"psm{conf.psm}"
+    named: dict[str, list[str]] = {}   # 확인에 쓰는 다른 방식들 (이름 → 금액 토큰)
     if pad is not None:
         rec["table_text"] = pad
-        amounts = amount_tokens(pad)
-        others = ([amount_tokens(t11)] if t11 is not None else []) + [amount_tokens(base)]
-        method = "paddle+tess-psm11/" + psm_n if t11 is not None else "paddle+tess-" + psm_n
+        amounts, head = amount_tokens(pad), "paddle"
+        if t11 is not None:
+            named["psm11"] = amount_tokens(t11)
+        named[psm_n] = amount_tokens(base)
     elif t11 is not None:
-        amounts = amount_tokens(t11)
-        others = [amount_tokens(base)]
-        method = f"tess-psm11+tess-{psm_n}"
+        amounts, head = amount_tokens(t11), "tess-psm11"
+        named[psm_n] = amount_tokens(base)
     else:
         return
+    if dig is not None:
+        named["digits"] = amount_tokens(dig)
     rec["amounts"] = amounts
-    rec["amounts_checked"] = checked_amounts(amounts, others)
-    rec["amounts_method"] = method
+    rec["amounts_checked"] = checked_amounts(amounts, list(named.values()))
+    rec["amounts_by"] = confirmed_by(rec["amounts_checked"], named)
+    rec["amounts_method"] = head + "+tess-" + "/".join(named)
 
 
 def extract_legacy(f: Fetcher, rs_url: str, fn: str, index_url: str, r2: Resp, index_text: str, dbg: Dbg) -> list[str]:
@@ -659,13 +735,16 @@ def show_page(dbg: Dbg, rec: dict) -> None:
         f"    amounts_method: {rec['amounts_method']}")
 
 
-def extract_one(n: dict, f_info: dict, dbg: Dbg, conf: OcrConf | None = None) -> tuple[dict | None, str]:
-    """공고 하나를 읽는다. (결과, 실패 사유)를 돌려준다."""
+def extract_one(n: dict, f_info: dict, dbg: Dbg, conf: OcrConf | None = None, deadline: float | None = None) -> tuple[dict | None, str]:
+    """공고 하나를 읽는다. (결과, 실패 사유)를 돌려준다. deadline 은 time.monotonic() 기준 끝내야 할 시각(없으면 제한 없음)."""
     conf = conf or OcrConf()
     t0 = time.monotonic()
     f = Fetcher()
     dbg(f"=== {n['id']} {n['title']}\n파일: {f_info['name']}\npreview_url: {f_info['preview_url']}")
-    dbg(f"글자 인식: {conf.text_label} (tessdata_best={conf.tessdir or '없음, 기본 모델'}) paddle={'사용' if conf.paddle else '끔'} 표 쪽 상한={conf.max_table}")
+    dbg(f"글자 인식: {conf.text_label} (tessdata_best={conf.tessdir or '없음, 기본 모델'}) paddle={'사용' if conf.paddle else '끔'} 표 쪽 상한={conf.max_table} 숫자 전용 확인={'사용' if conf.digits else '끔'}"
+        + (f" 남은 시간 {deadline - t0:.0f}초" if deadline else ""))
+    base_deadline = t0 + BASE_SHARE * (deadline - t0) if deadline else None   # 이 시각이 넘으면 기본 글 훑기를 멈춘다
+    stopped = ""
     texts: list[str] = []
     recs: list[dict] = []      # 쪽 그림 글자 인식 기록 (표 쪽 재인식 결과를 함께 담는다)
     ocr, total_pages = False, 0
@@ -701,14 +780,20 @@ def extract_one(n: dict, f_info: dict, dbg: Dbg, conf: OcrConf | None = None) ->
                 recs.append({"i": i, "text": t})
                 dbg(f"  [{i}쪽] 글자 수={len(t)}\n    글 앞 300자: {t[:300]!r}")
         else:
-            if len(paths) > MAX_PAGES:
-                dbg(f"    쪽이 {len(paths)}개라 앞 {MAX_PAGES}쪽만 읽음")
+            if len(paths) > MAX_PAGES_HARD:
+                dbg(f"    쪽이 {len(paths)}개라 앞 {MAX_PAGES_HARD}쪽까지만 훑음")
+            elif len(paths) > MAX_PAGES:
+                dbg(f"    쪽이 {len(paths)}개: 전 쪽을 훑고 기본 글은 앞 {MAX_PAGES}쪽과 표 쪽만 저장")
             tmp = tempfile.TemporaryDirectory(prefix="shnotice_")  # 끝나면 그림이 함께 지워진다
             with tmp:
                 # (4) 쪽마다 받아 기본 글을 읽는다. 표 쪽 재인식을 위해 원본 그림은 이 블록이 끝날 때까지 둔다
                 budget_hit = ""
                 try:
-                    for i, ph in enumerate(paths[:MAX_PAGES], 1):
+                    for i, ph in enumerate(paths[:MAX_PAGES_HARD], 1):
+                        if base_deadline and time.monotonic() > base_deadline:
+                            stopped = f"시간 예산으로 {i - 1}쪽에서 훑기 중단"
+                            dbg(f"!! {stopped} (총 {len(paths)}쪽)")
+                            break
                         url = urllib.parse.urljoin(rs_url, urllib.parse.quote(ph, safe="/%:@"))
                         ext = ext_of(ph)
                         is_img = ext in IMG_EXT
@@ -723,8 +808,10 @@ def extract_one(n: dict, f_info: dict, dbg: Dbg, conf: OcrConf | None = None) ->
                                 img.write_bytes(r.body)
                                 rec["img"] = img
                                 t1 = time.monotonic()
+                                cheap = i > MAX_PAGES and conf.scale > LATE_SCALE
+                                rec["cheap"] = cheap
                                 try:
-                                    txt = ocr_image(img, conf)
+                                    txt = ocr_image(img, conf, scale=LATE_SCALE if cheap else None)
                                 except OcrError:
                                     raise
                                 except Exception as e:  # noqa: BLE001  한 쪽 실패는 빈 글로 두고 계속
@@ -743,15 +830,20 @@ def extract_one(n: dict, f_info: dict, dbg: Dbg, conf: OcrConf | None = None) ->
                     budget_hit = str(e)
                     dbg(f"!! {e} 에 닿아 중단")
 
-                # (5) 표 쪽 재인식: 공고당 상한, 넘으면 금액 낱말이 있는 쪽 먼저
+                # (5) 표 쪽 재인식: 공고당 상한, 넘으면 우선순위(강한 금액 낱말 > 약한 낱말 > 금액 개수만) 순
                 cands = [r_ for r_ in recs if r_.get("table")]
+                cands.sort(key=lambda r_: (table_priority(r_["text"]), r_["i"]))
                 if len(cands) > conf.max_table:
-                    cands.sort(key=lambda r_: (0 if has_amount_word(r_["text"]) else 1, r_["i"]))
-                    dbg(f"표 쪽 {len(cands)}개 > 상한 {conf.max_table}: 금액 낱말이 있는 쪽 먼저 {conf.max_table}쪽만 재인식")
+                    dbg(f"표 쪽 {len(cands)}개 > 상한 {conf.max_table}: 우선순위 높은 {conf.max_table}쪽만 재인식 "
+                        f"(고른 쪽 {sorted(r_['i'] for r_ in cands[:conf.max_table])})")
                     cands = cands[:conf.max_table]
-                for r_ in sorted(cands, key=lambda r_: r_["i"]):
+                for r_ in cands:   # 우선순위 순으로 읽어, 시간이 모자라면 낮은 우선순위가 빠진다
+                    if deadline and time.monotonic() > deadline:
+                        dbg(f"!! 시간 예산 소진, {r_['i']}쪽부터 표 쪽 재인식 생략")
+                        stopped = stopped or "시간 예산으로 표 쪽 재인식 일부 생략"
+                        break
                     r_["reread"] = True
-                    dbg(f"  [{r_['i']}쪽] 표 쪽 재인식")
+                    dbg(f"  [{r_['i']}쪽] 표 쪽 재인식 (우선순위 {table_priority(r_['text'])[0]}단계)")
                     reread_table(r_, conf, dbg)
                     for x in Path(tmp.name).glob(f"p{r_['i']}*"):
                         x.unlink(missing_ok=True)
@@ -771,19 +863,22 @@ def extract_one(n: dict, f_info: dict, dbg: Dbg, conf: OcrConf | None = None) ->
 
     pages = []
     for rec in recs:
+        if rec["i"] > MAX_PAGES and "amounts" not in rec:   # 훑기만 한 뒤쪽 쪽은 저장하지 않는다(표 쪽 제외)
+            continue
         pg = {"page": rec["i"], "text": rec["text"]}
         if "amounts" in rec:
             if "table_text" in rec:
                 pg["table_text"] = rec["table_text"]
             pg["amounts"] = rec["amounts"]
             pg["amounts_checked"] = rec["amounts_checked"]
+            pg["amounts_by"] = rec["amounts_by"]
             pg["amounts_method"] = rec["amounts_method"]
         pages.append(pg)
-    chars = sum(len(t) for t in texts)
+    chars = sum(len(p["text"]) for p in pages)
     ok = chars >= MIN_CHARS * min(total_pages or len(texts), 3)
     n_table = sum(1 for r_ in recs if r_.get("table"))
     n_reread = sum(1 for r_ in recs if "amounts" in r_)
-    dbg(f"합계: 요청 {f.count}회, 받은 {f.total + f.total_img:,}바이트, 읽은 쪽 {len(pages)}/{total_pages}, 글자 {chars:,}자, "
+    dbg(f"합계: 요청 {f.count}회, 받은 {f.total + f.total_img:,}바이트, 훑은 쪽 {len(recs)}, 저장 쪽 {len(pages)}/{total_pages}, 글자 {chars:,}자, "
         f"표 쪽 {n_table}개(재인식 {n_reread}개), 총 걸린 시간 {time.monotonic() - t0:.1f}초")
     result = {"id": n["id"], "org": n["org"], "title": n["title"], "notice_date": n.get("notice_date"), "url": n["url"],
               "file": {"name": f_info["name"], "preview_url": f_info["preview_url"]},
@@ -792,8 +887,10 @@ def extract_one(n: dict, f_info: dict, dbg: Dbg, conf: OcrConf | None = None) ->
     if ocr:
         tables = ("paddle" if any("table_text" in r_ for r_ in recs)
                   else "tess-psm11" if n_reread else None)
-        result["ocr_detail"] = {"text": conf.text_label, "tables": tables}
-    result.update({"total_pages": total_pages, "text_ok": ok, "pages": pages})
+        result["ocr_detail"] = {"text": conf.text_label, "tables": tables, "digits": bool(conf.digits and n_reread)}
+    result.update({"total_pages": total_pages, "scanned_pages": len(recs), "text_ok": ok, "pages": pages})
+    if stopped:
+        result["stopped"] = stopped
     if ocr:
         result["note"] = OCR_NOTE
     return result, ""
@@ -811,11 +908,13 @@ def main() -> int:
     ap.add_argument("--tessdata-dir", default="", help="tessdata_best 폴더(kor.traineddata). 없으면 환경변수 TESSDATA_BEST_DIR, 그것도 없으면 기본 모델")
     ap.add_argument("--no-paddle", action="store_true", help="paddle 을 쓰지 않고 tesseract 로만 읽기")
     ap.add_argument("--max-table-pages", type=int, default=MAX_TABLE_PAGES, help="공고 1건당 표 쪽 재인식 상한 (기본 8)")
+    ap.add_argument("--no-digits", action="store_true", help="숫자만 읽는 tesseract 세 번째 확인(실험)을 끄기")
+    ap.add_argument("--time-budget", type=int, default=TIME_BUDGET, help="전체 시간 예산(초). 공고마다 남은 시간을 남은 공고 수로 나눠 쓴다. 0 이면 제한 없음 (기본 1080)")
     ap.add_argument("--src", default=str(SRC), help="공고 파일 (기본 data/public_housing.json)")
     ap.add_argument("--out", default=str(OUT), help="출력 폴더 (기본 data/notice_text)")
     args = ap.parse_args()
     out = Path(args.out)
-    conf = OcrConf(args.tessdata_dir, args.ocr_scale, args.psm, not args.no_paddle, args.max_table_pages)
+    conf = OcrConf(args.tessdata_dir, args.ocr_scale, args.psm, not args.no_paddle, args.max_table_pages, not args.no_digits)
     if conf.tessdir_bad:
         print(f"tessdata_best 폴더에 kor.traineddata 가 없어 기본 모델을 씀: {conf.tessdir_bad}", file=sys.stderr)
     notices = {n["id"]: n for n in json.loads(Path(args.src).read_text(encoding="utf-8"))["notices"]}
@@ -834,7 +933,8 @@ def main() -> int:
     out.mkdir(parents=True, exist_ok=True)
     ids = list(dict.fromkeys(ids))
     failed = 0
-    for nid in ids:
+    run_end = time.monotonic() + args.time_budget if args.time_budget > 0 else None
+    for k, nid in enumerate(ids):
         n = notices.get(nid)
         target = out / f"{nid}.json"
         if n is None:
@@ -850,8 +950,12 @@ def main() -> int:
             failed += 1
             continue
         dbg = Dbg(args.debug)
+        deadline = None
+        if run_end:   # 남은 시간을 남은 공고 수로 나눈 몫 (앞 공고가 덜 쓰면 뒤 공고가 더 쓴다)
+            now = time.monotonic()
+            deadline = now + max(60.0, (run_end - now) / (len(ids) - k))
         try:
-            result, why = extract_one(n, f_info, dbg, conf)
+            result, why = extract_one(n, f_info, dbg, conf, deadline)
         finally:
             dbg.flush()
         if result is None:

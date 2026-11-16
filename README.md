@@ -85,7 +85,7 @@
 - SH는 첨부 내려받기 주소가 공개돼 있지 않아 대상이 아닙니다.
 - `text_ok`가 false면 그림으로 된 PDF라 글을 뽑지 못한 것이고, `tables_missing`이 붙은 쪽은 표 없이 글만 뽑힌 쪽입니다.
 
-- SH 공고문은 첨부를 직접 받을 수 없어, 미리보기 변환본의 쪽 그림을 받아 글자 인식(tesseract)으로 글만 남깁니다(`scripts/extract_sh_notice.py`, `engine` 이 `synap-preview-ocr`, `ocr: true`). 그림은 저장하지 않습니다. 기본 글은 4배 확대·선명화 후 tesseract(tessdata_best)로 읽어 `pages[].text` 에 두고, 금액 표로 보이는 쪽은 paddle(없으면 tesseract psm 11)로 다시 읽어 `pages[].table_text`·`amounts` 에 남기며 두 방식이 일치한 금액만 `pages[].amounts_checked` 에 담습니다. 글자 인식 결과라 표 안의 숫자가 틀릴 수 있으니 `amounts_checked` 밖의 금액은 원문을 확인해야 합니다.
+- SH 공고문은 첨부를 직접 받을 수 없어, 미리보기 변환본의 쪽 그림을 받아 글자 인식(tesseract)으로 글만 남깁니다(`scripts/extract_sh_notice.py`, `engine` 이 `synap-preview-ocr`, `ocr: true`). 그림은 저장하지 않습니다. 기본 글은 4배 확대·선명화 후 tesseract(tessdata_best)로 읽어 `pages[].text` 에 둡니다. 쪽이 40쪽을 넘는 공고도 최대 160쪽까지 훑어(41쪽부터는 2배 확대, 시간 예산 안에서) 금액 표 쪽을 찾고, 저장하는 기본 글은 앞 40쪽과 표 쪽뿐입니다. 금액 표로 보이는 쪽(금액 낱말, 또는 10,000 이상 금액 3개 이상)은 분양가·공급금액·임대보증금 같은 강한 낱말이 있는 쪽부터 최대 8쪽을 paddle(없으면 tesseract psm 11)로 다시 읽어 `pages[].table_text`·`amounts` 에 남기고, 다른 방식(tesseract psm 11·기본 글·숫자만 읽는 tesseract)과 일치한 금액만 `pages[].amounts_checked` 에 담으며 확인한 방식은 `pages[].amounts_by` 에 둡니다. 값이 10,000 미만인 수(평면도 mm 치수 등)는 금액으로 세지 않습니다. 글자 인식 결과라 표 안의 숫자가 틀릴 수 있으니 `amounts_checked` 밖의 금액은 원문을 확인해야 합니다.
 
 ## SH 주택정보 파일: `data/sh_houses.json`
 
