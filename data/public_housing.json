@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-16 19:34",
+ "updated": "2026-11-16 17:04",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-16 19:34",
-   "count": 472
+   "at": "2026-11-16 17:04",
+   "count": 469
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-16 19:34",
+   "at": "2026-11-16 17:04",
    "count": 147
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-16 19:34",
+   "at": "2026-11-16 17:04",
    "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-16 19:34",
+   "at": "2026-11-16 17:04",
    "count": 19
   }
  },
@@ -71,197 +71,6 @@
      {
       "name": "평면도.hwp",
       "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=7"
-     }
-    ],
-    "at": "2026-11-16"
-   }
-  },
-  {
-   "id": "lh-2015122300021102",
-   "org": "LH",
-   "deal": "임대",
-   "type": "국민임대",
-   "kind": "모집공고",
-   "title": "[정정공고]증평군지역 국민임대주택 예비입주자 모집[2026.11.16]",
-   "region": "충청북도",
-   "city": null,
-   "notice_date": "2026-11-16",
-   "apply_start": null,
-   "apply_end": "2026-12-01",
-   "winner_date": null,
-   "status": "공고중",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021102&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-   "src": "lh",
-   "detail": {
-    "files": [
-     {
-      "name": "261116증평군예비입주자모집공고_.hwpx",
-      "kind": "공고문(hwp)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69452935"
-     },
-     {
-      "name": "261116증평군예비입주자모집공고_.pdf",
-      "kind": "공고문(PDF)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69452944"
-     }
-    ],
-    "images": [
-     {
-      "site": "증평송산 3단지 국민임대주택 640호",
-      "name": "단지조감도1.jpg",
-      "kind": "조감도",
-      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547675"
-     },
-     {
-      "site": "증평송산2단지 국민임대주택",
-      "name": "증평송산지구조감도.jpg",
-      "kind": "증평송산 휴먼시아 국민임대주택 입주자 모집",
-      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547303"
-     },
-     {
-      "site": "증평장동 국민임대주택",
-      "name": "건계_증평장동지구조감도(3).jpg",
-      "kind": "증평장동",
-      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24546513"
-     }
-    ],
-    "schedule": [
-     {
-      "site": "증평장동 국민임대주택",
-      "apply_start": "2026-12-01",
-      "apply_end": "2026-12-01",
-      "docs_start": "2026-12-28",
-      "docs_end": "2026-12-30",
-      "winner_date": "2027-03-26"
-     },
-     {
-      "site": "증평송산 3단지 국민임대주택 640호",
-      "apply_start": "2026-12-01",
-      "apply_end": "2026-12-01",
-      "docs_start": "2026-12-28",
-      "docs_end": "2026-12-30",
-      "winner_date": "2027-03-26"
-     },
-     {
-      "site": "증평송산2단지 국민임대주택",
-      "apply_start": "2026-12-01",
-      "apply_end": "2026-12-01",
-      "docs_start": "2026-12-28",
-      "docs_end": "2026-12-30",
-      "winner_date": "2027-03-26"
-     },
-     {
-      "site": "증평송산1단지 국민임대주택",
-      "apply_start": "2026-12-01",
-      "apply_end": "2026-12-01",
-      "docs_start": "2026-12-28",
-      "docs_end": "2026-12-30",
-      "winner_date": "2027-03-26"
-     }
-    ],
-    "sites": [
-     {
-      "name": "증평송산 3단지 국민임대주택 640호",
-      "addr": "충청북도 증평군 증평읍 송산로4길 14 LH 천년나무 3단지",
-      "total_units": 640,
-      "area": "29.99~46.76",
-      "move_in": "2016.02"
-     },
-     {
-      "name": "증평송산1단지 국민임대주택",
-      "addr": "충청북도 증평군 증평읍 송산로 35(증평송산1휴먼시아)",
-      "total_units": 504,
-      "area": "33.39~46.9",
-      "heating": "개별가스난방"
-     },
-     {
-      "name": "증평송산2단지 국민임대주택",
-      "addr": "충청북도 증평군 증평읍 송산로 53(송산휴먼시아 2단지)",
-      "total_units": 514,
-      "area": "33.95~46.99",
-      "heating": "개별가스난방"
-     },
-     {
-      "name": "증평장동 국민임대주택",
-      "addr": "충청북도 증평군 증평읍 증평로 31-11(장동주공아파트)",
-      "total_units": 558,
-      "area": "46.9~59.88",
-      "heating": "개별가스난방"
-     }
-    ],
-    "at": "2026-11-16"
-   }
-  },
-  {
-   "id": "lh-2015122300021101",
-   "org": "LH",
-   "deal": "임대",
-   "type": "국민임대",
-   "kind": "모집공고",
-   "title": "[정정공고]증평군 송산5단지 국민임대주택 자격완화 예비입주자 모집[2026.11.16]",
-   "region": "충청북도",
-   "city": null,
-   "notice_date": "2026-11-16",
-   "apply_start": "2026-12-01",
-   "apply_end": "2026-12-01",
-   "winner_date": "2027-03-26",
-   "status": "공고중",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021101&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
-   "src": "lh",
-   "detail": {
-    "files": [
-     {
-      "name": "261116증평군자격완화예비입주자모집공고_.hwpx",
-      "kind": "공고문(hwp)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69452890"
-     },
-     {
-      "name": "261116증평군자격완화예비입주자모집공고_.pdf",
-      "kind": "공고문(PDF)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69452892"
-     }
-    ],
-    "images": [
-     {
-      "site": "증평송산5단지 국민임대",
-      "name": "증평송산단지조감도.JPG",
-      "kind": "단지조감도",
-      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565162"
-     },
-     {
-      "site": "증평송산5단지 국민임대",
-      "name": "증평송산단지배치도.JPG",
-      "kind": "단지배치도",
-      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565163"
-     },
-     {
-      "site": "증평송산5단지 국민임대",
-      "name": "증평송산동호배치도.JPG",
-      "kind": "동호배치도",
-      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565164"
-     }
-    ],
-    "schedule": [
-     {
-      "apply_start": "2026-12-01",
-      "apply_end": "2026-12-01",
-      "docs_start": "2026-12-28",
-      "docs_end": "2026-12-30",
-      "winner_date": "2027-03-26"
-     }
-    ],
-    "sites": [
-     {
-      "name": "증평송산5단지 국민임대",
-      "addr": "충청북도 증평군 증평읍 송산로 30",
-      "total_units": 605,
-      "area": "29.39~46.21",
-      "heating": "개별난방",
-      "move_in": "2022.07"
      }
     ],
     "at": "2026-11-16"
@@ -1425,7 +1234,7 @@
    "apply_start": "2026-12-01",
    "apply_end": "2026-12-01",
    "winner_date": "2027-03-26",
-   "status": "정정공고중",
+   "status": "공고중",
    "units": 210,
    "houses": [
     {
@@ -1514,7 +1323,7 @@
    "apply_start": "2026-12-01",
    "apply_end": "2026-12-01",
    "winner_date": "2027-03-26",
-   "status": "정정공고중",
+   "status": "공고중",
    "units": 570,
    "houses": [
     {
@@ -5816,57 +5625,6 @@
    }
   },
   {
-   "id": "lh-2015122300021007",
-   "org": "LH",
-   "deal": "임대",
-   "type": "영구임대",
-   "kind": "모집공고",
-   "title": "정읍수성1 영구임대주택 입주자격완화 예비입주자 모집 공고",
-   "region": "전북특별자치도",
-   "city": null,
-   "notice_date": "2026-11-16",
-   "apply_start": "2026-11-26",
-   "apply_end": "2026-11-27",
-   "winner_date": "2027-02-26",
-   "status": "공고중",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021007&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-   "src": "lh",
-   "detail": {
-    "files": [
-     {
-      "name": "붙임4_정읍수성1영구임대주택입주자격2차완화예비입주자모집공고문(2026.11.16).hwpx",
-      "kind": "공고문(hwp)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69281277"
-     },
-     {
-      "name": "붙임4_정읍수성1영구임대주택입주자격2차완화예비입주자모집공고문(2026.11.16).pdf",
-      "kind": "공고문(PDF)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69281278"
-     }
-    ],
-    "schedule": [
-     {
-      "apply_start": "2026-11-26",
-      "apply_end": "2026-11-27",
-      "winner_date": "2027-02-26"
-     }
-    ],
-    "sites": [
-     {
-      "name": "정읍수성1단지",
-      "addr": "전북특별자치도 정읍시 수성2로 13-12(수성동) 주공1단지아파트",
-      "total_units": 925,
-      "area": "26.37~31.32",
-      "heating": "중앙가스난방",
-      "move_in": "1994.12"
-     }
-    ],
-    "at": "2026-11-16"
-   }
-  },
-  {
    "id": "lh-2015122300021003",
    "org": "LH",
    "deal": "임대",
@@ -8330,7 +8088,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-17",
    "winner_date": "2027-03-11",
-   "status": "접수마감",
+   "status": "접수중",
    "units": 60,
    "houses": [
     {
@@ -9420,9 +9178,9 @@
    "city": "의정부시",
    "notice_date": "2026-11-06",
    "apply_start": "2026-11-16",
-   "apply_end": "2026-11-16",
+   "apply_end": "2026-11-19",
    "winner_date": "2027-03-19",
-   "status": "접수마감",
+   "status": "접수중",
    "units": 70,
    "houses": [],
    "url": "https://apply.gh.or.kr/sb/sr/sr7150/selectPbancRentHouseList.do",
@@ -9448,7 +9206,7 @@
     "schedule": [
      {
       "apply_start": "2026-11-16",
-      "apply_end": "2026-11-16",
+      "apply_end": "2026-11-19",
       "docs_start": "2026-11-23",
       "docs_end": "2026-11-27",
       "winner_date": "2027-03-19"
@@ -9461,7 +9219,7 @@
       "move_in": "2027.03"
      }
     ],
-    "at": "2026-11-16"
+    "at": "2026-11-11"
    }
   },
   {
@@ -10538,7 +10296,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-17",
    "winner_date": "2027-03-11",
-   "status": "접수마감",
+   "status": "정정공고중",
    "units": 60,
    "houses": [
     {
