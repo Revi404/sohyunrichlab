@@ -75,6 +75,6 @@ jobs:
           git add data/public_housing.json data/public_housing_digest.json data/notice_text
           if ! git diff --cached --quiet; then
             git commit -m "공공주택 공고 수집 $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
-            git pull --rebase origin main
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
