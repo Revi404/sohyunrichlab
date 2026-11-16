@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 05:16",
+ "updated": "2026-11-16 09:15",
  "categories": [
   "모집공고 분석",
   "부동산 인사이트",
@@ -15,8 +15,8 @@
   "https://sohyun-richlab.tistory.com/entry/%EC%95%84%EB%A5%B4%EB%AE%A4%EC%A0%9C%EC%9E%90%EC%9D%B4-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
   "https://sohyun-richlab.tistory.com/entry/cheongyak-gajeom-gyesan",
   "https://sohyun-richlab.tistory.com/entry/gyeyang-kaive-yubora-ac4-result",
-  "https://sohyun-richlab.tistory.com/entry/gtx-unjeong-cityprodium-3-result",
   "https://sohyun-richlab.tistory.com/entry/news-bujeong-cheongyak-354",
+  "https://sohyun-richlab.tistory.com/entry/%EC%9D%98%EC%A0%95%EB%B6%80%EC%97%AD%ED%8E%A0%EB%A6%AC%EC%8A%A4%ED%83%80%EC%9B%8C%EC%96%91%EC%9A%B0%EB%82%B4%EC%95%88%EC%95%A0-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
   "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-2%EC%A3%BC%EC%B0%A8"
  ],
  "posts": {
@@ -72,6 +72,14 @@
   ],
   "부동산 인사이트": [
    {
+    "title": "이번 주 청약 일정 11월 3주차 │ 접수 21개 단지·지난주 경쟁률 정리",
+    "url": "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-3%EC%A3%BC%EC%B0%A8",
+    "date": "08-00-20",
+    "summary": "11월 16일(월)부터 11월 22일(일)까지 청약 접수가 있는 단지와, 지난주(11.09~11.15) 접수를 마친 단지의 경쟁률을 청약홈 자료로 정리했어요.이번",
+    "category": "부동산 인사이트",
+    "thumb": "assets/thumbs/c1689ceff11b2db0.jpg"
+   },
+   {
     "title": "부정청약 뉴스 읽기 │ 의심 사례 354건 적발, 청약 준비자가 확인할 것",
     "url": "https://sohyun-richlab.tistory.com/entry/news-bujeong-cheongyak-354",
     "date": "2026-11-11",
@@ -110,14 +118,6 @@
     "summary": "10월 26일(월)부터 11월 1일(일)까지 청약 접수가 있는 단지와, 지난주(10.19~10.25) 접수를 마친 단지의 경쟁률을 청약홈 자료로 정리했어요.이번 ",
     "category": "부동산 인사이트",
     "thumb": "assets/thumbs/1fff89a2ce98fe06.jpg"
-   },
-   {
-    "title": "왕숙 A17 분양 일정·예상 분양가·청약 자격 │ 남양주왕숙 나눔형 379가구 미리 보기",
-    "url": "https://sohyun-richlab.tistory.com/entry/wangsuk-a17-bunyangga-1",
-    "date": "2026-10-23",
-    "summary": "한눈에 보기왕숙 A17은 남양주왕숙 공공주택지구 A-17블록에 들어서는 뉴:홈 나눔형 379가구입니다. 아직 입주자모집공고 전이라 분양가는 나오지 않았고, 이 글",
-    "category": "부동산 인사이트",
-    "thumb": "assets/thumbs/1f9fcbdce5e9ed57.jpg"
    }
   ],
   "청약 가이드": [
@@ -172,6 +172,14 @@
   ],
   "청약결과 해석": [
    {
+    "title": "청라 아크원 푸르지오 청약 결과 | 84㎡A 최저 가점 46점, 103㎡B 76세대 미달",
+    "url": "https://sohyun-richlab.tistory.com/entry/cheongna-arcone-prugio-result",
+    "date": "09-00-19",
+    "summary": "[세줄요약]1. 청라 아크원 푸르지오는 일반공급 604세대에 1순위 1,348건이 접수됐고, 6개 타입 가운데 4개가 1순위에서, 84㎡D는 2순위에서 마감했어요",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/08d3ef26b4d070d3.jpg"
+   },
+   {
     "title": "연산 센텀 월드메르디앙 청약 결과 | 59㎡ 1.33 대 1, 82㎡ 1순위 0건",
     "url": "https://sohyun-richlab.tistory.com/entry/yeonsan-centum-world-meridian-result",
     "date": "2026-11-15",
@@ -210,14 +218,6 @@
     "summary": "[세줄요약]1. 계양신도시 카이브 유보라(AC4BL)는 일반공급 392세대에 1순위 304건, 2순위 77건이 접수됐고, 2순위까지 받은 뒤 5개 타입에서 143",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/7a647d23a9ddd035.jpg"
-   },
-   {
-    "title": "GTX운정중앙역 시티프라디움 3단지 청약 결과 | 60㎡ 188.7 대 1, 최저 가점 69점",
-    "url": "https://sohyun-richlab.tistory.com/entry/gtx-unjeong-cityprodium-3-result",
-    "date": "2026-11-12",
-    "summary": "[세줄요약]1. GTX운정중앙역 시티프라디움 3단지는 일반공급 196세대에 1순위 7,150건이 접수돼 평균 36.5 대 1로 5개 타입 모두 1순위에서 마감됐어",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/d95605bd83f0f0d6.jpg"
    }
   ],
   "공공임대": []
