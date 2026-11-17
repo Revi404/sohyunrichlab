@@ -6,7 +6,7 @@ on:
     types: [completed]
   push:
     branches: [main]
-    paths: ["data/boards/**", "data/board_specs.json", "scripts/build_boards.py", "scripts/fetch_floorplans.py", "scripts/build_posts.py", ".github/workflows/floorplans.yml"]
+    paths: ["data/boards/**", "data/board_specs.json", "scripts/build_boards.py", "scripts/fetch_floorplans.py", "scripts/build_posts.py", "scripts/build_complex_posts.py", ".github/workflows/floorplans.yml"]
   schedule:
     - cron: "20 21 * * *"   # 한국 시간 06:20, 수집 뒤 실행이 빠졌을 때를 대비해 하루 한 번
   workflow_dispatch:
@@ -48,6 +48,10 @@ jobs:
       - name: 티스토리에 붙여 넣을 글 만들기
         if: always()
         run: python scripts/build_posts.py
+
+      - name: 단지 소개 글 만들기 (단지 한 곳 = 글 한 편, 발행 순서 갱신)
+        if: always()
+        run: python scripts/build_complex_posts.py
 
       - name: 결과 저장 (화면 반영은 다음 배포 때, 최대 30분)
         if: always()
