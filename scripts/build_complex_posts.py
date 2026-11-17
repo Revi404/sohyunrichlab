@@ -4,8 +4,9 @@ SH 주택정보 수집 결과(data/sh_houses.json)의 단지마다 티스토리 
 
 | 결과 | 내용 |
 |---|---|
-| posts/complex/<단지 id>.html | 글 본문. 첫 줄 주석에 권장 제목·태그·자치구 |
-| data/complex_posts.json      | 글 목록과 발행 순서(queue). 자동 발행이 위에서부터 하나씩 꺼내 쓴다 |
+| posts/complex/<단지 id>.html | 티스토리 글(자세한 표·평면도). 첫 줄 주석에 권장 제목·태그 |
+| posts/naver/<단지 id>.html   | 네이버 블로그 요약 글(질문형, 평면도 1장). 티스토리 글과 문장이 겹치지 않게 따로 쓴다 |
+| data/complex_posts.json      | 글 목록과 발행 순서(queue: 티스토리, naver_queue: 네이버). 노트북 자동 발행(publisher/)이 위에서부터 꺼내 쓴다 |
 | data/published.json          | 이미 발행한 글 기록(발행하는 쪽이 채운다). 여기 있는 단지는 queue 에서 빠진다 |
 
 - 평면도를 모두 받아 둔 단지만 글로 만든다(평면도가 글의 핵심이라서). 나머지는 평면도가 받아지면 자동으로 추가된다.
@@ -27,6 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 HOUSES = ROOT / "data" / "sh_houses.json"
 MANIFEST = ROOT / "data" / "plans.json"
 OUT = ROOT / "posts" / "complex"
+NAVER_OUT = ROOT / "posts" / "naver"
 INDEX = ROOT / "data" / "complex_posts.json"
 PUBLISHED = ROOT / "data" / "published.json"
 SITE = "https://revi404.github.io/sohyunrichlab/"
@@ -246,6 +248,82 @@ def build(c: dict, plans: dict) -> str:
     return "\n".join(out) + "\n"
 
 
+def rent_kr(n) -> str:
+    """월 임대료를 '52만 5천원' 처럼 말하듯 적는다(네이버 요약 글용)."""
+    if not n:
+        return "-"
+    m, r = divmod(round(n), 10000)
+    c = round(r / 1000)
+    if c == 10:
+        m, c = m + 1, 0
+    return (f"{m:,}만" if m else "") + (f" {c}천" if c else "") + "원"
+
+
+def first_sentence(text: str, limit: int = 90) -> str:
+    t = re.split(r"(?<=[다요])\.\s|(?<=[다요])\.$", text.strip())[0].strip()
+    if not t.endswith("."):
+        t += "."
+    return t if len(t) <= limit else t[:limit].rsplit(" ", 1)[0] + "…"
+
+
+def naver_meta(c: dict) -> dict:
+    name = clean_name(c["name"])
+    gu = gu_of(c.get("addr", ""))
+    supply = (c.get("supply") or "").split(",")[0]
+    short = name.split(" (")[0]
+    return {"title": f"{short} {supply} 보증금 얼마? {gu} SH 임대 요약", "tags": [short, f"{gu}임대", "SH임대", supply, "공공임대"],
+            "slug": f"naver/{c['id']}", "id": c["id"], "gu": gu, "name": name}
+
+
+def build_naver(c: dict, plans: dict) -> str:
+    """네이버 블로그용 요약 글. 티스토리 글과 문장·구성이 겹치지 않게 짧은 질문형으로 쓴다.
+    네이버 편집기에 붙여 넣으므로 꾸밈은 최소로 하고(굵게·목록·이미지), 표는 쓰지 않는다."""
+    meta = naver_meta(c)
+    name, gu = meta["name"], meta["gu"]
+    types = c.get("types", [])
+    supplies = [s for s in (c.get("supply") or "").split(",") if s]
+    vac = sum(t.get("vacant") or 0 for t in types)
+    as_of = next((t.get("as_of") for t in types if t.get("as_of")), "")
+    cheap = min((t for t in types if t.get("deposit")), key=lambda t: t["deposit"], default=None)
+    dong = dong_of(c.get("addr", ""))
+    out = [f"<!-- sohyunrichlab-post {json.dumps(meta, ensure_ascii=False)} -->"]
+    out.append(f"<p>{e(gu)}{(' ' + e(dong)) if dong else ''} SH {e('·'.join(supplies))} <b>{e(name)}</b>, 보증금과 월세가 얼마인지 핵심만 짧게 정리해 봤어요.</p>")
+    out.append("<p><b>한눈에 보기</b></p><ul>")
+    if c.get("units"):
+        out.append(f"<li>규모: {c['units']:,}세대{(' · ' + e(str(c['built'])) + ' 준공') if c.get('built') and c['built'] not in ('-', 'None') else ''}</li>")
+    if cheap:
+        out.append(f"<li>가장 저렴한 집: {e(cheap['type'])}형(약 {py(cheap.get('exclusive_area'))}) 보증금 {man(cheap['deposit'])}"
+                   + (f", 월 {rent_kr(cheap.get('rent'))}" if cheap.get("rent") else ", 월세 없음") + "</li>")
+    out.append(f"<li>빈집(공가): {vac}호" + (f" ({e(as_of)} 기준)" if as_of else "") + "</li></ul>")
+
+    out.append("<p><b>Q. 어떤 평형이 있나요?</b></p><ul>")
+    for t in types:
+        a = t.get("exclusive_area")
+        bits = [f"전용 {a}㎡(약 {py(a)})" if a else "", f"방 {t['rooms']}개" if t.get("rooms") else ""]
+        money = f"보증금 {man(t.get('deposit'))}" + (f" / 월 {rent_kr(t.get('rent'))}" if t.get("rent") else "")
+        out.append(f"<li>{e(t['type'])}형: {e(', '.join(b for b in bits if b))} → {e(money)}</li>")
+    out.append("</ul>")
+
+    pf = plan_files(c, plans)
+    if pf:
+        typ, fs = pf[0]
+        label, p = fs[0]
+        out.append(f"<p><b>Q. 집 구조는요?</b> {e(typ)}형 평면도예요.</p>")
+        out.append(f'<p><img src="{e(SITE + p["file"])}" alt="{e(name)} {e(typ)}형 평면도"></p>')
+
+    sur = surroundings(c.get("surroundings") or "")
+    if sur:
+        out.append("<p><b>Q. 주변은 어떤가요?</b></p><ul>")
+        out += [f"<li>{(e(h) + ': ') if h else ''}{e(first_sentence(b))}</li>" for h, b in sur[:3]]
+        out.append("</ul>")
+
+    out.append("<p><b>Q. 어떻게 들어가나요?</b></p>")
+    out.append(f"<p>수시 접수가 아니라 SH 모집공고가 뜰 때 신청해요. 빈집이 생기면 재공급 공고에 나오니 공고 알림을 켜 두는 게 좋아요. 문의는 {e(c.get('center') or 'SH 콜센터 1600-3456')}.</p>")
+    out.append(f'<p>출처: SH 서울주택도시개발공사 주택정보({e(c.get("fetched") or "")} 확인). 실제 조건은 모집공고 기준이에요.</p>')
+    out.append(f'<p>소현리치랩 임대·청약 공고 모아보기: <a href="{SITE}">{SITE}</a></p>')
+    return "\n".join(out) + "\n"
+
+
 def order(items: list[dict]) -> list[dict]:
     """공가 있는 단지 → 세대수 큰 단지. 같은 자치구가 연달아 나오지 않게 섞는다."""
     items = sorted(items, key=lambda x: (-(x["vac"] > 0), -x["units"], x["id"]))
@@ -262,28 +340,32 @@ def main() -> int:
     plans = json.loads(MANIFEST.read_text(encoding="utf-8")).get("plans", {}) if MANIFEST.exists() else {}
     published = json.loads(PUBLISHED.read_text(encoding="utf-8")) if PUBLISHED.exists() else {"posts": []}
     done = {p["id"] for p in published.get("posts", []) if p.get("tistory")}
+    done_naver = {p["id"] for p in published.get("posts", []) if p.get("naver")}
     OUT.mkdir(parents=True, exist_ok=True)
+    NAVER_OUT.mkdir(parents=True, exist_ok=True)
     items, keep, changed = [], set(), 0
     for c in data.get("complexes", {}).values():
         if not c.get("types") or not any(t.get("deposit") for t in c["types"]) or not all_plans_ready(c, plans):
             continue
         if gu_of(c.get("addr", "")).endswith("시"):  # 서울 밖(의정부 등)은 제외
             continue
-        text = build(c, plans)
-        f = OUT / f"{c['id']}.html"
-        keep.add(f.name)
-        if not f.exists() or f.read_text(encoding="utf-8") != text:
-            f.write_text(text, encoding="utf-8")
-            changed += 1
+        for folder, text in ((OUT, build(c, plans)), (NAVER_OUT, build_naver(c, plans))):
+            f = folder / f"{c['id']}.html"
+            if not f.exists() or f.read_text(encoding="utf-8") != text:
+                f.write_text(text, encoding="utf-8")
+                changed += 1
+        keep.add(f"{c['id']}.html")
         m = meta_for(c)
         items.append({"id": c["id"], "name": m["name"], "gu": m["gu"], "title": m["title"], "file": f"posts/complex/{c['id']}.html",
+                      "naver_title": naver_meta(c)["title"], "naver_file": f"posts/naver/{c['id']}.html",
                       "units": c.get("units") or 0, "vac": sum(t.get("vacant") or 0 for t in c["types"])})
-    for f in OUT.glob("*.html"):
+    for f in [*OUT.glob("*.html"), *NAVER_OUT.glob("*.html")]:
         if f.name not in keep:
             f.unlink()
     items = order(items)
     queue = [x["id"] for x in items if x["id"] not in done]
-    INDEX.write_text(json.dumps({"updated": data.get("updated"), "count": len(items), "queue": queue, "posts": items},
+    INDEX.write_text(json.dumps({"updated": data.get("updated"), "count": len(items), "queue": queue,
+                                "naver_queue": [x["id"] for x in items if x["id"] not in done_naver], "posts": items},
                                 ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     if not PUBLISHED.exists():
         PUBLISHED.write_text(json.dumps({"_설명": "발행한 단지 글 기록. id 와 tistory·naver 주소, 발행 날짜", "posts": []}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
