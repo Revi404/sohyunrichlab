@@ -1,29 +1,388 @@
 {
- "updated": "2026-11-17 03:42",
+ "updated": "2026-11-17 13:00",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-17 03:42",
-   "count": 455
+   "at": "2026-11-17 13:00",
+   "count": 456
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-17 03:42",
-   "count": 145
+   "at": "2026-11-17 13:00",
+   "count": 159
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-17 03:42",
+   "at": "2026-11-17 13:00",
    "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-17 03:42",
+   "at": "2026-11-17 13:00",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "lh-2015122300021100",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "[정정공고]부산광역시 국민임대주택 예비입주자 정례모집 공고(2026.11.16.)",
+   "region": "부산광역시",
+   "city": "기장군",
+   "notice_date": "2026-11-17",
+   "apply_start": "2026-11-30",
+   "apply_end": "2026-12-02",
+   "winner_date": "2027-03-31",
+   "status": "공고중",
+   "units": 410,
+   "houses": [
+    {
+     "name": "부산고촌",
+     "addr": "부산광역시 기장군 철마면 고촌로44번길 16",
+     "city": "기장군",
+     "total_units": 1084,
+     "units": 80,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 18566000,
+     "rent": 127870,
+     "down": 928300,
+     "middle": 0,
+     "balance": 17637700
+    },
+    {
+     "name": "부산정관4",
+     "addr": "부산광역시 기장군 정관읍 산단4로 160",
+     "city": "기장군",
+     "total_units": 964,
+     "units": 140,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 31575000,
+     "rent": 176700,
+     "down": 1578750,
+     "middle": 0,
+     "balance": 29996250
+    },
+    {
+     "name": "부산정관5",
+     "addr": "부산광역시 기장군 정관읍 산단2로 60",
+     "city": "기장군",
+     "total_units": 1128,
+     "units": 60,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 26386000,
+     "rent": 317410,
+     "down": 1319300,
+     "middle": 0,
+     "balance": 25066700
+    },
+    {
+     "name": "부산장안",
+     "addr": "부산광역시 기장군 장안읍 신좌천로 7",
+     "city": "기장군",
+     "total_units": 332,
+     "units": 50,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 10514000,
+     "rent": 150600,
+     "down": 525700,
+     "middle": 0,
+     "balance": 9988300
+    },
+    {
+     "name": "부산기장교리",
+     "addr": "부산광역시 기장군 기장읍 차성로397번길 7",
+     "city": "기장군",
+     "total_units": 875,
+     "units": 80,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 12885000,
+     "rent": 117650,
+     "down": 644250,
+     "middle": 0,
+     "balance": 12240750
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021100&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21581&houseSn=3",
+   "detail": {
+    "files": [
+     {
+      "name": "(기장교리_별도양식)장애인고령자편의증진시설설치신청서및위임장.pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69449170"
+     },
+     {
+      "name": "마이마이서비스고객매뉴얼(v6).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69449175"
+     },
+     {
+      "name": "부산광역시국민임대예비입주자모집공고문(26.11.16).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69449180"
+     },
+     {
+      "name": "부산광역시국민임대예비입주자모집공고문(26.11.16).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69449186"
+     }
+    ],
+    "images": [
+     {
+      "site": "기장교리국민임대",
+      "name": "단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168722"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "16평2.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168717"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "19평1.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168718"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "20평1.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168720"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "20평2.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168721"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "16평1.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168716"
+     },
+     {
+      "site": "기장교리국민임대",
+      "name": "19평2.jpg",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=29168719"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "name": "장안투시도_저용량.jpg",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42302334"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "name": "1120_장안위치도_보기적합용.jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42277657"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "name": "장안조감도_저용량.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42302332"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "name": "장안단지배치도_저용량.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42302333"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "name": "고촌위치도.jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=27364546"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "name": "고촌단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=27364545"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "name": "고촌단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=27364544"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "name": "고촌동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=27364547"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "기본이미지광역도.JPG",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548181"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "기본이미지위치도.JPG",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548182"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "부산정관4단지조감도.pdf",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272199"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "부산정관4단지배치도.pdf",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272200"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "부산정관4동호배치도.pdf",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272201"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "부산정관4형별평면도등.pdf",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272202"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "name": "기본이미지조감도.JPG",
+      "kind": "조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548183"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "name": "위치도(640-480).jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547935"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "name": "조감도(322-234).jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547495"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "name": "단지배치도(640-480).jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547244"
+     },
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "name": "부산정관5형별평면도등.pdf",
+      "kind": "기타",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26272846"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "부산정관5단지(A-19BL)",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-01",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-03-19"
+     },
+     {
+      "site": "부산정관4단지(A-22BL)",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-01",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-03-19"
+     },
+     {
+      "site": "부산고촌 국민임대주택",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-01",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-03-19"
+     },
+     {
+      "site": "기장교리국민임대",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-11-30",
+      "docs_start": "2026-12-11",
+      "docs_end": "2026-12-17",
+      "winner_date": "2027-03-31",
+      "contract_start": "2027-04-01",
+      "contract_end": "2028-03-31"
+     },
+     {
+      "site": "부산장안 국민임대",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-01",
+      "docs_end": "2026-12-02",
+      "winner_date": "2027-03-19"
+     }
+    ],
+    "sites": [
+     {
+      "name": "기장교리국민임대",
+      "addr": "부산광역시 기장군 기장읍 차성로397번길 7(기장교리주공아파트)",
+      "total_units": 875,
+      "area": "36.44~45.32",
+      "heating": "개별가스난방"
+     },
+     {
+      "name": "부산장안 국민임대",
+      "addr": "부산광역시 기장군 장안읍 신좌천로 7 부산장안 LH1단지",
+      "total_units": 332,
+      "area": "29.88~46.76",
+      "heating": "개별난방",
+      "move_in": "2022.10"
+     },
+     {
+      "name": "부산고촌 국민임대주택",
+      "addr": "부산광역시 기장군 철마면 고촌로44번길 16(고촌휴먼시아1)",
+      "total_units": 1084,
+      "area": "39.74~46.77",
+      "heating": "개별난방",
+      "move_in": "2010.02"
+     },
+     {
+      "name": "부산정관4단지(A-22BL)",
+      "addr": "부산광역시 기장군 정관읍 산단4로 160(정관신도시 엘에이치 4단지)",
+      "total_units": 964,
+      "area": "46.46~59.86",
+      "heating": "지역난방",
+      "move_in": "2012.09"
+     },
+     {
+      "name": "부산정관5단지(A-19BL)",
+      "addr": "부산광역시 기장군 정관읍 산단2로 60(정관신도시 엘에이치 5단지)",
+      "total_units": 1128,
+      "area": "46.72~59.94",
+      "heating": "지역난방",
+      "move_in": "2013.10"
+     }
+    ],
+    "at": "2026-11-17"
+   }
+  },
   {
    "id": "sh-313268",
    "org": "SH",
@@ -84,16 +443,74 @@
    "kind": "모집공고",
    "title": "[정정공고]증평군지역 국민임대주택 예비입주자 모집[2026.11.16]",
    "region": "충청북도",
-   "city": null,
+   "city": "증평군",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-12-01",
    "apply_end": "2026-12-01",
-   "winner_date": null,
+   "winner_date": "2027-03-26",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 570,
+   "houses": [
+    {
+     "name": "증평송산1",
+     "addr": "충청북도 증평군 증평읍 송산로 35",
+     "city": "증평군",
+     "total_units": 504,
+     "units": 110,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-01",
+     "deposit": 9882000,
+     "rent": 88130,
+     "down": 494100,
+     "middle": 0,
+     "balance": 9387900
+    },
+    {
+     "name": "증평송산2",
+     "addr": "충청북도 증평군 증평읍 송산로 53",
+     "city": "증평군",
+     "total_units": 514,
+     "units": 130,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-01",
+     "deposit": 9530000,
+     "rent": 87120,
+     "down": 476500,
+     "middle": 0,
+     "balance": 9053500
+    },
+    {
+     "name": "증평송산3",
+     "addr": "충청북도 증평군 증평읍 송산로4길 14",
+     "city": "증평군",
+     "total_units": 640,
+     "units": 180,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-01",
+     "deposit": 8679000,
+     "rent": 135030,
+     "down": 433950,
+     "middle": 0,
+     "balance": 8245050
+    },
+    {
+     "name": "증평장동",
+     "addr": "충청북도 증평군 증평읍 증평로 31-11",
+     "city": "증평군",
+     "total_units": 558,
+     "units": 150,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-01",
+     "deposit": 14976000,
+     "rent": 127570,
+     "down": 748800,
+     "middle": 0,
+     "balance": 14227200
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021102&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21578&houseSn=2",
    "detail": {
     "files": [
      {
@@ -202,16 +619,32 @@
    "kind": "모집공고",
    "title": "[정정공고]증평군 송산5단지 국민임대주택 자격완화 예비입주자 모집[2026.11.16]",
    "region": "충청북도",
-   "city": null,
+   "city": "증평군",
    "notice_date": "2026-11-16",
    "apply_start": "2026-12-01",
    "apply_end": "2026-12-01",
    "winner_date": "2027-03-26",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 210,
+   "houses": [
+    {
+     "name": "증평송산5",
+     "addr": "충청북도 증평군 증평읍 송산로 30",
+     "city": "증평군",
+     "total_units": 605,
+     "units": 210,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-01",
+     "deposit": 9091000,
+     "rent": 182490,
+     "down": 454000,
+     "middle": 0,
+     "balance": 8637000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021101&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21577&houseSn=1",
    "detail": {
     "files": [
      {
@@ -375,16 +808,88 @@
    "kind": "모집공고",
    "title": "[정정공고]양산시 국민임대주택 예비입주자 완화 모집('26.11.16)_소득, 자산, 무주택 요건 완화 / 계약금 인하",
    "region": "경상남도",
-   "city": null,
+   "city": "양산시",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-12-01",
    "apply_end": "2026-12-02",
-   "winner_date": null,
+   "winner_date": "2027-02-26",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 230,
+   "houses": [
+    {
+     "name": "양산물금1",
+     "addr": "경상남도 양산시 물금읍 청운로 41",
+     "city": "양산시",
+     "total_units": 1105,
+     "units": 30,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12634000,
+     "rent": 226660,
+     "down": 500000,
+     "middle": 0,
+     "balance": 12134000
+    },
+    {
+     "name": "양산물금2",
+     "addr": "경상남도 양산시 물금읍 물금2길 50",
+     "city": "양산시",
+     "total_units": 452,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12478000,
+     "rent": 227860,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11978000
+    },
+    {
+     "name": "금산휴먼시아",
+     "addr": "경상남도 양산시 동면 금산2길 12",
+     "city": "양산시",
+     "total_units": 1300,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12137000,
+     "rent": 101150,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11637000
+    },
+    {
+     "name": "소주휴먼시아",
+     "addr": "경상남도 양산시 번영로 435",
+     "city": "양산시",
+     "total_units": 937,
+     "units": 80,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12422000,
+     "rent": 104170,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11922000
+    },
+    {
+     "name": "평산휴먼시아",
+     "addr": "경상남도 양산시 배움터길 11",
+     "city": "양산시",
+     "total_units": 1385,
+     "units": 80,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12059000,
+     "rent": 112170,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11559000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021094&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21576&houseSn=1",
    "detail": {
     "files": [
      {
@@ -886,16 +1391,130 @@
    "kind": "모집공고",
    "title": "('26.11.16.) 고창무장, 고창황산, 김제검산3, 김제교동, 김제대검산, 순창경천, 순창풍산, 정읍농소 국민임대 예비자 모집 공고",
    "region": "전북특별자치도",
-   "city": null,
+   "city": "고창군",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-12-01",
    "apply_end": "2026-12-03",
-   "winner_date": null,
+   "winner_date": "2027-03-10",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 335,
+   "houses": [
+    {
+     "name": "고창무장",
+     "addr": "전북특별자치도 고창군 무장면 청보리로 1548",
+     "city": "고창군",
+     "total_units": 100,
+     "units": 35,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 5801000,
+     "rent": 118290,
+     "down": 290050,
+     "middle": 0,
+     "balance": 5510950
+    },
+    {
+     "name": "고창황산",
+     "addr": "전북특별자치도 고창군 고수면 고수로 15",
+     "city": "고창군",
+     "total_units": 120,
+     "units": 30,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 6140000,
+     "rent": 115550,
+     "down": 307000,
+     "middle": 0,
+     "balance": 5833000
+    },
+    {
+     "name": "김제교동",
+     "addr": "전북특별자치도 김제시 교정길 36",
+     "city": "김제시",
+     "total_units": 533,
+     "units": 50,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 16860000,
+     "rent": 123190,
+     "down": 843000,
+     "middle": 0,
+     "balance": 16017000
+    },
+    {
+     "name": "김제검산3",
+     "addr": "전북특별자치도 김제시 금성로 140",
+     "city": "김제시",
+     "total_units": 349,
+     "units": 100,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 9530000,
+     "rent": 112900,
+     "down": 476500,
+     "middle": 0,
+     "balance": 9053500
+    },
+    {
+     "name": "김제대검산",
+     "addr": "전북특별자치도 김제시 풍요로 25",
+     "city": "김제시",
+     "total_units": 276,
+     "units": 25,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 7135000,
+     "rent": 146180,
+     "down": 356750,
+     "middle": 0,
+     "balance": 6778250
+    },
+    {
+     "name": "순창경천",
+     "addr": "전북특별자치도 순창군 순창읍 경천1로 102",
+     "city": "순창군",
+     "total_units": 494,
+     "units": 50,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 21909000,
+     "rent": 107400,
+     "down": 1095450,
+     "middle": 0,
+     "balance": 20813550
+    },
+    {
+     "name": "순창풍산",
+     "addr": "전북특별자치도 순창군 풍산면 풍산로 499",
+     "city": "순창군",
+     "total_units": 72,
+     "units": 25,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 10353000,
+     "rent": 57500,
+     "down": 517650,
+     "middle": 0,
+     "balance": 9835350
+    },
+    {
+     "name": "정읍농소",
+     "addr": "전북특별자치도 정읍시 서부산업도로 409",
+     "city": "정읍시",
+     "total_units": 466,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 12897000,
+     "rent": 84030,
+     "down": 644850,
+     "middle": 0,
+     "balance": 12252150
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021089&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21569&houseSn=1",
    "detail": {
     "files": [
      {
@@ -1984,7 +2603,7 @@
    "apply_start": "2026-11-30",
    "apply_end": "2026-12-02",
    "winner_date": "2027-03-31",
-   "status": "공고중",
+   "status": "정정공고중",
    "units": 410,
    "houses": [
     {
@@ -2338,16 +2957,88 @@
    "kind": "모집공고",
    "title": "양산시 국민임대주택 예비입주자 완화 모집('26.11.16)_소득, 자산, 무주택 요건 완화 / 계약금 인하",
    "region": "경상남도",
-   "city": null,
+   "city": "양산시",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-12-01",
    "apply_end": "2026-12-02",
-   "winner_date": null,
+   "winner_date": "2027-02-26",
    "status": "정정공고중",
-   "units": null,
-   "houses": [],
+   "units": 230,
+   "houses": [
+    {
+     "name": "양산물금1",
+     "addr": "경상남도 양산시 물금읍 청운로 41",
+     "city": "양산시",
+     "total_units": 1105,
+     "units": 30,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12634000,
+     "rent": 226660,
+     "down": 500000,
+     "middle": 0,
+     "balance": 12134000
+    },
+    {
+     "name": "양산물금2",
+     "addr": "경상남도 양산시 물금읍 물금2길 50",
+     "city": "양산시",
+     "total_units": 452,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12478000,
+     "rent": 227860,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11978000
+    },
+    {
+     "name": "금산휴먼시아",
+     "addr": "경상남도 양산시 동면 금산2길 12",
+     "city": "양산시",
+     "total_units": 1300,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12137000,
+     "rent": 101150,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11637000
+    },
+    {
+     "name": "소주휴먼시아",
+     "addr": "경상남도 양산시 번영로 435",
+     "city": "양산시",
+     "total_units": 937,
+     "units": 80,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12422000,
+     "rent": 104170,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11922000
+    },
+    {
+     "name": "평산휴먼시아",
+     "addr": "경상남도 양산시 배움터길 11",
+     "city": "양산시",
+     "total_units": 1385,
+     "units": 80,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12059000,
+     "rent": 112170,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11559000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021069&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21575&houseSn=1",
    "detail": {
     "files": [
      {
@@ -2601,16 +3292,144 @@
    "kind": "모집공고",
    "title": "전주시,완주군 국민임대주택 예비입주자 모집",
    "region": "전북특별자치도",
-   "city": null,
+   "city": "완주군",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-11-24",
    "apply_end": "2026-11-27",
-   "winner_date": null,
+   "winner_date": "2027-03-25",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 406,
+   "houses": [
+    {
+     "name": "완주삼봉A-1BL",
+     "addr": "전북특별자치도 완주군 삼례읍 삼봉5로 60",
+     "city": "완주군",
+     "total_units": 1092,
+     "units": 100,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 7660000,
+     "rent": 118790,
+     "down": 383000,
+     "middle": 0,
+     "balance": 7277000
+    },
+    {
+     "name": "완주덕천하이트",
+     "addr": "전북특별자치도 완주군 용진읍 가목길 21",
+     "city": "완주군",
+     "total_units": 60,
+     "units": 60,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 11552000,
+     "rent": 96250,
+     "down": 577600,
+     "middle": 0,
+     "balance": 10974400
+    },
+    {
+     "name": "전주대창하이빌",
+     "addr": "전북특별자치도 전주시 덕진구 반월4길 15",
+     "city": "전주시 덕진구",
+     "total_units": 8,
+     "units": 20,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 5705000,
+     "rent": 92660,
+     "down": 285250,
+     "middle": 0,
+     "balance": 5419750
+    },
+    {
+     "name": "전주동산한강",
+     "addr": "전북특별자치도 전주시 덕진구 여산로 227",
+     "city": "전주시 덕진구",
+     "total_units": 2,
+     "units": 5,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 20630000,
+     "rent": 121000,
+     "down": 1031500,
+     "middle": 0,
+     "balance": 19598500
+    },
+    {
+     "name": "전주신세계블루타운",
+     "addr": "전북특별자치도 전주시 완산구 흑석로 64",
+     "city": "전주시 완산구",
+     "total_units": 39,
+     "units": 35,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 4670000,
+     "rent": 39820,
+     "down": 233500,
+     "middle": 0,
+     "balance": 4436500
+    },
+    {
+     "name": "전주우아효성",
+     "addr": "전북특별자치도 전주시 덕진구 안골5길 15",
+     "city": "전주시 덕진구",
+     "total_units": 72,
+     "units": 50,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 8872000,
+     "rent": 78680,
+     "down": 443600,
+     "middle": 0,
+     "balance": 8428400
+    },
+    {
+     "name": "전주효성흑석",
+     "addr": "전북특별자치도 전주시 완산구 흑석1길 85",
+     "city": "전주시 완산구",
+     "total_units": 111,
+     "units": 80,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 7914000,
+     "rent": 87940,
+     "down": 395700,
+     "middle": 0,
+     "balance": 7518300
+    },
+    {
+     "name": "전주효자1",
+     "addr": "전북특별자치도 전주시 완산구 호암로 2",
+     "city": "전주시 완산구",
+     "total_units": 949,
+     "units": 30,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 29277000,
+     "rent": 163550,
+     "down": 1463850,
+     "middle": 0,
+     "balance": 27813150
+    },
+    {
+     "name": "완주봉동1.2",
+     "addr": "전북특별자치도 완주군 봉동읍 봉동중앙로 53-18 , 53-20",
+     "city": "완주군",
+     "total_units": 958,
+     "units": 26,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-27",
+     "deposit": 16267000,
+     "rent": 109860,
+     "down": 813350,
+     "middle": 0,
+     "balance": 15453650
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021067&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21570&houseSn=1",
    "detail": {
     "files": [
      {
@@ -3049,16 +3868,60 @@
    "kind": "모집공고",
    "title": "[정정공고]순천시 국민임대주택 예비입주자 모집",
    "region": "전남광주통합특별시",
-   "city": null,
+   "city": "순천시",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-11-25",
    "apply_end": "2026-11-26",
-   "winner_date": null,
+   "winner_date": "2027-04-09",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 130,
+   "houses": [
+    {
+     "name": "순천가곡",
+     "addr": "전남광주통합특별시 순천시 고지1길 57",
+     "city": "순천시",
+     "total_units": 571,
+     "units": 80,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-26",
+     "deposit": 16339000,
+     "rent": 108910,
+     "down": 816950,
+     "middle": 0,
+     "balance": 15522050
+    },
+    {
+     "name": "순천아이탑빌",
+     "addr": "전남광주통합특별시 순천시 가곡길 257-15",
+     "city": "순천시",
+     "total_units": 47,
+     "units": 20,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-26",
+     "deposit": 18324000,
+     "rent": 103740,
+     "down": 916200,
+     "middle": 0,
+     "balance": 17407800
+    },
+    {
+     "name": "순천향림세미텔",
+     "addr": "전남광주통합특별시 순천시 석현북길 40",
+     "city": "순천시",
+     "total_units": 40,
+     "units": 30,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-26",
+     "deposit": 5334000,
+     "rent": 43080,
+     "down": 266700,
+     "middle": 0,
+     "balance": 5067300
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021064&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21580&houseSn=1",
    "detail": {
     "files": [
      {
@@ -3278,16 +4141,32 @@
    "kind": "모집공고",
    "title": "장수북동 국민임대주택 예비입주자 모집",
    "region": "전북특별자치도",
-   "city": null,
+   "city": "장수군",
    "notice_date": "2026-11-16",
    "apply_start": "2026-11-24",
    "apply_end": "2026-11-26",
    "winner_date": "2027-03-25",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 100,
+   "houses": [
+    {
+     "name": "장수북동",
+     "addr": "전북특별자치도 장수군 장수읍 관두길 16",
+     "city": "장수군",
+     "total_units": 378,
+     "units": 100,
+     "apply_start": "2026-11-24",
+     "apply_end": "2026-11-26",
+     "deposit": 11825000,
+     "rent": 82480,
+     "down": 591250,
+     "middle": 0,
+     "balance": 11233750
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021061&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21571&houseSn=1",
    "detail": {
     "files": [
      {
@@ -5225,16 +6104,46 @@
    "kind": "모집공고",
    "title": "김해시 지역 국민임대주택 예비입주자 모집(2026.11.16.공고)",
    "region": "경상남도",
-   "city": null,
+   "city": "김해시",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-12-01",
    "apply_end": "2026-12-02",
-   "winner_date": null,
+   "winner_date": "2027-03-11",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 460,
+   "houses": [
+    {
+     "name": "김해율하2LH1",
+     "addr": "경상남도 김해시 율하5로 48",
+     "city": "김해시",
+     "total_units": 1442,
+     "units": 280,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 9929000,
+     "rent": 159220,
+     "down": 600000,
+     "middle": 0,
+     "balance": 9329000
+    },
+    {
+     "name": "김해진영6",
+     "addr": "경상남도 김해시 진영읍 김해대로 463",
+     "city": "김해시",
+     "total_units": 1696,
+     "units": 180,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 8748000,
+     "rent": 171210,
+     "down": 500000,
+     "middle": 0,
+     "balance": 8248000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021034&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21572&houseSn=1",
    "detail": {
     "files": [
      {
@@ -5517,16 +6426,88 @@
    "kind": "모집공고",
    "title": "경북서부지역(구미시, 김천시, 의성군) 국민임대 예비입주자 모집",
    "region": "경상북도",
-   "city": null,
+   "city": "구미시",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-11-30",
    "apply_end": "2026-12-03",
-   "winner_date": null,
+   "winner_date": "2027-04-08",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 110,
+   "houses": [
+    {
+     "name": "구미구평",
+     "addr": "경상북도 구미시 인동54길 25",
+     "city": "구미시",
+     "total_units": 377,
+     "units": 35,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-03",
+     "deposit": 18249000,
+     "rent": 129360,
+     "down": 912450,
+     "middle": 0,
+     "balance": 17336550
+    },
+    {
+     "name": "구미옥계2",
+     "addr": "경상북도 구미시 옥계북로 43-52",
+     "city": "구미시",
+     "total_units": 998,
+     "units": 30,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-03",
+     "deposit": 14628000,
+     "rent": 100080,
+     "down": 731400,
+     "middle": 0,
+     "balance": 13896600
+    },
+    {
+     "name": "김천덕곡",
+     "addr": "경상북도 김천시 무실7길 38",
+     "city": "김천시",
+     "total_units": 594,
+     "units": 15,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-03",
+     "deposit": 9360000,
+     "rent": 92260,
+     "down": 468000,
+     "middle": 0,
+     "balance": 8892000
+    },
+    {
+     "name": "김천혁신4",
+     "addr": "경상북도 김천시 해오름1로 17",
+     "city": "김천시",
+     "total_units": 938,
+     "units": 20,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-03",
+     "deposit": 8651000,
+     "rent": 154250,
+     "down": 432550,
+     "middle": 0,
+     "balance": 8218450
+    },
+    {
+     "name": "의성상리",
+     "addr": "경상북도 의성군 의성읍 동서1길 114",
+     "city": "의성군",
+     "total_units": 408,
+     "units": 10,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-03",
+     "deposit": 10464000,
+     "rent": 85030,
+     "down": 523200,
+     "middle": 0,
+     "balance": 9940800
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021008&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21573&houseSn=1",
    "detail": {
     "files": [
      {
@@ -5823,16 +6804,31 @@
    "kind": "모집공고",
    "title": "정읍수성1 영구임대주택 입주자격완화 예비입주자 모집 공고",
    "region": "전북특별자치도",
-   "city": null,
+   "city": "정읍시",
    "notice_date": "2026-11-16",
    "apply_start": "2026-11-26",
    "apply_end": "2026-11-27",
    "winner_date": "2027-02-26",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 200,
+   "houses": [
+    {
+     "name": "정읍수성1",
+     "addr": "전북특별자치도 정읍시 수성2로 13-12",
+     "city": "정읍시",
+     "units": 200,
+     "apply_start": "2026-11-26",
+     "apply_end": "2026-11-27",
+     "deposit": 2520000,
+     "rent": 50160,
+     "down": 126000,
+     "middle": 0,
+     "balance": 2394000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021007&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21574&houseSn=1",
    "detail": {
     "files": [
      {
@@ -5943,16 +6939,31 @@
    "kind": "모집공고",
    "title": "파주운정A4BL(별하람3) 10년 공공임대주택리츠 예비입주자 모집(무순위)",
    "region": "경기도",
-   "city": null,
+   "city": "파주시",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-11-25",
    "apply_end": "2026-11-26",
    "winner_date": "2026-11-30",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 58,
+   "houses": [
+    {
+     "name": "파주운정 A4BL",
+     "addr": "경기도 파주시 가람로 109",
+     "city": "파주시",
+     "units": 58,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-26",
+     "deposit": 52352000,
+     "rent": 507330,
+     "down": 10470000,
+     "middle": 0,
+     "balance": 41882000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061212&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21567&houseSn=1",
    "detail": {
     "files": [
      {
@@ -6017,16 +7028,32 @@
    "kind": "모집공고",
    "title": "파주운정A20BL(산내2) 10년 공공임대주택리츠 예비입주자모집(무순위)",
    "region": "경기도",
-   "city": null,
+   "city": "파주시",
    "notice_date": "2026-11-16",
-   "apply_start": null,
+   "apply_start": "2026-11-25",
    "apply_end": "2026-11-26",
    "winner_date": "2026-11-30",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 110,
+   "houses": [
+    {
+     "name": "파주운정 A20BL",
+     "addr": "경기도 파주시 교하로 50",
+     "city": "파주시",
+     "total_units": 1362,
+     "units": 110,
+     "apply_start": "2026-11-25",
+     "apply_end": "2026-11-26",
+     "deposit": 62140000,
+     "rent": 355090,
+     "down": 9321000,
+     "middle": 0,
+     "balance": 52819000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061210&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=08&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21568&houseSn=1",
    "detail": {
     "files": [
      {
@@ -6117,7 +7144,7 @@
    "kind": "모집공고",
    "title": "[대전·충남] 2026년 2차 든든전세주택 입주자 모집공고 (분양전환형)",
    "region": "충청남도",
-   "city": "아산시",
+   "city": "천안시 서북구",
    "notice_date": "2026-11-13",
    "apply_start": "2026-11-23",
    "apply_end": "2026-11-25",
@@ -6125,13 +7152,6 @@
    "status": "공고중",
    "units": 106,
    "houses": [
-    {
-     "city": "아산시",
-     "units": 29,
-     "apply_start": "2026-11-23",
-     "apply_end": "2026-11-25",
-     "middle": 0
-    },
     {
      "city": "천안시 서북구",
      "units": 33,
@@ -6142,6 +7162,13 @@
     {
      "city": "당진시",
      "units": 44,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "middle": 0
+    },
+    {
+     "city": "아산시",
+     "units": 29,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-25",
      "middle": 0
@@ -7995,7 +9022,7 @@
    "apply_start": null,
    "apply_end": "2026-11-19",
    "winner_date": "2026-11-23",
-   "status": "공고중",
+   "status": "접수중",
    "units": 151,
    "houses": [
     {
