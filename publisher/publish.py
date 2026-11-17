@@ -246,7 +246,7 @@ def naver_post(page, cfg: dict, post: dict, dry: bool) -> str | None:
             dt.setData('text/html', html); dt.setData('text/plain', plain);
             document.activeElement.dispatchEvent(new ClipboardEvent('paste', {clipboardData: dt, bubbles: true, cancelable: true}));
         }""", [post["html"], plain])
-    time.sleep(cfg.get("naver_image_wait_sec", 8))  # 평면도 이미지가 네이버로 올라갈 시간
+    time.sleep(cfg.get("naver_image_wait_sec", 20))  # 평면도 이미지가 네이버로 올라갈 시간
     shot(page, f"naver_{post['id']}_ready")
     if dry:
         log("시험 모드라 '발행'을 누르지 않았습니다. 화면을 확인하세요.")

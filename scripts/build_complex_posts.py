@@ -5,7 +5,7 @@ SH 주택정보 수집 결과(data/sh_houses.json)의 단지마다 티스토리 
 | 결과 | 내용 |
 |---|---|
 | posts/complex/<단지 id>.html | 티스토리 글(자세한 표·평면도). 첫 줄 주석에 권장 제목·태그 |
-| posts/naver/<단지 id>.html   | 네이버 블로그 요약 글(질문형, 평면도 1장). 티스토리 글과 문장이 겹치지 않게 따로 쓴다 |
+| posts/naver/<단지 id>.html   | 네이버 블로그 요약 글(질문형, 평면도 전부). 티스토리 글과 문장이 겹치지 않게 따로 쓴다 |
 | data/complex_posts.json      | 글 목록과 발행 순서(queue: 티스토리, naver_queue: 네이버). 노트북 자동 발행(publisher/)이 위에서부터 꺼내 쓴다 |
 | data/published.json          | 이미 발행한 글 기록(발행하는 쪽이 채운다). 여기 있는 단지는 queue 에서 빠진다 |
 
@@ -277,7 +277,7 @@ def naver_meta(c: dict) -> dict:
 
 def build_naver(c: dict, plans: dict) -> str:
     """네이버 블로그용 요약 글. 티스토리 글과 문장·구성이 겹치지 않게 짧은 질문형으로 쓴다.
-    네이버 편집기에 붙여 넣으므로 꾸밈은 최소로 하고(굵게·목록·이미지), 표는 쓰지 않는다."""
+    네이버 편집기에 붙여 넣으므로 꾸밈은 최소로 하고(굵게·목록·이미지), 표는 쓰지 않는다. 평면도는 티스토리와 같이 전부 싣는다."""
     meta = naver_meta(c)
     name, gu = meta["name"], meta["gu"]
     types = c.get("types", [])
@@ -306,10 +306,14 @@ def build_naver(c: dict, plans: dict) -> str:
 
     pf = plan_files(c, plans)
     if pf:
-        typ, fs = pf[0]
-        label, p = fs[0]
-        out.append(f"<p><b>Q. 집 구조는요?</b> {e(typ)}형 평면도예요.</p>")
-        out.append(f'<p><img src="{e(SITE + p["file"])}" alt="{e(name)} {e(typ)}형 평면도"></p>')
+        out.append(f"<p><b>Q. 집 구조는요?</b> 평형별 평면도를 모두 모았어요.</p>")
+        for typ, fs in pf:
+            t = next((x for x in types if x["type"] == typ), {})
+            out.append(f"<p><b>{e(typ)}형</b> (약 {py(t.get('exclusive_area'))})</p>")
+            for label, p in fs:
+                if label and label != typ:
+                    out.append(f"<p>{e(label)}</p>")
+                out.append(f'<p><img src="{e(SITE + p["file"])}" alt="{e(name)} {e(typ)}형 평면도"></p>')
 
     sur = surroundings(c.get("surroundings") or "")
     if sur:
