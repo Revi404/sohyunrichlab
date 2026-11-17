@@ -1,2 +1,9 @@
 __pycache__/
 .DS_Store
+
+# 노트북 자동 발행: 로그인·기록은 저장소에 올리지 않는다
+publisher/config.json
+publisher/state.json
+publisher/.profile/
+publisher/shots/
+publisher/*.log

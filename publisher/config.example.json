@@ -1,0 +1,15 @@
+{
+ "tistory_enabled": true,
+ "tistory_blog": "sohyun-richlab",
+ "tistory_category": "",
+ "tistory_per_run": 1,
+ "naver_enabled": true,
+ "naver_blog_id": "sohyunrichlab",
+ "naver_category": "",
+ "naver_per_run": 1,
+ "naver_image_wait_sec": 8,
+ "gap_minutes": [3, 6],
+ "start_delay_minutes": [0, 20],
+ "browser_channel": "chrome",
+ "source": "https://revi404.github.io/sohyunrichlab/"
+}

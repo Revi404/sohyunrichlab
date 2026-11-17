@@ -57,10 +57,19 @@
   const boards = (idx && idx.boards) || [];
   const want = new URLSearchParams(location.search).get("b");
   boards.forEach((b) => { const o = new Option(`${b.title} (${b.count}건)`, b.slug); $("pick").add(o); });
+  /* 단지 소개 글(단지 한 곳 = 글 한 편)은 발행 순서대로 아래에 붙인다 */
+  const cp = await get("../data/complex_posts.json", true);
+  if (cp && cp.posts && cp.posts.length) {
+    const g = document.createElement("optgroup");
+    g.label = `단지 소개 글 (${cp.posts.length}편)`;
+    cp.posts.forEach((x) => g.append(new Option(`${x.gu} · ${x.name}`, "complex/" + x.id)));
+    $("pick").add(g);
+    boards.push(...cp.posts.map((x) => ({ slug: "complex/" + x.id })));
+  }
   if (want && boards.some((b) => b.slug === want)) $("pick").value = want;
   let html = "";
   async function load() {
-    const slug = $("pick").value.replace(/[^a-z0-9-]/gi, "");
+    const slug = $("pick").value.replace(/[^a-z0-9\/-]/gi, "");
     html = (await get(`../posts/${slug}.html`)) || "";
     const m = html.match(/^<!-- sohyunrichlab-post (.*?) -->\n?/);
     let meta = {};
@@ -73,7 +82,7 @@
     doc.querySelectorAll("script,iframe,object,embed").forEach((n) => n.remove());
     $("preview").replaceChildren(...doc.body.childNodes);
     $("done").textContent = html ? "" : "이 보드의 글이 아직 없습니다.";
-    history.replaceState(null, "", "?b=" + slug);
+    history.replaceState(null, "", "?b=" + encodeURIComponent(slug).replace("%2F", "/"));
   }
   async function copy(text, what) {
     try { await navigator.clipboard.writeText(text); }
