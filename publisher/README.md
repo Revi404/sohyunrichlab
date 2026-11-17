@@ -6,7 +6,7 @@
 | 블로그 | 글 | 순서 |
 |---|---|---|
 | 티스토리 sohyun-richlab | `posts/complex/<단지>.html` 표·평면도 전부 | `data/complex_posts.json` 의 `queue` |
-| 네이버 sohyunrichlab | `posts/naver/<단지>.html` 질문형 요약, 평면도 1장 | `naver_queue` |
+| 네이버 sohyunrichlab | `posts/naver/<단지>.html` 질문형 요약, 평면도 전부 | `naver_queue` |
 
 ## 처음 한 번 설치
 
@@ -57,7 +57,7 @@ py publish.py naver --dry-run
 |---|---|
 | 로그상 "로그인이 풀렸습니다" | `py publish.py login` 다시 실행 |
 | "글쓰기 화면을 찾지 못했습니다", 버튼 관련 실패 | 블로그 편집기 화면이 바뀐 경우입니다. `shots/` 의 오류 사진과 `publish.log` 를 Claude 에게 보내 주세요 |
-| 네이버에 평면도가 안 보임 | `naver_image_wait_sec` 를 15 정도로 늘리기 |
+| 네이버에 평면도가 안 보임 | `naver_image_wait_sec` 를 30 정도로 늘리기 |
 | 예약을 끄고 싶음 | 윈도우: 작업 스케줄러에서 "SohyunRichlab Publish" 삭제 / 맥: `launchctl unload ~/Library/LaunchAgents/com.sohyunrichlab.publish.plist` |
 
 ## 주의
