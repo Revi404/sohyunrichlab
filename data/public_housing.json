@@ -1,29 +1,137 @@
 {
- "updated": "2026-11-17 13:00",
+ "updated": "2026-11-17 22:38",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-17 13:00",
-   "count": 456
+   "at": "2026-11-17 22:38",
+   "count": 458
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-17 13:00",
-   "count": 159
+   "at": "2026-11-17 22:38",
+   "count": 160
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-17 13:00",
+   "at": "2026-11-17 22:38",
    "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-17 13:00",
+   "at": "2026-11-17 22:38",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "sh-313484",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "행복주택 계약결과알림",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-17",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313484&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "lh-2015122300021106",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "[정정공고]증평군 송산5단지 국민임대주택 자격완화 예비입주자 모집[2026.11.16]",
+   "region": "충청북도",
+   "city": "증평군",
+   "notice_date": "2026-11-17",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-01",
+   "winner_date": "2027-03-26",
+   "status": "공고중",
+   "units": 210,
+   "houses": [
+    {
+     "name": "증평송산5",
+     "addr": "충청북도 증평군 증평읍 송산로 30",
+     "city": "증평군",
+     "total_units": 605,
+     "units": 210,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-01",
+     "deposit": 9091000,
+     "rent": 182490,
+     "down": 454000,
+     "middle": 0,
+     "balance": 8637000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021106&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21582&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "261116증평송산5단지자격완화예비입주자모집공고.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69473615"
+     },
+     {
+      "name": "261116증평송산5단지자격완화예비입주자모집공고.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69473620"
+     }
+    ],
+    "images": [
+     {
+      "site": "증평송산5단지 국민임대",
+      "name": "증평송산단지조감도.JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565162"
+     },
+     {
+      "site": "증평송산5단지 국민임대",
+      "name": "증평송산단지배치도.JPG",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565163"
+     },
+     {
+      "site": "증평송산5단지 국민임대",
+      "name": "증평송산동호배치도.JPG",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=44565164"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-28",
+      "docs_end": "2026-12-30",
+      "winner_date": "2027-03-26"
+     }
+    ],
+    "sites": [
+     {
+      "name": "증평송산5단지 국민임대",
+      "addr": "충청북도 증평군 증평읍 송산로 30",
+      "total_units": 605,
+      "area": "29.39~46.21",
+      "heating": "개별난방",
+      "move_in": "2022.07"
+     }
+    ],
+    "at": "2026-11-17"
+   }
+  },
   {
    "id": "lh-2015122300021100",
    "org": "LH",
@@ -384,6 +492,75 @@
    }
   },
   {
+   "id": "lh-0000061209",
+   "org": "LH",
+   "deal": "임대",
+   "type": "가정어린이집",
+   "kind": "모집공고",
+   "title": "NHF제13호 화성봉담2 그랑드비체5단지 가정어린이집 운영예정자 모집 공고",
+   "region": "경기도",
+   "city": null,
+   "notice_date": "2026-11-17",
+   "apply_start": null,
+   "apply_end": "2026-12-03",
+   "winner_date": "2026-12-09",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061209&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=40&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "팜플릿(화성봉담2S-1블록).pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69441751"
+     },
+     {
+      "name": "화성봉담2그랑드비체5단지가정어린이집운영예정자모집공고.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69392699"
+     },
+     {
+      "name": "화성봉담2그랑드비체5단지가정어린이집운영예정자모집공고.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69392703"
+     }
+    ],
+    "images": [
+     {
+      "name": "토지이용계획도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69393002"
+     },
+     {
+      "name": "단지배치도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69393003"
+     },
+     {
+      "name": "지구조감도_저.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69393004"
+     },
+     {
+      "name": "단지조감도_저.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69393005"
+     }
+    ],
+    "schedule": [
+     {
+      "winner_date": "2026-12-09",
+      "contract_start": "2026-12-16",
+      "contract_end": "2026-12-16"
+     }
+    ],
+    "sites": [
+     {
+      "move_in": "2020년 09월"
+     }
+    ],
+    "at": "2026-11-17"
+   }
+  },
+  {
    "id": "sh-313268",
    "org": "SH",
    "deal": "임대",
@@ -624,7 +801,7 @@
    "apply_start": "2026-12-01",
    "apply_end": "2026-12-01",
    "winner_date": "2027-03-26",
-   "status": "공고중",
+   "status": "정정공고중",
    "units": 210,
    "houses": [
     {
@@ -9749,7 +9926,7 @@
    "city": "제천시",
    "notice_date": "2026-11-09",
    "apply_start": "2026-11-24",
-   "apply_end": "2026-11-24",
+   "apply_end": "2026-11-25",
    "winner_date": "2027-02-02",
    "status": "공고중",
    "units": 100,
@@ -9821,7 +9998,7 @@
       "move_in": "2018.04"
      }
     ],
-    "at": "2026-11-11"
+    "at": "2026-11-17"
    }
   },
   {
@@ -9925,25 +10102,6 @@
    "units": null,
    "houses": [],
    "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312926&multi_itm_seq=2",
-   "src": "sh"
-  },
-  {
-   "id": "sh-312850",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "2026년 마곡 도전숙 예비1차 당첨자 발표",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-06",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312850&multi_itm_seq=2",
    "src": "sh"
   },
   {
@@ -13632,7 +13790,7 @@
    "apply_start": "2026-11-13",
    "apply_end": "2026-11-17",
    "winner_date": "2027-02-18",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 87,
    "houses": [
     {
@@ -15372,7 +15530,7 @@
    "apply_start": "2026-11-02",
    "apply_end": "2026-11-17",
    "winner_date": "2026-11-26",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 300,
    "houses": [
     {
@@ -15938,7 +16096,7 @@
    "apply_start": "2026-11-02",
    "apply_end": "2026-11-17",
    "winner_date": "2026-11-26",
-   "status": "정정공고중",
+   "status": "접수마감",
    "units": 300,
    "houses": [
     {
