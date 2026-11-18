@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 03:23",
+ "updated": "2026-11-18 10:12",
  "categories": [
   "모집공고 분석",
   "부동산 인사이트",
@@ -14,10 +14,10 @@
   "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-3%EC%A3%BC%EC%B0%A8",
   "https://sohyun-richlab.tistory.com/entry/yeonsan-centum-world-meridian-result",
   "https://sohyun-richlab.tistory.com/entry/trivn-centum-2-result",
-  "https://sohyun-richlab.tistory.com/entry/sinbunpyeong-epit-thewaycity-result",
-  "https://sohyun-richlab.tistory.com/entry/gtx-unjeong-cityprodium-4-result",
+  "https://sohyun-richlab.tistory.com/entry/cheongyak-gajeom-gyesan",
   "https://sohyun-richlab.tistory.com/entry/%EC%95%84%EB%A5%B4%EB%AE%A4%EC%A0%9C%EC%9E%90%EC%9D%B4-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
-  "https://sohyun-richlab.tistory.com/entry/cheongyak-gajeom-gyesan"
+  "https://sohyun-richlab.tistory.com/entry/news-bujeong-cheongyak-354",
+  "https://sohyun-richlab.tistory.com/entry/%EC%9D%98%EC%A0%95%EB%B6%80%EC%97%AD%ED%8E%A0%EB%A6%AC%EC%8A%A4%ED%83%80%EC%9B%8C%EC%96%91%EC%9A%B0%EB%82%B4%EC%95%88%EC%95%A0-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8"
  ],
  "posts": {
   "모집공고 분석": [
@@ -72,6 +72,14 @@
   ],
   "부동산 인사이트": [
    {
+    "title": "주거실태조사 뉴스 읽기 │ 자가보유율 62%, 세입자 임대료 부담 17%",
+    "url": "https://sohyun-richlab.tistory.com/entry/news-juge-silttae-josa-2025",
+    "date": "08-00-25",
+    "summary": "국토교통부가 전국 6만 1천 가구를 조사한 「2025년도 주거실태조사」 결과를 발표했어요.자가보유율은 62.0%로 올랐지만, 전·월세를 사는 가구가 소득에서 임대",
+    "category": "부동산 인사이트",
+    "thumb": "assets/thumbs/d6eec80cf8ec4a7b.jpg"
+   },
+   {
     "title": "이번 주 청약 일정 11월 3주차 │ 접수 21개 단지·지난주 경쟁률 정리",
     "url": "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-3%EC%A3%BC%EC%B0%A8",
     "date": "2026-11-16",
@@ -110,14 +118,6 @@
     "summary": "정부가 서울 경계 약 5km 안의 경기도 6곳을 새 공공주택 택지 후보지로 발표했어요.모두 합쳐 7만6700호, 앞서 발표한 3곳까지 더하면 10만3900호예요.",
     "category": "부동산 인사이트",
     "thumb": "assets/thumbs/df53a66a50c0046a.jpg"
-   },
-   {
-    "title": "이번 주 청약 일정 10월 5주차 │ 접수 22개 단지·지난주 경쟁률 정리",
-    "url": "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-10%EC%9B%94-5%EC%A3%BC%EC%B0%A8",
-    "date": "2026-10-26",
-    "summary": "10월 26일(월)부터 11월 1일(일)까지 청약 접수가 있는 단지와, 지난주(10.19~10.25) 접수를 마친 단지의 경쟁률을 청약홈 자료로 정리했어요.이번 ",
-    "category": "부동산 인사이트",
-    "thumb": "assets/thumbs/1fff89a2ce98fe06.jpg"
    }
   ],
   "청약 가이드": [
@@ -172,6 +172,22 @@
   ],
   "청약결과 해석": [
    {
+    "title": "남춘천 센트레빌 청약 결과 | 1순위 접수 208건, 2순위까지 67세대 미달",
+    "url": "https://sohyun-richlab.tistory.com/entry/namchuncheon-centreville-result",
+    "date": "10-00-23",
+    "summary": "[세줄요약]1. 남춘천 센트레빌은 일반공급 238세대에 1순위 208건이 접수됐고, 7개 타입 가운데 59㎡A·84㎡A·84㎡E 3개만 1순위에서 마감했어요. 나",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/1094d4f8f5ad9523.jpg"
+   },
+   {
+    "title": "광교 자연앤 센트레빌 청약 결과 | 일반 90세대에 1순위 16,587건, 기타경기 960.50 대 1",
+    "url": "https://sohyun-richlab.tistory.com/entry/gwanggyo-jayeon-centreville-result",
+    "date": "09-00-23",
+    "summary": "[세줄요약]1. 광교 자연앤 센트레빌(A17BL) 공공분양 84㎡는 일반공급 90세대에 1순위 16,587건이 접수돼 세 타입 모두 1순위에서 마감했어요. 단순 ",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/ea743fbf3e21b4f0.jpg"
+   },
+   {
     "title": "화성 향남 롯데캐슬 시그니처 청약 결과 | 1순위 접수 354건, 2순위까지 980세대 미달",
     "url": "https://sohyun-richlab.tistory.com/entry/hyangnam-lottecastle-signature-result",
     "date": "2026-11-16",
@@ -202,22 +218,6 @@
     "summary": "[세줄요약]1. 트리븐센텀 2단지는 일반공급 774세대에 1순위 153건, 2순위 73건이 접수돼 2순위까지 받은 뒤에도 548세대가 미달됐어요. 5개 타입 모두",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/012c1bd4ac71e31f.jpg"
-   },
-   {
-    "title": "신분평 에피트 더웨이시티 청약 결과 | 84㎡A 2.19 대 1, 2순위까지 89세대 미달",
-    "url": "https://sohyun-richlab.tistory.com/entry/sinbunpyeong-epit-thewaycity-result",
-    "date": "2026-11-14",
-    "summary": "[세줄요약]1. 신분평 에피트 더웨이시티는 일반공급 830세대(특별공급에서 넘어온 329세대 포함)에 1순위 1,063건, 2순위 170건이 접수돼 2순위까지 3",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/d75757e7f53c6650.jpg"
-   },
-   {
-    "title": "GTX운정중앙역 시티프라디움 4단지 청약 결과 | 60㎡ 73.3 대 1, 최저 가점 63점",
-    "url": "https://sohyun-richlab.tistory.com/entry/gtx-unjeong-cityprodium-4-result",
-    "date": "2026-11-14",
-    "summary": "[세줄요약]1. GTX운정중앙역 시티프라디움 4단지는 일반공급 128세대에 1순위 6,624건이 접수돼 평균 51.8 대 1로 두 타입 모두 1순위에서 마감됐어요",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/332890ef7ffffe9c.jpg"
    }
   ],
   "공공임대": []
