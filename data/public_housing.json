@@ -1,29 +1,773 @@
 {
- "updated": "2026-11-18 11:58",
+ "updated": "2026-11-18 20:57",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-18 11:58",
-   "count": 454
+   "at": "2026-11-18 20:57",
+   "count": 460
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-18 11:58",
-   "count": 155
+   "at": "2026-11-18 20:57",
+   "count": 161
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-18 11:58",
+   "at": "2026-11-18 20:57",
    "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-18 11:58",
+   "at": "2026-11-18 20:57",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "sh-313462",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "[예비1차] 2026-2차 사당동 공공원룸 잔여세대 모집공고(26. 6. 26.) 당첨자발표 및 계약 안내",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-18",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313462&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "sh-313455",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "행복주택 예비당첨자 게시",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-18",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313455&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "sh-313424",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "모집공고",
+   "title": "2026년 마포구 신혼부부,청년(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-18",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313424&multi_itm_seq=2",
+   "src": "sh",
+   "detail": {
+    "files": [
+     {
+      "name": "[공고문]신혼부부_청년 맞춤형 공공임대주택(공동체주택) 입주자 추가모집 공고문(2026).pdf",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313424&data_tp=A&file_seq=1"
+     },
+     {
+      "name": "[붙임1-1]신혼부부 공공임대주택 입주신청서.hwpx",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313424&data_tp=A&file_seq=2"
+     },
+     {
+      "name": "[붙임1-2]청년 공공임대주택 입주신청서.hwpx",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313424&data_tp=A&file_seq=3"
+     },
+     {
+      "name": "[붙임2]개인정보수집이용및제3자제공동의서.hwpx",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313424&data_tp=A&file_seq=4"
+     },
+     {
+      "name": "[붙임3]금융정보등(금융신용보험정보)제공동의서.hwpx",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313424&data_tp=A&file_seq=5"
+     },
+     {
+      "name": "[붙임4]근로활동 및 소득신고서.hwpx",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313424&data_tp=A&file_seq=6"
+     },
+     {
+      "name": "[붙임5]자산보유사실확인서.hwpx",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313424&data_tp=A&file_seq=7"
+     },
+     {
+      "name": "[붙임6]예비신혼부부 세대구성확인서.hwpx",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313424&data_tp=A&file_seq=8"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-2015122300021115",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "[정정공고][정정공고] 아산 · 천안지역 국민임대주택 자격완화 예비입주자 모집(2026.11.16.)",
+   "region": "충청남도",
+   "city": "아산시",
+   "notice_date": "2026-11-18",
+   "apply_start": "2026-11-30",
+   "apply_end": "2026-12-02",
+   "winner_date": "2027-02-23",
+   "status": "공고중",
+   "units": 718,
+   "houses": [
+    {
+     "name": "아산창덕에버빌",
+     "addr": "충청남도 아산시 신창면 서부북로 270",
+     "city": "아산시",
+     "total_units": 240,
+     "units": 150,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 6604000,
+     "rent": 56560,
+     "down": 330000,
+     "middle": 0,
+     "balance": 6274000
+    },
+    {
+     "name": "아산남성상아",
+     "addr": "충청남도 아산시 신창면 온천대로 985",
+     "city": "아산시",
+     "total_units": 568,
+     "units": 370,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 5602000,
+     "rent": 63030,
+     "down": 280000,
+     "middle": 0,
+     "balance": 5322000
+    },
+    {
+     "name": "천안금정샛별",
+     "addr": "충청남도 천안시 서북구 성거읍 망향로 811",
+     "city": "천안시 서북구",
+     "total_units": 200,
+     "units": 4,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 6220000,
+     "rent": 150670,
+     "down": 311000,
+     "middle": 0,
+     "balance": 5969000
+    },
+    {
+     "name": "천안대영한아름",
+     "addr": "충청남도 천안시 서북구 성환읍 율금1길 309",
+     "city": "천안시 서북구",
+     "total_units": 196,
+     "units": 45,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 12413000,
+     "rent": 85610,
+     "down": 620000,
+     "middle": 0,
+     "balance": 11793000
+    },
+    {
+     "name": "천안병천레이크팰리스",
+     "addr": "충청남도 천안시 동남구 병천면 충절로 1896",
+     "city": "천안시 동남구",
+     "total_units": 346,
+     "units": 70,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 19691000,
+     "rent": 109390,
+     "down": 984000,
+     "middle": 0,
+     "balance": 18707000
+    },
+    {
+     "name": "천안병천중앙",
+     "addr": "충청남도 천안시 동남구 병천면 충절로 1890",
+     "city": "천안시 동남구",
+     "total_units": 177,
+     "units": 50,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 16400000,
+     "rent": 92080,
+     "down": 820000,
+     "middle": 0,
+     "balance": 15580000
+    },
+    {
+     "name": "천안북면중앙",
+     "addr": "충청남도 천안시 동남구 북면 충절로 1456",
+     "city": "천안시 동남구",
+     "total_units": 924,
+     "units": 29,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 12799000,
+     "rent": 70780,
+     "down": 639000,
+     "middle": 0,
+     "balance": 12160000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021115&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21585&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "게시용_(정정공고)아산,천안지역국민임대주택입주자격완화예비입주자모집공고(2026.11.16).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491962"
+     },
+     {
+      "name": "게시용_(정정공고)아산,천안지역국민임대주택입주자격완화예비입주자모집공고(2026.11.16).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491964"
+     },
+     {
+      "name": "게시용_현장작성용공급신청서(2026.11.16공고).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491977"
+     }
+    ],
+    "images": [
+     {
+      "site": "아산남성상아 국민임대주택",
+      "name": "동호배치도(상아).jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=26589425"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "천안대영한아름",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-29",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-23"
+     },
+     {
+      "site": "병천레이크팰리스",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-29",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-23"
+     },
+     {
+      "site": "천안금정샛별아파트",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-29",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-23"
+     },
+     {
+      "site": "아산남성상아 국민임대주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-29",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-23"
+     },
+     {
+      "site": "천안병천중앙",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-29",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-23"
+     },
+     {
+      "site": "아산창덕에버빌",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-29",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-23"
+     },
+     {
+      "site": "천안북면중앙",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-29",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-23"
+     }
+    ],
+    "sites": [
+     {
+      "name": "아산창덕에버빌",
+      "addr": "충청남도 아산시 신창면 서부북로 270(창덕에버빌)",
+      "total_units": 195,
+      "area": "39.965~39.965",
+      "heating": "개별가스난방",
+      "move_in": "2009.09"
+     },
+     {
+      "name": "아산남성상아 국민임대주택",
+      "addr": "충청남도 아산시 신창면 온천대로 985(아산상아주공아파트)",
+      "total_units": 568,
+      "area": "26.85~56.61",
+      "heating": "개별가스난방",
+      "move_in": "2009.04"
+     },
+     {
+      "name": "천안금정샛별아파트",
+      "addr": "충청남도 천안시 서북구 성거읍 망향로 811 금정샛별임대아파트",
+      "total_units": 5,
+      "area": "36.54~36.54",
+      "heating": "개별가스난방",
+      "move_in": "2015.09"
+     },
+     {
+      "name": "천안대영한아름",
+      "addr": "충청남도 천안시 서북구 성환읍 율금1길 309(대영한아름아파트)",
+      "total_units": 92,
+      "area": "43.2~59.32",
+      "move_in": "1998.12"
+     },
+     {
+      "name": "병천레이크팰리스",
+      "addr": "충청남도 천안시 동남구 병천면 충절로 1896(레이크펠리스)",
+      "total_units": 105,
+      "area": "49.14~49.14",
+      "heating": "개별가스난방"
+     },
+     {
+      "name": "천안병천중앙",
+      "addr": "충청남도 천안시 동남구 병천면 충절로 1890(병천중앙아파트)",
+      "total_units": 26,
+      "area": "46.2~55.98",
+      "move_in": "1995.01"
+     },
+     {
+      "name": "천안북면중앙",
+      "addr": "충청남도 천안시 동남구 북면 충절로 1456(중앙아파트)",
+      "total_units": 39,
+      "area": "39.947~55.94",
+      "move_in": "2010.07"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-2015122300021114",
+   "org": "LH",
+   "deal": "분양",
+   "type": "분양주택",
+   "kind": "모집공고",
+   "title": "[정정공고]경기남부권(안성 동인힐타운) 다세대주택 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+   "region": "경기도",
+   "city": "안성시",
+   "notice_date": "2026-11-18",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-24",
+   "winner_date": "2026-11-26",
+   "status": "공고중",
+   "units": 14,
+   "houses": [
+    {
+     "name": "동인힐타운 A⸱B⸱C동",
+     "addr": "경기도 안성시 공도읍 진사리 20-51",
+     "city": "안성시",
+     "units": 14,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-24",
+     "down": 11000000,
+     "middle": 0,
+     "balance": 99000000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021114&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1520&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(붙임)개인정보수집이용및제3자제공동의서및무주택서약서(양식).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491748"
+     },
+     {
+      "name": "(붙임)세대열람보안각서.pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491749"
+     },
+     {
+      "name": "(참고)위임장(양식).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491753"
+     },
+     {
+      "name": "(참고)주택상태확인서(계약시작성).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491754"
+     },
+     {
+      "name": "경기남부권(안성동인힐타운)다세대주택공가세대일반매각공고문_261105_정정.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491744"
+     },
+     {
+      "name": "경기남부권(안성동인힐타운)다세대주택공가세대일반매각공고문_261105_정정.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491745"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-24",
+      "winner_date": "2026-11-26",
+      "contract_start": "2026-12-21",
+      "contract_end": "2026-12-23"
+     }
+    ],
+    "sites": [
+     {
+      "name": "안성공도 신축다세대(동인힐타운)",
+      "addr": "경기도 안성시 공도읍 진사길 15-58(동인힐타운)",
+      "total_units": 24,
+      "area": "59.31~59.71",
+      "heating": "개별가스난방",
+      "move_in": "2019.01"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-2015122300021113",
+   "org": "LH",
+   "deal": "분양",
+   "type": "분양주택",
+   "kind": "모집공고",
+   "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+   "region": "경기도",
+   "city": "수원시 영통구",
+   "notice_date": "2026-11-18",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-24",
+   "winner_date": "2026-11-26",
+   "status": "공고중",
+   "units": 4,
+   "houses": [
+    {
+     "name": "수원 광교40단지 더포레스트",
+     "addr": "경기도 수원시 영통구 광교마을로 156",
+     "city": "수원시 영통구",
+     "units": 2,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-24",
+     "down": 91600000,
+     "middle": 0,
+     "balance": 824400000
+    },
+    {
+     "name": "수원 광교62단지 더리브",
+     "addr": "경기도 수원시 영통구 센트럴파크로 34",
+     "city": "수원시 영통구",
+     "units": 2,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-24",
+     "down": 140000000,
+     "middle": 0,
+     "balance": 1260000000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021113&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1519&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(붙임)개인정보수집이용및제3자제공동의서및무주택서약서(양식,필수).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491684"
+     },
+     {
+      "name": "(붙임)세대열람보안각서.pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491689"
+     },
+     {
+      "name": "(붙임)토지거래계약허가신청제출서류(필수).zip",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491683"
+     },
+     {
+      "name": "(참고)위임장(양식).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491690"
+     },
+     {
+      "name": "(참고)주택상태확인서(계약시작성).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491691"
+     },
+     {
+      "name": "경기남부권(수원광교)공가세대일반매각공고문(85이하)_261105_정정_2.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491666"
+     },
+     {
+      "name": "경기남부권(수원광교)공가세대일반매각공고문(85이하)_261105_정정_2.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491667"
+     }
+    ],
+    "images": [
+     {
+      "site": "광교40 더포레스트",
+      "name": "26블록 단지조감도(2).JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548069"
+     },
+     {
+      "site": "광교40 더포레스트",
+      "name": "26블록 단지배치도.JPG",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547966"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-24",
+      "winner_date": "2026-11-26",
+      "contract_start": "2026-11-30",
+      "contract_end": "2026-12-31"
+     },
+     {
+      "site": "광교40 더포레스트",
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-24",
+      "winner_date": "2026-11-26",
+      "contract_start": "2026-11-30",
+      "contract_end": "2026-12-31"
+     }
+    ],
+    "sites": [
+     {
+      "name": "광교40 더포레스트",
+      "addr": "경기도 수원시 영통구 광교마을로 156(하동,광교마을40단지)",
+      "area": "74.97~135.74",
+      "heating": "지역난방",
+      "move_in": "2013.12"
+     },
+     {
+      "addr": "경기도 수원시 영통구 센트럴파크로 34(하동,광교센트럴타운62단지)",
+      "area": "74.78~84.92"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-2015122300021112",
+   "org": "LH",
+   "deal": "분양",
+   "type": "분양주택",
+   "kind": "모집공고",
+   "title": "[정정공고]영천문외 센트럴타운 공가세대 일반매각 공고",
+   "region": "경상북도",
+   "city": "영천시",
+   "notice_date": "2026-11-18",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-24",
+   "winner_date": "2026-11-27",
+   "status": "공고중",
+   "units": 70,
+   "houses": [
+    {
+     "name": "영천문외 센트럴타운",
+     "addr": "경상북도 영천시 충효로 39",
+     "city": "영천시",
+     "units": 70,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-24",
+     "down": 8419000,
+     "middle": 0,
+     "balance": 75771000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021112&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1521&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "★공고문_영천문외분양전환후잔여세대일반매각(정정).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491618"
+     },
+     {
+      "name": "★공고문_영천문외분양전환후잔여세대일반매각(정정).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69491625"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-23",
+      "apply_end": "2026-11-24",
+      "docs_start": "2026-11-27",
+      "docs_end": "2026-12-03",
+      "winner_date": "2026-11-27",
+      "contract_start": "2026-12-21",
+      "contract_end": "2026-12-22"
+     }
+    ],
+    "sites": [
+     {
+      "name": "영천문외지구",
+      "addr": "경상북도 영천시 충효로 39(문외동,엘에이치영천센트럴타운)",
+      "total_units": 126,
+      "area": "39.99~51.54",
+      "heating": "개별가스난방",
+      "move_in": "2020.02"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-2015122300021111",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "[정정공고]대전광역시 유성구(유성타워)·대덕구(주은반석) 국민임대(매입형)주택 입주자격완화 예비입주자모집",
+   "region": "대전광역시",
+   "city": "유성구",
+   "notice_date": "2026-11-18",
+   "apply_start": "2026-12-07",
+   "apply_end": "2026-12-09",
+   "winner_date": "2027-03-31",
+   "status": "공고중",
+   "units": 135,
+   "houses": [
+    {
+     "name": "대전유성타워",
+     "addr": "대전광역시 유성구 유성대로668번길 81",
+     "city": "유성구",
+     "total_units": 45,
+     "units": 35,
+     "apply_start": "2026-12-07",
+     "apply_end": "2026-12-09",
+     "deposit": 9440000,
+     "rent": 52580,
+     "down": 472000,
+     "middle": 0,
+     "balance": 8968000
+    },
+    {
+     "name": "대전주은반석",
+     "addr": "대전광역시 대덕구 덕암로154번길 16",
+     "city": "대덕구",
+     "total_units": 141,
+     "units": 100,
+     "apply_start": "2026-12-07",
+     "apply_end": "2026-12-09",
+     "deposit": 9882000,
+     "rent": 81460,
+     "down": 494000,
+     "middle": 0,
+     "balance": 9388000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021111&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21584&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(게시용)국민임대유성타워,주은반석신청시제출양식(공고일2026.11.16.).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69482771"
+     },
+     {
+      "name": "(정정공고)대전광역시유성구ㆍ대덕구국민임대입주자모집공고(2026.11.16.).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69487721"
+     },
+     {
+      "name": "(정정공고)대전광역시유성구ㆍ대덕구국민임대입주자모집공고(2026.11.16.).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69487722"
+     },
+     {
+      "name": "대전주은반석(32㎡)세대내부(예시1,2).zip",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69482826"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "대전주은반석 국민임대",
+      "apply_start": "2026-12-07",
+      "apply_end": "2026-12-09",
+      "docs_start": "2026-12-29",
+      "docs_end": "2026-12-31",
+      "winner_date": "2027-03-31"
+     },
+     {
+      "site": "대전유성타워 국민임대",
+      "apply_start": "2026-12-07",
+      "apply_end": "2026-12-09",
+      "docs_start": "2026-12-29",
+      "docs_end": "2026-12-31",
+      "winner_date": "2027-03-31"
+     }
+    ],
+    "sites": [
+     {
+      "name": "대전유성타워 국민임대",
+      "addr": "대전광역시 유성구 유성대로668번길 81(구암동,유성타워) (유성타워임대아파트)",
+      "total_units": 45,
+      "area": "21.42~46.02",
+      "heating": "개별가스난방",
+      "move_in": "2011.04"
+     },
+     {
+      "name": "대전주은반석 국민임대",
+      "addr": "대전광역시 대덕구 덕암로154번길 16(상서동,반석아파트)",
+      "total_units": 141,
+      "area": "32.64~39.93",
+      "heating": "개별가스난방",
+      "move_in": "2011.11"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
   {
    "id": "lh-2015122300021110",
    "org": "LH",
@@ -277,6 +1021,332 @@
       "area": "33.24~55.83",
       "heating": "개별가스난방",
       "move_in": "2010.09"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-2015122300021108",
+   "org": "LH",
+   "deal": "임대",
+   "type": "행복주택",
+   "kind": "모집공고",
+   "title": "수원당수 1, 2단지 행복주택 입주자격완화 동호지정 입주자 모집[선계약/후검증]('26.11.18.)",
+   "region": "경기도",
+   "city": null,
+   "notice_date": "2026-11-18",
+   "apply_start": null,
+   "apply_end": "2026-12-02",
+   "winner_date": null,
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021108&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(별첨1)수원당수1,2단지행복주택모집주택목록..xlsx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69475598"
+     },
+     {
+      "name": "(별첨2)단지별특성(수원당수).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69475599"
+     },
+     {
+      "name": "(붙임1~4)신청자모두필수제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69475600"
+     },
+     {
+      "name": "(붙임5~7)해당자만제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69475601"
+     },
+     {
+      "name": "수원당수1,2단지행복주택입주자격완화동호지정입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69482021"
+     },
+     {
+      "name": "수원당수1,2단지행복주택입주자격완화동호지정입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69482022"
+     }
+    ],
+    "images": [
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "name": "수원당수A-1BL지역조감도_저.jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46463051"
+     },
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "name": "수원당수A-1BL지구조감도_저.jpg",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46463052"
+     },
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "name": "수원당수A-1단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=50981189"
+     },
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "name": "수원당수A-1단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=50981190"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "지역조감도(low).jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126231"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "지구조감도(low).jpg",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126232"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "단지조감도(low).jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126233"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "단지배치도(low)-01.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126234"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "동호배치도(low).jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126235"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "winner_date": "2026-12-04"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "winner_date": "2026-12-04"
+     }
+    ],
+    "sites": [
+     {
+      "name": "수원당수 A-1블록 행복주택",
+      "addr": "경기도 수원시 권선구 당수로130번길 13(당수동)",
+      "total_units": 1350,
+      "area": "14.87~44.59",
+      "heating": "지역난방",
+      "move_in": "2023.04"
+     },
+     {
+      "name": "수원당수 A-2블록 행복주택",
+      "addr": "경기도 수원시 권선구 당수1로 15(금곡동)",
+      "total_units": 1150,
+      "area": "14.88~44.53",
+      "heating": "지역난방",
+      "move_in": "2024.02"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-2015122300021103",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "대구금호5 국민임대주택 입주자격 완화 동호지정 입주자모집",
+   "region": "대구광역시",
+   "city": null,
+   "notice_date": "2026-11-18",
+   "apply_start": "2026-12-02",
+   "apply_end": "2026-12-03",
+   "winner_date": "2026-12-08",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021103&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "(국민임대_양식_HWP)개인정보수집이용및제3자제공동의서등.zip",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69467031"
+     },
+     {
+      "name": "★261118대구금호5국민임대주택입주자격완화동호지정입주자모집공고.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69473641"
+     },
+     {
+      "name": "★261118대구금호5국민임대주택입주자격완화동호지정입주자모집공고.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69473645"
+     },
+     {
+      "name": "팜플렛(대구금호5단지).pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69467010"
+     }
+    ],
+    "images": [
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5위치도.JPG",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899443"
+     },
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5위치도2.JPG",
+      "kind": "토지이용계획도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899444"
+     },
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5지구조감도.JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899442"
+     },
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5-33-1.JPG",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899447"
+     },
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5-26-1.JPG",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899445"
+     },
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5-33-2.JPG",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899448"
+     },
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5-46-1.JPG",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899449"
+     },
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5-46-2.JPG",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899450"
+     },
+     {
+      "site": "대구금호 A-3BL 국민임대",
+      "name": "금호5-26-2.JPG",
+      "kind": "호실사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39899446"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-02",
+      "apply_end": "2026-12-03",
+      "winner_date": "2026-12-08"
+     }
+    ],
+    "sites": [
+     {
+      "name": "대구금호 A-3BL 국민임대",
+      "addr": "대구광역시 북구 내곡로 69(사수동,대구금호엘에이치천년나무5단지)",
+      "total_units": 1252,
+      "area": "26.97~46.94",
+      "heating": "개별가스난방",
+      "move_in": "2017.01"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-0000061216",
+   "org": "LH",
+   "deal": "분양",
+   "type": "분양주택",
+   "kind": "모집공고",
+   "title": "[정정공고]대전대동2 1BL 공공분양 추가 입주자모집공고[선착순 동호지정/계약금 정액제(천만원)]",
+   "region": "대전광역시",
+   "city": "동구",
+   "notice_date": "2026-11-18",
+   "apply_start": "2026-11-30",
+   "apply_end": "2027-10-30",
+   "winner_date": "2027-10-30",
+   "status": "공고중",
+   "units": 687,
+   "houses": [
+    {
+     "name": "대전대동2 1블록",
+     "addr": "대전광역시 동구 대송길 56",
+     "city": "동구",
+     "units": 687,
+     "apply_start": "2026-11-30",
+     "apply_end": "2027-10-30",
+     "down": 10000000,
+     "middle": 0,
+     "balance": 277500000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061216&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1523&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(양식)개인정보수집·이용및제3자제공동의서.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69476123"
+     },
+     {
+      "name": "(양식)위임장.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69476121"
+     },
+     {
+      "name": "(정정)대전대동21블록공공분양추가입주자모집공고문(안).hwpx",
+      "kind": "정정공고문(HWP)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69476023"
+     },
+     {
+      "name": "(정정)대전대동21블록공공분양추가입주자모집공고문(안).pdf",
+      "kind": "정정공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69476027"
+     },
+     {
+      "name": "261118잔여세대동호표(대동21블록).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69476098"
+     },
+     {
+      "name": "대전대동2_1블록_공공분양_팸플릿.pdf",
+      "kind": "정정카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69476113"
      }
     ],
     "at": "2026-11-18"
@@ -2804,7 +3874,7 @@
    "apply_start": "2026-12-07",
    "apply_end": "2026-12-09",
    "winner_date": "2027-03-31",
-   "status": "공고중",
+   "status": "정정공고중",
    "units": 135,
    "houses": [
     {
@@ -5484,7 +6554,7 @@
    "apply_start": "2026-11-30",
    "apply_end": "2026-12-02",
    "winner_date": "2027-02-23",
-   "status": "공고중",
+   "status": "정정공고중",
    "units": 718,
    "houses": [
     {
@@ -7639,7 +8709,7 @@
    "kind": "모집공고",
    "title": "[대전·충남] 2026년 2차 든든전세주택 입주자 모집공고 (분양전환형)",
    "region": "충청남도",
-   "city": "당진시",
+   "city": "천안시 서북구",
    "notice_date": "2026-11-13",
    "apply_start": "2026-11-23",
    "apply_end": "2026-11-25",
@@ -7647,13 +8717,6 @@
    "status": "공고중",
    "units": 106,
    "houses": [
-    {
-     "city": "당진시",
-     "units": 44,
-     "apply_start": "2026-11-23",
-     "apply_end": "2026-11-25",
-     "middle": 0
-    },
     {
      "city": "천안시 서북구",
      "units": 33,
@@ -7664,6 +8727,13 @@
     {
      "city": "아산시",
      "units": 29,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-25",
+     "middle": 0
+    },
+    {
+     "city": "당진시",
+     "units": 44,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-25",
      "middle": 0
@@ -8697,42 +9767,6 @@
      {
       "name": "[별지1~3] 옥류서원 입주신청서양식 (261111).docx",
       "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313161&data_tp=A&file_seq=2"
-     }
-    ],
-    "at": "2026-11-11"
-   }
-  },
-  {
-   "id": "sh-312903",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "모집공고",
-   "title": "[청년형] 특화형 매입임대주택 입주자 모집 공고(운영기관 : 한지붕 협동조합)",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-11",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312903&multi_itm_seq=2",
-   "src": "sh",
-   "detail": {
-    "files": [
-     {
-      "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_구천면로 46길 38 리츠하우스 401호.pdf",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=1"
-     },
-     {
-      "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_독산로22길 75 은행나무 A동 302호.pdf",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=2"
-     },
-     {
-      "name": "[한지붕협동조합]SH특화형 매입임대주택(청년) 입주자 모집 공고문_은행나무로12길 50 파크빌오나동 203호.pdf",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=312903&data_tp=A&file_seq=3"
      }
     ],
     "at": "2026-11-11"
@@ -9821,25 +10855,6 @@
    }
   },
   {
-   "id": "sh-313038",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "[예비2차] 2026년 신내의료안심주택 잔여세대 입주자모집공고(26. 1. 15.) 당첨자발표 및 계약 안내",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-09",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313038&multi_itm_seq=2",
-   "src": "sh"
-  },
-  {
    "id": "lh-2015122300021031",
    "org": "LH",
    "deal": "임대",
@@ -10388,25 +11403,6 @@
    "src": "sh"
   },
   {
-   "id": "sh-312926",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "2026년 1차 청년안심주택(2026. 3. 31. 공고) 예비2차 당첨자 발표",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-06",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=312926&multi_itm_seq=2",
-   "src": "sh"
-  },
-  {
    "id": "myhome-r21512",
    "org": "경남개발공사",
    "deal": "임대",
@@ -10414,7 +11410,7 @@
    "kind": "모집공고",
    "title": "2026년 청년매입임대주택 입주자모집 공고",
    "region": "경상남도",
-   "city": "진주시",
+   "city": "김해시",
    "notice_date": "2026-11-06",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
@@ -10423,15 +11419,15 @@
    "units": 40,
    "houses": [
     {
-     "city": "진주시",
-     "units": 30,
+     "city": "김해시",
+     "units": 10,
      "apply_start": "2026-11-16",
      "apply_end": "2026-11-18",
      "middle": 0
     },
     {
-     "city": "김해시",
-     "units": 10,
+     "city": "진주시",
+     "units": 30,
      "apply_start": "2026-11-16",
      "apply_end": "2026-11-18",
      "middle": 0
@@ -10904,6 +11900,48 @@
    "src": "sh"
   },
   {
+   "id": "myhome-s1511",
+   "org": "LH",
+   "deal": "분양",
+   "type": null,
+   "kind": "모집공고",
+   "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+   "region": "경기도",
+   "city": "수원시 영통구",
+   "notice_date": "2026-11-05",
+   "apply_start": "2026-11-23",
+   "apply_end": "2026-11-24",
+   "winner_date": "2026-11-26",
+   "status": "공고중",
+   "units": 4,
+   "houses": [
+    {
+     "name": "수원 광교40단지 더포레스트",
+     "addr": "경기도 수원시 영통구 광교마을로 156",
+     "city": "수원시 영통구",
+     "units": 2,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-24",
+     "down": 91600000,
+     "middle": 0,
+     "balance": 824400000
+    },
+    {
+     "name": "수원 광교62단지 더리브",
+     "addr": "경기도 수원시 영통구 센트럴파크로 34",
+     "city": "수원시 영통구",
+     "units": 2,
+     "apply_start": "2026-11-23",
+     "apply_end": "2026-11-24",
+     "down": 140000000,
+     "middle": 0,
+     "balance": 1260000000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021027&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+   "src": "myhome"
+  },
+  {
    "id": "myhome-s1509",
    "org": "LH",
    "deal": "분양",
@@ -10946,131 +11984,35 @@
    "src": "myhome"
   },
   {
-   "id": "lh-2015122300021027",
+   "id": "myhome-s1508",
    "org": "LH",
    "deal": "분양",
-   "type": "분양주택",
+   "type": null,
    "kind": "모집공고",
-   "title": "[정정공고]경기남부권(수원 광교) 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
+   "title": "경기남부권(안성 동인힐타운) 다세대주택 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
    "region": "경기도",
-   "city": "수원시 영통구",
+   "city": "안성시",
    "notice_date": "2026-11-05",
    "apply_start": "2026-11-23",
    "apply_end": "2026-11-24",
    "winner_date": "2026-11-26",
    "status": "공고중",
-   "units": 4,
+   "units": 14,
    "houses": [
     {
-     "name": "수원 광교40단지 더포레스트",
-     "addr": "경기도 수원시 영통구 광교마을로 156",
-     "city": "수원시 영통구",
-     "units": 2,
+     "name": "동인힐타운 A⸱B⸱C동",
+     "addr": "경기도 안성시 공도읍 진사리 20-51",
+     "city": "안성시",
+     "units": 14,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-24",
-     "down": 91600000,
+     "down": 11000000,
      "middle": 0,
-     "balance": 824400000
-    },
-    {
-     "name": "수원 광교62단지 더리브",
-     "addr": "경기도 수원시 영통구 센트럴파크로 34",
-     "city": "수원시 영통구",
-     "units": 2,
-     "apply_start": "2026-11-23",
-     "apply_end": "2026-11-24",
-     "down": 140000000,
-     "middle": 0,
-     "balance": 1260000000
+     "balance": 99000000
     }
    ],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021027&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-   "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1511&houseSn=1",
-   "detail": {
-    "files": [
-     {
-      "name": "(붙임)개인정보수집이용및제3자제공동의서및무주택서약서(양식,필수).pdf",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69315659"
-     },
-     {
-      "name": "(붙임)세대열람보안각서.pdf",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69315660"
-     },
-     {
-      "name": "(붙임)토지거래계약허가신청제출서류(필수).zip",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69315658"
-     },
-     {
-      "name": "(참고)위임장(양식).pdf",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69315662"
-     },
-     {
-      "name": "(참고)주택상태확인서(계약시작성).pdf",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69315663"
-     },
-     {
-      "name": "경기남부권(수원광교)공가세대일반매각공고문(85이하)_261105_정정.hwpx",
-      "kind": "공고문(hwp)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69315655"
-     },
-     {
-      "name": "경기남부권(수원광교)공가세대일반매각공고문(85이하)_261105_정정.pdf",
-      "kind": "공고문(PDF)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69315656"
-     }
-    ],
-    "images": [
-     {
-      "site": "광교40 더포레스트",
-      "name": "26블록 단지조감도(2).JPG",
-      "kind": "단지조감도",
-      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24548069"
-     },
-     {
-      "site": "광교40 더포레스트",
-      "name": "26블록 단지배치도.JPG",
-      "kind": "단지배치도",
-      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=24547966"
-     }
-    ],
-    "schedule": [
-     {
-      "apply_start": "2026-11-23",
-      "apply_end": "2026-11-24",
-      "winner_date": "2026-11-26",
-      "contract_start": "2026-11-30",
-      "contract_end": "2026-12-31"
-     },
-     {
-      "site": "광교40 더포레스트",
-      "apply_start": "2026-11-23",
-      "apply_end": "2026-11-24",
-      "winner_date": "2026-11-26",
-      "contract_start": "2026-11-30",
-      "contract_end": "2026-12-31"
-     }
-    ],
-    "sites": [
-     {
-      "name": "광교40 더포레스트",
-      "addr": "경기도 수원시 영통구 광교마을로 156(하동,광교마을40단지)",
-      "area": "74.97~135.74",
-      "heating": "지역난방",
-      "move_in": "2013.12"
-     },
-     {
-      "addr": "경기도 수원시 영통구 센트럴파크로 34(하동,광교센트럴타운62단지)",
-      "area": "74.78~84.92"
-     }
-    ],
-    "at": "2026-11-11"
-   }
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021015&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
+   "src": "myhome"
   },
   {
    "id": "lh-2015122300021026",
@@ -11085,7 +12027,7 @@
    "apply_start": "2026-11-18",
    "apply_end": "2026-11-18",
    "winner_date": "2027-03-26",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 100,
    "houses": [
     {
@@ -11397,7 +12339,7 @@
    "apply_start": "2026-11-18",
    "apply_end": "2026-11-18",
    "winner_date": "2027-03-26",
-   "status": "정정공고중",
+   "status": "접수마감",
    "units": 100,
    "houses": [
     {
@@ -11476,92 +12418,6 @@
       "area": "39.72~51.93",
       "heating": "지역난방",
       "move_in": "2008.07"
-     }
-    ],
-    "at": "2026-11-11"
-   }
-  },
-  {
-   "id": "lh-2015122300021015",
-   "org": "LH",
-   "deal": "분양",
-   "type": "분양주택",
-   "kind": "모집공고",
-   "title": "경기남부권(안성 동인힐타운) 다세대주택 공가세대 일반매각 공고(무순위, 무주택세대구성원)",
-   "region": "경기도",
-   "city": "안성시",
-   "notice_date": "2026-11-05",
-   "apply_start": "2026-11-23",
-   "apply_end": "2026-11-24",
-   "winner_date": "2026-11-26",
-   "status": "공고중",
-   "units": 14,
-   "houses": [
-    {
-     "name": "동인힐타운 A⸱B⸱C동",
-     "addr": "경기도 안성시 공도읍 진사리 20-51",
-     "city": "안성시",
-     "units": 14,
-     "apply_start": "2026-11-23",
-     "apply_end": "2026-11-24",
-     "down": 11000000,
-     "middle": 0,
-     "balance": 99000000
-    }
-   ],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021015&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-   "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1508&houseSn=1",
-   "detail": {
-    "files": [
-     {
-      "name": "(붙임)개인정보수집이용및제3자제공동의서및무주택서약서(양식).pdf",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69290759"
-     },
-     {
-      "name": "(붙임)세대열람보안각서.pdf",
-      "kind": "공고문(PDF)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69293774"
-     },
-     {
-      "name": "(참고)위임장(양식).pdf",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69290761"
-     },
-     {
-      "name": "(참고)주택상태확인서(계약시작성).pdf",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69290762"
-     },
-     {
-      "name": "경기남부권(안성동인힐타운)다세대주택공가세대일반매각공고문_261105.hwpx",
-      "kind": "공고문(hwp)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69290742"
-     },
-     {
-      "name": "경기남부권(안성동인힐타운)다세대주택공가세대일반매각공고문_261105.pdf",
-      "kind": "공고문(PDF)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69290744"
-     }
-    ],
-    "schedule": [
-     {
-      "apply_start": "2026-11-23",
-      "apply_end": "2026-11-24",
-      "winner_date": "2026-11-26",
-      "contract_start": "2026-12-21",
-      "contract_end": "2026-12-23"
-     }
-    ],
-    "sites": [
-     {
-      "name": "안성공도 신축다세대(동인힐타운)",
-      "addr": "경기도 안성시 공도읍 진사길 15-58(동인힐타운)",
-      "total_units": 24,
-      "area": "59.31~59.71",
-      "heating": "개별가스난방",
-      "move_in": "2019.01"
      }
     ],
     "at": "2026-11-11"
@@ -12605,7 +13461,7 @@
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-18",
    "winner_date": "2026-11-30",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 387,
    "houses": [
     {
@@ -13108,7 +13964,7 @@
    "apply_start": "2026-11-23",
    "apply_end": "2026-11-24",
    "winner_date": "2026-11-27",
-   "status": "공고중",
+   "status": "정정공고중",
    "units": 70,
    "houses": [
     {
@@ -13191,7 +14047,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
    "winner_date": "2026-12-30",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 170,
    "houses": [
     {
@@ -13319,7 +14175,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
    "winner_date": "2027-02-23",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 80,
    "houses": [
     {
@@ -13671,7 +14527,7 @@
    "apply_start": null,
    "apply_end": "2026-11-18",
    "winner_date": null,
-   "status": "정정공고중",
+   "status": "접수마감",
    "units": null,
    "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061196&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
@@ -14152,7 +15008,7 @@
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
    "winner_date": "2026-11-20",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 35,
    "houses": [
     {
@@ -22361,48 +23217,13 @@
    "city": null,
    "notice_date": "2026-09-04",
    "apply_start": null,
-   "apply_end": "2026-11-13",
+   "apply_end": "2027-10-30",
    "winner_date": null,
    "status": "접수마감",
    "units": null,
    "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061171&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
-   "src": "lh",
-   "detail": {
-    "files": [
-     {
-      "name": "(양식)개인정보수집·이용및제3자제공동의서.hwpx",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68435586"
-     },
-     {
-      "name": "(양식)위임장.hwpx",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68435590"
-     },
-     {
-      "name": "260904대전대동21블록공공분양추가입주자모집공고문(최종).hwpx",
-      "kind": "공고문(hwp)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68448785"
-     },
-     {
-      "name": "260904대전대동21블록공공분양추가입주자모집공고문(최종).pdf",
-      "kind": "공고문(PDF)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68448771"
-     },
-     {
-      "name": "대전대동2_1블록_공공분양_팸플릿.pdf",
-      "kind": "카탈로그",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68435581"
-     },
-     {
-      "name": "잔여세대동호표(대동21블록).pdf",
-      "kind": "기타 첨부파일",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68435576"
-     }
-    ],
-    "at": "2026-11-11"
-   }
+   "src": "lh"
   },
   {
    "id": "lh-2015122300020685",
