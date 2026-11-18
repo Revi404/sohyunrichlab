@@ -1,29 +1,347 @@
 {
- "updated": "2026-11-17 22:38",
+ "updated": "2026-11-18 11:58",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-17 22:38",
-   "count": 458
+   "at": "2026-11-18 11:58",
+   "count": 454
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-17 22:38",
-   "count": 160
+   "at": "2026-11-18 11:58",
+   "count": 155
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-17 22:38",
+   "at": "2026-11-18 11:58",
    "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-17 22:38",
+   "at": "2026-11-18 11:58",
    "count": 19
   }
  },
  "notices": [
+  {
+   "id": "lh-2015122300021110",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "[정정공고]양산시 국민임대주택 예비입주자 완화 모집('26.11.16)_소득, 자산, 무주택 요건 완화 / 계약금 인하",
+   "region": "경상남도",
+   "city": "양산시",
+   "notice_date": "2026-11-18",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-02",
+   "winner_date": "2027-02-26",
+   "status": "공고중",
+   "units": 260,
+   "houses": [
+    {
+     "name": "양산물금1",
+     "addr": "경상남도 양산시 물금읍 청운로 41",
+     "city": "양산시",
+     "total_units": 1105,
+     "units": 30,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12634000,
+     "rent": 226660,
+     "down": 500000,
+     "middle": 0,
+     "balance": 12134000
+    },
+    {
+     "name": "양산물금2",
+     "addr": "경상남도 양산시 물금읍 물금2길 50",
+     "city": "양산시",
+     "total_units": 452,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12478000,
+     "rent": 227860,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11978000
+    },
+    {
+     "name": "금산휴먼시아",
+     "addr": "경상남도 양산시 동면 금산2길 12",
+     "city": "양산시",
+     "total_units": 1300,
+     "units": 50,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12137000,
+     "rent": 101150,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11637000
+    },
+    {
+     "name": "소주휴먼시아",
+     "addr": "경상남도 양산시 번영로 435",
+     "city": "양산시",
+     "total_units": 937,
+     "units": 80,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12422000,
+     "rent": 104170,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11922000
+    },
+    {
+     "name": "평산휴먼시아",
+     "addr": "경상남도 양산시 배움터길 11",
+     "city": "양산시",
+     "total_units": 1385,
+     "units": 80,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-02",
+     "deposit": 12059000,
+     "rent": 112170,
+     "down": 500000,
+     "middle": 0,
+     "balance": 11559000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021110&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21583&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(정정)양산시국민임대예비입주자완화모집(26.11.16).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481762"
+     },
+     {
+      "name": "(정정)양산시국민임대예비입주자완화모집(26.11.16).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481763"
+     }
+    ],
+    "images": [
+     {
+      "site": "양산 물금1휴먼시아",
+      "name": "물금1,2,5단지위치도.png",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39897621"
+     },
+     {
+      "site": "양산 물금2휴먼시아",
+      "name": "물금1,2,5단지위치도.png",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=39897608"
+     },
+     {
+      "site": "양산 금산휴먼시아",
+      "name": "양산시_양산금산_조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298928"
+     },
+     {
+      "site": "양산 금산휴먼시아",
+      "name": "양산시_양산금산_단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298926"
+     },
+     {
+      "site": "양산 금산휴먼시아",
+      "name": "양산시_양산금산_동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298927"
+     },
+     {
+      "site": "양산 소주휴먼시아",
+      "name": "양산시_양산소주_조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298955"
+     },
+     {
+      "site": "양산 소주휴먼시아",
+      "name": "단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298956"
+     },
+     {
+      "site": "양산 소주휴먼시아",
+      "name": "양산시_양산소주_동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298957"
+     },
+     {
+      "site": "양산 평산휴먼시아",
+      "name": "평산_단지위치도.jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298494"
+     },
+     {
+      "site": "양산 평산휴먼시아",
+      "name": "평산_단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298495"
+     },
+     {
+      "site": "양산 평산휴먼시아",
+      "name": "평산_단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=57298496"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "양산 물금1휴먼시아",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-28",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-26"
+     },
+     {
+      "site": "양산 소주휴먼시아",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-26"
+     },
+     {
+      "site": "양산 물금2휴먼시아",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-26"
+     },
+     {
+      "site": "양산 금산휴먼시아",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-26"
+     },
+     {
+      "site": "양산 평산휴먼시아",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-02",
+      "docs_start": "2026-12-24",
+      "docs_end": "2027-01-05",
+      "winner_date": "2027-02-26"
+     }
+    ],
+    "sites": [
+     {
+      "name": "양산 물금1휴먼시아",
+      "addr": "경상남도 양산시 물금읍 청운로 41(양산신도시엘에이치아파트1단지)",
+      "total_units": 1105,
+      "area": "33.83~51.96",
+      "heating": "지역난방",
+      "move_in": "2016.03"
+     },
+     {
+      "name": "양산 물금2휴먼시아",
+      "addr": "경상남도 양산시 물금읍 물금2길 50(양산신도시엘에이치아파트2단지)",
+      "total_units": 452,
+      "area": "33.83~46.95",
+      "heating": "지역난방",
+      "move_in": "2016.03"
+     },
+     {
+      "name": "양산 금산휴먼시아",
+      "addr": "경상남도 양산시 동면 금산2길 12(휴먼시아아파트)",
+      "total_units": 1300,
+      "area": "36.65~59.88",
+      "heating": "개별난방",
+      "move_in": "2011.05"
+     },
+     {
+      "name": "양산 소주휴먼시아",
+      "addr": "경상남도 양산시 번영로 435(소주동,소주휴먼시아)",
+      "total_units": 937,
+      "area": "33.55~51.55",
+      "heating": "개별난방",
+      "move_in": "2011.08"
+     },
+     {
+      "name": "양산 평산휴먼시아",
+      "addr": "경상남도 양산시 배움터길 11(평산동,평산휴먼시아)",
+      "total_units": 1385,
+      "area": "33.24~55.83",
+      "heating": "개별가스난방",
+      "move_in": "2010.09"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
+  {
+   "id": "lh-0000061214",
+   "org": "LH",
+   "deal": "임대",
+   "type": "가정어린이집",
+   "kind": "모집공고",
+   "title": "충북혁신도시 센텀클래스(B3-1BL) 10년공공임대리츠 가정어린이집 운영예정자 모집 공고",
+   "region": "충청북도",
+   "city": null,
+   "notice_date": "2026-11-18",
+   "apply_start": null,
+   "apply_end": "2026-12-07",
+   "winner_date": "2026-12-10",
+   "status": "공고중",
+   "units": null,
+   "houses": [],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061214&ccrCnntSysDsCd=02&uppAisTpCd=06&aisTpCd=40&mi=1026",
+   "src": "lh",
+   "detail": {
+    "files": [
+     {
+      "name": "충북혁신도시센텀클래스가정어린이집운영예정자모집공고(1회차).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69454456"
+     },
+     {
+      "name": "충북혁신도시센텀클래스가정어린이집운영예정자모집공고(1회차).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69455302"
+     }
+    ],
+    "images": [
+     {
+      "name": "충북혁신B3-1_조감도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69455352"
+     },
+     {
+      "name": "충북혁신도시토지이용계획도.png",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69455353"
+     },
+     {
+      "name": "충북혁신B3-1_배치도.jpg",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=69455354"
+     }
+    ],
+    "schedule": [
+     {
+      "winner_date": "2026-12-10",
+      "contract_start": "2026-12-23",
+      "contract_end": "2026-12-23"
+     }
+    ],
+    "sites": [
+     {
+      "move_in": "2027년 03월"
+     }
+    ],
+    "at": "2026-11-18"
+   }
+  },
   {
    "id": "sh-313484",
    "org": "SH",
@@ -990,7 +1308,7 @@
    "apply_start": "2026-12-01",
    "apply_end": "2026-12-02",
    "winner_date": "2027-02-26",
-   "status": "공고중",
+   "status": "정정공고중",
    "units": 230,
    "houses": [
     {
@@ -7321,7 +7639,7 @@
    "kind": "모집공고",
    "title": "[대전·충남] 2026년 2차 든든전세주택 입주자 모집공고 (분양전환형)",
    "region": "충청남도",
-   "city": "천안시 서북구",
+   "city": "당진시",
    "notice_date": "2026-11-13",
    "apply_start": "2026-11-23",
    "apply_end": "2026-11-25",
@@ -7330,15 +7648,15 @@
    "units": 106,
    "houses": [
     {
-     "city": "천안시 서북구",
-     "units": 33,
+     "city": "당진시",
+     "units": 44,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-25",
      "middle": 0
     },
     {
-     "city": "당진시",
-     "units": 44,
+     "city": "천안시 서북구",
+     "units": 33,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-25",
      "middle": 0
@@ -9529,32 +9847,16 @@
    "kind": "모집공고",
    "title": "[정정공고]'26년 11월 인천시 남동구 국민임대주택 예비입주자 모집 공고(2026.11.05.)",
    "region": "인천광역시",
-   "city": "남동구",
+   "city": null,
    "notice_date": "2026-11-09",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-17",
    "winner_date": "2027-03-11",
    "status": "접수마감",
-   "units": 60,
-   "houses": [
-    {
-     "name": "인천논현3",
-     "addr": "인천광역시 남동구 논현로 45",
-     "city": "남동구",
-     "total_units": 2148,
-     "units": 60,
-     "apply_start": "2026-11-16",
-     "apply_end": "2026-11-17",
-     "deposit": 20365000,
-     "rent": 230130,
-     "down": 1018250,
-     "middle": 0,
-     "balance": 19346750
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021031&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21511&houseSn=1",
    "detail": {
     "files": [
      {
@@ -10112,7 +10414,7 @@
    "kind": "모집공고",
    "title": "2026년 청년매입임대주택 입주자모집 공고",
    "region": "경상남도",
-   "city": "김해시",
+   "city": "진주시",
    "notice_date": "2026-11-06",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-18",
@@ -10121,15 +10423,15 @@
    "units": 40,
    "houses": [
     {
-     "city": "김해시",
-     "units": 10,
+     "city": "진주시",
+     "units": 30,
      "apply_start": "2026-11-16",
      "apply_end": "2026-11-18",
      "middle": 0
     },
     {
-     "city": "진주시",
-     "units": 30,
+     "city": "김해시",
+     "units": 10,
      "apply_start": "2026-11-16",
      "apply_end": "2026-11-18",
      "middle": 0
@@ -10783,7 +11085,7 @@
    "apply_start": "2026-11-18",
    "apply_end": "2026-11-18",
    "winner_date": "2027-03-26",
-   "status": "공고중",
+   "status": "접수중",
    "units": 100,
    "houses": [
     {
@@ -11422,7 +11724,7 @@
    "apply_start": null,
    "apply_end": "2026-11-17",
    "winner_date": null,
-   "status": "공고중",
+   "status": "접수마감",
    "units": null,
    "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021004&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
@@ -11581,31 +11883,16 @@
    "kind": "모집공고",
    "title": "연천전곡1단지 국민임대주택 예비입주자 모집공고(2026.11.05.)",
    "region": "경기도",
-   "city": "연천군",
+   "city": null,
    "notice_date": "2026-11-05",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-17",
    "winner_date": "2027-03-26",
    "status": "접수마감",
-   "units": 30,
-   "houses": [
-    {
-     "name": "연천전곡1",
-     "addr": "경기도 연천군 전곡읍 밤골로 8",
-     "city": "연천군",
-     "units": 30,
-     "apply_start": "2026-11-16",
-     "apply_end": "2026-11-17",
-     "deposit": 14842000,
-     "rent": 125050,
-     "down": 742100,
-     "middle": 0,
-     "balance": 14099900
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020996&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21499&houseSn=1",
    "detail": {
     "files": [
      {
@@ -11651,32 +11938,16 @@
    "kind": "모집공고",
    "title": "'26년 11월 인천시 남동구 국민임대주택 예비입주자 모집 공고(2026.11.05.)",
    "region": "인천광역시",
-   "city": "남동구",
+   "city": null,
    "notice_date": "2026-11-05",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-17",
    "winner_date": "2027-03-11",
    "status": "접수마감",
-   "units": 60,
-   "houses": [
-    {
-     "name": "인천논현3",
-     "addr": "인천광역시 남동구 논현로 45",
-     "city": "남동구",
-     "total_units": 2148,
-     "units": 60,
-     "apply_start": "2026-11-16",
-     "apply_end": "2026-11-17",
-     "deposit": 20365000,
-     "rent": 230130,
-     "down": 1018250,
-     "middle": 0,
-     "balance": 19346750
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020987&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21502&houseSn=1",
    "detail": {
     "files": [
      {
@@ -13785,31 +14056,16 @@
    "kind": "모집공고",
    "title": "담양삼만 통합공공임대(일자리연계형 지원주택) 입주자 추가 모집(2026.10.29. 공고)",
    "region": "전남광주통합특별시",
-   "city": "담양군",
+   "city": null,
    "notice_date": "2026-10-29",
    "apply_start": "2026-11-13",
    "apply_end": "2026-11-17",
    "winner_date": "2027-02-18",
    "status": "접수마감",
-   "units": 87,
-   "houses": [
-    {
-     "name": "담양삼만",
-     "addr": "전남광주통합특별시 담양군 담양읍 삼만리 1241",
-     "city": "담양군",
-     "units": 87,
-     "apply_start": "2026-11-13",
-     "apply_end": "2026-11-17",
-     "deposit": 8545000,
-     "rent": 93890,
-     "down": 427250,
-     "middle": 0,
-     "balance": 8117750
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020905&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21488&houseSn=1",
    "detail": {
     "files": [
      {
@@ -15525,29 +15781,16 @@
    "kind": "모집공고",
    "title": "[정정공고]시흥거모 S-1블록 공공분양주택 입주자모집공고",
    "region": "경기도",
-   "city": "시흥시",
+   "city": null,
    "notice_date": "2026-10-27",
-   "apply_start": "2026-11-02",
+   "apply_start": null,
    "apply_end": "2026-11-17",
-   "winner_date": "2026-11-26",
+   "winner_date": null,
    "status": "접수마감",
-   "units": 300,
-   "houses": [
-    {
-     "name": "시흥거모지구 S-1블록",
-     "addr": "경기도 시흥시 거모동 1403-3",
-     "city": "시흥시",
-     "units": 300,
-     "apply_start": "2026-11-02",
-     "apply_end": "2026-11-17",
-     "down": 19289000,
-     "middle": 115737000,
-     "balance": 195764000
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061195&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1496&houseSn=1",
    "detail": {
     "files": [
      {
@@ -16091,29 +16334,16 @@
    "kind": "모집공고",
    "title": "시흥거모 S-1블록 공공분양주택 입주자모집공고",
    "region": "경기도",
-   "city": "시흥시",
+   "city": null,
    "notice_date": "2026-10-23",
-   "apply_start": "2026-11-02",
+   "apply_start": null,
    "apply_end": "2026-11-17",
-   "winner_date": "2026-11-26",
+   "winner_date": null,
    "status": "접수마감",
-   "units": 300,
-   "houses": [
-    {
-     "name": "시흥거모지구 S-1블록",
-     "addr": "경기도 시흥시 거모동 1403-3",
-     "city": "시흥시",
-     "units": 300,
-     "apply_start": "2026-11-02",
-     "apply_end": "2026-11-17",
-     "down": 19289000,
-     "middle": 115737000,
-     "balance": 195764000
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=0000061186&ccrCnntSysDsCd=02&uppAisTpCd=05&aisTpCd=05&mi=1027",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1494&houseSn=1",
    "detail": {
     "files": [
      {
@@ -23911,105 +24141,10 @@
    "src": "lh"
   },
   {
-   "id": "lh-2015122300020580",
-   "org": "LH",
-   "deal": "임대",
-   "type": "행복주택",
-   "kind": "모집공고",
-   "title": "(2026.08.19.)완주삼봉(A-1,A-3BL) 행복주택 자격완화 예비입주자 모집",
-   "region": "전북특별자치도",
-   "city": null,
-   "notice_date": "2026-08-19",
-   "apply_start": null,
-   "apply_end": "2026-09-04",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020580&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020579",
-   "org": "LH",
-   "deal": "임대",
-   "type": "행복주택",
-   "kind": "모집공고",
-   "title": "(2026.08.19.) 전주덕진 행복주택 예비입주자 모집",
-   "region": "전북특별자치도",
-   "city": null,
-   "notice_date": "2026-08-19",
-   "apply_start": null,
-   "apply_end": "2026-09-04",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020579&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020577",
-   "org": "LH",
-   "deal": "임대",
-   "type": "행복주택",
-   "kind": "모집공고",
-   "title": "서울번동3 행복주택 예비입주자 모집",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-08-19",
-   "apply_start": null,
-   "apply_end": "2026-09-02",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020577&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020576",
-   "org": "LH",
-   "deal": "임대",
-   "type": "행복주택",
-   "kind": "모집공고",
-   "title": "목포용해5(법원), 목포용해2 6-1(포미6), 영암용앙3 예비입주자 모집",
-   "region": "전남광주통합특별시",
-   "city": null,
-   "notice_date": "2026-08-19",
-   "apply_start": null,
-   "apply_end": "2026-09-03",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020576&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020564",
-   "org": "LH",
-   "deal": "임대",
-   "type": "영구임대",
-   "kind": "모집공고",
-   "title": "평택시 지역 영구임대주택 예비입주자 모집(2026.08.19)",
-   "region": "경기도",
-   "city": null,
-   "notice_date": "2026-08-19",
-   "apply_start": null,
-   "apply_end": "2026-09-04",
-   "winner_date": null,
-   "status": "접수마감",
-   "units": null,
-   "houses": [],
-   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020564&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
-   "src": "lh"
-  },
-  {
-   "id": "lh-2015122300020518",
+   "id": "myhome-s1467",
    "org": "LH",
    "deal": "분양",
-   "type": "분양주택",
+   "type": null,
    "kind": "모집공고",
    "title": "울산 중산디아채 잔여세대 일반매각 공고(선착순)",
    "region": "울산광역시",
@@ -24018,7 +24153,7 @@
    "apply_start": "2026-09-01",
    "apply_end": "2026-12-23",
    "winner_date": "2026-12-23",
-   "status": "공고중",
+   "status": "접수중",
    "units": 8,
    "houses": [
     {
@@ -24034,47 +24169,7 @@
     }
    ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020518&ccrCnntSysDsCd=03&uppAisTpCd=05&aisTpCd=05&mi=1027",
-   "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectLttotHouseDetailView.do?pblancId=1467&houseSn=1",
-   "detail": {
-    "files": [
-     {
-      "name": "울산중산디아채위치도및평면도.pdf",
-      "kind": "카탈로그",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68108549"
-     },
-     {
-      "name": "울산중산디아채일반매각공고문(최종).hwpx",
-      "kind": "공고문(hwp)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68108151"
-     },
-     {
-      "name": "울산중산디아채일반매각공고문(최종).pdf",
-      "kind": "공고문(PDF)",
-      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=68108157"
-     }
-    ],
-    "schedule": [
-     {
-      "apply_start": "2026-09-01",
-      "apply_end": "2026-12-23",
-      "winner_date": "2026-12-23",
-      "contract_start": "2026-12-23",
-      "contract_end": "2026-12-23"
-     }
-    ],
-    "sites": [
-     {
-      "name": "울산중산디아채",
-      "addr": "울산광역시 북구 중산동로 37  (중산디아채)",
-      "total_units": 11,
-      "area": "84.9805~84.9921",
-      "heating": "개별가스난방",
-      "move_in": "2024.01"
-     }
-    ],
-    "at": "2026-11-11"
-   }
+   "src": "myhome"
   },
   {
    "id": "myhome-s1466",
