@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 16:49",
+ "updated": "2026-11-20 02:15",
  "categories": [
   "모집공고 분석",
   "부동산 인사이트",
@@ -8,16 +8,16 @@
   "공공임대"
  ],
  "all": [
-  "https://sohyun-richlab.tistory.com/entry/namchuncheon-centreville-result",
+  "https://sohyun-richlab.tistory.com/entry/multi-child-special-supply-requirements",
+  "https://sohyun-richlab.tistory.com/entry/newborn-special-supply-under-2-years",
+  "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-single-household",
+  "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-income-tax-5years",
+  "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-household-history",
+  "https://sohyun-richlab.tistory.com/entry/newlywed-special-supply-asset-test",
+  "https://sohyun-richlab.tistory.com/entry/pyeongtaek-godeok-woomi-lynn-result",
+  "https://sohyun-richlab.tistory.com/entry/hanwha-forena-jije-result",
   "https://sohyun-richlab.tistory.com/entry/news-juge-silttae-josa-2025",
-  "https://sohyun-richlab.tistory.com/entry/gwanggyo-jayeon-centreville-result",
-  "https://sohyun-richlab.tistory.com/entry/%EA%B2%BD%ED%9D%AC%EA%B6%81-%EC%97%90%ED%94%BC%ED%8A%B8-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
-  "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-3%EC%A3%BC%EC%B0%A8",
-  "https://sohyun-richlab.tistory.com/entry/hyangnam-lottecastle-signature-result",
-  "https://sohyun-richlab.tistory.com/entry/cheongna-arcone-prugio-result",
-  "https://sohyun-richlab.tistory.com/entry/%EC%95%84%EB%A5%B4%EB%AE%A4%EC%A0%9C%EC%9E%90%EC%9D%B4-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
-  "https://sohyun-richlab.tistory.com/entry/news-bujeong-cheongyak-354",
-  "https://sohyun-richlab.tistory.com/entry/%EC%9D%98%EC%A0%95%EB%B6%80%EC%97%AD%ED%8E%A0%EB%A6%AC%EC%8A%A4%ED%83%80%EC%9B%8C%EC%96%91%EC%9A%B0%EB%82%B4%EC%95%88%EC%95%A0-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8"
+  "https://sohyun-richlab.tistory.com/entry/namchuncheon-centreville-result"
  ],
  "posts": {
   "모집공고 분석": [
@@ -122,9 +122,33 @@
   ],
   "청약 가이드": [
    {
+    "title": "다자녀 특별공급 자격 정리 │ 미성년 자녀 2명 기준, 태아·입양 포함, 공공 소득 120% (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/multi-child-special-supply-requirements",
+    "date": "2026-11-19",
+    "summary": "특별공급 판정 노트 10번째 이야기는 다자녀가구 특별공급의 기본 자격이에요. 2024년 개정으로 자녀 기준이 2명으로 낮아졌고, 공공이 공급하는 85㎡ 이하 주택",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
+    "title": "신생아 특별공급 '2세 미만' 판정법 │ 공고일 기준, 2세 되는 날 포함, 태아·입양까지 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/newborn-special-supply-under-2-years",
+    "date": "2026-11-19",
+    "summary": "특별공급 판정 노트 9번째 이야기는 신생아 특별공급의 '2세 미만 자녀' 요건이에요. 2026년 6월 15일 전문 개정으로 국민주택과 민영주택 신생아 특별공급이 ",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
+    "title": "미혼 1인 가구 생애최초 특공 조건 │ 60㎡ 이하만, 추첨 물량에서만 경쟁 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-single-household",
+    "date": "2026-11-19",
+    "summary": "특별공급 판정 노트 8번째 이야기는 미혼·무자녀, 특히 1인 가구의 생애최초 특별공급이에요. 신청은 가능하지만 면적 제한과 물량 제한이 함께 붙기 때문에, 어느 ",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
     "title": "생애최초 특공 소득세 5년 납부 요건 │ 근로·사업소득만 인정, 세금 0원 낸 해도 포함 (2026)",
     "url": "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-income-tax-5years",
-    "date": "16-00-00",
+    "date": "2026-11-19",
     "summary": "특별공급 판정 노트 7번째 이야기는 생애최초 특별공급의 '5년 이상 소득세 납부' 요건이에요. 연속 5년이 필요한지, 세금을 한 푼도 안 낸 해는 어떻게 되는지,",
     "category": "청약 가이드",
     "thumb": ""
@@ -132,7 +156,7 @@
    {
     "title": "생애최초 특별공급 '과거 주택 소유 사실 없음' 판정 범위 │ 세대원 전원 기준과 예외 (2026)",
     "url": "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-household-history",
-    "date": "15-00-00",
+    "date": "2026-11-19",
     "summary": "특별공급 판정 노트 6번째 이야기는 생애최초 특별공급의 '생애 최초' 판정이에요. 본인만 집을 가진 적이 없으면 되는 것이 아니라, 세대에 속한 모든 사람이 과거",
     "category": "청약 가이드",
     "thumb": ""
@@ -140,32 +164,8 @@
    {
     "title": "신혼부부 특공 소득 초과해도 신청하는 방법 │ 부동산 자산 기준과 추첨 물량 (2026)",
     "url": "https://sohyun-richlab.tistory.com/entry/newlywed-special-supply-asset-test",
-    "date": "14-00-00",
+    "date": "2026-11-19",
     "summary": "특별공급 판정 노트 5번째 이야기는 소득이 기준을 넘는 신혼부부가 특별공급에 들어가는 길이에요. 규칙은 소득이 140%(맞벌이 160%)를 넘더라도 세대원의 부동",
-    "category": "청약 가이드",
-    "thumb": ""
-   },
-   {
-    "title": "신혼부부 특공 소득 구간별 물량 배정 │ 50%·20%·추첨 30%, 맞벌이 기준 차이 (2026)",
-    "url": "https://sohyun-richlab.tistory.com/entry/newlywed-special-supply-income-tiers",
-    "date": "13-00-00",
-    "summary": "특별공급 판정 노트 4번째 이야기는 신혼부부 특별공급 물량을 소득 구간별로 나누는 방식이에요. 같은 단지라도 우리 집 소득이 어느 구간에 들어가느냐에 따라 경쟁하",
-    "category": "청약 가이드",
-    "thumb": ""
-   },
-   {
-    "title": "신혼부부 특공 같은 순위 경쟁 시 당첨자 고르는 순서 │ 해당지역 → 자녀 수 → 추첨 (2026)",
-    "url": "https://sohyun-richlab.tistory.com/entry/newlywed-special-supply-tie-break",
-    "date": "12-00-00",
-    "summary": "특별공급 판정 노트 3번째 이야기는 신혼부부 특별공급에서 같은 순위끼리 경쟁할 때 당첨자를 고르는 순서예요. 가점제처럼 점수를 매기지 않고, 정해진 순서대로 걸러",
-    "category": "청약 가이드",
-    "thumb": ""
-   },
-   {
-    "title": "신혼부부 특공 1순위·2순위 가르는 기준 │ 혼인 중 출산·임신·입양, 혼인 전 낳은 자녀는? (2026)",
-    "url": "https://sohyun-richlab.tistory.com/entry/newlywed-special-supply-rank-children",
-    "date": "11-00-00",
-    "summary": "특별공급 판정 노트 2번째 이야기는 신혼부부 특별공급의 1순위와 2순위예요. 같은 신혼부부라도 자녀가 언제, 어떤 관계로 생겼느냐에 따라 순위가 갈리고, 1순위가",
     "category": "청약 가이드",
     "thumb": ""
    }
@@ -174,7 +174,7 @@
    {
     "title": "평택 고덕 우미 린 더 프리미어 청약 결과 | 84㎡A 시세보다 낮은 5.9억, 2순위까지 351세대 미달",
     "url": "https://sohyun-richlab.tistory.com/entry/pyeongtaek-godeok-woomi-lynn-result",
-    "date": "09-00-20",
+    "date": "2026-11-19",
     "summary": "[세줄요약]1. 평택 고덕 우미 린 더 프리미어는 일반공급 585세대에 1순위 194건이 접수됐고, 10개 타입 가운데 111㎡A(6세대)만 1순위에서 채웠어요.",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/12bbcf61d54b2f1c.jpg"
@@ -182,7 +182,7 @@
    {
     "title": "한화포레나 지제역 청약 결과 | 1순위 접수 282건, 2순위까지 686세대 미달",
     "url": "https://sohyun-richlab.tistory.com/entry/hanwha-forena-jije-result",
-    "date": "08-00-20",
+    "date": "2026-11-19",
     "summary": "[세줄요약]1. 한화포레나 지제역은 일반공급 1,022세대에 1순위 282건이 접수됐고, 5개 타입 모두 1순위에서 마감하지 못했어요. 2순위 54건까지 받고도 ",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/0017ffc449d1e177.jpg"
