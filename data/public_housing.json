@@ -1,36 +1,36 @@
 {
- "updated": "2026-11-19 11:40",
+ "updated": "2026-11-19 20:54",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-19 11:40",
-   "count": 452
+   "at": "2026-11-19 20:54",
+   "count": 460
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-19 11:40",
-   "count": 155
+   "at": "2026-11-19 20:54",
+   "count": 166
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-19 11:40",
+   "at": "2026-11-19 20:54",
    "count": 8
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-19 11:40",
-   "count": 19
+   "at": "2026-11-19 20:54",
+   "count": 20
   }
  },
  "notices": [
   {
-   "id": "sh-313537",
+   "id": "sh-313610",
    "org": "SH",
    "deal": "임대",
    "type": null,
    "kind": "모집공고",
-   "title": "2026년 영구임대주택 예비입주자 모집 공고",
+   "title": "2026년 영구임대주택 예비입주자모집 공고",
    "region": "서울특별시",
    "city": null,
    "notice_date": "2026-11-19",
@@ -40,21 +40,606 @@
    "status": null,
    "units": null,
    "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313537&multi_itm_seq=2",
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610&multi_itm_seq=2",
    "src": "sh",
    "detail": {
     "files": [
      {
       "name": "26 영구임대 예비입주자 모집공고문.pdf",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=YGYC0101&seq=313537&data_tp=A&file_seq=1"
-     },
-     {
-      "name": "26 영구임대 예비입주자 모집공고 요약본.pdf",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=YGYC0101&seq=313537&data_tp=A&file_seq=2"
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313610&data_tp=A&file_seq=1"
      },
      {
       "name": "영구임대주택신청양식(2026).hwp",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=YGYC0101&seq=313537&data_tp=A&file_seq=3"
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313610&data_tp=A&file_seq=2"
+     },
+     {
+      "name": "26 영구임대 예비입주자 모집공고 요약본.pdf",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313610&data_tp=A&file_seq=3"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "sh-313468",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "2024년 제1차 국민임대주택(2024.09.26.공고) 예비10차 당첨자 및 동호배정 결과",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-19",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313468&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "sh-313467",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "2021년 제1차 국민임대주택(2021.09.24.공고) 예비24차 당첨자 및 동호배정 결과",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-19",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313467&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "sh-313382",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "후속·안내",
+   "title": "[당첨자발표] 청년 매입임대주택 예비자 공급 계약대상자 발표(2025년 2차 예비4차) 및 계약안내",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-19",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313382&multi_itm_seq=2",
+   "src": "sh"
+  },
+  {
+   "id": "sh-313227",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "모집공고",
+   "title": "2026년 하반기 금천구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-19",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313227&multi_itm_seq=2",
+   "src": "sh",
+   "detail": {
+    "files": [
+     {
+      "name": "2026년 하반기 금천구 홀몸어르신 맞춤형 보린주택 입주자 모집 공고문.pdf",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313227&data_tp=A&file_seq=1"
+     },
+     {
+      "name": "신청서식(2026년 하반기 금천구 홀몸어르신 맞춤형 보린주택 입주자 모집).hwp",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313227&data_tp=A&file_seq=2"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "sh-313225",
+   "org": "SH",
+   "deal": "임대",
+   "type": null,
+   "kind": "모집공고",
+   "title": "2026년 하반기 금천구 신혼부부(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+   "region": "서울특별시",
+   "city": null,
+   "notice_date": "2026-11-19",
+   "apply_start": null,
+   "apply_end": null,
+   "winner_date": null,
+   "status": null,
+   "units": null,
+   "houses": [],
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313225&multi_itm_seq=2",
+   "src": "sh",
+   "detail": {
+    "files": [
+     {
+      "name": "2026년 하반기 신혼부부 맞춤형주택 입주자 모집 공고문.pdf",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313225&data_tp=A&file_seq=1"
+     },
+     {
+      "name": "신청서식(2026 하반기 신혼부부 맞춤형 주택).hwp",
+      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313225&data_tp=A&file_seq=2"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "lh-2015122300021121",
+   "org": "LH",
+   "deal": "임대",
+   "type": "행복주택",
+   "kind": "모집공고",
+   "title": "인천논현 LH16단지 (인천논현4 1블록) 창업지원주택 입주자 모집[인정업종 확대, 선착순동호지정, 선계약후검증](입주자모집공고일 : 2026.11.19.)",
+   "region": "인천광역시",
+   "city": "남동구",
+   "notice_date": "2026-11-19",
+   "apply_start": "2026-12-02",
+   "apply_end": "2026-12-02",
+   "winner_date": "2027-03-31",
+   "status": "공고중",
+   "units": 55,
+   "houses": [
+    {
+     "name": "인천논현 LH16단지",
+     "addr": "인천광역시 남동구 은봉로 297",
+     "city": "남동구",
+     "units": 55,
+     "apply_start": "2026-12-02",
+     "apply_end": "2026-12-02",
+     "deposit": 34920000,
+     "rent": 162960,
+     "down": 600000,
+     "middle": 0,
+     "balance": 34320000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021121&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21594&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "[공고문]인천논현LH16단지(인천논현41블록)창업지원주택입주자모집(`26.11.19.공고).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503289"
+     },
+     {
+      "name": "[공고문]인천논현LH16단지(인천논현41블록)창업지원주택입주자모집(`26.11.19.공고).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503290"
+     },
+     {
+      "name": "[동호배치도]인천논현LH16단지창업지원주택(`26.11.19.공고).pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503297"
+     },
+     {
+      "name": "[양식1-1]입주추천신청서.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503838"
+     },
+     {
+      "name": "[양식1-2]개인정보수집·이용및제3자제공동의서(남동구양식).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503839"
+     },
+     {
+      "name": "[양식1-3]사업계획서(예비창업인).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503840"
+     },
+     {
+      "name": "[양식2-1]선계약후검증확약서.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503841"
+     },
+     {
+      "name": "[양식2-2]공급신청서및신청자격자가검증체크리스트.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503842"
+     },
+     {
+      "name": "[양식2-3]개인정보수집이용및제3자제공동의서(LH양식).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503843"
+     },
+     {
+      "name": "[양식2-4]금융정보등(금융,신용,보험정보)제공동의서.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503844"
+     },
+     {
+      "name": "[양식2-5]자산보유사실확인서.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503845"
+     },
+     {
+      "name": "[양식3]위임장양식(대리인신청용).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503846"
+     },
+     {
+      "name": "[팜플렛]인천논현LH16단지창업지원주택.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69503854"
+     }
+    ],
+    "images": [
+     {
+      "site": "인천논현4 1블록 창업지원주택(행복)",
+      "name": "210903인천논현4지구광역도copy.jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=45750841"
+     },
+     {
+      "site": "인천논현4 1블록 창업지원주택(행복)",
+      "name": "단지조감도.JPG",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=45750842"
+     },
+     {
+      "site": "인천논현4 1블록 창업지원주택(행복)",
+      "name": "단지배치도.JPG",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=45750844"
+     },
+     {
+      "site": "인천논현4 1블록 창업지원주택(행복)",
+      "name": "동호배치도.JPG",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=45750843"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-02",
+      "apply_end": "2026-12-02",
+      "winner_date": "2027-03-31"
+     }
+    ],
+    "sites": [
+     {
+      "name": "인천논현4 1블록 창업지원주택(행복)",
+      "addr": "인천광역시 남동구 은봉로 297(논현동)",
+      "total_units": 238,
+      "area": "25.77~44.51",
+      "heating": "지역난방",
+      "move_in": "2022.07"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "lh-2015122300021119",
+   "org": "LH",
+   "deal": "임대",
+   "type": "행복주택",
+   "kind": "모집공고",
+   "title": "[정정공고]수원당수 1, 2단지 행복주택 입주자격완화 동호지정 입주자 모집[선계약/후검증]('26.11.18.)",
+   "region": "경기도",
+   "city": "수원시 권선구",
+   "notice_date": "2026-11-19",
+   "apply_start": "2026-11-30",
+   "apply_end": "2026-12-02",
+   "winner_date": "2026-12-04",
+   "status": "공고중",
+   "units": 174,
+   "houses": [
+    {
+     "name": "수원당수 1단지(A-1BL)",
+     "addr": "경기도 수원시 권선구 당수로130번길 13",
+     "city": "수원시 권선구",
+     "total_units": 1350,
+     "units": 89,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 23460000,
+     "rent": 103610,
+     "down": 1000000,
+     "middle": 0,
+     "balance": 22460000
+    },
+    {
+     "name": "수원당수 2단지(A-2BL)",
+     "addr": "경기도 수원시 권선구 당수1로 15",
+     "city": "수원시 권선구",
+     "total_units": 1150,
+     "units": 85,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 23120000,
+     "rent": 102110,
+     "down": 1000000,
+     "middle": 0,
+     "balance": 22120000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021119&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21592&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(별첨1)수원당수1,2단지행복주택모집주택목록..xlsx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69501024"
+     },
+     {
+      "name": "(별첨2)단지별특성(수원당수).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69501025"
+     },
+     {
+      "name": "(붙임1~4)계약자필수제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69501899"
+     },
+     {
+      "name": "(붙임5~7)해당자만제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69501027"
+     },
+     {
+      "name": "수원당수1,2단지행복주택입주자격완화동호지정입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69501028"
+     },
+     {
+      "name": "수원당수1,2단지행복주택입주자격완화동호지정입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69502007"
+     }
+    ],
+    "images": [
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "name": "수원당수A-1BL지역조감도_저.jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46463051"
+     },
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "name": "수원당수A-1BL지구조감도_저.jpg",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46463052"
+     },
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "name": "수원당수A-1단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=50981189"
+     },
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "name": "수원당수A-1단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=50981190"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "지역조감도(low).jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126231"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "지구조감도(low).jpg",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126232"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "단지조감도(low).jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126233"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "단지배치도(low)-01.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126234"
+     },
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "name": "동호배치도(low).jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=51126235"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "수원당수 A-2블록 행복주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "winner_date": "2026-12-04"
+     },
+     {
+      "site": "수원당수 A-1블록 행복주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-02",
+      "winner_date": "2026-12-04"
+     }
+    ],
+    "sites": [
+     {
+      "name": "수원당수 A-1블록 행복주택",
+      "addr": "경기도 수원시 권선구 당수로130번길 13(당수동)",
+      "total_units": 1350,
+      "area": "14.87~44.59",
+      "heating": "지역난방",
+      "move_in": "2023.04"
+     },
+     {
+      "name": "수원당수 A-2블록 행복주택",
+      "addr": "경기도 수원시 권선구 당수1로 15(금곡동)",
+      "total_units": 1150,
+      "area": "14.88~44.53",
+      "heating": "지역난방",
+      "move_in": "2024.02"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "lh-2015122300021118",
+   "org": "LH",
+   "deal": "임대",
+   "type": "매입임대",
+   "kind": "모집공고",
+   "title": "[대구시 달서구,달성군] 일반 매입임대 입주자 모집공고",
+   "region": "대구광역시",
+   "city": "달서구",
+   "notice_date": "2026-11-19",
+   "apply_start": "2026-11-30",
+   "apply_end": "2026-12-01",
+   "winner_date": "2026-12-15",
+   "status": "공고중",
+   "units": 40,
+   "houses": [
+    {
+     "city": "달서구",
+     "units": 28,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-01",
+     "middle": 0
+    },
+    {
+     "city": "달성군",
+     "units": 12,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-01",
+     "middle": 0
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021118&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21593",
+   "detail": {
+    "files": [
+     {
+      "name": "1.(261119)입주자모집공고문(게시용).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69500570"
+     },
+     {
+      "name": "2.(261119)입주자모집공고문(게시용).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69500590"
+     },
+     {
+      "name": "3.(261119)매입임대공급주택목록_대구달서구달성군.xlsx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69500628"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-01",
+      "winner_date": "2026-12-15"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "lh-2015122300021117",
+   "org": "LH",
+   "deal": "임대",
+   "type": "국민임대",
+   "kind": "모집공고",
+   "title": "학익 SK VIEW(학익 1구역 주택재개발정비사업) 국민임대주택 입주자 모집 공고(당해 사업지구 철거민)",
+   "region": "인천광역시",
+   "city": "미추홀구",
+   "notice_date": "2026-11-19",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-03",
+   "winner_date": "2027-01-13",
+   "status": "공고중",
+   "units": 80,
+   "houses": [
+    {
+     "name": "학익 SK VIEW(학익 1구역 주택재개발정비사업)",
+     "addr": "인천광역시 미추홀구 학익동 757",
+     "city": "미추홀구",
+     "units": 80,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 26915000,
+     "rent": 230010,
+     "down": 1345000,
+     "middle": 0,
+     "balance": 25570000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021117&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21595&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "(공사양식1)개인정보수집이용및제3자제공동의서_전원필수제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69497479"
+     },
+     {
+      "name": "(공사양식2)예비입주자중복선정불가사항확인서_전원필수제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69497480"
+     },
+     {
+      "name": "(공사양식3)위임장(현장대리인신청시)_해당자만제출.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69499051"
+     },
+     {
+      "name": "261119학익SKVIEW(학익1구역)국민임대입주자모집공고문(당해사업지구철거민).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69497482"
+     },
+     {
+      "name": "261119학익SKVIEW(학익1구역)국민임대입주자모집공고문(당해사업지구철거민).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69497481"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-03",
+      "winner_date": "2027-01-13",
+      "contract_start": "2027-01-26",
+      "contract_end": "2027-01-28"
+     }
+    ],
+    "sites": [
+     {
+      "name": "학익 SK VIEW(학익 1구역 주택재개발정비사업)",
+      "addr": "인천광역시 미추홀구 학익동 220",
+      "total_units": 80,
+      "area": "38.9945~38.9945",
+      "heating": "개별난방",
+      "move_in": "2027.02"
      }
     ],
     "at": "2026-11-19"
@@ -68,16 +653,51 @@
    "kind": "모집공고",
    "title": "2026년 서울특별시 영구임대주택 예비입주자 모집",
    "region": "서울특별시",
-   "city": null,
+   "city": "중랑구",
    "notice_date": "2026-11-19",
-   "apply_start": null,
+   "apply_start": "2026-11-30",
    "apply_end": "2026-12-04",
-   "winner_date": null,
+   "winner_date": "2027-03-25",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 159,
+   "houses": [
+    {
+     "name": "양원S1",
+     "addr": "서울특별시 중랑구 양원역로 92",
+     "city": "중랑구",
+     "units": 14,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-04",
+     "deposit": 3044000,
+     "rent": 60660,
+     "middle": 0
+    },
+    {
+     "name": "대방",
+     "addr": "서울특별시 동작구 여의대방로44길 47",
+     "city": "동작구",
+     "units": 30,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-04",
+     "deposit": 2897000,
+     "rent": 57640,
+     "middle": 0
+    },
+    {
+     "name": "금천독산13",
+     "addr": "서울특별시 금천구 한내로 69-15",
+     "city": "금천구",
+     "units": 115,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-04",
+     "deposit": 2801000,
+     "rent": 54920,
+     "middle": 0
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021109&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21586&houseSn=1",
    "detail": {
     "files": [
      {
@@ -164,6 +784,766 @@
       "area": "26.37~31.32",
       "heating": "중앙가스난방",
       "move_in": "1993.04"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "lh-2015122300021099",
+   "org": "LH",
+   "deal": "임대",
+   "type": "행복주택",
+   "kind": "모집공고",
+   "title": "'26년 11월 인천시(남동구) 행복주택 입주자격완화 예비입주자 모집",
+   "region": "인천광역시",
+   "city": "남동구",
+   "notice_date": "2026-11-19",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-03",
+   "winner_date": "2027-03-11",
+   "status": "공고중",
+   "units": 60,
+   "houses": [
+    {
+     "name": "인천논현 4단지",
+     "addr": "인천광역시 남동구 논현로 81",
+     "city": "남동구",
+     "total_units": 412,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 20140000,
+     "rent": 93980,
+     "down": 1007000,
+     "middle": 0,
+     "balance": 19133000
+    },
+    {
+     "name": "인천논현 15단지",
+     "addr": "인천광역시 남동구 함박뫼로 456",
+     "city": "남동구",
+     "total_units": 260,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 43600000,
+     "rent": 203460,
+     "down": 2180000,
+     "middle": 0,
+     "balance": 41420000
+    },
+    {
+     "name": "인천서창 14단지",
+     "addr": "인천광역시 남동구 운연천로 9",
+     "city": "남동구",
+     "total_units": 950,
+     "units": 20,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "deposit": 28220000,
+     "rent": 131690,
+     "down": 1411000,
+     "middle": 0,
+     "balance": 26809000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021099&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21596&houseSn=1",
+   "detail": {
+    "files": [
+     {
+      "name": "26.11.19인천남동구행복주택예비입주자모집(자격완화).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446669"
+     },
+     {
+      "name": "26.11.19인천남동구행복주택예비입주자모집(자격완화).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446670"
+     },
+     {
+      "name": "[★양식1~4]필수제출서류.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446727"
+     },
+     {
+      "name": "[양식5]위임장(대리인신청시).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446730"
+     },
+     {
+      "name": "[양식6]각서(대학생계층복학예정자).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446734"
+     },
+     {
+      "name": "[양식7]예비신혼부부신청,세대구성확인서.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446744"
+     },
+     {
+      "name": "논현15팸플릿.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446692"
+     },
+     {
+      "name": "논현4팸플릿.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446691"
+     },
+     {
+      "name": "마이마이서비스고객매뉴얼(V6).hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69447001"
+     },
+     {
+      "name": "마이마이서비스고객매뉴얼(V6).pdf",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69447035"
+     },
+     {
+      "name": "서창14팸플릿.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69446694"
+     }
+    ],
+    "images": [
+     {
+      "site": "인천논현 4BL 행복주택",
+      "name": "지역조감도.jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=31663740"
+     },
+     {
+      "site": "인천논현 4BL 행복주택",
+      "name": "교통도.jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=31663741"
+     },
+     {
+      "site": "인천논현 4BL 행복주택",
+      "name": "단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=31663742"
+     },
+     {
+      "site": "인천논현 4BL 행복주택",
+      "name": "단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=31663743"
+     },
+     {
+      "site": "인천논현 4BL 행복주택",
+      "name": "동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=31663744"
+     },
+     {
+      "site": "인천논현 15BL 행복주택",
+      "name": "인천논현3행복주택-지역조감도.jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38140882"
+     },
+     {
+      "site": "인천논현 15BL 행복주택",
+      "name": "인천논현3행복주택-교통망도.jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38140886"
+     },
+     {
+      "site": "인천논현 15BL 행복주택",
+      "name": "인천논현3행복주택-단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38140883"
+     },
+     {
+      "site": "인천논현 15BL 행복주택",
+      "name": "인천논현3행복주택-단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38140884"
+     },
+     {
+      "site": "인천논현 15BL 행복주택",
+      "name": "인천논현3행복주택-동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=38140885"
+     },
+     {
+      "site": "인천서창 14BL 행복주택",
+      "name": "지역조감도.png",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=35306916"
+     },
+     {
+      "site": "인천서창 14BL 행복주택",
+      "name": "교통망도.png",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=35306917"
+     },
+     {
+      "site": "인천서창 14BL 행복주택",
+      "name": "단지조감도.png",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=35306918"
+     },
+     {
+      "site": "인천서창 14BL 행복주택",
+      "name": "단지배치도.png",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=35306919"
+     },
+     {
+      "site": "인천서창 14BL 행복주택",
+      "name": "동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=37861138"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "인천논현 15BL 행복주택",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-03",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-10",
+      "winner_date": "2027-03-11"
+     },
+     {
+      "site": "인천논현 4BL 행복주택",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-03",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-10",
+      "winner_date": "2027-03-11"
+     },
+     {
+      "site": "인천서창 14BL 행복주택",
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-03",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-10",
+      "winner_date": "2027-03-11"
+     }
+    ],
+    "sites": [
+     {
+      "name": "인천논현 4BL 행복주택",
+      "addr": "인천광역시 남동구 논현로 81(논현동)",
+      "total_units": 412,
+      "area": "16.65~36.63",
+      "heating": "지역난방",
+      "move_in": "2018.12"
+     },
+     {
+      "name": "인천논현 15BL 행복주택",
+      "addr": "인천광역시 남동구 함박뫼로 456(논현동,논현엘에이치15단지)",
+      "total_units": 260,
+      "area": "14.7~36.76",
+      "heating": "지역난방",
+      "move_in": "2020.12"
+     },
+     {
+      "name": "인천서창 14BL 행복주택",
+      "addr": "인천광역시 남동구 운연천로 9(서창동,인천서창엘에이치14단지)",
+      "total_units": 950,
+      "area": "16.66~36.64",
+      "move_in": "2020.02"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "lh-2015122300021098",
+   "org": "LH",
+   "deal": "임대",
+   "type": "행복주택",
+   "kind": "모집공고",
+   "title": "서울삼전,강동천호,LH수서1,LH수서2 행복주택 예비입주자 모집공고",
+   "region": "서울특별시",
+   "city": "송파구",
+   "notice_date": "2026-11-19",
+   "apply_start": "2026-11-30",
+   "apply_end": "2026-12-01",
+   "winner_date": "2027-03-26",
+   "status": "공고중",
+   "units": 390,
+   "houses": [
+    {
+     "name": "서울삼전",
+     "addr": "서울특별시 송파구 백제고분로32길 40-5",
+     "city": "송파구",
+     "total_units": 40,
+     "units": 20,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-01",
+     "deposit": 84400000,
+     "rent": 351660,
+     "down": 4220000,
+     "middle": 0,
+     "balance": 80180000
+    },
+    {
+     "name": "강동천호",
+     "addr": "서울특별시 강동구 진황도로23길 7",
+     "city": "강동구",
+     "total_units": 94,
+     "units": 10,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-01",
+     "deposit": 102340000,
+     "rent": 383770,
+     "down": 5117000,
+     "middle": 0,
+     "balance": 97223000
+    },
+    {
+     "name": "LH수서1",
+     "addr": "서울특별시 강남구 밤고개로 165",
+     "city": "강남구",
+     "total_units": 830,
+     "units": 170,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-01",
+     "deposit": 49300000,
+     "rent": 172550,
+     "down": 2465000,
+     "middle": 0,
+     "balance": 46835000
+    },
+    {
+     "name": "LH수서2",
+     "addr": "서울특별시 강남구 자곡로11길 28",
+     "city": "강남구",
+     "total_units": 1080,
+     "units": 190,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-01",
+     "deposit": 49300000,
+     "rent": 172550,
+     "down": 2465000,
+     "middle": 0,
+     "balance": 46835000
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021098&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21591&houseSn=4",
+   "detail": {
+    "files": [
+     {
+      "name": "LH수서1(수서역세권A1BL)행복주택팸플릿.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445650"
+     },
+     {
+      "name": "LH수서2(수서역세권A2BL)행복주택팸플릿.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445655"
+     },
+     {
+      "name": "★서울삼전,강동천호,LH수서1,LH수서2,행복주택예비입주자모집공고(2026.11.19).hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69490108"
+     },
+     {
+      "name": "★서울삼전,강동천호,LH수서1,LH수서2,행복주택예비입주자모집공고(2026.11.19).pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69490179"
+     },
+     {
+      "name": "강동천호행복주택팸플릿.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445671"
+     },
+     {
+      "name": "서울삼전행복주택_조감도및평면도.pdf",
+      "kind": "카탈로그",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445673"
+     },
+     {
+      "name": "행복주택제출서류.zip",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69445929"
+     }
+    ],
+    "images": [
+     {
+      "site": "강동천호 행복주택",
+      "name": "강동천호행복주택교통망도.jpg",
+      "kind": "위치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898465"
+     },
+     {
+      "site": "강동천호 행복주택",
+      "name": "강동천호행복주택조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898466"
+     },
+     {
+      "site": "강동천호 행복주택",
+      "name": "강동천호행복주택_단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898467"
+     },
+     {
+      "site": "강동천호 행복주택",
+      "name": "강동천호행복주택동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898468"
+     },
+     {
+      "site": "강동천호 행복주택",
+      "name": "강동천호행복주택투시도-저용량.jpg",
+      "kind": "전경사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=54898756"
+     },
+     {
+      "site": "수서역세권 A1BL 행복주택",
+      "name": "수서역세권A1BL행복주택단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42298342"
+     },
+     {
+      "site": "수서역세권 A1BL 행복주택",
+      "name": "수서역세권A1BL행복주택단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=42298343"
+     },
+     {
+      "site": "수서역세권 A1BL 행복주택",
+      "name": "수서역세권동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=50002011"
+     },
+     {
+      "site": "수서역세권 A2BL 행복주택",
+      "name": "지역조감도.JPG",
+      "kind": "지구조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440653"
+     },
+     {
+      "site": "수서역세권 A2BL 행복주택",
+      "name": "2021.11.26서울수서조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440617"
+     },
+     {
+      "site": "수서역세권 A2BL 행복주택",
+      "name": "211129수서A2단지배치도.jpg",
+      "kind": "단지배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440619"
+     },
+     {
+      "site": "수서역세권 A2BL 행복주택",
+      "name": "211129수서역세권동호배치도.jpg",
+      "kind": "동호배치도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440620"
+     },
+     {
+      "site": "수서역세권 A2BL 행복주택",
+      "name": "2021.11.26서울수서투시도.jpg",
+      "kind": "전경사진",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=46440618"
+     },
+     {
+      "site": "서울삼전 행복주택",
+      "name": "지역조감도.jpg",
+      "kind": "지역조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=32090973"
+     },
+     {
+      "site": "서울삼전 행복주택",
+      "name": "단지조감도.jpg",
+      "kind": "단지조감도",
+      "url": "https://apply.lh.or.kr/lhapply/lhImageView2.do?fileid=32090974"
+     }
+    ],
+    "schedule": [
+     {
+      "site": "수서역세권 A1BL 행복주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-11",
+      "winner_date": "2027-03-26",
+      "contract_start": "2027-11-30",
+      "contract_end": "2027-11-30"
+     },
+     {
+      "site": "서울삼전 행복주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-11",
+      "winner_date": "2027-03-26",
+      "contract_start": "2027-11-30",
+      "contract_end": "2027-11-30"
+     },
+     {
+      "site": "수서역세권 A2BL 행복주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-11",
+      "winner_date": "2027-03-26",
+      "contract_start": "2027-11-30",
+      "contract_end": "2027-11-30"
+     },
+     {
+      "site": "강동천호 행복주택",
+      "apply_start": "2026-11-30",
+      "apply_end": "2026-12-01",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-11",
+      "winner_date": "2027-03-26",
+      "contract_start": "2027-11-30",
+      "contract_end": "2027-11-30"
+     }
+    ],
+    "sites": [
+     {
+      "name": "강동천호 행복주택",
+      "addr": "서울특별시 강동구 천호동 555",
+      "total_units": 94,
+      "area": "16.25~36.89",
+      "heating": "개별난방",
+      "move_in": "2025.02"
+     },
+     {
+      "name": "수서역세권 A1BL 행복주택",
+      "addr": "서울특별시 강남구 밤고개로 165(자곡동)",
+      "total_units": 830,
+      "area": "14.69~44.89",
+      "heating": "지역난방",
+      "move_in": "2023.02"
+     },
+     {
+      "name": "수서역세권 A2BL 행복주택",
+      "addr": "서울특별시 강남구 자곡로11길 28(자곡동)",
+      "total_units": 1080,
+      "area": "14.69~44.9",
+      "heating": "지역난방",
+      "move_in": "2024.04"
+     },
+     {
+      "name": "서울삼전 행복주택",
+      "addr": "서울특별시 송파구 백제고분로32길 40-5(삼전동,서울삼전행복주택)",
+      "total_units": 40,
+      "area": "20.36~41.39",
+      "move_in": "2020.10"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "lh-2015122300021074",
+   "org": "LH",
+   "deal": "임대",
+   "type": "매입임대",
+   "kind": "모집공고",
+   "title": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅱ(전세형) 예비입주자 모집 공고",
+   "region": "경기도",
+   "city": "구리시",
+   "notice_date": "2026-11-19",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-03",
+   "winner_date": "2027-02-26",
+   "status": "공고중",
+   "units": 62,
+   "houses": [
+    {
+     "city": "구리시",
+     "units": 6,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "파주시",
+     "units": 5,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "남양주시",
+     "units": 5,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "김포시",
+     "units": 30,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "의정부시",
+     "units": 4,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "units": 12,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021074&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21589",
+   "detail": {
+    "files": [
+     {
+      "name": "(261119)경기북부신혼·신생아Ⅱ(전세형)공급대상주택목록.xlsx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481318"
+     },
+     {
+      "name": "(261119)경기북부신혼·신생아매입임대Ⅱ(전세형)예비입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481315"
+     },
+     {
+      "name": "(261119)경기북부신혼·신생아매입임대Ⅱ(전세형)예비입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481317"
+     },
+     {
+      "name": "신혼신생아매입임대Ⅱ(전세형)_QnA.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481369"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-03",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-09",
+      "winner_date": "2027-02-26",
+      "contract_start": "2027-03-01",
+      "contract_end": "2027-04-30"
+     }
+    ],
+    "at": "2026-11-19"
+   }
+  },
+  {
+   "id": "lh-2015122300021072",
+   "org": "LH",
+   "deal": "임대",
+   "type": "매입임대",
+   "kind": "모집공고",
+   "title": "[경기북부] 2026년 3차 신혼·신생아 매입임대Ⅰ예비입주자 모집 공고",
+   "region": "경기도",
+   "city": "가평군",
+   "notice_date": "2026-11-19",
+   "apply_start": "2026-12-01",
+   "apply_end": "2026-12-03",
+   "winner_date": "2027-02-26",
+   "status": "공고중",
+   "units": 167,
+   "houses": [
+    {
+     "city": "가평군",
+     "units": 1,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "units": 56,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "남양주시",
+     "units": 6,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "파주시",
+     "units": 78,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "김포시",
+     "units": 13,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "의정부시",
+     "units": 8,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "구리시",
+     "units": 1,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    },
+    {
+     "city": "양주시",
+     "units": 4,
+     "apply_start": "2026-12-01",
+     "apply_end": "2026-12-03",
+     "middle": 0
+    }
+   ],
+   "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021072&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+   "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21590",
+   "detail": {
+    "files": [
+     {
+      "name": "(261119)경기북부신혼·신생아매입임대Ⅰ예비입주자모집공고문.hwpx",
+      "kind": "공고문(hwp)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481255"
+     },
+     {
+      "name": "(261119)경기북부신혼·신생아매입임대Ⅰ예비입주자모집공고문.pdf",
+      "kind": "공고문(PDF)",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481261"
+     },
+     {
+      "name": "(261119)경기북부신혼신생아Ⅰ공급대상주택목록.xlsx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481264"
+     },
+     {
+      "name": "신혼신생아매입임대Ⅰ_QnA.hwpx",
+      "kind": "기타 첨부파일",
+      "url": "https://apply.lh.or.kr/lhapply/lhFile.do?fileid=69481356"
+     }
+    ],
+    "schedule": [
+     {
+      "apply_start": "2026-12-01",
+      "apply_end": "2026-12-03",
+      "docs_start": "2026-12-07",
+      "docs_end": "2026-12-09",
+      "winner_date": "2027-02-26",
+      "contract_start": "2027-03-01",
+      "contract_end": "2027-04-30"
      }
     ],
     "at": "2026-11-19"
@@ -1179,16 +2559,46 @@
    "kind": "모집공고",
    "title": "수원당수 1, 2단지 행복주택 입주자격완화 동호지정 입주자 모집[선계약/후검증]('26.11.18.)",
    "region": "경기도",
-   "city": null,
+   "city": "수원시 권선구",
    "notice_date": "2026-11-18",
-   "apply_start": null,
+   "apply_start": "2026-11-30",
    "apply_end": "2026-12-02",
-   "winner_date": null,
-   "status": "공고중",
-   "units": null,
-   "houses": [],
+   "winner_date": "2026-12-04",
+   "status": "정정공고중",
+   "units": 174,
+   "houses": [
+    {
+     "name": "수원당수 1단지(A-1BL)",
+     "addr": "경기도 수원시 권선구 당수로130번길 13",
+     "city": "수원시 권선구",
+     "total_units": 1350,
+     "units": 89,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 23460000,
+     "rent": 103610,
+     "down": 1000000,
+     "middle": 0,
+     "balance": 22460000
+    },
+    {
+     "name": "수원당수 2단지(A-2BL)",
+     "addr": "경기도 수원시 권선구 당수1로 15",
+     "city": "수원시 권선구",
+     "total_units": 1150,
+     "units": 85,
+     "apply_start": "2026-11-30",
+     "apply_end": "2026-12-02",
+     "deposit": 23120000,
+     "rent": 102110,
+     "down": 1000000,
+     "middle": 0,
+     "balance": 22120000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021108&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21587&houseSn=1",
    "detail": {
     "files": [
      {
@@ -1321,16 +2731,32 @@
    "kind": "모집공고",
    "title": "대구금호5 국민임대주택 입주자격 완화 동호지정 입주자모집",
    "region": "대구광역시",
-   "city": null,
+   "city": "북구",
    "notice_date": "2026-11-18",
    "apply_start": "2026-12-02",
    "apply_end": "2026-12-03",
    "winner_date": "2026-12-08",
    "status": "공고중",
-   "units": null,
-   "houses": [],
+   "units": 205,
+   "houses": [
+    {
+     "name": "대구금호5(A-3BL)",
+     "addr": "대구광역시 북구 내곡로 69",
+     "city": "북구",
+     "total_units": 1252,
+     "units": 205,
+     "apply_start": "2026-12-02",
+     "apply_end": "2026-12-03",
+     "deposit": 11051000,
+     "rent": 168710,
+     "down": 500000,
+     "middle": 0,
+     "balance": 10551000
+    }
+   ],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021103&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
+   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21588&houseSn=1",
    "detail": {
     "files": [
      {
@@ -2091,58 +3517,6 @@
      }
     ],
     "at": "2026-11-17"
-   }
-  },
-  {
-   "id": "sh-313268",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "모집공고",
-   "title": "동작구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-16",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313268&multi_itm_seq=2",
-   "src": "sh",
-   "detail": {
-    "files": [
-     {
-      "name": "동작구 홀몸어르신 맞춤형 공공주택 입주자 모집공고문.pdf",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=1"
-     },
-     {
-      "name": "0_ 신청방법 및 제출서류.hwp",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=2"
-     },
-     {
-      "name": "1_(신청자 작성)홀몸어르신 공급신청서.hwp",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=3"
-     },
-     {
-      "name": "2_(신청자 작성)개인정보수집이용 및 제3자제공동의서.hwp",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=4"
-     },
-     {
-      "name": "3_(신청자 작성)금융정보 등(금융ㆍ신용ㆍ보험 정보) 제공 동의서.hwp",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=5"
-     },
-     {
-      "name": "4_(신청자 작성)무주택서약서.hwp",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=6"
-     },
-     {
-      "name": "평면도.hwp",
-      "preview_url": "https://www.i-sh.co.kr/main/com/util/htmlConverter.do?brd_id=GS0401&seq=313268&data_tp=A&file_seq=7"
-     }
-    ],
-    "at": "2026-11-16"
    }
   },
   {
@@ -8809,44 +10183,6 @@
    }
   },
   {
-   "id": "sh-313316",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "제47차 장기전세주택(2025.04.30.) 예비 6차 입주대상자 발표",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-13",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313316&multi_itm_seq=2",
-   "src": "sh"
-  },
-  {
-   "id": "sh-313303",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "2026년 3차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고(2026. 10. 28.) 서류심사대상자 발표",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-13",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313303&multi_itm_seq=2",
-   "src": "sh"
-  },
-  {
    "id": "lh-2015122300021077",
    "org": "LH",
    "deal": "임대",
@@ -8854,7 +10190,7 @@
    "kind": "모집공고",
    "title": "[대전·충남] 2026년 2차 든든전세주택 입주자 모집공고 (분양전환형)",
    "region": "충청남도",
-   "city": "천안시 서북구",
+   "city": "아산시",
    "notice_date": "2026-11-13",
    "apply_start": "2026-11-23",
    "apply_end": "2026-11-25",
@@ -8863,8 +10199,8 @@
    "units": 106,
    "houses": [
     {
-     "city": "천안시 서북구",
-     "units": 33,
+     "city": "아산시",
+     "units": 29,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-25",
      "middle": 0
@@ -8877,8 +10213,8 @@
      "middle": 0
     },
     {
-     "city": "아산시",
-     "units": 29,
+     "city": "천안시 서북구",
+     "units": 33,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-25",
      "middle": 0
@@ -9129,25 +10465,6 @@
     ],
     "at": "2026-11-13"
    }
-  },
-  {
-   "id": "sh-313233",
-   "org": "SH",
-   "deal": "임대",
-   "type": null,
-   "kind": "후속·안내",
-   "title": "[당첨자발표] 청년 매입임대주택 예비자 공급 계약대상자 발표(2025년 1차 예비6차) 및 계약안내",
-   "region": "서울특별시",
-   "city": null,
-   "notice_date": "2026-11-12",
-   "apply_start": null,
-   "apply_end": null,
-   "winner_date": null,
-   "status": null,
-   "units": null,
-   "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313233&multi_itm_seq=2",
-   "src": "sh"
   },
   {
    "id": "lh-2015122300021062",
@@ -9869,7 +11186,7 @@
   {
    "id": "sh-313180",
    "org": "SH",
-   "deal": "임대",
+   "deal": "분양",
    "type": null,
    "kind": "후속·안내",
    "title": "홈페이지 등 공사 시스템 일시 중단 안내",
@@ -9882,7 +11199,7 @@
    "status": null,
    "units": null,
    "houses": [],
-   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313180&multi_itm_seq=2",
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313180&multi_itm_seq=1",
    "src": "sh"
   },
   {
@@ -10664,7 +11981,7 @@
    "apply_start": null,
    "apply_end": "2026-11-19",
    "winner_date": "2026-11-23",
-   "status": "접수중",
+   "status": "접수마감",
    "units": 151,
    "houses": [
     {
@@ -12203,7 +13520,7 @@
    "apply_start": null,
    "apply_end": "2026-11-19",
    "winner_date": "2026-11-23",
-   "status": "정정공고중",
+   "status": "접수마감",
    "units": 151,
    "houses": [
     {
