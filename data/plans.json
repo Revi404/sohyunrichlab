@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18 10:38",
+ "updated": "2026-11-19 10:00",
  "plans": {
   "https://www.i-sh.co.kr/houseinfo/upload/lease/20190904151010981_21_(%EA%B1%B4%EC%B6%95)%EC%98%A4%EA%B8%88%EB%8F%99119-7%EC%99%B81%ED%95%84%EC%A7%80(%EB%A7%A4%EB%A7%A4%EA%B3%84%EC%95%BD)_1.jpg": {
    "file": "assets/plans/41e6a719c959b039.webp",
@@ -11406,6 +11406,228 @@
    "w": 879,
    "h": 1172,
    "fetched": "2026-11-18"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163305219_448_29A.jpg": {
+   "file": "assets/plans/0d8fd2f4ce887b5f.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163315823_449_29BS.jpg": {
+   "file": "assets/plans/03d54ac4bb9aa217.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163321664_450_36A.jpg": {
+   "file": "assets/plans/27b9ac10f8d13895.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163244455_445_17A.jpg": {
+   "file": "assets/plans/f74455d43260dd85.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162737982_423_29A.jpg": {
+   "file": "assets/plans/99d2861d6bb5752a.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162748744_424_29AS.jpg": {
+   "file": "assets/plans/f83b6f056867c16e.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162755931_425_39A.jpg": {
+   "file": "assets/plans/3853fec22212d29c.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162802469_426_39AS.jpg": {
+   "file": "assets/plans/f37946d85488c972.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162818584_427_49B.jpg": {
+   "file": "assets/plans/aeda3a9f2bd0162a.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162825929_428_59A.jpg": {
+   "file": "assets/plans/cc1a9421cfb5e058.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162837936_430_74A.jpg": {
+   "file": "assets/plans/cfc1124f1a6914d2.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162843921_431_84A.jpg": {
+   "file": "assets/plans/2133269b460b87f8.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20211126101514287_2_39A%ED%98%95.jpg": {
+   "file": "assets/plans/a1fec29277e1b89c.webp",
+   "w": 925,
+   "h": 649,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/2021112610153818_3_39B%ED%98%95.jpg": {
+   "file": "assets/plans/c87e3ff16b4bdca0.webp",
+   "w": 974,
+   "h": 684,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20211126101556520_4_42%ED%98%95.jpg": {
+   "file": "assets/plans/740532ec5cd675b7.webp",
+   "w": 895,
+   "h": 630,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/2021112610162852_5_59E%ED%98%95.jpg": {
+   "file": "assets/plans/7961521953f254c8.webp",
+   "w": 925,
+   "h": 649,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20211126101647520_6_59F%ED%98%95.jpg": {
+   "file": "assets/plans/71ef8bc095bd4c6f.webp",
+   "w": 895,
+   "h": 630,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20211126101707857_7_59G%ED%98%95.jpg": {
+   "file": "assets/plans/6bb1496ee53f9d77.webp",
+   "w": 895,
+   "h": 630,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902132902739_18_39%ED%98%95.jpg": {
+   "file": "assets/plans/d7f747e2468626ec.webp",
+   "w": 761,
+   "h": 699,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902133129195_20_39%ED%98%95.jpg": {
+   "file": "assets/plans/7fd574fe3e5eddf8.webp",
+   "w": 761,
+   "h": 699,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902132917992_19_41B%ED%98%95.jpg": {
+   "file": "assets/plans/984bf861dcc09091.webp",
+   "w": 759,
+   "h": 645,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902133141422_21_41B%ED%98%95.jpg": {
+   "file": "assets/plans/b9278b0cab0863ec.webp",
+   "w": 759,
+   "h": 645,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902133158811_22_41A%EA%B8%B0%EB%B3%B8.jpg": {
+   "file": "assets/plans/0c10bba2e01ddca8.webp",
+   "w": 531,
+   "h": 821,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902133251443_23_41A%ED%99%95%EC%9E%A5.jpg": {
+   "file": "assets/plans/de188c492d107e2f.webp",
+   "w": 546,
+   "h": 823,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20201105085949417_6_49Type.JPG": {
+   "file": "assets/plans/bee4fd42df4fcc3c.webp",
+   "w": 514,
+   "h": 583,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20201105090005206_7_59type.JPG": {
+   "file": "assets/plans/2ee32c0a74259310.webp",
+   "w": 513,
+   "h": 629,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025143647730_1077_59A.JPG": {
+   "file": "assets/plans/3b9ab6e22ad4352b.webp",
+   "w": 918,
+   "h": 606,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025143700652_1078_59B-1.JPG": {
+   "file": "assets/plans/110fee10d85692ac.webp",
+   "w": 922,
+   "h": 608,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025143715863_1079_59B-2.JPG": {
+   "file": "assets/plans/39aaab7a5642ae41.webp",
+   "w": 925,
+   "h": 605,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025143726591_1080_59C.JPG": {
+   "file": "assets/plans/ac12398c8832dec0.webp",
+   "w": 924,
+   "h": 604,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20180808100102410_5_%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%85%B8%EB%B8%94%EB%9E%98%EC%8A%A4%2839%ED%98%95%20%ED%8F%89%EB%A9%B4%EB%8F%84%28%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%81%2039.32%E3%8E%A1%29.jpg": {
+   "file": "assets/plans/63e80e0be789a522.webp",
+   "w": 642,
+   "h": 710,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/2018080810011438_6_%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%85%B8%EB%B8%94%EB%9E%98%EC%8A%A4%2842%ED%98%95%20%ED%8F%89%EB%A9%B4%EB%8F%84%28%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%81%2042.21%E3%8E%A1%29.jpg": {
+   "file": "assets/plans/40295c8e6a4645b1.webp",
+   "w": 680,
+   "h": 656,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20180808100131931_7_%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%85%B8%EB%B8%94%EB%9E%98%EC%8A%A4%2851%ED%98%95%20%ED%8F%89%EB%A9%B4%EB%8F%84%28%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%81%2051.7%E3%8E%A1%29.jpg": {
+   "file": "assets/plans/3368eebca046b40b.webp",
+   "w": 653,
+   "h": 756,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025093534827_743_59A.jpg": {
+   "file": "assets/plans/15fc6e2559bbf262.webp",
+   "w": 940,
+   "h": 528,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250730143325356_2_26%ED%99%95%EC%9E%A5.jpg": {
+   "file": "assets/plans/d3bbf87b6f900e9c.webp",
+   "w": 1588,
+   "h": 1122,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250730143345965_3_41%ED%99%95%EC%9E%A5.jpg": {
+   "file": "assets/plans/8370ce502b41d13e.webp",
+   "w": 1588,
+   "h": 1122,
+   "fetched": "2026-11-19"
+  },
+  "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250730143410341_4_44%ED%99%95%EC%9E%A5.jpg": {
+   "file": "assets/plans/05e15b67524b8703.webp",
+   "w": 1588,
+   "h": 1122,
+   "fetched": "2026-11-19"
   }
  }
 }
