@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 02:15",
+ "updated": "2026-11-20 08:45",
  "categories": [
   "모집공고 분석",
   "부동산 인사이트",
@@ -13,11 +13,11 @@
   "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-single-household",
   "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-income-tax-5years",
   "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-household-history",
-  "https://sohyun-richlab.tistory.com/entry/newlywed-special-supply-asset-test",
   "https://sohyun-richlab.tistory.com/entry/pyeongtaek-godeok-woomi-lynn-result",
   "https://sohyun-richlab.tistory.com/entry/hanwha-forena-jije-result",
   "https://sohyun-richlab.tistory.com/entry/news-juge-silttae-josa-2025",
-  "https://sohyun-richlab.tistory.com/entry/namchuncheon-centreville-result"
+  "https://sohyun-richlab.tistory.com/entry/namchuncheon-centreville-result",
+  "https://sohyun-richlab.tistory.com/entry/gwanggyo-jayeon-centreville-result"
  ],
  "posts": {
   "모집공고 분석": [
@@ -122,6 +122,14 @@
   ],
   "청약 가이드": [
    {
+    "title": "청약통장 총정리 │ 주택청약종합저축·통장 전환·납입 인정액·예치금 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/cheongyak-tongjang-chongjeongni",
+    "date": "08-00-25",
+    "summary": "청약 가이드 3회는 청약통장입니다. 이 글에서는 아래 세 가지를 확인할 수 있습니다.확인할 것내용지금 쓰는 통장주택청약종합저축 하나로 국민주택·민영주택 모두 청약",
+    "category": "청약 가이드",
+    "thumb": "assets/thumbs/03444a78d0a812cc.jpg"
+   },
+   {
     "title": "다자녀 특별공급 자격 정리 │ 미성년 자녀 2명 기준, 태아·입양 포함, 공공 소득 120% (2026)",
     "url": "https://sohyun-richlab.tistory.com/entry/multi-child-special-supply-requirements",
     "date": "2026-11-19",
@@ -158,14 +166,6 @@
     "url": "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-household-history",
     "date": "2026-11-19",
     "summary": "특별공급 판정 노트 6번째 이야기는 생애최초 특별공급의 '생애 최초' 판정이에요. 본인만 집을 가진 적이 없으면 되는 것이 아니라, 세대에 속한 모든 사람이 과거",
-    "category": "청약 가이드",
-    "thumb": ""
-   },
-   {
-    "title": "신혼부부 특공 소득 초과해도 신청하는 방법 │ 부동산 자산 기준과 추첨 물량 (2026)",
-    "url": "https://sohyun-richlab.tistory.com/entry/newlywed-special-supply-asset-test",
-    "date": "2026-11-19",
-    "summary": "특별공급 판정 노트 5번째 이야기는 소득이 기준을 넘는 신혼부부가 특별공급에 들어가는 길이에요. 규칙은 소득이 140%(맞벌이 160%)를 넘더라도 세대원의 부동",
     "category": "청약 가이드",
     "thumb": ""
    }
