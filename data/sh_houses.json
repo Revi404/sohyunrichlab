@@ -1,12 +1,18 @@
 {
- "updated": "2026-11-18 10:16",
+ "updated": "2026-11-19 09:43",
  "source_note": "SH 서울주택정보(i-sh.co.kr/houseinfo) 화면 데이터",
  "progress": {
   "total": 813,
-  "collected": 780,
+  "collected": 797,
   "next_page": 1
  },
  "notices": [
+  {
+   "seq": 313424,
+   "title": "2026년 마포구 신혼부부,청년(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+   "date": "2026.11.16",
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313424"
+  },
   {
    "seq": 313268,
    "title": "동작구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
@@ -57887,6 +57893,1441 @@
    "lat": 37.6093744,
    "lng": 126.9264595,
    "built": "2020.08.14"
+  },
+  "30166": {
+   "id": "30166",
+   "name": "강동리엔파크 11단지",
+   "addr": "서울특별시 강동구 고덕로98길 101",
+   "category": "아파트 등",
+   "supply": "행복주택",
+   "units": 600,
+   "type_list": "17, 29, 29S, 36",
+   "heating": "개별난방",
+   "corridor": "계단+복도식",
+   "builder": "신동아건설(주),강산건설(주)",
+   "center": "강동주거안심종합센터",
+   "surroundings": "1. 자연환경: 한강 고덕수변생태공원, 벌말근린공원, 강동그린웨이, 명일근린공원, 미사한강공원, 미사호수공원, 미사경정공원, 망월천, 검단산이 인근에 있어 자연환경이 우수함. 2. 교통환경: 대중교통으로 지하철 5호선 강일역 1km(도보 15분), 버스는 3323, 인근에 강동공영차고지, 수도권제1순환고속국도 강일IC, 판교 구리간 고속도로, 용마산 터널과 연결되는 구리~암사대교, 강일~춘천~양양간 고속도로 이용이 용이한 사통팔달 교통요지로 뛰어남. ※ 관리사무소는 1103동 1층에 있습니다. 3. 교육환경: 인근에 서울강일초등학교, 강동중, 강명중, 고덕중, 강일고, 강동고, 배재고, 한영외고, 상일여고 등이 있음. 4. 주위환경: 시립강동청소년센터, 강일동주민센터, 강동경희대의대병원, 이마트 명일점 등 생활편의 시설이 가까이 위치하여 생활 편리.",
+   "types": [
+    {
+     "type": "17",
+     "class": "행복주택",
+     "households": 300,
+     "exclusive_area": 17.97,
+     "contract_area": 50.75,
+     "rooms": 0,
+     "deposit": 61920000,
+     "rent": 227000,
+     "vacant": 0,
+     "waitlist": 64,
+     "moved_out_1y": 38,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "17A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163244455_445_17A.jpg"
+      }
+     ]
+    },
+    {
+     "type": "29",
+     "class": "행복주택",
+     "households": 54,
+     "exclusive_area": 29.99,
+     "contract_area": 84.21,
+     "rooms": 1,
+     "deposit": 109440000,
+     "rent": 383000,
+     "vacant": 1,
+     "waitlist": 0,
+     "moved_out_1y": 5,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "29A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163305219_448_29A.jpg"
+      }
+     ]
+    },
+    {
+     "type": "29S",
+     "class": "행복주택",
+     "households": 66,
+     "exclusive_area": 29.98,
+     "contract_area": 83.75,
+     "rooms": 0,
+     "deposit": 109440000,
+     "rent": 383000,
+     "vacant": 9,
+     "waitlist": 0,
+     "moved_out_1y": 3,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "29BS",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163315823_449_29BS.jpg"
+      }
+     ]
+    },
+    {
+     "type": "36",
+     "class": "행복주택",
+     "households": 180,
+     "exclusive_area": 36.22,
+     "contract_area": 101.37,
+     "rooms": 1,
+     "deposit": 138400000,
+     "rent": 485000,
+     "vacant": 2,
+     "waitlist": 17,
+     "moved_out_1y": 14,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "36A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024163321664_450_36A.jpg"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221018150442954_23_22.jpg",
+     "taken": "20221018"
+    },
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221018150451281_24_21.jpg",
+     "taken": "20221018"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5542779,
+   "lng": 127.1805327,
+   "built": "2020.12.19"
+  },
+  "30164": {
+   "id": "30164",
+   "name": "강동리버스트 8단지",
+   "addr": "서울특별시 강동구 아리수로93나길 88 ",
+   "category": "아파트 등",
+   "supply": "국민임대,장기전세",
+   "units": 946,
+   "type_list": "29, 29S, 39, 39S, 49, 59, 74, 84",
+   "heating": "-",
+   "corridor": "-",
+   "builder": "대보건설(주)",
+   "center": "강동주거안심종합센터",
+   "surroundings": "1. 자연환경: 한강 고덕수변생태공원, 벌말근린공원, 강동그린웨이, 명일근린공원, 미사한강공원, 미사호수공원, 미사경정공원, 망월천, 검단산이 인근에 있어 자연환경이 우수함. 2. 교통환경: 대중교통으로 지하철 5호선 강일역 2.5km(도보 39분), 버스는 342, 3318, 마을버스 강동02, 인근에 강동공영차고지, 수도권제1순환고속국도 강일IC, 판교 구리간 고속도로, 용마산 터널과 연결되는 구리~암사대교, 강일~춘천~양양간 고속도로 이용이 용이한 사통팔달 교통요지로 뛰어남. ※ 관리사무소는 803동 1층에 있습니다. 3. 교육환경: 인근에 서울강일초등학교, 강동중, 강명중, 고덕중, 강일고, 강동고, 배재고, 한영외고, 상일여고 등이 있음. 4. 주위환경: 시립강동청소년센터, 강일동주민센터, 강동경희대의대병원, 이마트 명일점 등 생활편의 시설이 가까이 위치하여 생활 편리.",
+   "types": [
+    {
+     "type": "29",
+     "class": "국민임대",
+     "households": 100,
+     "exclusive_area": 29.27,
+     "contract_area": 64.14,
+     "rooms": 0,
+     "deposit": 18500000,
+     "rent": 182200,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 3,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "29A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162737982_423_29A.jpg"
+      }
+     ]
+    },
+    {
+     "type": "29S",
+     "class": "국민임대",
+     "households": 12,
+     "exclusive_area": 29.27,
+     "contract_area": 64.14,
+     "rooms": 0,
+     "deposit": 18500000,
+     "rent": 182200,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "29AS",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162748744_424_29AS.jpg"
+      }
+     ]
+    },
+    {
+     "type": "39",
+     "class": "국민임대",
+     "households": 170,
+     "exclusive_area": 39.41,
+     "contract_area": 86.12,
+     "rooms": 1,
+     "deposit": 35890000,
+     "rent": 254000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 2,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "39A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162755931_425_39A.jpg"
+      }
+     ]
+    },
+    {
+     "type": "39S",
+     "class": "국민임대",
+     "households": 24,
+     "exclusive_area": 39.41,
+     "contract_area": 86.12,
+     "rooms": 1,
+     "deposit": 35890000,
+     "rent": 254000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "39AS",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162802469_426_39AS.jpg"
+      }
+     ]
+    },
+    {
+     "type": "49",
+     "class": "국민임대",
+     "households": 12,
+     "exclusive_area": 49.8,
+     "contract_area": 108.16,
+     "rooms": 2,
+     "deposit": 54570000,
+     "rent": 332600,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 1,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "49B",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162818584_427_49B.jpg"
+      }
+     ]
+    },
+    {
+     "type": "59",
+     "class": "장기전세",
+     "households": 58,
+     "exclusive_area": 59.97,
+     "contract_area": 130.6,
+     "rooms": 3,
+     "deposit": 425100000,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 2,
+     "moved_out_1y": 7,
+     "as_of": "2026.10",
+     "floorplans": [
+      {
+       "name": "59A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162825929_428_59A.jpg"
+      }
+     ]
+    },
+    {
+     "type": "74",
+     "class": "장기전세",
+     "households": 22,
+     "exclusive_area": 74.77,
+     "contract_area": 161.99,
+     "rooms": 3,
+     "deposit": 423540000,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.10",
+     "floorplans": [
+      {
+       "name": "74A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162837936_430_74A.jpg"
+      }
+     ]
+    },
+    {
+     "type": "84",
+     "class": "장기전세",
+     "households": 22,
+     "exclusive_area": 84.86,
+     "contract_area": 183.37,
+     "rooms": 3,
+     "deposit": 459420000,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 2,
+     "moved_out_1y": 1,
+     "as_of": "2026.10",
+     "floorplans": [
+      {
+       "name": "84A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024162843921_431_84A.jpg"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221018180214415_127_13.JPG",
+     "taken": "20221018"
+    },
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221018180221716_128_12.JPG",
+     "taken": "20221018"
+    },
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221018180228115_129_11.JPG",
+     "taken": "20221018"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5717223,
+   "lng": 127.1748049,
+   "built": "2020.11.22"
+  },
+  "70499": {
+   "id": "70499",
+   "name": "마포 프레스티지자이 (염리3)",
+   "addr": "서울특별시 마포구 대흥로24길 24 ",
+   "category": "아파트 등",
+   "supply": "재개발임대,행복주택",
+   "units": 1694,
+   "type_list": "39, 42, 59",
+   "heating": "개별난방",
+   "corridor": "계단+복도식",
+   "builder": "(주)GS건설",
+   "center": "마포주거안심종합센터",
+   "surroundings": "1. 자연환경 : 단지 인접 서강대학교 캠퍼스를 통해 노고산 산책길이 있습니다.\r\n2. 교통환경 : 6호선 대흥역과 5~8분거리에 위치하고 있어 교통이 편리합니다.\r\n3. 교육환경 : 단지 인근 초등학교, 중학교, 고등학교가 주변에 밀접되어 있어 교육환경이 좋고 서강대, 이대, 홍익대 등이 인접해있는 대학가 입니다.\r\n4. 주변환경 : 단지 인접 마포아트센터 등 문화공간이 있으며 인근 대규모 단지가 있어 생활환경이 용이합니다.  ",
+   "types": [
+    {
+     "type": "39",
+     "class": "재개발임대",
+     "households": 104,
+     "exclusive_area": 39.99,
+     "contract_area": 87.24,
+     "rooms": 2,
+     "deposit": 38670000,
+     "rent": 178100,
+     "vacant": 8,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "단위세대 평면도(39A형)",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20211126101514287_2_39A%ED%98%95.jpg"
+      },
+      {
+       "name": "단위세대 평면도(39B형)",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2021112610153818_3_39B%ED%98%95.jpg"
+      }
+     ]
+    },
+    {
+     "type": "42",
+     "class": "재개발임대",
+     "households": 119,
+     "exclusive_area": 42.96,
+     "contract_area": 93.51,
+     "rooms": 2,
+     "deposit": 41460000,
+     "rent": 190900,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "단위세대 평면도(42형)",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20211126101556520_4_42%ED%98%95.jpg"
+      }
+     ]
+    },
+    {
+     "type": "59",
+     "class": "재개발임대",
+     "households": 48,
+     "exclusive_area": 59.94,
+     "contract_area": 132.41,
+     "rooms": 3,
+     "deposit": 58700000,
+     "rent": 270500,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "단위세대 평면도(59E형)",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2021112610162852_5_59E%ED%98%95.jpg"
+      },
+      {
+       "name": "단위세대 평면도(59F형)",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20211126101647520_6_59F%ED%98%95.jpg"
+      },
+      {
+       "name": "단위세대 평면도(59G형)",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20211126101707857_7_59G%ED%98%95.jpg"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "20230209",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209155058403_207_20230209_155033.jpg",
+     "taken": "20230209"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.553974,
+   "lng": 126.9476615,
+   "built": "2021.03.27"
+  },
+  "74049": {
+   "id": "74049",
+   "name": "문정역 마에스트로",
+   "addr": "서울특별시 송파구 문정로 1",
+   "category": "아파트 등",
+   "supply": "청년안심주택",
+   "type_list": "16A, 20A1, 26B, 26D1, 29D, 30C4, 31C3, 33E, 34C1, 35C2",
+   "heating": "개별난방",
+   "corridor": "-",
+   "builder": "효성중공업(주)",
+   "center": "송파주거안심종합센터",
+   "surroundings": "-",
+   "types": [
+    {
+     "type": "16A",
+     "class": "청년안심주택",
+     "households": 86,
+     "exclusive_area": 16.42,
+     "contract_area": 34.76,
+     "rooms": 1,
+     "deposit": 55910000,
+     "rent": 246000,
+     "vacant": 12,
+     "waitlist": 0,
+     "moved_out_1y": 3,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "20A1",
+     "class": "청년안심주택",
+     "households": 8,
+     "exclusive_area": 20.34,
+     "contract_area": 43.42,
+     "rooms": 1,
+     "deposit": 64750000,
+     "rent": 286000,
+     "vacant": 1,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "26B",
+     "class": "청년안심주택",
+     "households": 8,
+     "exclusive_area": 26.4,
+     "contract_area": 55.95,
+     "rooms": 1,
+     "deposit": 51500000,
+     "rent": 227000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "26D1",
+     "class": "청년안심주택",
+     "households": 1,
+     "exclusive_area": 26.19,
+     "contract_area": 54.86,
+     "rooms": 1,
+     "deposit": 48750000,
+     "rent": 215000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "29D",
+     "class": "청년안심주택",
+     "households": 5,
+     "exclusive_area": 29.15,
+     "contract_area": 60.89,
+     "rooms": 1,
+     "deposit": 55280000,
+     "rent": 244000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "30C4",
+     "class": "청년안심주택",
+     "households": 6,
+     "exclusive_area": 30.19,
+     "contract_area": 62.99,
+     "rooms": 1,
+     "deposit": 54600000,
+     "rent": 241000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "31C3",
+     "class": "청년안심주택",
+     "households": 7,
+     "exclusive_area": 31.18,
+     "contract_area": 64.63,
+     "rooms": 1,
+     "deposit": 56250000,
+     "rent": 248000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "33E",
+     "class": "청년안심주택",
+     "households": 6,
+     "exclusive_area": 33.18,
+     "contract_area": 68.93,
+     "rooms": 1,
+     "deposit": 61740000,
+     "rent": 273000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "34C1",
+     "class": "청년안심주택",
+     "households": 17,
+     "exclusive_area": 34.87,
+     "contract_area": 72.68,
+     "rooms": 1,
+     "deposit": 103000000,
+     "rent": 455000,
+     "vacant": 5,
+     "waitlist": 0,
+     "moved_out_1y": 2,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "35C2",
+     "class": "청년안심주택",
+     "households": 9,
+     "exclusive_area": 35.46,
+     "contract_area": 74.28,
+     "rooms": 1,
+     "deposit": 109980000,
+     "rent": 486000,
+     "vacant": 1,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.4872969,
+   "lng": 127.122409,
+   "built": "-"
+  },
+  "70482": {
+   "id": "70482",
+   "name": "힐스테이트 녹번역 (응암1)",
+   "addr": "서울특별시 은평구 은평로 240",
+   "category": "아파트 등",
+   "supply": "재개발임대,행복주택",
+   "units": 879,
+   "type_list": "39, 41",
+   "heating": "개별난방",
+   "corridor": "계단식",
+   "builder": "현대건설(주)",
+   "center": "은평주거안심종합센터",
+   "surroundings": "1. 교통환경: 3호선 녹번역 3번출구에서 도보로 800미터 거리에 아파트 위치\r\n2. 자연환경: 단지와 가까운 북한산 둘레길, 독바위 공원 등\r\n3. 주변환경: 이마트,녹번시장,은평구청,은평문화예술회관 등 \r\n4. 교육환경: 어울초등학교,홍은중학교,신진과학기술고등학교 \r\n\r\n",
+   "types": [
+    {
+     "type": "39",
+     "class": "재개발임대",
+     "households": 10,
+     "exclusive_area": 39.12,
+     "contract_area": 84.54,
+     "rooms": 1,
+     "deposit": 40990000,
+     "rent": 182100,
+     "vacant": 1,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "39형",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902132902739_18_39%ED%98%95.jpg"
+      },
+      {
+       "name": "39형",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902133129195_20_39%ED%98%95.jpg"
+      }
+     ]
+    },
+    {
+     "type": "41",
+     "class": "재개발임대",
+     "households": 37,
+     "exclusive_area": 41.76,
+     "contract_area": 90.09,
+     "rooms": 1,
+     "deposit": 43680000,
+     "rent": 194200,
+     "vacant": 1,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "41형",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902132917992_19_41B%ED%98%95.jpg"
+      },
+      {
+       "name": "41B",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902133141422_21_41B%ED%98%95.jpg"
+      },
+      {
+       "name": "41A기본",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902133158811_22_41A%EA%B8%B0%EB%B3%B8.jpg"
+      },
+      {
+       "name": "41A확장",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20220902133251443_23_41A%ED%99%95%EC%9E%A5.jpg"
+      }
+     ]
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.6004227,
+   "lng": 126.934997,
+   "built": "2021.04.29"
+  },
+  "70456": {
+   "id": "70456",
+   "name": "개포래미안 포레스트",
+   "addr": "서울특별시 강남구 개포로 264 ",
+   "category": "아파트 등",
+   "supply": "행복주택",
+   "units": 2296,
+   "type_list": "49, 59",
+   "heating": "지역난방",
+   "corridor": "계단식",
+   "builder": "삼성물산",
+   "center": "강남주거안심종합센터",
+   "surroundings": "자연환경\r\n구룡산, 대모산을 끼고 있다. 양재천까지 도보로 얼마 걸리지 않는다. 아파트는 달터공원의 산책길과 연결되어 있어 숲세권이라고 불린다. 이 달터길은 구룡산까지도 연결되어 있어 구룡산 정상까지 등산이 용이하다. 구룡산이 단지 한쪽면을 크게 감싸는 형태이기 때문에 공기질이 상당히 좋으며, 한여름이 아니면 항상 시원한 바람이 분다. 하지만 겨울에는 구룡산 정상에서 차가워진 공기들이 직접 내려오니 상당히 차가운 강풍이 분다.\t\r\n\r\n대중교통\r\n버스생활이 가깝고 위과선이 생기기 최고의 수혜를 입는다는 잠재성이 있다.\r\n\r\n교육환경\r\n서울구룡초등학교, 서울포이초등학교 구룡중학교, 개포중학교, 국립국악중학교, 대치중학교, 개포고등학교, 언남고등학교, 국립국악고등학교\r\n\r\n주변환경\r\n구룡산,대모산을 끼고 있다 숲세권이라고 불린다.\r\n",
+   "types": [
+    {
+     "type": "49",
+     "class": "행복주택",
+     "households": 32,
+     "exclusive_area": 49.92,
+     "contract_area": 123.16,
+     "rooms": 2,
+     "deposit": 198400000,
+     "rent": 694000,
+     "vacant": 0,
+     "waitlist": 2,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "49type",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20201105085949417_6_49Type.JPG"
+      }
+     ]
+    },
+    {
+     "type": "59",
+     "class": "행복주택",
+     "households": 88,
+     "exclusive_area": 59.92,
+     "contract_area": 144.68,
+     "rooms": 3,
+     "deposit": 236000000,
+     "rent": 827000,
+     "vacant": 0,
+     "waitlist": 5,
+     "moved_out_1y": 4,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "59type",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20201105090005206_7_59type.JPG"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025170146735_1060_%EB%8B%A8%EC%A7%801.jpg"
+    },
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2022102517032480_1074_%EC%A0%84%EA%B2%BD1.png"
+    },
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20240219182204454_217_%EC%A0%84%EA%B2%BD.jpg",
+     "taken": "20240201"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.4784538,
+   "lng": 127.0540322,
+   "built": "2020.09.29"
+  },
+  "70315": {
+   "id": "70315",
+   "name": "개봉푸르지오",
+   "addr": "서울특별시 구로구 남부순환로 775 ",
+   "category": "아파트 등",
+   "supply": "장기전세",
+   "type_list": "59",
+   "heating": "개별난방",
+   "corridor": "계단식",
+   "builder": "(주)대우건설",
+   "center": "구로주거안심종합센터",
+   "surroundings": "입주민 자녀중 초등학생은 \"세곡초등학교\"로 편입될 예정이니 자세한 사항은 서울남부교육청에 문의하시기 바랍니다.(세곡초등학교 : 02-2613-5275)\r\n중학교(남부교육청) 및 고등학교(서울시 교육청 : 02-1396)에서 정한 전입생배정 원칙에 따라 편입될 예정입니다.\r\n\r\n 1. 자연환경\r\n- 매봉산을 옆에 두고 있는 개봉푸르지오는 매봉산자락길을 통해 산책을 즐길 수 있는 숲세권 단지입니다.(도보 15분 소요) 참새공원, 고척근린공원, 온수공원을 이용할 수 있습니다.\r\n\r\n2. 교통환경\r\n- 도보 15분 거리에 1호선 오류동역이 있습니다. 이 노선을 이용하면 서울 방면과 부천, 인천 방면으로 통행이 용이합니다. 또한 오류IC를 타면 단지에 쉽게 도착할 수 있어 교통환경이 좋은 편입니다.\r\n\r\n3. 교육환경\r\n- 단지 인근에는 매봉초등학교, 세곡초등학교, 오류초등학교, 경인중학교, 개봉중학교, 오류중학교, 양천고등학교, 고척고등학교, 서울한영대학교 등이 있어 교육환경이 좋은 편입니다.\r\n\r\n4. 주변환경\r\n- 단지 인근에는 개봉1동 주민센터, 오류1동 주민센터, 구로구민 체육센터 등이 있고 새마을금고, IBK기업은행 등이 가까이 있어 생활하기에 편한 단지입니다.",
+   "types": [
+    {
+     "type": "59",
+     "class": "장기전세",
+     "households": 115,
+     "exclusive_area": 59.86,
+     "contract_area": 116.5,
+     "rooms": 3,
+     "deposit": 360360000,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 3,
+     "moved_out_1y": 3,
+     "as_of": "2026.10",
+     "floorplans": [
+      {
+       "name": "59A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025143647730_1077_59A.JPG"
+      },
+      {
+       "name": "59B-1",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025143700652_1078_59B-1.JPG"
+      },
+      {
+       "name": "59B-2",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025143715863_1079_59B-2.JPG"
+      },
+      {
+       "name": "59C",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025143726591_1080_59C.JPG"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20220927090053860_1_%EC%A0%84%EA%B2%BD.jpg"
+    },
+    {
+     "kind": "전경",
+     "name": "전경1",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2022092711310766_104_20220922_172253.jpg"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5007938,
+   "lng": 126.8479386,
+   "built": "2014.05.20"
+  },
+  "70573": {
+   "id": "70573",
+   "name": "강동 헤리티지 자이",
+   "addr": "서울특별시 강동구 천중로 264 ",
+   "category": "아파트 등",
+   "supply": "장기전세",
+   "type_list": "59",
+   "heating": "-",
+   "corridor": "-",
+   "builder": "-",
+   "center": "강동주거안심종합센터",
+   "surroundings": "-",
+   "types": [
+    {
+     "type": "59",
+     "class": "장기전세",
+     "households": 114,
+     "exclusive_area": 59.98,
+     "contract_area": 129.005,
+     "rooms": 1,
+     "deposit": 546000000,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 1,
+     "moved_out_1y": 2,
+     "as_of": "2026.10"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5396239,
+   "lng": 127.1494694,
+   "built": "-"
+  },
+  "70453": {
+   "id": "70453",
+   "name": "백련산해모로 (응암11)",
+   "addr": "서울특별시 은평구 응암로30길 15 ",
+   "category": "아파트 등",
+   "supply": "재개발임대,행복주택",
+   "units": 760,
+   "type_list": "39, 43, 54",
+   "heating": "개별난방",
+   "corridor": "계단식",
+   "builder": "한진중공업",
+   "center": "은평주거안심종합센터",
+   "surroundings": "1.자연환경: 백련산 아래에 위치한 단지로 단지입주에 산책로가 연결되어 있어 자연과 함께 거주할수 있는 단지 입니다.\r\n2.교통환경: 지하철 6호선 응암역과 새절역이 차로 5분 거리에 있고, 내부순환도로의 진입이 편해 자동차를 이용한 이동이 수월하여 우수한 교통환경을 보유\r\n3.교육환경: 응암초,연은초,영락중,충암중,충암고 등이 걸어서 통학이 가능\r\n4.주변환경: 서울시립은평청소년수련관？이마트？서부병원？대림시장？응암시장 등 주변 편의시설도 풍부",
+   "types": [
+    {
+     "type": "39",
+     "class": "재개발임대",
+     "households": 4,
+     "exclusive_area": 39.1,
+     "contract_area": 89.76,
+     "rooms": 1,
+     "deposit": 28850000,
+     "rent": 175900,
+     "vacant": 1,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "43",
+     "class": "재개발임대",
+     "households": 44,
+     "exclusive_area": 43.13,
+     "contract_area": 98.65,
+     "rooms": 2,
+     "deposit": 31700000,
+     "rent": 193300,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "54",
+     "class": "재개발임대",
+     "households": 12,
+     "exclusive_area": 54.75,
+     "contract_area": 125.42,
+     "rooms": 2,
+     "deposit": 40300000,
+     "rent": 245800,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20210125152021539_14_common4QJJ6TP6.jpg"
+    },
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2021012515203411_15_20200821_103857.jpg"
+    },
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/202101251520478_16_20200821_102517.jpg"
+    },
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025114426841_671_Resized_20221025_100821.jpeg"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5963461,
+   "lng": 126.9220345,
+   "built": "2020.03.18"
+  },
+  "30120": {
+   "id": "30120",
+   "name": "시흥목련",
+   "addr": "서울특별시 금천구 금하로3길 26 ",
+   "category": "아파트 등",
+   "supply": "주거임대",
+   "units": 173,
+   "type_list": "28~29",
+   "heating": "개별난방",
+   "corridor": "복도식",
+   "builder": "..",
+   "center": "금천주거안심종합센터",
+   "surroundings": "1. 자연환경\r\n- 관악산줄기인 호압산 밑에 위치하여 공기가 맑고 사계절의 모든 경치 를 느낄수 있으며 근접에 재래시장과 대형 활인점이 있어 생활이 편리함.\r\n\r\n2. 교통환경\r\n- 지하철국철1호선에서 하차 도보로 5분거리\r\n- 제2경인고속도로와 서해안고소도로를 편리하게 이용이 가능함.\r\n\r\n3. 교육환경\r\n- 단지인근에 초,중,고교가있고 서울에 명문대인 서울대학교가 가까이에 있어 교육환경도 매우 우수함.\r\n\r\n4,. 주변환경\r\n-  시흥목련 아파트 주변으로 생활 근린 시설이 많이 들어섰을 뿐만 아니라 앞으로 종합병원이 건립되면 의료서비스 제공을 받을 수 있음. ",
+   "types": [
+    {
+     "type": "28~29",
+     "class": "주거임대",
+     "households": 105,
+     "exclusive_area": 29.72,
+     "contract_area": 45.23,
+     "rooms": 2,
+     "deposit": 12080000,
+     "rent": 120600,
+     "vacant": 0,
+     "waitlist": 6,
+     "moved_out_1y": 5,
+     "as_of": "2026.11"
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221014191454510_258_%5B%ED%81%AC%EA%B8%B0%EB%B3%80%ED%99%98%5D20221014_145430.jpg"
+    },
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221014191515671_259_%5B%ED%81%AC%EA%B8%B0%EB%B3%80%ED%99%98%5D20221014_145535.jpg"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.4544475,
+   "lng": 126.8975438,
+   "built": "1996.07.31"
+  },
+  "70384": {
+   "id": "70384",
+   "name": "동대문롯데캐슬노블레스(전농11)",
+   "addr": "서울특별시 동대문구 답십리로23길 30",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 584,
+   "type_list": "39, 42, 51",
+   "heating": "-",
+   "corridor": "-",
+   "builder": "-",
+   "center": "동대문주거안심종합센터",
+   "surroundings": "자연환경 : 도보 5분거리에 답십리 공원 위치, 도보 10분거리에 배봉산 위치\r\n교통환경 : 신답역(2호선), 답십리역(5호선), 청량리역(1호선,경의중앙선)\r\n교육환경 : 전농초등학교, 전동초등학교, 동대문중학교, 서울시립대학교, 혜성여자고등학교 위치\r\n주위환경 : 편의점, 카페, 은행, 농협 등 편의시설 다수",
+   "types": [
+    {
+     "type": "39",
+     "class": "재개발임대",
+     "households": 42,
+     "exclusive_area": 39.32,
+     "contract_area": 88.11,
+     "rooms": 2,
+     "deposit": 27760000,
+     "rent": 167000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 1,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "39형 평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20180808100102410_5_%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%85%B8%EB%B8%94%EB%9E%98%EC%8A%A4%2839%ED%98%95%20%ED%8F%89%EB%A9%B4%EB%8F%84%28%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%81%2039.32%E3%8E%A1%29.jpg"
+      }
+     ]
+    },
+    {
+     "type": "42",
+     "class": "재개발임대",
+     "households": 42,
+     "exclusive_area": 42.21,
+     "contract_area": 94.53,
+     "rooms": 2,
+     "deposit": 29780000,
+     "rent": 179200,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "42형 평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/2018080810011438_6_%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%85%B8%EB%B8%94%EB%9E%98%EC%8A%A4%2842%ED%98%95%20%ED%8F%89%EB%A9%B4%EB%8F%84%28%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%81%2042.21%E3%8E%A1%29.jpg"
+      }
+     ]
+    },
+    {
+     "type": "51",
+     "class": "재개발임대",
+     "households": 16,
+     "exclusive_area": 51.7,
+     "contract_area": 117.36,
+     "rooms": 2,
+     "deposit": 36980000,
+     "rent": 222500,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "51형 평면도",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20180808100131931_7_%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EB%85%B8%EB%B8%94%EB%9E%98%EC%8A%A4%2851%ED%98%95%20%ED%8F%89%EB%A9%B4%EB%8F%84%28%EC%A0%84%EC%9A%A9%EB%A9%B4%EC%A0%81%2051.7%E3%8E%A1%29.jpg"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "아파트 전경1",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20210127141833429_6_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C1111.jpg"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5765169,
+   "lng": 127.0493636,
+   "built": "2018.06.30"
+  },
+  "70440": {
+   "id": "70440",
+   "name": "고덕센트럴 아이파크",
+   "addr": "서울특별시 강동구 고덕로80길 99 ",
+   "category": "아파트 등",
+   "supply": "행복주택",
+   "units": 450,
+   "type_list": "59",
+   "heating": "지역난방",
+   "corridor": "계단식",
+   "builder": "현대산업개발(주)",
+   "center": "강동주거안심종합센터",
+   "surroundings": "1. 자연환경: 개내수변공원, 한강 고덕수변생태공원, 벌말근린공원, 강동그린웨이, 명일근린공원, 미사한강공원, 미사호수공원, 미사경정공원, 망월천, 검단산이 인근에 있어 자연환경이 우수함. 2. 교통환경: 대중교통으로 지하철 5호선 상일동역 650m(도보 10분), 버스는 2312, 3212, 3321, 3323, 초이, 인근에 수도권제1순환고속국도 강일IC, 판교 구리간 고속도로, 용마산 터널과 연결되는 구리~암사대교, 강일~춘천~양양간 고속도로 이용이 용이한 사통팔달 교통요지로 뛰어남.※ 관리사무소는 515동 1층에 있습니다. 3. 교육환경: 인근에 고현초등학교, 고일초등학교, 강명초등학교, 고덕중학교, 배재고등학교, 상일여중, 상일여고, 상일미디어고등학교, 강동고등학교, 한영외고, 광문고등학교, 서울컨벤션고등학교가 있음. 4. 주위환경: 온조대왕문화체육관, 서울특별시교육청 고덕평생학습관, 시립강동청소년센터, 상일1동주민센터, 강동경희대의대병원, 이마트 명일점 등 생활편의 시설이 가까이 위치하여 생활 편리.",
+   "types": [
+    {
+     "type": "59",
+     "class": "행복주택",
+     "households": 96,
+     "exclusive_area": 59.97,
+     "contract_area": 129.14,
+     "rooms": 3,
+     "deposit": 153600000,
+     "rent": 589000,
+     "vacant": 0,
+     "waitlist": 5,
+     "moved_out_1y": 4,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "59A",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221025093534827_743_59A.jpg"
+      }
+     ]
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024115528778_168_12.jpg",
+     "taken": "20221024"
+    },
+    {
+     "kind": "전경",
+     "name": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221024115533967_169_11.jpg",
+     "taken": "20221024"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5520992,
+   "lng": 127.1667104,
+   "built": "2019.12.30"
+  },
+  "74058": {
+   "id": "74058",
+   "name": "THE STUDIO 163",
+   "addr": "서울특별시 은평구 연서로27길 4",
+   "category": "아파트 등",
+   "supply": "청년안심주택",
+   "type_list": "17, 39",
+   "heating": "개별난방",
+   "corridor": "-",
+   "builder": "강남건영(주)",
+   "center": "은평주거안심종합센터",
+   "surroundings": "-",
+   "types": [
+    {
+     "type": "17",
+     "class": "청년안심주택",
+     "households": 15,
+     "exclusive_area": 17.89,
+     "contract_area": 31.97,
+     "rooms": 1,
+     "deposit": 43500000,
+     "rent": 192000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "39",
+     "class": "청년안심주택",
+     "households": 1,
+     "exclusive_area": 39.28,
+     "contract_area": 69.41,
+     "rooms": 1,
+     "deposit": 51900000,
+     "rent": 229000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.6178293,
+   "lng": 126.9190547,
+   "built": "-"
+  },
+  "40112": {
+   "id": "40112",
+   "name": "보람더하임",
+   "addr": "서울특별시 강서구 양천로 666 ",
+   "category": "아파트 등",
+   "supply": "장기전세",
+   "units": 202,
+   "type_list": "84",
+   "heating": "개별난방",
+   "corridor": "계단식",
+   "builder": "보람건설",
+   "center": "강서주거안심종합센터",
+   "surroundings": "1. 자연환경 - 한강을 접하고 있는 염창보람더하임은 쾌적한 주거환경을 가지고 있으며, 도보20분거리에 있는 증미산 둘레길을 걷다보면 속이 뻥 뚫리는 한강 뷰를 볼               수 있습니다.              \r\n2. 교통환경 - 9호선 등촌역이 도보 10분 거리에 있으며, 등촌역 3번 출구 버거킹에서 왼쪽골목으로 200M직진후 염창롯데캐슬을 끼고 오른쪽으로 150미터 이동후 백합공원에서 왼쪽방향에 염창보람더하임이 있습니다. 5호선,9호선,공항철도역 이용이 용이하여 여의도 및 강남권 접근이 용이합니다. 김포공항이 가깝고 인천공항으로 가는 도로 및 올림픽대로, 서부간선도로, 남부순환로등 주요도로와 인접하여 교통 환경이 우수합니다.   \r\n3. 교육환경 - 인근에 염동초,염창초,염창중,염경중,세현고,경복여고,마포고가 있습니다.  교육환경이 우수한 목동 학원가와 가깝고 국립항공박물관 체험프로그램을 이용할 수 있습니다.   \r\n4. 주위환경 - 롯데백화점 김포공항점, 발산역 NC백화점, 이마트 가양점,홈플러스 강서점,홈플러스 가양점등 대형마트가 많고, CGV, 메가박스 영화관, KBS스포츠월드, 김포공항, 이대서울병원, 강서한강공원, 보타닉공원, 서울식물원, 서남 물 재생센터공원등 쾌적한 생활환경과 편의시설이 잘 갖추어져 있습니다\r\n",
+   "types": [
+    {
+     "type": "84",
+     "class": "장기전세",
+     "households": 16,
+     "exclusive_area": 84.98,
+     "contract_area": 152.36,
+     "rooms": 3,
+     "deposit": 517140000,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 1,
+     "moved_out_1y": 0,
+     "as_of": "2026.10"
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/lease/20221116131159445_40_IMG_1300.JPG"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5517402,
+   "lng": 126.8701539,
+   "built": "2007.12.17"
+  },
+  "70228": {
+   "id": "70228",
+   "name": "래미안 서초스위트",
+   "addr": "서울특별시 서초구 서운로 221",
+   "category": "아파트 등",
+   "supply": "장기전세",
+   "units": 392,
+   "type_list": "59",
+   "heating": "지역난방",
+   "corridor": "계단식",
+   "builder": "삼성건설(주)",
+   "center": "서초주거안심종합센터",
+   "surroundings": "[대중교통] 신논현역(9호선급행) 및 강남역(2호선, 신분당선)의 트리플 역세권을 자랑하는 교통의 요지에 위치해 있으며 강남대로에서 서울, 경기권을 관통하는 버스 노선의 이용이 가능함. 경부고속도로의 반포IC가 지척에 있음\r\n[교육시설]  서초초, 서원초, 서일중, 반포고등 8학군내에 위치하고 있음.\r\n[주변환경및 자연환경] 달공원을 비롯하여 역삼공원, 용허리근린공원, 역삼은행나무공원, 논현까치공원까지 가까운 거리에 있으며, 이마트, abc마트, 서초종합시장,고속터미널,가톨릭병원 등이 가까운 거리에 위치하고 있음.",
+   "types": [
+    {
+     "type": "59",
+     "class": "장기전세",
+     "households": 16,
+     "exclusive_area": 59.995,
+     "contract_area": 106.153,
+     "rooms": 3,
+     "deposit": 753750000,
+     "rent": 0,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.10"
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "20230209",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20230209164233215_103_20230209_164223.jpg",
+     "taken": "20230209"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5021592,
+   "lng": 127.0208532,
+   "built": "2009.01.31"
+  },
+  "74044": {
+   "id": "74044",
+   "name": "청계로벤하임",
+   "addr": "서울특별시 종로구 종로58길 44",
+   "category": "아파트 등",
+   "supply": "청년안심주택",
+   "type_list": "20, 29, 30, 33, 34, 35, 39A, 39B",
+   "heating": "개별난방",
+   "corridor": "-",
+   "builder": "우암건설(주)",
+   "center": "종로주거안심종합센터",
+   "surroundings": "-",
+   "types": [
+    {
+     "type": "20",
+     "class": "청년안심주택",
+     "households": 5,
+     "exclusive_area": 20.111,
+     "contract_area": 37.3299,
+     "rooms": 1,
+     "deposit": 33390000,
+     "rent": 147000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 1,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "29",
+     "class": "청년안심주택",
+     "households": 1,
+     "exclusive_area": 29.797,
+     "contract_area": 54.2519,
+     "rooms": 1,
+     "deposit": 43200000,
+     "rent": 191000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "30",
+     "class": "청년안심주택",
+     "households": 5,
+     "exclusive_area": 30.96,
+     "contract_area": 56.8067,
+     "rooms": 1,
+     "deposit": 44900000,
+     "rent": 198000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "33",
+     "class": "청년안심주택",
+     "households": 1,
+     "exclusive_area": 33.707,
+     "contract_area": 60.8522,
+     "rooms": 1,
+     "deposit": 78300000,
+     "rent": 346000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "34",
+     "class": "청년안심주택",
+     "households": 1,
+     "exclusive_area": 34.791,
+     "contract_area": 63.6167,
+     "rooms": 1,
+     "deposit": 50290000,
+     "rent": 222000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "35",
+     "class": "청년안심주택",
+     "households": 1,
+     "exclusive_area": 35.295,
+     "contract_area": 64.4793,
+     "rooms": 1,
+     "deposit": 50400000,
+     "rent": 222000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "39A",
+     "class": "청년안심주택",
+     "households": 1,
+     "exclusive_area": 39.299,
+     "contract_area": 73.1133,
+     "rooms": 1,
+     "deposit": 51900000,
+     "rent": 229000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    },
+    {
+     "type": "39B",
+     "class": "청년안심주택",
+     "households": 1,
+     "exclusive_area": 39.995,
+     "contract_area": 72.2959,
+     "rooms": 1,
+     "deposit": 55440000,
+     "rent": 244000,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11"
+    }
+   ],
+   "images": [
+    {
+     "kind": "전경",
+     "name": "청계로벤하임 조감도 ",
+     "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20231108102128837_5_%EC%B2%AD%EA%B3%84%EB%A1%9C%EB%B2%A4%ED%95%98%EC%9E%84%20%EC%A1%B0%EA%B0%90%EB%8F%84.JPG",
+     "taken": "20230907"
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5714918,
+   "lng": 127.0183383,
+   "built": "-"
+  },
+  "70604": {
+   "id": "70604",
+   "name": "힐스테이트 청량리메트로블(용두1-3)",
+   "addr": "서울특별시 동대문구 고산자로 420",
+   "category": "아파트 등",
+   "supply": "재개발임대",
+   "units": 288,
+   "type_list": "26, 41, 44",
+   "heating": "-",
+   "corridor": "-",
+   "builder": "-",
+   "center": "동대문주거안심종합센터",
+   "surroundings": "공원&녹지 - 용두공원 및 청계천\r\n교통 - 지하철 1호선 제기동역 및 청량리역, 지하철 2호선 용두역 역세권, 내부순환도로, 북부/동부간선도로 접근성 우수\r\n인근시설 - 동대문구청, 용신동주민센터, 청량리역 상권 및 롯데마트, 홈플러스, 롯데백화점, 경동시장, 마장축산물시장 이용 가능하며 시립동부병원, 고려대안암병원, 서울 성심병원 인접\r\n학교 - 용두초등학교, 경희중학교,대광중학교,성일중학교,청량중학교 등\r\n\r\n",
+   "types": [
+    {
+     "type": "26",
+     "class": "재개발임대",
+     "households": 5,
+     "exclusive_area": 26.15,
+     "contract_area": 56.45,
+     "rooms": 1,
+     "deposit": 24440000,
+     "rent": 116200,
+     "vacant": 4,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "26",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250730143325356_2_26%ED%99%95%EC%9E%A5.jpg"
+      }
+     ]
+    },
+    {
+     "type": "41",
+     "class": "재개발임대",
+     "households": 5,
+     "exclusive_area": 41.39,
+     "contract_area": 88.73,
+     "rooms": 1,
+     "deposit": 38410000,
+     "rent": 182700,
+     "vacant": 3,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "41",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250730143345965_3_41%ED%99%95%EC%9E%A5.jpg"
+      }
+     ]
+    },
+    {
+     "type": "44",
+     "class": "재개발임대",
+     "households": 5,
+     "exclusive_area": 44.24,
+     "contract_area": 95.57,
+     "rooms": 1,
+     "deposit": 41380000,
+     "rent": 196800,
+     "vacant": 0,
+     "waitlist": 0,
+     "moved_out_1y": 0,
+     "as_of": "2026.11",
+     "floorplans": [
+      {
+       "name": "44",
+       "url": "https://www.i-sh.co.kr/houseinfo/upload/houseinfo/20250730143410341_4_44%ED%99%95%EC%9E%A5.jpg"
+      }
+     ]
+    }
+   ],
+   "fetched": "2026-11-19",
+   "lat": 37.5775109,
+   "lng": 127.0391481,
+   "built": "2025.07.31"
   }
  }
 }
