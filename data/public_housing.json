@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-20 20:56",
+ "updated": "2026-11-21 05:33",
  "source_note": "LH·마이홈: 공공데이터포털 API / GH: 주택청약·임대센터 청약공고 / SH: 공고 및 공지 게시판",
  "sources": {
   "lh": {
    "ok": true,
-   "at": "2026-11-20 20:56",
+   "at": "2026-11-21 05:33",
    "count": 456
   },
   "myhome": {
    "ok": true,
-   "at": "2026-11-20 20:56",
-   "count": 165
+   "at": "2026-11-21 05:33",
+   "count": 160
   },
   "gh": {
    "ok": true,
-   "at": "2026-11-20 20:56",
+   "at": "2026-11-21 05:33",
    "count": 7
   },
   "sh": {
    "ok": true,
-   "at": "2026-11-20 20:56",
+   "at": "2026-11-21 05:33",
    "count": 20
   }
  },
@@ -10203,15 +10203,15 @@
      "middle": 0
     },
     {
-     "city": "천안시 서북구",
-     "units": 33,
+     "city": "당진시",
+     "units": 44,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-25",
      "middle": 0
     },
     {
-     "city": "당진시",
-     "units": 44,
+     "city": "천안시 서북구",
+     "units": 33,
      "apply_start": "2026-11-23",
      "apply_end": "2026-11-25",
      "middle": 0
@@ -13415,32 +13415,16 @@
    "kind": "모집공고",
    "title": "[정정공고]인천논현2단지 국임임대주택 예비입주자 모집 공고",
    "region": "인천광역시",
-   "city": "남동구",
+   "city": null,
    "notice_date": "2026-11-05",
    "apply_start": "2026-11-18",
    "apply_end": "2026-11-18",
    "winner_date": "2027-03-26",
    "status": "접수마감",
-   "units": 100,
-   "houses": [
-    {
-     "name": "인천논현2",
-     "addr": "인천광역시 남동구 은봉로166번길 27",
-     "city": "남동구",
-     "total_units": 1278,
-     "units": 100,
-     "apply_start": "2026-11-18",
-     "apply_end": "2026-11-20",
-     "deposit": 37202000,
-     "rent": 309670,
-     "down": 1860100,
-     "middle": 0,
-     "balance": 35341900
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021026&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21504&houseSn=1",
    "detail": {
     "files": [
      {
@@ -13727,32 +13711,16 @@
    "kind": "모집공고",
    "title": "인천논현2단지 국임임대주택 예비입주자 모집 공고",
    "region": "인천광역시",
-   "city": "남동구",
+   "city": null,
    "notice_date": "2026-11-05",
    "apply_start": "2026-11-18",
    "apply_end": "2026-11-18",
    "winner_date": "2027-03-26",
    "status": "접수마감",
-   "units": 100,
-   "houses": [
-    {
-     "name": "인천논현2",
-     "addr": "인천광역시 남동구 은봉로166번길 27",
-     "city": "남동구",
-     "total_units": 1278,
-     "units": 100,
-     "apply_start": "2026-11-18",
-     "apply_end": "2026-11-20",
-     "deposit": 37202000,
-     "rent": 309670,
-     "down": 1860100,
-     "middle": 0,
-     "balance": 35341900
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021024&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=07&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21501&houseSn=1",
    "detail": {
     "files": [
      {
@@ -15597,31 +15565,16 @@
    "kind": "모집공고",
    "title": "평창장평 통합공공임대주택(고령자복지형) 입주자 모집",
    "region": "강원특별자치도",
-   "city": "평창군",
+   "city": null,
    "notice_date": "2026-10-30",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-20",
    "winner_date": "2027-04-09",
    "status": "접수마감",
-   "units": 36,
-   "houses": [
-    {
-     "name": "평창장평",
-     "addr": "강원특별자치도 평창군 용평면 새이들길 23",
-     "city": "평창군",
-     "units": 36,
-     "apply_start": "2026-11-16",
-     "apply_end": "2026-11-20",
-     "deposit": 5982000,
-     "rent": 92590,
-     "down": 299100,
-     "middle": 0,
-     "balance": 5682900
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020993&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21492&houseSn=1",
    "detail": {
     "files": [
      {
@@ -15697,31 +15650,16 @@
    "kind": "모집공고",
    "title": "평창장평 통합공공임대주택(일반형) 입주자 모집",
    "region": "강원특별자치도",
-   "city": "평창군",
+   "city": null,
    "notice_date": "2026-10-30",
    "apply_start": "2026-11-16",
    "apply_end": "2026-11-20",
    "winner_date": "2027-04-09",
    "status": "접수마감",
-   "units": 32,
-   "houses": [
-    {
-     "name": "평창장평",
-     "addr": "강원특별자치도 평창군 용평면 새이들길 23",
-     "city": "평창군",
-     "units": 32,
-     "apply_start": "2026-11-16",
-     "apply_end": "2026-11-20",
-     "deposit": 5982000,
-     "rent": 92590,
-     "down": 299100,
-     "middle": 0,
-     "balance": 5682900
-    }
-   ],
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020992&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=48&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21493&houseSn=1",
    "detail": {
     "files": [
      {
@@ -18966,31 +18904,16 @@
    "kind": "모집공고",
    "title": "완주삼례A-1 행복주택 입주자격완화 예비입주자 모집",
    "region": "전북특별자치도",
-   "city": "완주군",
+   "city": null,
    "notice_date": "2026-10-19",
    "apply_start": "2026-11-09",
    "apply_end": "2026-11-20",
    "winner_date": "2027-02-04",
-   "status": "접수중",
-   "units": 190,
-   "houses": [
-    {
-     "name": "완주삼례A-1",
-     "addr": "전북특별자치도 완주군 삼례읍 동학로 36-21",
-     "city": "완주군",
-     "units": 190,
-     "apply_start": "2026-11-09",
-     "apply_end": "2026-11-20",
-     "deposit": 13192000,
-     "rent": 68150,
-     "down": 659600,
-     "middle": 0,
-     "balance": 12532400
-    }
-   ],
+   "status": "접수마감",
+   "units": null,
+   "houses": [],
    "url": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300020917&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
    "src": "lh",
-   "myhome_url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21430&houseSn=1",
    "detail": {
     "files": [
      {
