@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19 09:43",
+ "updated": "2026-11-20 09:53",
  "source_note": "SH 서울주택정보(i-sh.co.kr/houseinfo) 화면 데이터",
  "progress": {
   "total": 813,
@@ -7,6 +7,13 @@
   "next_page": 1
  },
  "notices": [
+  {
+   "seq": 313610,
+   "title": "2026년 영구임대주택 예비입주자모집 공고",
+   "code": "202620776",
+   "date": "2026.11.19",
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313610"
+  },
   {
    "seq": 313424,
    "title": "2026년 마포구 신혼부부,청년(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
@@ -18,6 +25,18 @@
    "title": "동작구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
    "date": "2026.11.12",
    "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313268"
+  },
+  {
+   "seq": 313227,
+   "title": "2026년 하반기 금천구 홀몸어르신(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+   "date": "2026.11.12",
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313227"
+  },
+  {
+   "seq": 313225,
+   "title": "2026년 하반기 금천구 신혼부부(수요자맞춤형)주택 잔여세대 입주자 모집 공고",
+   "date": "2026.11.12",
+   "url": "https://www.i-sh.co.kr/main/lay2/program/S1T294C297/www/brd/m_247/view.do?seq=313225"
   },
   {
    "seq": 312339,
