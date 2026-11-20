@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20 08:45",
+ "updated": "2026-11-20 15:54",
  "categories": [
   "모집공고 분석",
   "부동산 인사이트",
@@ -11,13 +11,13 @@
   "https://sohyun-richlab.tistory.com/entry/multi-child-special-supply-requirements",
   "https://sohyun-richlab.tistory.com/entry/newborn-special-supply-under-2-years",
   "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-single-household",
-  "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-income-tax-5years",
-  "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-household-history",
   "https://sohyun-richlab.tistory.com/entry/pyeongtaek-godeok-woomi-lynn-result",
   "https://sohyun-richlab.tistory.com/entry/hanwha-forena-jije-result",
   "https://sohyun-richlab.tistory.com/entry/news-juge-silttae-josa-2025",
   "https://sohyun-richlab.tistory.com/entry/namchuncheon-centreville-result",
-  "https://sohyun-richlab.tistory.com/entry/gwanggyo-jayeon-centreville-result"
+  "https://sohyun-richlab.tistory.com/entry/gwanggyo-jayeon-centreville-result",
+  "https://sohyun-richlab.tistory.com/entry/%EA%B2%BD%ED%9D%AC%EA%B6%81-%EC%97%90%ED%94%BC%ED%8A%B8-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
+  "https://sohyun-richlab.tistory.com/entry/%EC%B2%AD%EC%95%BD-%EC%9D%BC%EC%A0%95-2026-11%EC%9B%94-3%EC%A3%BC%EC%B0%A8"
  ],
  "posts": {
   "모집공고 분석": [
@@ -122,6 +122,22 @@
   ],
   "청약 가이드": [
    {
+    "title": "노부모부양 특공 세대주·무주택 요건 │ 부모님 집도 무주택 판정에 들어가는 이유 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/elderly-parent-support-householder-no-house",
+    "date": "15-00-00",
+    "summary": "특별공급 판정 노트 12번째 이야기는 노부모부양 특별공급의 세대주 요건과 무주택 판정이에요. 일반공급에서는 60세 이상 부모의 집을 무주택으로 봐 주지만, 노부모",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
+    "title": "노부모부양 특별공급 3년 부양 인정 기준 │ 65세 직계존속, 같은 등본 3년 계속 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/elderly-parent-support-3years",
+    "date": "10-00-00",
+    "summary": "특별공급 판정 노트 11번째 이야기는 노부모부양 특별공급의 '3년 이상 계속 부양'이에요. 부모를 모시고 산다는 사실만으로는 부족하고, 나이·관계·주민등록 세 가",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
     "title": "청약통장 총정리 │ 주택청약종합저축·통장 전환·납입 인정액·예치금 (2026)",
     "url": "https://sohyun-richlab.tistory.com/entry/cheongyak-tongjang-chongjeongni",
     "date": "08-00-25",
@@ -152,25 +168,25 @@
     "summary": "특별공급 판정 노트 8번째 이야기는 미혼·무자녀, 특히 1인 가구의 생애최초 특별공급이에요. 신청은 가능하지만 면적 제한과 물량 제한이 함께 붙기 때문에, 어느 ",
     "category": "청약 가이드",
     "thumb": ""
-   },
-   {
-    "title": "생애최초 특공 소득세 5년 납부 요건 │ 근로·사업소득만 인정, 세금 0원 낸 해도 포함 (2026)",
-    "url": "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-income-tax-5years",
-    "date": "2026-11-19",
-    "summary": "특별공급 판정 노트 7번째 이야기는 생애최초 특별공급의 '5년 이상 소득세 납부' 요건이에요. 연속 5년이 필요한지, 세금을 한 푼도 안 낸 해는 어떻게 되는지,",
-    "category": "청약 가이드",
-    "thumb": ""
-   },
-   {
-    "title": "생애최초 특별공급 '과거 주택 소유 사실 없음' 판정 범위 │ 세대원 전원 기준과 예외 (2026)",
-    "url": "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-household-history",
-    "date": "2026-11-19",
-    "summary": "특별공급 판정 노트 6번째 이야기는 생애최초 특별공급의 '생애 최초' 판정이에요. 본인만 집을 가진 적이 없으면 되는 것이 아니라, 세대에 속한 모든 사람이 과거",
-    "category": "청약 가이드",
-    "thumb": ""
    }
   ],
   "청약결과 해석": [
+   {
+    "title": "구리갈매 신안인스빌 디센트 청약 결과 | 1순위 1,722건, 84㎡ 해당지역 최저 60점",
+    "url": "https://sohyun-richlab.tistory.com/entry/guri-galmae-ensvil-decent-result",
+    "date": "10-00-17",
+    "summary": "[세줄요약]1. 구리갈매역세권 B-1블록 신안인스빌 디센트는 일반공급 73세대에 1순위 1,722건이 접수돼 75㎡·84㎡ 두 타입 모두 1순위에서 마감했어요. ",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/c32081972b7113b7.jpg"
+   },
+   {
+    "title": "엘리프 시흥 더프라임 청약 결과 | 일반 286세대에 1순위 36건, 231세대 미달",
+    "url": "https://sohyun-richlab.tistory.com/entry/elif-siheung-theprime-result",
+    "date": "09-00-20",
+    "summary": "[세줄요약]1. 엘리프 시흥 더프라임은 일반공급 286세대에 1순위 36건이 접수됐고, 84㎡A·B 두 타입 모두 1순위에서 마감하지 못했어요. 2순위 19건까지",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/730be21228f9c168.jpg"
+   },
    {
     "title": "평택 고덕 우미 린 더 프리미어 청약 결과 | 84㎡A 시세보다 낮은 5.9억, 2순위까지 351세대 미달",
     "url": "https://sohyun-richlab.tistory.com/entry/pyeongtaek-godeok-woomi-lynn-result",
@@ -202,22 +218,6 @@
     "summary": "[세줄요약]1. 광교 자연앤 센트레빌(A17BL) 공공분양 84㎡는 일반공급 90세대에 1순위 16,587건이 접수돼 세 타입 모두 1순위에서 마감했어요. 단순 ",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/ea743fbf3e21b4f0.jpg"
-   },
-   {
-    "title": "화성 향남 롯데캐슬 시그니처 청약 결과 | 1순위 접수 354건, 2순위까지 980세대 미달",
-    "url": "https://sohyun-richlab.tistory.com/entry/hyangnam-lottecastle-signature-result",
-    "date": "2026-11-16",
-    "summary": "[세줄요약]1. 화성 향남 롯데캐슬 시그니처는 일반공급 1,465세대에 1순위 354건이 접수됐고, 10개 타입 가운데 84㎡D만 2순위에서 마감했어요. 나머지 ",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/8051f2e4fb9c49e2.jpg"
-   },
-   {
-    "title": "청라 아크원 푸르지오 청약 결과 | 84㎡A 최저 가점 46점, 103㎡B 76세대 미달",
-    "url": "https://sohyun-richlab.tistory.com/entry/cheongna-arcone-prugio-result",
-    "date": "2026-11-16",
-    "summary": "[세줄요약]1. 청라 아크원 푸르지오는 일반공급 604세대에 1순위 1,348건이 접수됐고, 6개 타입 가운데 4개가 1순위에서, 84㎡D는 2순위에서 마감했어요",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/08d3ef26b4d070d3.jpg"
    }
   ],
   "공공임대": []
