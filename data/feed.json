@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 07:35",
+ "updated": "2026-11-21 12:25",
  "categories": [
   "모집공고 분석",
   "부동산 인사이트",
@@ -15,12 +15,20 @@
   "https://sohyun-richlab.tistory.com/entry/cheongyak-tongjang-chongjeongni",
   "https://sohyun-richlab.tistory.com/entry/multi-child-special-supply-requirements",
   "https://sohyun-richlab.tistory.com/entry/newborn-special-supply-under-2-years",
-  "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-single-household",
   "https://sohyun-richlab.tistory.com/entry/pyeongtaek-godeok-woomi-lynn-result",
-  "https://sohyun-richlab.tistory.com/entry/hanwha-forena-jije-result"
+  "https://sohyun-richlab.tistory.com/entry/hanwha-forena-jije-result",
+  "https://sohyun-richlab.tistory.com/entry/news-juge-silttae-josa-2025"
  ],
  "posts": {
   "모집공고 분석": [
+   {
+    "title": "[일반공급/민간] 더샵 천안라크원 분석 리포트 | 주변 신축 6곳 모두보다 높은 평당가",
+    "url": "https://sohyun-richlab.tistory.com/entry/%EB%8D%94%EC%83%B5-%EC%B2%9C%EC%95%88%EB%9D%BC%ED%81%AC%EC%9B%90-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
+    "date": "09-00-29",
+    "summary": "분양가: 전용 84㎡형(84A·84B) 422세대 가중평균 6.2억, 공급 평당가 @17,600천원 (유상 발코니 확장 포함 시 6.3억, @18,000천원)주변",
+    "category": "모집공고 분석",
+    "thumb": "assets/thumbs/17c5d6ca07e4eca9.jpg"
+   },
    {
     "title": "[일반공급/민간] 경희궁 에피트 분석 리포트 | 직선 156m 경희궁자이 3단지와 같은 24.8억",
     "url": "https://sohyun-richlab.tistory.com/entry/%EA%B2%BD%ED%9D%AC%EA%B6%81-%EC%97%90%ED%94%BC%ED%8A%B8-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
@@ -60,14 +68,6 @@
     "summary": "84㎡형(84A~84F 232세대) 세대 가중 평균 6.0억원 · 공급 3.3㎡당 @16,800천원(발코니 확장 별도)반경 2km 안 2016년 이후 입주 신축 ",
     "category": "모집공고 분석",
     "thumb": "assets/thumbs/e28486c659af24ec.jpg"
-   },
-   {
-    "title": "한화포레나 지제역 분석 리포트 | 주변 신축 5곳 중 2곳보다 낮은 평당가",
-    "url": "https://sohyun-richlab.tistory.com/entry/%ED%95%9C%ED%99%94%ED%8F%AC%EB%A0%88%EB%82%98-%EC%A7%80%EC%A0%9C%EC%97%AD-%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8",
-    "date": "2026-10-30",
-    "summary": "84㎡형(A~D 950세대) 세대 가중 평균 7.0억원 · 공급 3.3㎡당 @20,900천원(발코니 확장 별도)반경 약 1.2km 2016년 이후 입주 5곳 실거",
-    "category": "모집공고 분석",
-    "thumb": "assets/thumbs/c6709a8d50bd295d.jpg"
    }
   ],
   "부동산 인사이트": [
@@ -122,6 +122,14 @@
   ],
   "청약 가이드": [
    {
+    "title": "노부모부양 특공 당첨자 선정 방식 │ 민영은 가점제·동점 시 통장 기간, 국민은 저축총액 (2026)",
+    "url": "https://sohyun-richlab.tistory.com/entry/elderly-parent-support-winner-selection",
+    "date": "10-00-00",
+    "summary": "특별공급 판정 노트 13번째 이야기는 노부모부양 특별공급에서 당첨자를 고르는 방식이에요. 다른 특별공급이 추첨이나 순서로 정하는 것과 달리, 노부모부양은 일반공급",
+    "category": "청약 가이드",
+    "thumb": ""
+   },
+   {
     "title": "노부모부양 특공 세대주·무주택 요건 │ 부모님 집도 무주택 판정에 들어가는 이유 (2026)",
     "url": "https://sohyun-richlab.tistory.com/entry/elderly-parent-support-householder-no-house",
     "date": "2026-11-20",
@@ -160,17 +168,17 @@
     "summary": "특별공급 판정 노트 9번째 이야기는 신생아 특별공급의 '2세 미만 자녀' 요건이에요. 2026년 6월 15일 전문 개정으로 국민주택과 민영주택 신생아 특별공급이 ",
     "category": "청약 가이드",
     "thumb": ""
-   },
-   {
-    "title": "미혼 1인 가구 생애최초 특공 조건 │ 60㎡ 이하만, 추첨 물량에서만 경쟁 (2026)",
-    "url": "https://sohyun-richlab.tistory.com/entry/first-home-special-supply-single-household",
-    "date": "2026-11-19",
-    "summary": "특별공급 판정 노트 8번째 이야기는 미혼·무자녀, 특히 1인 가구의 생애최초 특별공급이에요. 신청은 가능하지만 면적 제한과 물량 제한이 함께 붙기 때문에, 어느 ",
-    "category": "청약 가이드",
-    "thumb": ""
    }
   ],
   "청약결과 해석": [
+   {
+    "title": "형곡 센트럴 아테라 청약 결과 | 59㎡ 해당지역 8.43 대 1, 최저 가점 46점",
+    "url": "https://sohyun-richlab.tistory.com/entry/hyeonggok-central-atera-result",
+    "date": "08-00-27",
+    "summary": "[세줄요약]1. 형곡 센트럴 아테라는 59㎡ 한 타입 일반공급 61세대에 1순위 532건이 접수됐고, 구미시 거주자(해당지역)만 514건이 몰려 8.43 대 1로",
+    "category": "청약결과 해석",
+    "thumb": "assets/thumbs/84902cbf8024d3ce.jpg"
+   },
    {
     "title": "구리갈매 신안인스빌 디센트 청약 결과 | 1순위 1,722건, 84㎡ 해당지역 최저 60점",
     "url": "https://sohyun-richlab.tistory.com/entry/guri-galmae-ensvil-decent-result",
@@ -210,14 +218,6 @@
     "summary": "[세줄요약]1. 남춘천 센트레빌은 일반공급 238세대에 1순위 208건이 접수됐고, 7개 타입 가운데 59㎡A·84㎡A·84㎡E 3개만 1순위에서 마감했어요. 나",
     "category": "청약결과 해석",
     "thumb": "assets/thumbs/1094d4f8f5ad9523.jpg"
-   },
-   {
-    "title": "광교 자연앤 센트레빌 청약 결과 | 일반 90세대에 1순위 16,587건, 기타경기 960.50 대 1",
-    "url": "https://sohyun-richlab.tistory.com/entry/gwanggyo-jayeon-centreville-result",
-    "date": "2026-11-18",
-    "summary": "[세줄요약]1. 광교 자연앤 센트레빌(A17BL) 공공분양 84㎡는 일반공급 90세대에 1순위 16,587건이 접수돼 세 타입 모두 1순위에서 마감했어요. 단순 ",
-    "category": "청약결과 해석",
-    "thumb": "assets/thumbs/ea743fbf3e21b4f0.jpg"
    }
   ],
   "공공임대": []
