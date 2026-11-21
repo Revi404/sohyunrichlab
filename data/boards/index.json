@@ -1,14 +1,6 @@
 {
  "boards": [
   {
-   "slug": "sh-notice-312339",
-   "title": "2026년 3차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고(2026. 10. 28.)",
-   "kind": "notice",
-   "count": 4,
-   "updated": "2026-11-12",
-   "notice_date": "2026.10.28"
-  },
-  {
    "slug": "sh-3gu",
    "title": "SH 장기미임대·재개발임대 3구 단지 보드",
    "kind": "manual",
@@ -27,6 +19,15 @@
    "kind": "spec",
    "count": 60,
    "updated": "2026-11-13"
+  },
+  {
+   "slug": "sh-notice-312339",
+   "title": "2026년 3차 희망하우징(공공기숙사) 잔여세대 입주자 모집공고(2026. 10. 28.)",
+   "kind": "notice",
+   "count": 4,
+   "updated": "2026-11-12",
+   "closed": true,
+   "notice_date": "2026.10.28"
   }
  ]
 }
